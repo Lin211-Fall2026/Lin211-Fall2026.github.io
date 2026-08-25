@@ -6,8 +6,8 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.38">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <title>Lin211 Fall 2026 – What is linguistics anyway?</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,10 +19,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -144,24 +147,20 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
 </div>
 
 </section>
-<section class="slide level2">
-
+<section>
+<section id="ling-link" class="title-slide slide level1 center">
+<h1>Ling Link!</h1>
 <ul>
 <li class="fragment">Part of what I said we would do in a class like this is dive deep on bits of language that are an ordinary and mundane part of your everyday life</li>
 <li class="fragment">So – let’s try it!</li>
 <li class="fragment">Let’s say you walk out of the classroom today and find a note on the floor that says:</li>
 <li class="fragment"><strong>“He will be there tomorrow.”</strong>
 <ul>
-<li class="fragment">What information do you know? How do you know?</li>
-<li class="fragment">What information is left unanswered? How do you know?</li>
+<li class="fragment">What information do you know? What evidence supports that knowledge?</li>
+<li class="fragment">What information is left unanswered? What evidence supports that knowledge?</li>
 </ul></li>
-<li class="fragment">Spend 2 minutes talking to your seat neighbor!</li>
+<li class="fragment">Spend 2 minutes talking to your seat neighbor(s)!</li>
 </ul>
-</section>
-<section>
-<section id="ling-link" class="title-slide slide level1 center">
-<h1>Ling Link!</h1>
-
 </section>
 <section id="a-first-definition" class="slide level2">
 <h2>A first definition</h2>
@@ -169,13 +168,16 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
 </section>
 <section id="but-what-does-that-mean" class="slide level2">
 <h2>But what does that mean?</h2>
-
-<img data-src="images/2-What is linguistics_0.png" class="r-stretch"><ul>
+<p>Answer for yourself, just in your own mind, but try to be as clear about what you think as possible. Take a stand! What does “Linguistics is the study of language” <em>mean</em>.</p>
+</section>
+<section id="linguistics-is-the-study-of-language" class="slide level2">
+<h2>Linguistics is the study of language</h2>
+<ul>
 <li class="fragment">Let’s start with what it <em>DOES NOT</em> mean!
 <ul>
 <li class="fragment">≠ learning many languages</li>
 <li class="fragment">≠ studying a language with the goal of learning to communicate in it</li>
-<li class="fragment">≠ being the grammar police</li>
+<li class="fragment">≠ noticing and pointing out grammatical errors</li>
 </ul></li>
 </ul>
 </section>
@@ -186,7 +188,8 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
 <section id="ok-then-but-what-is-it-1" class="slide level2">
 <h2>Ok, then! But what is it?!</h2>
 <ul>
-<li class="fragment">If linguists aren’t just studying a bunch of languages or correcting people’s speech, what are they doing?
+<li class="fragment">If linguists aren’t just studying a bunch of languages or correcting people’s speech, what are they doing?</li>
+<li class="fragment">Here is a (not very useful) first definition:
 <ul>
 <li class="fragment">LSA = Linguistic Society of America</li>
 <li class="fragment">LSA definition: Linguistics is the <em>scientific</em> study of language. Linguists apply the scientific method to conduct formal studies of speech sounds and gestures, grammatical structures, and meaning across the world’s 6,000+ languages.</li>
@@ -201,7 +204,7 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
 <section id="but-what-is-language" class="slide level2">
 <h2>But what is language?!?</h2>
 
-<img data-src="images/2-What is linguistics_2.png" class="r-stretch"><p>We’ll get to that next time…but</p>
+<img data-src="images/2-What is linguistics_2.png" class="r-stretch"><p>We’ll dive into this next time, but</p>
 <p>First – we are talking about language as an <em>ability</em> , not any individual language</p>
 <p>Second – and perhaps most importantly – the kinds of things we talk about with any individual language can be talked about for any other language because language is <em>a feature of being human</em></p>
 </section>
@@ -854,7 +857,7 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp('/' + window.location.host + '/');
+            var filterRegex = new RegExp("https:\/\/Lin211-Fall2026\.github\.io\/Lin211-Fall2026\/");
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }
