@@ -1,0 +1,15 @@
+{
+  "hash": "01ee2a1d92349e8e122e0a7141b604b3",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Linguistics 211 (Fall 2026)\"\nbibliography: references.bib\nnocite: |\n  @*\n---\n\nWelcome to the course website for **Lin**guistics 211 at the [University of Kentucky](https://uky.edu/) [Department of Linguistics](https://linguistics.as.uky.edu/). This course is an introduction to the broad field of linguistics for non-majors.\n\nKentucky students registered in the course will also have access to the [Canvas site for LIN 211 for Fall 2026](https://uk.instructure.com/courses/2168608). Note: although sections meet separately on Fridays, all students share the same canvas site.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 +1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n## Course Bibliography\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
