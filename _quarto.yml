@@ -1,0 +1,27 @@
+project:
+  type: website
+  
+execute:
+  freeze: auto
+  
+website:
+  page-footer: "[Linguistics Department](https://linguistics.as.uky.edu/) - [University of Kentucky](https://www.uky.edu) - [`CC-BY 4.0`](https://creativecommons.org/licenses/by/4.0/deed.en)"
+  title: "Lin211 Fall 2026"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus/Lin211-Fall2026-Syllabus.qmd
+        text: Syllabus
+      - href: slides/
+        text: Slides
+
+format:
+  html:
+    respect-user-color-scheme: false
+    theme: flatly
+    css: styles.css
+    toc: false
+
+
+

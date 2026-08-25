@@ -1,0 +1,12 @@
+---
+title: "Linguistics 211 (Fall 2026)"
+bibliography: references.bib
+nocite: |
+  @*
+---
+
+Welcome to the course website for **Lin**guistics 211 at the [University of Kentucky](https://uky.edu/) [Department of Linguistics](https://linguistics.as.uky.edu/). This course is an introduction to the broad field of linguistics for non-majors.
+
+Kentucky students registered in the course will also have access to the [Canvas site for LIN 211 for Fall 2026](https://uk.instructure.com/courses/2168608). Note: although sections meet separately on Fridays, all students share the same canvas site.
+
+## Course Bibliography

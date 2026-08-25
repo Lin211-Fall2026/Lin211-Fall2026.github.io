@@ -1,0 +1,12 @@
+---
+title: "Slides"
+listing: 
+    contents: lectures/*/index.qmd
+    categories: true
+    type: table
+    sort:
+    - "date asc"
+    grid-item-border: false
+    date-format: "MMM YYYY"
+---
+
