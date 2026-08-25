@@ -16,18 +16,19 @@ format:
     theme: [simple, includes/styles.scss]
     template-partials:
       - includes/title-slide.html
+categories: [Getting Started]
 ---
-
-* Part of what I said we would do in a class like this is dive deep on bits of language that are an ordinary and mundane part of your everyday life
-* So – let’s try it\!
-* Let’s say you walk out of the classroom today and find a note on the floor that says:
-* __“He will be there tomorrow\.”__
-  * What information do you know? How do you know?
-  * What information is left unanswered? How do you know?
-* Spend 2 minutes talking to your seat neighbor\!
-
-
 # Ling Link!
+
+- Part of what I said we would do in a class like this is dive deep on bits of language that are an ordinary and mundane part of your everyday life
+- So – let’s try it\!
+- Let’s say you walk out of the classroom today and find a note on the floor that says:
+- __“He will be there tomorrow\.”__
+  - What information do you know? What evidence supports that knowledge?
+  - What information is left unanswered? What evidence supports that knowledge?
+- Spend 2 minutes talking to your seat neighbor(s)\!
+
+
 
 
 ## A first definition
@@ -37,14 +38,14 @@ _Linguistics_  is the study of language\.
 
 ## But what does that mean?
 
-![](images/2-What is linguistics_0.png)
+Answer for yourself, just in your own mind, but try to be as clear about what you think as possible.  Take a stand!  What does "Linguistics is the study of language" *mean*.
 
-
+## Linguistics is the study of language
 
 * Let’s start with what it  _DOES NOT_  mean\!
     * ≠ learning many languages
     * ≠ studying a language with the goal of learning to communicate in it
-    * ≠ being the grammar police
+    * ≠ noticing and pointing out grammatical errors
 
 ## Ok, then! But what is it?!
 
@@ -56,6 +57,7 @@ _Linguistics_  is the study of language\.
 ## Ok, then! But what is it?!
 
 * If linguists aren’t just studying a bunch of languages or correcting people’s speech\, what are they doing?
+* Here is a (not very useful) first definition:
   * LSA = Linguistic Society of America
   * LSA definition: Linguistics is the  _scientific_  study of language\. Linguists apply the scientific method to conduct formal studies of speech sounds and gestures\, grammatical structures\, and meaning across the world’s 6\,000\+ languages\.
   * Includes the study of:
@@ -66,7 +68,7 @@ _Linguistics_  is the study of language\.
 
 ![](images/2-What is linguistics_2.png)
 
-We’ll get to that next time…but
+We’ll dive into this next time, but
 
 First – we are talking about language as an  _ability_ \, not any individual language
 

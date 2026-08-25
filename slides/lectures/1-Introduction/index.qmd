@@ -16,6 +16,7 @@ format:
     theme: [simple, includes/styles.scss]
     template-partials:
       - includes/title-slide.html
+categories: [Getting Started]
 ---
 
 ## Opening Question
