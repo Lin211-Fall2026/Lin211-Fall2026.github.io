@@ -1,0 +1,177 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 7 Discussion
+
+# Bits and Pieces
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is DIALECTS
+
+:::
+
+
+---
+
+
+![](images/Recitation%207_0.jpg)
+
+# Quick Review
+
+
+
+* __Sociolinguistics __ is the study of the interaction of language and social factors
+  * No one speaks the same way all the time\!
+  * All languages change\!
+* A  __dialect __ is a language variety characteristic of a particular regional\, ethnic\, or social group
+  * Everyone has a dialect\!
+  * Dialects aren’t bad\!
+* __Phonetics __ is the study of the sounds in a language
+
+---
+
+
+
+
+* A  __phonetic alphabet__  is a system of transcription which represents each speech sound with a single symbol and each symbol with a single speech sound
+  * International Phonetic Alphabet \(or IPA\)
+  * Eliminates the ambiguity of the sound\-symbol variations within a language or across languages
+* Why can’t we just use English alphabet?\!
+::: {.notes}
+
+Can refer back to quiz; you can also show this little video if you want: https://www.youtube.com/watch?v=uZV40f0cXF4 (I Love Lucy)
+
+:::
+
+
+---
+
+
+# Where do dialects come from?
+
+![](images/Recitation%207_1.gif)
+
+
+---
+
+
+# Activity time!
+
+__Part I: The IPA__
+
+You can work together on this\. Using the IPA charts in Canvas \(Files > Additional Resources\)\, translate these words to English:
+
+\[ɪnstənsəz\]
+
+\[ənawnsmənts\]
+
+\[ənhæpinɪs\]
+
+\[mɛnʧənɪŋ\]
+
+\[bodeʃəs\]
+
+Now\, see if you can write your name using the alphabet\!
+
+Do you pronounce any of these words differently?
+
+::: {.notes}
+
+Instances, announcements, unhappiness, mentioning, bodacious
+Feel free to write your own name on the board!
+Direct them to Canvas resources or https://www.ipachart.com/ to help on this one
+On the “do you pronounce differently” question – this is for discussion, if you want, to think about regional variation in pronunciation. Like “mentioning” might have [ɪ] as the first vowel for Southerners with the pin/pen merger. But only do this if your class is up for it.
+
+:::
+
+
+---
+
+
+__Part II: Regional variation in words__
+
+You can work together on this one\, too\. Someone in the group needs to navigate to [https://www\.daredictionary\.com/](https://www.daredictionary.com/)\. Then\, search these words in the search box\.
+
+Antigodlin
+
+Elbedritsch
+
+Honeyfuggle
+
+Nebby
+
+Pungle
+
+For each word\, jot down the meaning and where it is found \(where available\)\. Have you heard it before?
+
+::: {.notes}
+
+antigodlin, adj, adv 
+chiefly South, South Midland, Westsomewhat old-fash
+1 Of an object: lopsided, askew, aslant, out of line.
+2 Cater-cornered, diagonal(ly), at an angle.
+elbedritsch, n 
+southeastern PennsylvaniaAn imaginary creature which, as a practical joke, a greenhorn is sent to hunt or capture.
+honeyfuggle, v 
+somewhat old-fash
+1 To swindle or dupe; to intend to cheat or trick; hence vbl n honeyfuggling.
+2 To flatter, sweet-talk; to wheedle; to ballyhoo; hence n honeyfoogler a flatterer.
+3 with with: To consort with, “snuggle up to.”
+4 To lure, entice.
+5 also honeyfuddle: To show affection in public.
+nebby, adj 
+chiefly PennsylvaniaSnoopy, inquisitive.
+pungle, v 
+chiefly WestTo shell out; to plunk down (money); to pay up; also fig.
+
+
+
+
+:::
+
+
+---
+
+
+![](images/Recitation%207_2.png)
+
+
+---
+
+
+# Next week!
+
+![](images/Recitation%207_3.png)
+
+
+
+* Monday and Wednesday in Singletary
+  * SPOTLIGHT: What methods and ethics of inquiry are used?
+  * New module\! Language in the world\! How do kids learn to talk?
+* Friday = Quiz 7
+* _Observation notes \#3 due tonight by 11:59pm \(not late\, not AI\)_
+::: {.notes}
+
+Mention that the Data Collection assignments have gone live. They can get started on the “Data” one, but they probably want to wait until after Monday’s spotlight lecture to do the “Questions about…” one.
+
+:::
+

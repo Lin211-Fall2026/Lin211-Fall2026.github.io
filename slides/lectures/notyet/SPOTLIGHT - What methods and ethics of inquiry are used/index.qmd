@@ -1,0 +1,277 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# What Methods and ethics of Inquiry are used in linguistics research?
+
+Xander Johnson
+
+Lin 211 Spotlight Lecture
+
+March 3\, 2025
+
+
+---
+
+
+# Back to the First Spotlight Lecture
+
+Research Question:
+
+“Where do people have different words for a carbonated beverage?”
+
+With the people around you\, brainstorm some ways that you can go about answering this question for 2\-3 minutes\. Be specific\! “Ask them” is not enough detail – who are you asking\, how are you asking them\, etc\.?
+
+
+---
+
+
+# Milgram Experiment
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_0.jpg)
+
+Please continue\.
+
+Could you please continue?
+
+Continue\.
+
+Will you continue?
+
+[https://youtu\.be/Kzd6Ew3TraA](https://youtu.be/Kzd6Ew3TraA)
+
+::: {.notes}
+
+Linguistic extensions 
+
+:::
+
+
+---
+
+
+Echo Question 1\.
+
+Was this an ethical experiment?
+
+\(Y/N\)
+
+
+---
+
+
+As conducted\, is  _unethical_ \. Why?
+
+Psychological harm for participants
+
+No clear way to end the experiment
+
+Insufficient or absent debrief after deception
+
+
+---
+
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_1.png)
+
+# William Labov’s Sociolinguistic Interview
+
+From [https://www\.degruyter\.com/document/doi/10\.1515/9781474472968\-006/pdf?licenseType=restricted](https://www.degruyter.com/document/doi/10.1515/9781474472968-006/pdf?licenseType=restricted)
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_2.png)
+
+[https://soundcloud\.com/xander\-470783300/labov\-dod\-recreation](https://soundcloud.com/xander-470783300/labov-dod-recreation)
+
+::: {.notes}
+
+Back to linguistics 
+
+:::
+
+
+---
+
+
+Echo Question 2\.
+
+What are some of the problems with this question? Why did the interviewee sometimes end the interview early?
+
+Short answer
+
+
+---
+
+
+# https://www.newyorker.com/magazine/2021/04/19/how-did-a-self-taught-linguist-come-to-own-an-indigenous-language
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_3.png)
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_4.png)
+
+
+---
+
+
+# What do you need for ethical research?
+
+Informed Consent or permission to use existing data
+
+A plan for storing and future use of the data
+
+Minimal risk of harm to participants  _or_  _ _ mitigation strategies if unavoidable
+
+Only collect the information you need to answer your question\(s\)
+
+Accountability and oversight
+
+::: {.notes}
+
+We’ve seen lots of unethical ways to do research. So 
+
+:::
+
+
+---
+
+
+# Informed Consent
+
+I have a few questions to ask you about how you feel about Southern accents\. The interview will be audio recorded and should take no more than 20 minutes\. Your data will be confidential\, and the data will be anonymized prior to storage\. The data may be used in future experiments\. You may withdraw your consent at any time\. Do you agree to participate in the research?
+
+
+---
+
+
+# Permission to Use Existing Data
+
+Anything that has been published is generally acceptable for academic use\,  _unless it contains other restrictions or could cause harm to private individuals_ \.
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_5.png)
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_6.png)
+
+
+---
+
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_7.png)
+
+# Data Plan
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_8.jpg)
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_9.jpg)
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_10.jpg)
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_11.jpg)
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_12.png)
+
+
+---
+
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_13.png)
+
+# Only Collect Necessary Information
+
+
+---
+
+
+Echo Question 3\.
+
+What demographic information would you need from survey participants to answer the question “Where do people have different words for a carbonated beverage?”
+
+Select Multiple
+
+Name
+
+Gender
+
+Age
+
+Home County
+
+Home State
+
+Race
+
+Marital Status
+
+Sexual Orientation
+
+Address
+
+
+---
+
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_14.png)
+
+# William Labov’s Sociolinguistic Interview
+
+From [https://www\.degruyter\.com/document/doi/10\.1515/9781474472968\-006/pdf?licenseType=restricted](https://www.degruyter.com/document/doi/10.1515/9781474472968-006/pdf?licenseType=restricted)
+
+Can you think of an experiment where this would be a necessary question?
+
+What steps might you to take to protect participants?
+
+::: {.notes}
+
+Back to linguistics 
+
+:::
+
+
+---
+
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_15.jpg)
+
+# Accountability and Oversight
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_16.png)
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_17.png)
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_18.png)
+
+
+---
+
+
+[https://youtu\.be/QwhK\-iEyXYA](https://youtu.be/QwhK-iEyXYA)
+
+![](images/SPOTLIGHT%20-%20What%20methods%20and%20ethics%20of%20inquiry%20are%20used_19.jpg)
+
+# Methods:How do we answer questions?
+
+This video is specifically for sociology\, but we use the same processes in Linguistics\!
+
+
+---
+
+
+# Wednesday, March 5
+
+_Language in the World_
+
+How do kids learn to talk?
+
+Recitation on Friday \(Quiz 7\)
+
+Catch\-up Participation Quiz 3\!
+
+Keep working on Observation Notes 4\!
+

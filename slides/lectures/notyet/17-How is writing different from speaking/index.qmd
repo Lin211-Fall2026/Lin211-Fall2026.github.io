@@ -1,0 +1,292 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# How is writing different from speaking?
+
+# Language in the World
+
+
+---
+
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_0.jpg)
+
+# Ling Link
+
+
+
+* We are all familiar with the Roman/Latin alphabet that we use to write English\!
+  * Spend the next minute writing down the names of as many other writing systems as you can think of
+  * Try to list the languages that are written using that writing system \(for example\, the Roman alphabet is used to write not only English but also Latin \[and all its daughter languages\]\, Germanic languages\, some Slavic languages\, in “Romanizations” of languages like Chinese\, Japanese\, etc\.\, and many more – about 70% of the written languages use it\!\)
+  * If you don’t know the name of the writing system\, Google it\!
+  * You can also jot down any interesting facts you know about the system
+::: {.notes}
+
+https://www.milestoneloc.com/latin-alphabet-usage-and-variations/ 
+
+:::
+
+
+---
+
+
+# Recall
+
+
+
+* __Language acquisition __ is the process by which humans acquire the ability to use\, produce\, and perceive language\!
+  * __First Language Acquisition: __ how an infant acquires his/her first or native language
+  * __Second Language Acquisition: __ how children and adults acquire additional languages beyond the first
+* Learning vs\. acquiring
+* Critical period – need to acquire early\!
+  * Interlanguage = stages on the way to acquiring fluency
+  * Fossilization = hitting the wall of acquisition
+* All languages are equally challenging; difficulty is relative
+
+---
+
+
+# Modes of linguistic communication
+
+
+---
+
+
+# Speech
+
+
+---
+
+
+# Signing
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_1.jpg)
+
+
+
+* __Pros:__
+  * Provides similar range as speaking for people who physically cannot speak
+* __Cons:__
+  * Requires use of hands
+  * Must be viewed
+  * Evaporates/cannot span time without the assistance of modern technology
+
+---
+
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_2.jpg)
+
+# Writing
+
+
+
+* __Pros:__
+  * Pictographs \(we’ll later say this is NOT writing\) can be understood across languages
+  * Can be read/understood more quickly than speaking can be heard/understood
+  * Endures and has great reach
+* __Cons:__
+  * Takes longer to produce than speech
+  * Requires use of hands
+  * Must be viewed
+
+---
+
+
+# What is writing?
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_3.png)
+
+__Writing__  allows humans to transmit information to others not within hearing distance\, both spatially and temporally
+
+__Epic of Gilgamesh__
+
+
+---
+
+
+__Writing__  is the representation of language with the use of visual signs
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_4.png)
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_5.png)
+
+__English Alphabet__
+
+
+---
+
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_6.png)
+
+__\< Linguistics is awesome\. >__
+
+
+
+* The primary goal of   __writing__  is to make our utterances\, which are by default audible\, visible
+
+---
+
+
+# Q slide
+
+Is it learned or acquired? Learned
+
+
+---
+
+
+# Every writing system must represent language
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_7.tiff)
+
+Represents the  _morpheme_   _pr _ ‘house’ & the  _syllable_  /pr/ in Egyptian
+
+It’s  __iconic __ because the symbol looks like 	what it represents\!
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_8.tiff)
+
+Represents the  _phonemes_  of Old Gaelic
+
+It’s  __symbolic __ because there is 	no connection between the 	thing drawn and what it means
+
+
+---
+
+
+# Interactive
+
+
+
+* Is the English alphabet  __iconic__  or  __symbolic__ ?
+  * Symbolic
+
+---
+
+
+# The Cheyenne Indian Letter
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_9.jpg)
+
+
+
+* 19th c\. message from Turtle\-Following\-His\-Wife to his son\, Little Man
+  * Says something like: “Dad \(TFHW\) says to return home\, enclosed is $53 for the cost of the trip”
+  * Is this “writing”? Why or why not?
+
+---
+
+
+# Pictographs ≠ writing!
+
+
+
+* The Cheyenne letter is an instance of  __pictographs__
+  * = picture writing
+    * pictorial representation of objects\, ideas and events
+  * Signs represent an event or an idea and not direct language
+    * i\.e\.\, words\, morphemes\, phonemes\, etc\.
+  * Independent of a word or utterance\, which refers to that object\, idea\, or event
+
+---
+
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_10.jpg)
+
+# Speech vs. writing
+
+
+
+  * Speech is continuous; writing is discrete
+
+---
+
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_11.png)
+
+
+
+  * Speech is bound to utterance time; writing is not
+  * Speech is temporary; writing is permanent
+
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_12.png)
+
+__Tablet from Nippur\, 2000 __  __bce__
+
+
+---
+
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_13.png)
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_14.png)
+
+
+
+  * Speech is audible; writing is visible
+  * Speech is produced by voice; writing is produced by hand
+  * Diachrony\, not synchrony\, tends to be represented\.
+
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_15.gif)
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_16.jpg)
+
+
+---
+
+
+7\. Language is universal; writing is not
+
+::: {.notes}
+
+Source for data: https://www.omniglot.com/writing/stats.htm#:~:text=are%2Dthere%2Dworld-,How%20many%20languages%20have%20a%20written%20form%3F,of%20an%20established%20writing%20system%22.
+
+:::
+
+
+---
+
+
+# Types of writing systems
+
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=\-sUUWyo4RZQ](https://www.youtube.com/watch?v=-sUUWyo4RZQ)
+
+
+---
+
+
+# Q slide
+
+True or false: an abjad is mostly consonants\, and vowels are generally left unwritten\. True
+
+
+---
+
+
+![](images/17-How%20is%20writing%20different%20from%20speaking_17.jpg)
+
+# What’s next?
+
+
+
+* Come on Monday for “🤷” and read ch\. 5 in your book
+* Quiz 8 in recitation on Friday
+* Observation notes \#5 due Friday\, March 29 at 11:59pm
+  * No late work\, no AI

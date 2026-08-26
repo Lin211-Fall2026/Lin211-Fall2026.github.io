@@ -1,0 +1,309 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Are actors good at dialects?
+
+# Language and Culture
+
+
+---
+
+
+# Ling Link
+
+![](images/22-Are%20actors%20good%20at%20dialects_0.png)
+
+
+
+* We’re going to the movies today\!
+  * Spend 2 minutes making a list of ANIMATED movie characters along with the following info:
+    * Good guy\, bad guy\, or something else?
+    * What kind of dialect do you think the character has?
+    * Why do you think the creators of the movie chose that variety?
+  * Then you can do the same thing with NON\-ANIMATED movies
+
+---
+
+
+# Recall
+
+
+
+* We’re moving on from writing\, computers\, and acquisition
+* Now\, we’re focusing on the interaction of language and culture
+  * But isn’t that what the whole section on language in the world was about? Well\, yeah\!
+  * The level of impact language has on society AND the level of impact society has on language\!
+  * Remember sociolinguistics and linguistic anthropology?
+
+---
+
+
+
+
+* __Pop culture __ \(short for “popular culture”\) is a set of practices/beliefs that are dominant in society at a certain point in time
+  * That which is transmitted via the mass media and aimed particularly at younger people
+  * Changes over time \(what’s popular now is different than what used to be popular\)
+  * Can impact how a person views certain topics
+  * Is\, by definition\, exclusionary – it cannot include all practices/beliefs; just the most prevalent
+  * Can be seen as commercial\, capitalistic
+  * Can be seen as being in opposition to “high culture”
+
+
+# Pop culture
+
+
+---
+
+
+![](images/22-Are%20actors%20good%20at%20dialects_1.jpg)
+
+# Language goes to the movies!
+
+
+
+* Language is a mediator between worlds
+* So is the media\!
+  * Information media delivers specific representations of the “real world”
+  * Other kinds of media connect us to conceptual worlds\, those of imagination and creativity\!
+* We can explore how language is used in relation to movies
+  * What was it like when we made the shift from silent films to speaking ones?
+  * What is the “transatlantic accent”?
+  * Do actors do a good job with accents/dialects?
+::: {.notes}
+
+Talk about these as research questions you could ask, see what kind of data they might need
+
+:::
+
+
+---
+
+
+# Storytelling
+
+![](images/22-Are%20actors%20good%20at%20dialects_2.png)
+
+
+
+* What makes a good story?
+* How do you know?
+* Who tells good stories?
+* Animated movies
+  * Disney is the gold standard\!
+  * How do you make inanimate objects seem animate?
+
+---
+
+
+# Q slide
+
+Favorite Disney \(or other animated\) character?
+
+
+---
+
+
+![](images/22-Are%20actors%20good%20at%20dialects_3.jpg)
+
+# Stereotypes
+
+
+
+* A  __stereotype __ is a cognitive structure that includes the beliefs\, preconceived knowledge\, and expectations about a particular social group as held by a particular perceiver
+  * It’s about abstract knowledge of what it means to belong to a particular group\, to have a particular set of characteristics
+  * Widely held\, fixed\, and oversimplified
+* Where do these things come from?
+
+---
+
+
+# Why do we do this?
+
+
+
+* According to cognitive psychologists\, stereotypes are a natural part of human categorization processes
+  * __It’s cognitively efficient: __ Once you have the categories\, you can save on processing time by not reconsidering each “member” of a group
+  * __It helps us predict our social world: __ We don’t have to worry because you can easily apply your categories to new individuals
+  * __It makes us feel good about ourselves: __ We like our own group \(ingroup\) better than other groups \(outgroups\)
+  * __It’s automatic?: __ They can even be activated and used without you being aware of it
+    * __Subliminal primes __ are stimuli that activate stereotypes without our conscious perception \(subliminal messaging\!\)
+
+---
+
+
+# How do we learn stereotypes?
+
+![](images/22-Are%20actors%20good%20at%20dialects_4.png)
+
+
+
+* According to social learning theory\, we learn our stereotypes from
+  * Our parents
+  * Our peer groups
+  * The media
+* What is Disney’s role?
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=yhZ0TKdgJGg](https://www.youtube.com/watch?v=yhZ0TKdgJGg) \(hyenas\)
+
+
+---
+
+
+# An Example: The Lion King
+
+| Good Guys | Bad Guys | Others |
+| :-: | :-: | :-: |
+| Simba\, Mufasa | Scar\, hyenas | Rafiki\, Zazu |
+
+
+
+* _The Lion King_ \, a Disney movie set in Africa\, has good guys\, bad guys\, and others \(like sidekicks\)
+* How are they represented?
+  * Good guys speak “standard”\, bad guys don’t
+  * Others have varying accents
+
+---
+
+
+| Character | Variety | Character traits |
+| :-: | :-: | :-: |
+| Simba | “Standard” \(Anglo\) | Strong\, love interest |
+| Mufasa | “Standard” \(AA\) | Strong\, noble\, leader |
+| Scar | British | Evil\, smart\, effeminate\, snobbish |
+| Hyenas | AAE\, Chicano English | Stupid\, lazy\, lowly\, comical |
+| Zazu | British | Servant\, authoritative |
+| Rafiki | “African” English | All\-knowing \(?\)\, crazy |
+
+Characters\, varieties\, and traits
+
+
+---
+
+
+![](images/22-Are%20actors%20good%20at%20dialects_5.jpg)
+
+
+
+* Why do they do this?
+  * To create an effect\, help us “know” the character
+    * Some of the personality is done through the animation
+      * Ex\. Scar is smaller than Mufasa\, has a dark mane = not strong but evil
+    * But you can build a better character through linguistic stereotypes\!
+* Because logically…
+  * Why would anyone in the African plains speak with an American or British accent anyway?
+  * Why would two brothers have such differing accents?
+  * Why would no characters speak an African language?
+  * How can you make it palatable to an American audience?
+
+---
+
+
+# What are the consequences when we use adult stereotypes about voices and social groups to create characters and narratives forconsumption by children?
+
+
+---
+
+
+
+
+* Disney can decide it wants to have certain voices to give life to their characters\, but the extent to which this is done  _well _ is really on the actor \(and their  __dialect coach__ \, a person who helps actors craft a voice for characters in the context of a production\)
+  * Most actors are from a place and can use their native dialect to make the character come to life or the accent is less important to the story
+  * Others work very hard at developing a specific accent and often appear in roles using only it
+  * Others pick up new dialects for specific productions\, working with a dialect coach to modify the phonetics of their speech
+    * Other dialect features would be in the written script
+    * Some of these are really good\!
+    * And some of these are really bad…
+
+
+# Back to the actors themselves
+
+
+---
+
+
+# Media
+
+[https://www\.buzzfeed\.com/kaylayandoli/worst\-accents\-in\-movies](https://www.buzzfeed.com/kaylayandoli/worst-accents-in-movies)
+
+
+---
+
+
+# Q slide
+
+Name a movie/TV show and actor in it where you thought the accent was so terrible it was funny or distracted you from what was actually happening\.
+
+
+---
+
+
+![](images/22-Are%20actors%20good%20at%20dialects_6.jpg)
+
+# How do they do it?
+
+Remember the IPA… 
+
+
+---
+
+
+![](images/22-Are%20actors%20good%20at%20dialects_7.png)
+
+# The Vocal Tract
+
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=NvDvESEXcgE](https://www.youtube.com/watch?v=NvDvESEXcgE) \(accent expert\)
+
+
+---
+
+
+![](images/22-Are%20actors%20good%20at%20dialects_8.jpg)
+
+# Who cares?
+
+
+
+* Fans\!\!
+  * Actors are under increased scrutiny – by native speakers and by people who are very familiar with certain accents – to be as realistic as possible
+  * Social media\, the internet\, etc\. = a place to discuss = a place to praise/bash
+* Even with fictional places?\!
+  * Whatever it is\, it has to be believable\, it has to be relatable\, and it has to bring in money\!
+  * Plus\, with the way technology is today\, there is almost no excuse
+
+---
+
+
+![](images/22-Are%20actors%20good%20at%20dialects_9.jpg)
+
+# What’s next?
+
+
+
+* Monday is a continuation of pop culture by asking\, “Can you make your own language?”
+  * A preview of LIN 200\!
+  * Hint: yes\, you can\!
+* Wednesday is about language and animals\!
+* Quiz 11 in recitation on Friday
+* Be working on Data Analysis \(ask questions\!\)
+* Extra credit\!\!

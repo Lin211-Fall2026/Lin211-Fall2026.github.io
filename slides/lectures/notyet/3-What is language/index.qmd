@@ -1,0 +1,209 @@
+---
+title: "What is language?"
+subtitle: "Lin 211 • Section 1, Part 2"
+date: 08/31/2026
+description: "Pullum: Chapter 1"
+categories: [Getting Started]
+authors:
+  - name: Kevin B McGowan
+    orcid: 0000-0002-8214-1901
+    email: kbmcgowan@uky.edu
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+<!--
+# What is language?
+
+# Getting Started
+
+
+---
+
+
+# Ling Link
+
+
+---
+
+
+# Recall
+
+
+
+* Linguistics is the study of language
+  * ≠ learning many languages
+  * ≠ studying a language with the goal of learning to communicate in it
+  * ≠ being the grammar police
+* More precisely\, linguistics…
+  * Is a scientific and systematic approach to understanding how language works
+  * Is interested in the structure  _and_  use of language
+  * And is focused on the rules that exist in language as observed in use by native speakers
+* Descriptive vs\. prescriptive grammar
+
+---
+
+
+# Q slide
+
+How many languages do you speak/sign? M/C 1\, 2\, more than 2\, I only speak one fluently but have studied others
+
+
+---
+
+
+# But what is language?!?
+
+![](images/3-What%20is%20language_0.jpg)
+
+
+
+* Last week we said we are talking about language as a distinctly human ability\, not any individual language
+  * All humans use language
+  * Language may be spoken or signed\, written or not
+* According to your book\, “human languages are structured systems for making articulated thoughts fully explicit both internally \(mentally\) and externally \(in a form perceptible to other humans\)” \(p\. 3\)
+
+---
+
+
+# How does language work?
+
+![](images/3-What%20is%20language_1.jpg)
+
+A “simple” communicative act
+
+
+---
+
+
+# A “simple” communicative act
+
+![](images/3-What%20is%20language_2.jpg)
+
+
+---
+
+
+A “simple” communicative act
+
+![](images/3-What%20is%20language_3.jpg)
+
+
+---
+
+
+![](images/3-What%20is%20language_4.jpg)
+
+A “simple” communicative act
+
+
+---
+
+
+![](images/3-What%20is%20language_5.jpg)
+
+A “simple” communicative act
+
+
+---
+
+
+![](images/3-What%20is%20language_6.jpg)
+
+A “simple” communicative act
+
+
+---
+
+
+A “simple” communicative act
+
+![](images/3-What%20is%20language_7.jpg)
+
+
+---
+
+
+A “simple” communicative act
+
+![](images/3-What%20is%20language_8.jpg)
+
+
+---
+
+
+![](images/3-What%20is%20language_9.jpg)
+
+A “simple” communicative act
+
+
+---
+
+
+![](images/3-What%20is%20language_10.jpg)
+
+A “simple” communicative act
+
+
+---
+
+
+# Media
+
+How do our brains process speech? [https://www\.youtube\.com/watch?v=nZP7pb\_t4oA](https://www.youtube.com/watch?v=nZP7pb_t4oA)
+
+
+---
+
+
+# Question
+
+T/F from video: Most people can comprehend up to about 8 syllables per second\. True
+
+Make this a blank and hidden slide in Echo\, then pull up the QR code that links to this:
+
+[https://uk\.instructure\.com/courses/2136671/quizzes/3899977](https://uk.instructure.com/courses/2136671/quizzes/3899977)
+
+
+---
+
+
+# What makes us so special?
+
+![](images/3-What%20is%20language_11.jpg)
+
+
+
+* So\, linguistics is about understanding how we take these noises that our bodies can make using our mouths or the shapes and movements our hands can make to DO STUFF
+  * “human languages are structured systems for making articulated thoughts fully explicit”
+  * Dogs can’t do that\!
+
+---
+
+
+# Things we will hold as true in this class
+
+
+---
+
+
+# What’s next?
+
+![](images/3-What%20is%20language_12.jpg)
+
+Accommodations letters\, athlete notes\, etc\. ASAP
+
+Go to recitation on Friday for your first quiz\!
+
+Get your textbook as soon as possible
+
+Read “How many” \(a PDF on Canvas\) for Monday
+
+Get started on Observation Notes \#1
+-->

@@ -1,0 +1,297 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# How do words get their meaning?
+
+# Bits and Pieces
+
+
+---
+
+
+# Ling Link
+
+
+---
+
+
+# Media
+
+Link to Connections game: [https://www\.nytimes\.com/games/connections](https://www.nytimes.com/games/connections)
+
+
+---
+
+
+# Recall
+
+
+---
+
+
+
+
+* Using/Knowing a word requires \(at least\) four __ __ kinds of information:
+  * __Phonetic__ / __phonological__  information
+  * __Syntactic__  information
+  * __Morphological__  information
+  * __Semantic__  information
+
+
+# What does it mean to “know” a word?
+
+
+---
+
+
+# What is semantics?
+
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=0akeQMlvcAs](https://www.youtube.com/watch?v=0akeQMlvcAs)
+
+
+---
+
+
+# Q slide
+
+So\, denotation is like the dictionary definition and connotation is like the bonus meaning? True
+
+
+---
+
+
+# Mental Lexicon
+
+![](images/7-How%20do%20words%20get%20meaning_0.png)
+
+
+
+* All of this information about words is stored in our mental  __lexicon\.__
+  * Kind of like a dictionary
+  * Contains information about:
+    * pronunciation
+    * meaning
+    * related words
+    * sentence use
+  * Linked to other related words
+
+---
+
+
+![](images/7-How%20do%20words%20get%20meaning_1.png)
+
+![](images/7-How%20do%20words%20get%20meaning_2.png)
+
+# Relationships between words
+
+
+---
+
+
+# Activity
+
+
+
+    * Free – Name a bird\.
+
+---
+
+
+![](images/7-How%20do%20words%20get%20meaning_3.jpg)
+
+# Learning a word’s meaning
+
+
+
+* As we’ve seen\, by and large the meaning of a word is 100% arbitrary
+  * There’s NO direct relation between the word itself and the concept it represents
+  * Juliet: “What's in a name? That which we call a rose\, by any other name would smell as sweet\.”
+    * Is there anything inherently “rose\-y” about the combination of sounds /r/ \+ /o/ \+ /z/?
+    * Persian  _gol_ \, Maltese  _warda_ \, Slovene  _vrtnica_  _\, _ Indonesian  _bunga_  _ _  _mawar_
+
+---
+
+
+![](images/7-How%20do%20words%20get%20meaning_4.png)
+
+![](images/7-How%20do%20words%20get%20meaning_5.png)
+
+
+---
+
+
+![](images/7-How%20do%20words%20get%20meaning_6.png)
+
+![](images/7-How%20do%20words%20get%20meaning_7.png)
+
+
+---
+
+
+![](images/7-How%20do%20words%20get%20meaning_8.png)
+
+![](images/7-How%20do%20words%20get%20meaning_9.png)
+
+# But there are non-arbitrary words!
+
+
+
+* Onomatopoeia
+  * Animal sounds: “buzz”\, “meow”
+  * Environmental noises: “trickle”\, “tinkle”\, “splash”
+
+
+![](images/7-How%20do%20words%20get%20meaning_10.png)
+
+![](images/7-How%20do%20words%20get%20meaning_11.png)
+
+
+---
+
+
+![](images/7-How%20do%20words%20get%20meaning_12.jpg)
+
+# A brief tangent
+
+
+
+  * Even though onomatopoeia is rather non\-arbitrary\, we still find significant variation among the languages of the world
+  * What sound does a dog make?
+    * _bark_ \,  _woof_ \,  _ruff_ \,  _arf_ \,  _bow_   _wow_
+    * Arabic:  _hau_  _ _  _hau_
+    * Chinese:  _wow wow_
+    * German:  _wuff_  _ _  _wuff_ \,  _wau_  _ _  _wau_
+    * Greek:  _ghav_  _ _  _ghav_  _ _ \(\[γaβ γaβ\]\)
+    * Korean:  _meong_  _ _  _meong_  _ _ \(\[mʌŋ mʌŋ\]\)
+
+---
+
+
+![](images/7-How%20do%20words%20get%20meaning_13.png)
+
+# Back on track!
+
+
+
+* When it comes to words and meanings\, your book points out that many people believe that the words/language you have directly affects how you think about the world
+* This is called the  __Sapir\-Whorf Hypothesis__ \, and it has two main forms:
+  * __Hypothesis of Linguistic Determinism__  – a language’s structure determines how you think
+    * “Language causes a particular cognitive structure”
+  * __Hypothesis of Linguistic Relativity__  – a language’s structure influences how one thinks
+    * “The world is differently experienced and conceived in different linguistic communities”
+
+---
+
+
+# Problems with this “hypothesis”
+
+
+
+* Inability to express certain thoughts with language
+  * If thought were determined by language\, then you would either be able to express these concepts as clearly as you think them or not be able to think them
+* Ability to utter nonsensical sentences
+  * Colorless green ideas sleep furiously\!
+* Humans without language can still think
+  * Genie\, for example
+* Circular reasoning
+  * Language influences thought or vice versa?
+* The question of translatability
+  * If language determines thought\, then presumably some concepts would only be understandable in the language in which they were first thought
+
+---
+
+
+# Let’s think about this a bit…
+
+![](images/7-How%20do%20words%20get%20meaning_14.png)
+
+![](images/7-How%20do%20words%20get%20meaning_15.png)
+
+
+---
+
+
+# Colors
+
+
+---
+
+
+# Question (Image question)
+
+Where would you draw the boundary between light blue and dark blue? \(image saved in additional resources\)
+
+![](images/7-How%20do%20words%20get%20meaning_16.png)
+
+
+---
+
+
+![](images/7-How%20do%20words%20get%20meaning_17.png)
+
+1st step: what’s  __dark blue __ and what’s  __light blue__ ?
+
+The locations of the boundaries between  _goluboj_  _ _ and  _sinij_  _ _ and between  _light blue _ and  _dark blue _ were nearly identical \(in between 8~9\, give or take 2 bars for most speakers\)
+
+# Colors
+
+
+---
+
+
+![](images/7-How%20do%20words%20get%20meaning_18.png)
+
+
+
+* Subjects were shown three squares of blue arranged in a triad
+* Task:  _Which of the bottom two squares is identical to the top square?_
+* Russian speakers were able to identify squares as  _light blue \(_  _goluboj_  _\) _ and dark blue \( _sinij_  _\) _  _more quickly _ than English speakers with no interference
+* What does this mean?
+  * Russian speakers  __do__  think about these colors as differently as we think about blue and green\, hence the quicker reaction time _ _
+
+---
+
+
+# Words!
+
+![](images/7-How%20do%20words%20get%20meaning_19.png)
+
+
+
+* So where do words get their meaning?
+  * History
+  * Morphological processes
+  * Usage\!
+* Context matters\!
+
+---
+
+
+# What’s next?
+
+![](images/7-How%20do%20words%20get%20meaning_20.jpg)
+
+Come to lecture Wednesday for “Is slang legit?”
+
+Read ch\. 2 in your textbook
+
+Get started on Observation Notes \#2 \(due Friday\)\!
+
+Quiz 4 Friday\!
+

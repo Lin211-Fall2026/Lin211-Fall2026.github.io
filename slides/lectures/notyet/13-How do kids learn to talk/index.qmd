@@ -1,0 +1,358 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# How do kids learn to talk?
+
+# Language in the World
+
+
+---
+
+
+# Ling Link
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_0.jpg)
+
+
+
+* On the next slide\, you will find a link to a quiz called “The Wug Test”
+  * There are 22 questions \(you might have to scroll down past an ad or two\) involving made up words
+  * Click “Play Quiz” and see how many you get right
+  * When finished you can talk to your neighbor – why do you think we did this silly quiz?
+* What’s this all about?
+
+---
+
+
+# Media
+
+[https://www\.sporcle\.com/games/Alcas/wug\_lyfe](https://www.sporcle.com/games/Alcas/wug_lyfe)
+
+
+---
+
+
+# Wug test video
+
+[https://www\.youtube\.com/watch?feature=player\_embedded&v=ElabA5YICsA](https://www.youtube.com/watch?feature=player_embedded&v=ElabA5YICsA)
+
+
+---
+
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_1.jpg)
+
+# Thanks to Xander!
+
+
+
+* Quick thanks to Xander for running our second SPOTLIGHT lecture on “What methods and ethics of inquiry are used in linguistics research?”
+  * Ethics
+    * It’s ultimately about doing no harm – that’s what makes the Milgram Experiment unethical\!
+    * Linguists also have to consider harm – how is the “danger of death” question potentially harmful?
+    * You need consent\, data plan\, minimal risk\, necessary data only\, and accountability
+  * Methods
+    * Sociology research = similar to linguistics research\!
+    * Linguists conduct experiments\, collect survey data\, go to communities to be participant observers\, and use existing resources as ways to collect data to help them answer their research questions
+
+---
+
+
+# Recall
+
+
+
+* All language helps us do stuff in the world
+  * Syntax\, morphology\, phonetics\, phonology\, semantics\, pragmatics\, sociolinguistics
+  * Sounds\, words\, morphemes\, parts of speech\, sentence structure
+  * Identity\, slang\, dialects\, “bad words”
+* New module of the class focused on this idea\!
+* How did you get to this point with language?
+
+---
+
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_2.jpg)
+
+# What is language acquisition?
+
+
+
+* __Language acquisition __ is the process by which humans acquire the ability to use\, produce\, and perceive language\!
+  * Involves the acquisition of all functional aspects of the system\, including syntax\, morphology\, phonology\, lexicon\, etc\.
+* __First Language Acquisition: __ how an infant acquires his/her first or native language
+* __Second Language Acquisition: __ how children and adults acquire additional languages beyond the first
+
+---
+
+
+# Activity
+
+Name an activity that you do daily that someone had to teach you\.
+
+
+---
+
+
+# Acquiring a First Language
+
+::: {.notes}
+
+Children are surprisingly good at learning human languages
+Language acquisition occurs before children can do the simplest of daily activities!
+
+
+:::
+
+
+---
+
+
+# The Basic Problem
+
+_How _ do children acquire language?
+
+
+---
+
+
+# Hypothesis #1: Induction
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_3.png)
+
+Early research suggested that language learning was a process of  __induction__
+
+Children generalize linguistic patterns from the input they receive
+
+::: {.notes}
+
+inference of a generalized conclusion from particular instances; compare deduction
+
+:::
+
+
+---
+
+
+# Induction
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_4.png)
+
+
+---
+
+
+
+
+* But it’s not a simple case of imitation\!
+  * I goed to bed\.
+  * Me eat apples\.
+  * I brush my tooths\.
+
+
+# Acquiring a First Language
+
+
+---
+
+
+# Hypothesis #2: Innateness
+
+
+
+* __The Innateness Hypothesis__
+  * Language  _ability_  in humans is  __innate__ \, or inborn
+  * Humans are genetically predisposed to learn/use language
+  * Babies are born with the knowledge that languages have patterns and with the ability to seek out those patterns
+  * Requires reinforcement\, but no one “teaches” you how to talk
+    * Children learn language as they live in it
+    * But acquiring language is more than memorizing words and phrases
+    * Grammatical and communicative competence
+  * We need induction  _and _ innateness to handle language acquisition
+
+---
+
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_5.jpg)
+
+# If it’s built in, why aren’t we born talking?!
+
+
+
+* Beyond physical  __maturation__ \, there are  __two __ other aspects of maturation crucial to a child’s ability to acquire a language:
+* __Symbolization__
+  * Language = symbolic = arbitrary representation of the world
+  * To acquire language\, a child must be able to keep a mental picture of an absent object
+* __Using tools__
+  * Language = a tool that gets work done
+  * Children begin using language in this way purposefully to get things they can’t get physically
+
+---
+
+
+# Adult input in language acquisition
+
+how do adults interact with babies to  _facilitate_  the language acquisition process?
+
+
+---
+
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_6.png)
+
+# Baby Talk
+
+__Baby talk__  is a register that adults use to talk to younger children
+
+Not all cultures use Baby Talk
+
+Children learn language at same rate\!
+
+But it’s clear that it must serve some purpose\, otherwise so many groups would have begun to use it nor continue to use it\!
+
+::: {.notes}
+
+Exaggerated prosody helps children acquire phonology more easily
+Simplified sentences help children acquire syntax more easily
+
+:::
+
+
+---
+
+
+# Some Characteristics of Baby Talk
+
+
+---
+
+
+
+
+* There are several stages of language acquisition that we will explore:
+  * Babbling
+  * One\-Word Stage
+  * Two\-Word Stage
+
+
+# Stages of Language Acquisition
+
+
+---
+
+
+# Babbling
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_7.png)
+
+
+---
+
+
+# Babbling video
+
+[https://www\.youtube\.com/watch?v=\_JmA2ClUvUY](https://www.youtube.com/watch?v=_JmA2ClUvUY)
+
+
+---
+
+
+# Activity
+
+What was your first word?
+
+
+---
+
+
+# One-Word Stage: 12 months
+
+Children often overgeneralize with these words
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_8.png)
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_9.png)
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_10.png)
+
+
+---
+
+
+
+
+* Research suggests that children are doing more than just rehearsing single words
+  * Children use single words to express whole propositions
+  * A child may say “Dada” to mean different things in different contexts
+* “Dada”
+
+
+Here comes Daddy\!
+
+This is for Daddy\.
+
+That is where Daddy sits\.
+
+This shoe is Daddy’s\.
+
+
+---
+
+
+# Two-Word Stage: 1 ½ years
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_11.png)
+
+
+
+* The child has about 50 words in his/her vocabulary
+* Utterances typically contain one noun\-like subject element and one predicate\-like element
+  * Something like “John apple” is like…
+  * _John_  	 _ate an apple_
+  * subject       predicate
+
+---
+
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_12.jpg)
+
+# Beyond two words?
+
+
+
+* Here is a real parent\-child \(2;8\) interaction:
+  * Child: I beed a princess\.
+  * Mommy: You are the princess?
+  * Child: No\, I  __beed__  a princess\.
+* What happened?
+  * Sounds Mommy heard: \[ajbidəprɪncɛs\]
+    * Mommy’s interpretation = “I be \(am\) the princess”
+    * Mommy questions child about utterance
+  * Child’s actual meaning = “I beed \(was\) a princess”
+    * Child has overgeneralized regular past tense
+
+---
+
+
+# What’s next?
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_13.jpg)
+
+Come to lecture on Monday for the rest of the acquisition story: “How does bilingualism work?”
+
+No class next Wednesday\, March 12 \(Singletary is unavailable\)
+
+Keep working on Observation Notes \#4
+
+Quiz 7 on Friday\!
+

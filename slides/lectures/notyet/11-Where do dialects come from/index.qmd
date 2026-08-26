@@ -1,0 +1,287 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Where do dialects come from?
+
+# Bits and Pieces
+
+
+---
+
+
+![](images/11-Where%20do%20dialects%20come%20from_0.png)
+
+# Ling Link
+
+
+
+* Let’s do the NYT Quiz\!
+  * Click on the link in the next slide
+  * Scroll to the last bullet point at the end of the story and click the link that says “How Y’all\, Youse and You Guys Talk”
+  * Answer the 25 questions you are given
+  * After each question\, a map will show you which places are most/least like you on that question – are you surprised by any of these?
+  * At the end\, it will tell you three cities that are most like where you’re from – is it right?
+
+---
+
+
+# Media slide
+
+[https://www\.nytimes\.com/2020/04/22/learning/what\-does\-your\-accent\-say\-about\-who\-you\-are\.html](https://www.nytimes.com/2020/04/22/learning/what-does-your-accent-say-about-who-you-are.html)
+
+
+---
+
+
+# Recall
+
+
+
+* Slang is legit\! Bad words are legit\! Regional variants are legit\!
+  * It all helps us do stuff in the world\!
+  * Everyone has an accent\! Everyone has a dialect\!
+  * Dialects are not bad\! Dialects are just different\!
+* __Sociolinguistics __ is the study of the interaction of language and social factors
+* __Phonetics __ is the study of the sounds in a language
+  * __Articulatory phonetics__  and  __acoustic phonetics__
+  * Need the IPA\!
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=wDKLt08ZTdI](https://www.youtube.com/watch?v=wDKLt08ZTdI)
+
+
+---
+
+
+# Q slide
+
+According to the video\, the way you talk reflects who you are and who you want to be\. \[True\]
+
+
+---
+
+
+# Distinctive Features
+
+![](images/11-Where%20do%20dialects%20come%20from_1.jpg)
+
+
+
+* For Consonants:
+  * Voicing
+  * Place of Articulation
+  * Manner of Articulation
+* For Vowels:
+  * Tongue Height
+  * Tongue Frontness
+  * Tenseness
+  * Lip Roundedness
+
+---
+
+
+# Q slide
+
+How do you pronounce “cot” and “caught”?
+
+Same
+
+Different
+
+
+---
+
+
+
+
+* It’s called the  __low back merger__ \,
+  * Also called the  __cot\-caught merger__
+  * It’s about where /ɑ/ and /ɔ/ sound the same in certain dialects
+  * These sounds differ in  __height__  \(/ɑ/ is low\, /ɔ/ is mid\) and  __roundedness__  \(/ɔ/ is round\, /ɑ/ is not\)
+  * So /kɑt/ = ‘cot’ and /kɔt/ = ‘caught’
+* This is an  __unconditioned__  sound change because it happens in  __every__  phonological environment
+
+
+# One regional feature
+
+
+---
+
+
+![](images/11-Where%20do%20dialects%20come%20from_2.png)
+
+# Cot/Caught
+
+
+---
+
+
+# Q slide
+
+How do you pronounce “pen” and “pin”?
+
+Same
+
+Different
+
+
+---
+
+
+# Another regional feature
+
+
+---
+
+
+![](images/11-Where%20do%20dialects%20come%20from_3.png)
+
+# Pin/Pen
+
+
+---
+
+
+
+
+* We know that every language is composed of more than one dialect
+  * Thus\, everyone has a dialect \(and an accent\)
+  * Dialect ≠ bad
+* And all dialects\, just like all languages\, are systematic\, rule\-governed\, and patterned
+  * No language is without  __grammar__ \, the \(descriptive\) rules that define a language
+  * Grammar includes rules about sounds\, words\, sentences\, conversations\, etc\.
+* But we where did these dialects come from? How did they develop? Why?
+
+
+# What we know
+
+
+---
+
+
+![](images/11-Where%20do%20dialects%20come%20from_4.jpg)
+
+# But why?!?!
+
+
+
+* Geographical distance?
+  * Speakers on islands or in mountains \(historically\) have less contact with speakers of other varieties due to being geographically isolated\, causing those varieties to differ
+  * Ex\. Ocracoke Island as compared to other dialects of American English
+  * An even better example of divergence would be French\, Spanish\, Italian\, Portuguese\, etc\. with respect to Latin
+* Social distance?
+  * When people do not spend a great deal of time together in interaction\, their dialects are not likely to be very similar and are not likely to influence each other
+  * Ex\. The dialects of different classes in the US
+  * Or how African American speech has historically differed from white varieties of American English
+
+---
+
+
+# Sociohistorical explanations
+
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=FXOIxT1ML1o](https://www.youtube.com/watch?v=FXOIxT1ML1o)
+
+
+---
+
+
+# Q slide
+
+True or false \(based on the video\): As the Appalachian settlers headed west\, their accents joined with speech patterns from the North\. \[true\]
+
+
+---
+
+
+# Identity!
+
+# An important reason!
+
+
+---
+
+
+![](images/11-Where%20do%20dialects%20come%20from_5.jpg)
+
+# Language variation ≠ random!
+
+
+
+* Dialects can vary in all parts of the system
+  * That is\, there is more to dialects than funny words and different accents\!
+  * There are rules related to the sounds \(phonetics\)\, word formation \(morphology\)\, sentence structure \(syntax\) – and more\!
+* Language change isn’t random
+  * We need to know what can and can’t happen in language
+  * Social pressures might cause the change to be accepted/rejected\, but the change must follow principles of how language works
+
+---
+
+
+# Example?
+
+| Present | Past |
+| :-: | :-: |
+| I  _is_ 		You  _is_ 	He/she/it  _is_ We  _is_ You \(pl\.\)  _is_ They  _is_ | I  _was_ 			You  _was_ 	He/she/it  _was_ We  _was_ You \(pl\.\)  _was_ They  _was_ |
+
+
+
+* __Analogy: __ the process of taking language forms that are similar in some way…and making them more similar in form based on an existing pattern
+  * __Morphological__ : Making irregular plurals look like regular ones \(so instead of “deer” we get “deers”\)
+  * __Syntactic__ : leveling the conjugations in a verbal paradigm
+
+---
+
+
+![](images/11-Where%20do%20dialects%20come%20from_6.jpg)
+
+# Changes from outside
+
+
+
+* Language contact = new settlement can bring different groups into contact
+  * Early American English was heavily influenced by Native American languages in the Algonquin\, Iroquoian\, and Siouan families
+  * They had words for things the British had never seen\, like  _raccoon _ and  _chipmunk_
+  * Lexical borrowing = cultural borrowing\!
+* English has borrowed A LOT\!
+  * Morphemes: German  _–fest_ \, French  _–_  _ee_
+  * Syntax:
+    * German construction “Are you going with?”
+    * African\-influenced absence of  _be_  in “They \_\_\_ in the house”
+
+---
+
+
+![](images/11-Where%20do%20dialects%20come%20from_7.jpg)
+
+# What’s next?
+
+
+
+* Come to lecture Monday for our next SPOTLIGHT lecture\, featuring Xander\!
+  * What methods and ethics of inquiry are used?
+  * Remember the last SPOTLIGHT?
+* Come to lecture Wednesday for the start of a new module\, featuring Alex\!
+  * Language in the World
+  * “How do kids learn to talk?”
+* Quiz 6 Friday\!
+* Observation notes \#3 due FRIDAY\!\!

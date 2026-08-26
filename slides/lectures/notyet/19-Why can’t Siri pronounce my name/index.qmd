@@ -1,0 +1,267 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Why can’t Siri pronounce my name?
+
+# Language in the World
+
+
+---
+
+
+# Ling Link
+
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=MuWL1J2s2tY](https://www.youtube.com/watch?v=MuWL1J2s2tY)
+
+
+---
+
+
+# Recall
+
+
+
+* Pros and cons of the three modes of communication: speech\, sign\, writing
+* __Writing__  is the representation of language with the use of visual signs
+  * So\, not pictograms
+  * Iconic vs\. symbolic
+  * Phonological or morphological
+* Writing is  __learned__
+  * But certain aspects of  __computer\-mediated communication __ \(CMC\) seem like they are acquired
+  * Emojis as extralinguistic material \(like facial expressions and body language\)
+* What makes the digital environment different from face\-to\-face?
+
+---
+
+
+# Computational linguistics
+
+![](images/19-Why%20can%E2%80%99t%20Siri%20pronounce%20my%20name_0.jpg)
+
+
+
+* __Computational linguistics __ is the area of linguistics that computer scientists like…
+  * Linguistics \+ computers = you can rule the world\!
+  * If you are looking for the most lucrative field\, this is it\!
+* Computational linguistics is about:
+  * Speech synthesis
+  * Automatic \(computer\) recognition of speech
+  * Machine translation
+  * Corpus construction
+
+---
+
+
+# Q slide
+
+Where can you see the intersection of linguistics and computer science in your everyday lives?
+
+
+---
+
+
+# Talking to machines?
+
+
+
+* One thing that has become ever\-present in our lives is the digital world
+  * You can speak your text message to your phone – this is called  __speech\-to\-text__
+  * You can have your text messages read aloud by your phone – this is called  __text\-to\-speech__
+* Speech technologies are increasingly integrated into our lives\!
+  * Everyone is obsessed with AI
+  * There are refrigerators\, cars\, etc\. with built\-in speech technologies
+  * Your phone might have a virtual assistant\, like Siri
+
+
+![](images/19-Why%20can%E2%80%99t%20Siri%20pronounce%20my%20name_1.png)
+
+
+---
+
+
+![](images/19-Why%20can%E2%80%99t%20Siri%20pronounce%20my%20name_2.jpg)
+
+# Speech recognition and synthesis
+
+
+
+* Your devices rely on  __speech recognition technologies__ \, which means that they have the ability to recognize and translate human spoken language into text that can be understood by computers
+  * This allows you to use commands like “call Mom”
+  * Has a wide array of applications
+* They also rely on  __speech synthesis__ \, which is the artificial production of human speech by a computer
+  * They sound so real now
+  * Here’s how it used to sound…
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=wQjTgvUEOrY](https://www.youtube.com/watch?v=wQjTgvUEOrY)
+
+
+---
+
+
+# Q slide
+
+True or false: In 1962\, Bell Labs programmed a computer to speak and sing\! True
+
+
+---
+
+
+# Why is speech recognition special?
+
+
+---
+
+
+# Applications
+
+![](images/19-Why%20can%E2%80%99t%20Siri%20pronounce%20my%20name_3.png)
+
+Voice search
+
+Compositing text
+
+Turning on the lights
+
+Customer service applications
+
+Biometrics
+
+In\-car features
+
+Duolingo
+
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=6altVgTOf9s](https://www.youtube.com/watch?v=6altVgTOf9s)
+
+
+---
+
+
+![](images/19-Why%20can%E2%80%99t%20Siri%20pronounce%20my%20name_4.jpg)
+
+# Performance
+
+
+
+* Speech recognition is complex
+  * Background noise can get in the way
+  * Linguistic variation can be tricky to capture
+* I said they were getting better – how do we know?
+  * __Accuracy__  – how often does the system get it wrong?
+  * __Speed__  – how quickly does it convert from speech to text?
+
+---
+
+
+# Issues faced in accuracy
+
+::: {.notes}
+
+Have you ever had trouble with Siri understanding what you’ve said?
+Some of the accuracy issues may have been part of the problem, but often, linguistic variation in accent, word choice, etc. can be the problem
+African Americans experience error rates up to two times higher than other speakers of American English
+
+:::
+
+
+---
+
+
+# Q slide
+
+Which one is better for accuracy – speaker\-dependent or speaker\-independent? Dependent
+
+
+---
+
+
+![](images/19-Why%20can%E2%80%99t%20Siri%20pronounce%20my%20name_5.jpg)
+
+# Linguistic variation
+
+
+
+* Has Siri had trouble understanding what you’ve said?
+* Some of the accuracy issues may have been part of the problem\, but often\, linguistic variation in accent\, word choice\, etc\. can be the problem
+* Research has shown that
+  * African Americans experience error rates up to two times higher than other speakers of American English
+    * Word identification is less accurate\, but
+    * Word prediction is sometimes better compared to majority dialects
+  * Linguists use “force\-aligners” to automatically transcribe speech\, and one study found that error rates on accuracy were higher for Southern varieties compared to Northern ones
+
+---
+
+
+![](images/19-Why%20can%E2%80%99t%20Siri%20pronounce%20my%20name_6.png)
+
+
+
+* Proportion of correctly recognized words by dialect area\, color coded by country
+  * Used YouTube auto\-captions on Accent Tag videos \(powered by Google\)
+  * Works best on people from California \(which just happens to be where Google is headquartered\)
+  * Works worst on Scottish English
+::: {.notes}
+
+https://makingnoiseandhearingthings.com/2016/07/11/which-accents-does-automatic-speech-recognition-work-best-for/ 
+
+:::
+
+
+---
+
+
+# Why does it matter?
+
+![](images/19-Why%20can%E2%80%99t%20Siri%20pronounce%20my%20name_7.png)
+
+Two \(Three?\) words:
+
+_Self\-driving cars_
+
+But also – all the things we can do with speech recognition and speech synthesis will only grow
+
+We will all want/need to be able to operate in that future\!
+
+
+---
+
+
+![](images/19-Why%20can%E2%80%99t%20Siri%20pronounce%20my%20name_8.jpg)
+
+# What’s next?
+
+
+
+* Come next week for more fun with computers\!
+  * “How do computers help with language?”
+  * “Are chatbots real?”
+* Quiz 9 in recitation on Friday
+* Observation notes \#6 \(last one\!\) due Friday\, April 12 at 11:59pm
+  * No late work\, no AI
+  * Drop lowest – if you are happy\, you can skip it\!

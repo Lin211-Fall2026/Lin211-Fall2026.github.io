@@ -1,0 +1,346 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Where does language come from?
+
+# Getting Started
+
+
+---
+
+
+![](images/5-Where%20does%20language%20come%20from_0.jpg)
+
+# Ling Link
+
+
+
+* How does language change? Spend 2 minutes comparing these four versions of the Lord’s Prayer\.
+  * Words?
+  * Pronunciations?
+  * Word\- or sentence\-structure?
+  * Other?
+::: {.notes}
+
+The symbol <thorn> is like the ‘th’ in ‘bath’ and the <eth> is like the ‘th’ in ‘then’
+
+:::
+
+
+---
+
+
+# Recall
+
+
+
+* Linguistics is the study of language
+* Languages are “structured systems for making articulated thoughts fully explicit”
+  * Complex
+  * Creative
+  * Arbitrary\!
+* Counting languages is difficult because…
+  * Dialect vs\. language
+  * Mutual intelligibility
+  * Does politics matter?
+* Generically speaking\, there are about 7\,000 languages in the world
+
+---
+
+
+![](images/5-Where%20does%20language%20come%20from_1.jpg)
+
+# Language and evolution
+
+
+
+* We believe humans adapted language during the prehistoric past \(possibly hundreds of thousands of years ago\)
+  * _Homo sapiens _ or even earlier ancestor  _Homo erectus_
+  * Probably not a Tower of Babel situation \(but we can’t really know\)
+  * What we do know is that it is a quintessentially human phenomenon\!
+* Why language? Why then?
+  * Working as a team\!
+  * Probably not fully formed sentences to start
+  * Eventually got to cave paintings\!
+
+---
+
+
+# Media
+
+Fossils: [https://www\.youtube\.com/watch?v=eCW0zyDGuXc](https://www.youtube.com/watch?v=eCW0zyDGuXc)
+
+
+---
+
+
+# Question
+
+True or false \(based on the video\): The use of consonants \(like /t/ and /s/\) is a key feature that distinguishes human language from most animal communication\. \[true\]
+
+
+---
+
+
+![](images/5-Where%20does%20language%20come%20from_2.jpg)
+
+# How do we know?
+
+
+
+* Some of what we know comes from the fossil record\!
+  * For some\, the idea that we could ever know is so absurd that formal discussions of the origin of language has been banned at various points in history by different entities
+  * But it has also risen in popularity at different times
+* The answer is pretty simple…we actually don’t know\!
+::: {.notes}
+
+ looking for traces of physical adaptation to language use or the presence or absence of genes considered to be language-relevant like FOXP2
+
+:::
+
+
+---
+
+
+![](images/5-Where%20does%20language%20come%20from_3.jpg)
+
+# Assuming we will never really know…
+
+
+
+* What do linguists do to try to understand how languages have changed over time?
+* This is called  _historical linguistics_ \!
+  * Describe how specific languages have changed through time
+  * History of languages and how they are related
+  * Theories about how and why languages change
+::: {.notes}
+
+How has English changed since it first became a language? What languages is English related to? Why would a person want to speak differently than their parents?
+ 
+
+
+:::
+
+
+---
+
+
+![](images/5-Where%20does%20language%20come%20from_4.jpg)
+
+# Do living languages always change?
+
+
+
+* Vocabulary – words can change
+  * What’s a popular \(and clean\) slang term that you use with your friends that old people wouldn’t understand?
+  * Can you name any slang terms your parents\, grandparents\, etc\. use that mark them as old people?
+* Phonetics/phonology – sounds can change
+  * __Southern__ :  _high\, pie\, ride\, slide_
+  * __Boston:__   _Park your car in Harvard Yard\!_
+  * __Northern Cities: __  _mad\, bad\, glad_
+
+---
+
+
+![](images/5-Where%20does%20language%20come%20from_5.jpg)
+
+
+
+* Semantics – meanings can change
+  * ‘starve’:
+    * _Vpon_  _ a _  _cros_  _ _  _oure_  _ _  _soules_  _ for to _  _beye_  _;_
+    * _   First _  _starf_  _\, and _  _ros_  _\, and sit _  _yn_  _ _  _heuene_  _ a\-_  _bove_  _\._
+    * Upon a cross our souls for to be;
+    * First  __died__ \, and rose\, and sit in heaven above
+    * \(Chaucer  _Troilus & Criseyde_ \, 1374 ad\)
+* Morphology & Syntax – word endings and order can change
+  * Shakespeake’s  _Macbeth_ :  _Goes the king hence today? =_
+    * “Is the king going away today?
+::: {.notes}
+
+Also: Annanian and Saphiran…mid færlicum deaðe ætforan ðam apostolum steorfende afeollon.
+   “with A. & S… fell dying with sudden death before     
+   the apostles.”
+   (Ælfric Homilies, 1000 ad)
+Or Chaucer’s Canterbury Tales:
+Whan that Aprille with his shoures soote
+   The droght of March hath perced to the roote…
+  “When April with its sweet showers
+   The drought of March has pierced to the root…”
+
+
+:::
+
+
+---
+
+
+# Question
+
+So\, do they always change? YES\!
+
+
+---
+
+
+![](images/5-Where%20does%20language%20come%20from_6.jpg)
+
+# Diachronic vs. synchronic
+
+
+
+* More interested in  __diachronic __ \(changes through time\) than  __synchronic __ \(changes within time\)
+  * Synchronic changes = sociolinguistics\!
+  * More on that later\, but…
+* __Diachronic__  changes always begin as  __synchronic__  patterns\!
+  * Once these changes pile up\, new languages are born\!
+  * But not  _everything_  changes\, and not all at once…
+
+---
+
+
+![](images/5-Where%20does%20language%20come%20from_7.jpg)
+
+# Language Families
+
+
+
+* Linguists examine languages as part of what are called  __language families__
+  * Ex\. Germanic\, Romance\, Slavic
+  * The idea is that every language descends from another language\, which\, in turn\, descended from another language
+  * Think of it like a family tree\!
+* Over time\, dialects can change so much that they become  _mutually unintelligible_
+  * In other words\, speaker of dialect A can’t understand a speaker of dialect B
+  * When this happens\, the two dialects can be considered new languages unto themselves
+
+---
+
+
+# Language relatedness
+
+![](images/5-Where%20does%20language%20come%20from_8.png)
+
+
+
+* The idea is that\, like you have received traits \(e\.g\.\, hair/eye color\) from your parents\, so too do languages receive traits from their parent languages\!
+  * How do we know? Couldn’t it be borrowings or chance?
+  * Look at the core vocab\!
+* There are more than 100 language families\, and most of the world’s languages are classified into one of them
+  * Romance \(pictured here\) is a branch of the Proto\-Indo\-European tree
+::: {.notes}
+
+Signed languages are separate; as are creoles and pidgins. Some are mixed. Some are isolates/
+
+:::
+
+
+---
+
+
+
+
+* A  __proto\-language__  is a postulated ancestral language from which a number of languages are believed to have descended by evolution\, forming a language family
+  * __Attested __ = languages we have evidence for their existence \(e\.g\.\, Latin\)
+  * Proto\-languages are usually  __unattested__ \, or partially attested at best
+  * They are reconstructed by way of the  __comparative reconstruction__
+* Languages like “Proto\-Indo\-European” are  __reconstructed languages__
+  * That is\, we have no direct record of it\, but we use the daughter languages to attempt to understand what language would have been like\!
+
+
+# What’s with the “proto” stuff?
+
+
+---
+
+
+| English | father | Gothic | faðar |
+| :-: | :-: | :-: | :-: |
+| German | Vater | Old Icelandic | faðir |
+| Swedish | far | Old English | fæder |
+| Dutch | vader | Old Saxon | fadar |
+| Icelandic | faðir | Old High German | fater |
+| Norwegian | far |  |  |
+| Faroese | faðir |  |  |
+| Danish | far |  |  |
+| North Frisian | faaðer |  |  |
+
+
+
+* __Comparative reconstruction__ \, as its name suggests\, is about comparing different languages to find their similarities and differences
+  * We reconstruct the ancestor based on the attested daughter languages
+  * Requires knowledge of phonology\, morphology\, lexicon\, etc\.
+  * BUT – we can try a simple example\! Check out these words for “father”\.
+
+
+# Comparative Reconstruction
+
+::: {.notes}
+
+* Means reconstructed
+https://alic.sites.unlv.edu/chapter-15-2-linguistic-reconstruction/#:~:text=As%20an%20example%2C%20look%20at,Swedish%2C%20Norwegian%2C%20and%20Icelandic.&text=It%20should%20be%20clear%20immediately,family%20(Scaliger's%20Godt%20group) 
+
+:::
+
+
+---
+
+
+![](images/5-Where%20does%20language%20come%20from_9.png)
+
+# Proto-Indo-European
+
+
+
+* Proto\-Indo\-European is thought to be the common ancestor in the  __Indo\-European __ language family\, which includes branches like Indo\-Iranian\, Germanic\, Celtic\, and Italic
+  * Family = largest \(46% of the world’s population speaks an Indo\-European language as a first language\)
+  * Cool story: everyone was on board to say Greek and Latin were related\. In the 1700s\, a guy named William Jones wanted to add Sanskrit\, an Indian language\, to the mix\. He had a bunch of it wrong\, but it still made the connection between European languages and others more apparent\.
+* For context\, we believe Proto\-Indo\-European was spoken around 4500\-2500 BCE somewhere in eastern Europe\, near the Black Sea
+  * Fun fact: they were nomadic and likely responsible for domesticating horses\!
+  * Speakers migrated away from the area and lost touch\, therefore creating different groups then different dialects then different languages
+  * [https://en\.wikipedia\.org/wiki/Proto\-Indo\-European\_language](https://en.wikipedia.org/wiki/Proto-Indo-European_language)
+
+---
+
+
+![](images/5-Where%20does%20language%20come%20from_10.jpg)
+
+
+---
+
+
+![](images/5-Where%20does%20language%20come%20from_11.png)
+
+
+---
+
+
+ʕwréːcs hest; só n̩putlós\. ʕwréːcs súħnum wl̩nhto\. tósjo ɟɦéwtorm̩ preːcst: "súħnus moj ɟn̩hjetoːd\!" ɟɦéwtoːr tom ʕwréːɟm̩ wewked: "hjáɟeswo dejwóm wérunom"\. úpo ʕwréːcs dejwóm wérunom sesole nú dejwóm hjaɟeto\. "cludɦí moj\, pter werune\!" dejwós wérunos diwés km̩tá gʷaħt\. "kʷíd weːlhsi?" "súħnum weːlhmi\." "tód hestu"\, wéwked lewkós dejwós wérunos\. nu ʕwréːcs pótniħ súħnum ɟeɟonhe\.
+
+Once there was a king\. He was childless\. The king wanted a son\. He asked his priest: "May a son be born to me\!" The priest said to the king: "Pray to the god Werunos"\. The king approached the god Werunos to pray now to the god\. "Hear me\, father Werunos\!" The god Werunos came down from heaven\. "What do you want?" "I want a son\." "Let this be so"\, said the bright god Werunos\. The king's lady bore a son\.
+
+# “The King and the God”
+
+
+---
+
+
+# What’s next?
+
+![](images/5-Where%20does%20language%20come%20from_12.jpg)
+
+Come to lecture Monday for the very first SPOTLIGHT LECTURE \(led by Jules\)
+
+Observation Notes \#1 due Friday\!
+
+Quiz 2 Friday\! = Go to recitation\!
+

@@ -1,0 +1,281 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Why linguistics?
+
+# So, what?
+
+
+---
+
+
+![](images/26-Why%20linguistics_0.jpg)
+
+# Ling Link
+
+
+
+* These are the last words in your textbook: “Nobody doubts that language is centrally important to human life\. And to the extent that language is important\, linguistics matters to all of us\, probably in more ways than we can currently perceive\.”
+  * What does this sentence mean? Spend the next minute talking to your partner about how you understand the importance of linguistics\.
+  * Also discuss how you think you will be able to use linguistics in your life beyond the classroom\.
+
+---
+
+
+# Recall
+
+
+
+* We’re at the end of the semester\!
+* We’ve talked about A LOT of linguistics
+* But the big question is…so\, what?
+  * Course description
+  * Student Learning Outcomes
+  * WHY ARE YOU HERE?\!?
+* Who uses this stuff?
+  * ESL specialists\, translators\, speech pathologists
+  * But also researchers\, localization experts\, consultants\, and more\!
+  * YOU\!
+
+---
+
+
+# Practical projects!
+
+Dictionary compilation
+
+Manuscript decipherment
+
+Speech synthesis
+
+Clarification of legal language
+
+Language planning
+
+Automatic text summarizing
+
+Marketing
+
+Disputed authorship
+
+Brand name invention
+
+Forensic social media analysis
+
+Language course design
+
+Machine translation
+
+Dialogue design
+
+Writing system development
+
+Aphasia treatment
+
+Dialect coach
+
+
+---
+
+
+# Why does it matter?
+
+
+
+* _Linguistics: Why it matters_  by Geoffrey Pullum
+  * Goal: present a small number of illustrations of the importance of the scientific investigation of language
+  * LINGUISTICS
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=ivaLaMkzROk](https://www.youtube.com/watch?v=ivaLaMkzROk)
+
+
+---
+
+
+# What have we learned in this class?
+
+![](images/26-Why%20linguistics_1.jpg)
+
+
+---
+
+
+# Q slide
+
+Name something specific you learned about how language works in this class\. You can use English \(or any other language\) as an example\.
+
+
+---
+
+
+# Things you might have thought before…
+
+![](images/26-Why%20linguistics_2.png)
+
+
+
+* Linguists are people who speak lots of languages?
+  * But now you know that we’re just people who study language systematically\, whether we speak certain ones or not
+  * Linguistics = scientific study of language
+* English has five vowels – a\, e\, i\, o\, and u \(and sometimes y\)?
+  * But now you know English has a lot more than that\!
+  * IPA = one\-to\-one correspondence\!
+
+---
+
+
+![](images/26-Why%20linguistics_3.jpg)
+
+
+
+* Parrots talk\, just like humans?
+  * But now you know that things like arbitrariness\, creativity\, permitting displacement\, etc\. are hallmarks of a language\, and most animal communication systems lack at least one of these elements\!
+  * A mode ≠ a system
+* Dialects are bad; everyone should speak the standard?
+  * But now you know that all language varieties are systematic and serve the needs of their speakers
+  * And you know that no one speaks the same way all the time
+  * AND you know that if dialects didn’t accomplish  _something _ for speakers\, people would stop using them
+  * AND you know that the standard is hard to define
+  * Dialects are languages\!
+
+---
+
+
+![](images/26-Why%20linguistics_4.png)
+
+# Things to take with you…
+
+![](images/26-Why%20linguistics_5.png)
+
+Prescription vs\. Description?
+
+
+---
+
+
+![](images/26-Why%20linguistics_6.png)
+
+Language change?
+
+
+---
+
+
+# Q slide
+
+True or false: Languages change\, but that doesn’t mean they are deteriorating\!
+
+
+---
+
+
+![](images/26-Why%20linguistics_7.png)
+
+# Things to take with you…
+
+![](images/26-Why%20linguistics_8.png)
+
+Language Acquisition?
+
+
+---
+
+
+![](images/26-Why%20linguistics_9.jpg)
+
+# Some things to take with you…
+
+
+---
+
+
+# Q slide
+
+True or false: I understand what is expected of me for the Data Analysis assignment\.
+
+
+---
+
+
+![](images/26-Why%20linguistics_10.jpg)
+
+# Your Linguistics Journey!
+
+
+
+* Many will need to take another linguistics class to satisfy a requirement – cool\!
+  * Many will take LIN 200 = UK Core Arts and Creativity
+  * Others often take one of our 300\-level courses\, especially LIN 331 = UK Core US Citizenship
+* Maybe you had your “finding linguistics” moment in this class – awesome\!
+  * If you are thinking about adding the major/minor\, you’ll need to take LIN 221 \(the other intro class…\)
+  * But LIN 211 still “counts” as other LIN courses
+* Maybe you just took this class for fun – sweet\!
+  * Even if you don’t intend to major/minor\, you can take more classes that interest you\!
+  * And…many people who go on to pursue graduate degrees in linguistics do not have UG degrees in it
+::: {.notes}
+
+Part of what we’ve done is teach you to think about language like a linguist
+This requires a level of analysis that differs (sometimes drastically) from how everyday people think about language
+You can now look at language as more than a collection of sounds and words
+You know that there are rules, and that we can predict the kinds of language we’ll hear because it’s not haphazard
+
+
+:::
+
+
+---
+
+
+# What class will you take next?
+
+
+
+  * \*LIN 200 \[summer online too\!\]
+  * ^LIN 221
+  * LIN 300 = Speech sounds
+  * LIN 301 = Computation for linguists
+  * LIN 317 \[5 sections\]
+  * LIN 395 = independent study
+  * LIN 495 = capstone
+  * LIN 505 = Phonetics
+  * LIN 505 = Morphology
+  * ^LIN 508 = Discourse analysis
+  * LIN 517 \[2 sections\]
+  * ^LIN 518 = History of English
+  * LIN 527 = Language Investigations
+  * 600\-level by special permission
+
+
+\* = UK Core\, ^ = cross\-listed
+
+
+---
+
+
+![](images/26-Why%20linguistics_11.jpg)
+
+# What’s next?
+
+
+
+* Data analysis\, extra credit\, and TCEs\!
+  * I’ll be here on Monday\, 8\-10am to help\!
+  * Final extra credit opportunity due May 7
+* Thank you for a lovely semester\!
+* Congrats to the graduates\!
+* If you’re around next fall\, stop by and say hello\, get advice\, find out more about linguistics 😉

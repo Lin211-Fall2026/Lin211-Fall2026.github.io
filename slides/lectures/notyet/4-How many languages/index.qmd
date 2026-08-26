@@ -1,0 +1,240 @@
+---
+title: "How many languages are there?"
+subtitle: "Lin 211 • Section 1, Part 3"
+description: "Canvas: How many?"
+date: 09/02/2026
+categories: [Getting Started]
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# How many languages are there?
+
+# Getting Started
+
+
+---
+
+
+
+
+* According to your reading\, there are 7\,164 languages spoken in the world\. They got this number from a cool resource called  _Ethnologue_ \.
+* Go to the website \(link is the next slide in Echo360\)\, type the name of a language in the search box\, and spend 3 minutes answering the following questions with your neighbor:
+  * Examine the map\. Where is this language spoken?
+  * Examine the information about population\. How many people speak it? Is this a large number or a small number \(read the info under “Details”\)?
+  * Examine the category of language vitality\. Is this language at a risk of dying \(read the info under “Details”\)?
+  * What language family does the language belong to?
+
+
+# Ling Link
+
+
+---
+
+
+# Media
+
+[https://www\.ethnologue\.com/](https://www.ethnologue.com/)
+
+
+---
+
+
+# Recall
+
+
+---
+
+
+![](images/4-How%20many%20languages_0.jpg)
+
+# But how many languages are there?
+
+
+
+* Depends on how you count\!
+  * Is American English a “different language” than British English?
+  * Is French a “different language” than Spanish?
+  * Is the Korean spoken in North Korea a “different language” than that spoken in South Korea?
+* Typically\, it comes down to something called  __mutual intelligibility__
+  * If I can understand you\, it’s the same language; if not\, it’s not
+  * But politics comes into play: Chinese “dialects” vs\. Scandinavian languages
+
+---
+
+
+# Q slide
+
+Wait\, how many languages are there? Just English\!\, 200 \(about one for every country\)\, 7 billion \(about one for every person\)\, about 7\,000
+
+
+---
+
+
+# What are those languages?
+
+
+---
+
+
+# Features of language
+
+![](images/4-How%20many%20languages_1.jpg)
+
+
+
+* We’ve already listed the things we think make a language\, and we’ll see more later about how it differs from animal forms of communication
+* For the time being\, we’ll list some of the things that make it distinct:
+  * Language always changes
+  * Language is creative
+  * Language is culturally transmitted
+  * And…
+
+---
+
+
+
+
+* There are really two ways that linguists use arbitrary to describe language:
+  * Arbitrariness is the absence of any natural or necessary connection between a word's meaning and its sound or form\. That is\, there is no inherent\, inevitable\, natural\, necessary connection between a word used to identify a thing and the thing itself\.
+    * For example\, there is nothing about the sounds that make up “cat” that means the furry domesticated animal that dogs hate\.
+    * Indeed\, Spanish speakers call the same entity “gato”\, and French speakers say\, “chat”\.
+    * This is why it’s hard to learn the vocabulary of a new language\!
+  * But arbitrariness also has to do with what counts as grammatical in any given language from a prescriptive standpoint\. That is\, when the language mavens decide some linguistic structure is “bad” in their language\, it has little to do with whether the structure can actually exist in human language and more to do with who says it\.
+    * These are interrelated\. We’re focusing on this one today\!
+
+
+# Language is arbitrary!
+
+
+---
+
+
+# Q slide
+
+What does arbitrary mean?
+
+A\. Existing or coming about seemingly at random or by chance
+
+B\. Based on or determined by individual preference or convenience rather than by necessity
+
+C\. The meaning of linguistic signs is not predictable from its word form\, nor is the word form dictated by its meaning/function
+
+D\. Actually\, all of the above
+
+
+---
+
+
+
+
+* What’s \(un\)grammatical is fairly  __arbitrary__
+  * Language = “an arbitrary system used by human beings to communicate with one another” \(Finegan\, p\. 22\)
+  * Arbitrary = ?
+* Since the connection between language and what it symbolizes is arbitrary\, there is no linguistic basis for saying that this form is “wrong\.”
+  * In this sense\, grammar is a lot like fashion…
+
+
+# Arbitrary!
+
+
+---
+
+
+![](images/4-How%20many%20languages_2.jpg)
+
+# Arbitrariness
+
+Fashion = arbitrary
+
+Think about what’s cool today\. What used to be cool that’s not anymore?
+
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+
+Ex\. Big glasses = cool on Buddy Holly \(back in the day…\)
+
+
+---
+
+
+![](images/4-How%20many%20languages_3.jpg)
+
+# But on these people?
+
+![](images/4-How%20many%20languages_4.jpg)
+
+
+---
+
+
+![](images/4-How%20many%20languages_5.jpg)
+
+![](images/4-How%20many%20languages_6.jpg)
+
+# Wait, cool again! (Still?)
+
+
+---
+
+
+# Fashion & Goodness
+
+![](images/4-How%20many%20languages_7.png)
+
+
+
+* The ‘goodness’ or ‘coolness’ value of big glasses have changed throughout the years
+* There’s no real reason for fashion styles to be inherently ‘bad’ or ‘good’
+  * Society has assigned these values based on  _its opinion_  of those who wear them
+  * It’s arbitrary\!
+
+---
+
+
+
+
+* Similarly\, the ‘goodness’ value of a grammatical feature\, like double negation\, is assigned by society
+  * There’s nothing inherently wrong with a structure like “I don’t care nothing about her\.”
+  * In fact\, in many languages\,  __double negation __ is the prescriptively CORRECT way of negating \(and the real ‘rebels’ are the ones who neglect one of those negating pieces…\)
+* Compare French:
+  * Il   ne    mange rien    = Standard\, formal language
+  * _ He NOT eats    nothing  _ 'He doesn't eat anything’
+  * Il    mange rien     _= _  colloquial \(informal\) language
+  * _He  eats     nothing      _ 'He doesn't eat anything’
+* It’s  _completely arbitrary_  whether double negation is the standard or colloquial way of expressing negation
+
+
+# Language & ‘Goodness’
+
+
+---
+
+
+# Q slide
+
+How is fashion related to language?
+
+
+---
+
+
+# What’s next?
+
+![](images/4-How%20many%20languages_8.jpg)
+
+Come to lecture Wednesday for “Where does language come from?”
+
+Still finalizing accommodations\, other letters\, etc\.
+
+If you didn’t do the reading for today\, do it now\! And get your textbook if you haven’t already\!
+
+Observation Notes \#1 due Friday\!
+
+Quiz 2 Friday\!
+

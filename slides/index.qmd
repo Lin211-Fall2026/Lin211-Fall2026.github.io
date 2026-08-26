@@ -7,6 +7,11 @@ listing:
     sort:
     - "date asc"
     grid-item-border: false
-    date-format: "MMM YYYY"
+    table-striped: true
+    date-format: medium
+    fields: [date, title, description]
+    field-display-names:
+      title: "Theme"
+      description: "Due"
 ---
 

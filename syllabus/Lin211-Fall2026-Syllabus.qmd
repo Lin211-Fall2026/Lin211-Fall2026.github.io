@@ -63,7 +63,7 @@ sarah.ertel\@uky.edu \
 
 ### Nora O'Brien
 Doctoral Student, Linguistics\
- \
+ nora.obrien\@uky.edu \
 - Section: 002 \
 - Office Hours: MW 11:00am - 12:00pm \
 
@@ -128,7 +128,7 @@ The following dates are approximate, and dates are subject to change. **Pullum**
 |------|-------|-------------|
 | **Getting Started** | | (weeks 1 - 3) |
 |	Monday, Aug 24th	| Getting started: What is this course?	|	|
-|	Wednesday, Aug 26th	| What is linguistics anyway?	|	|
+|	Wednesday, Aug 26th	| What is linguistics?	|	|
 |	Monday, Aug 31st	| What is language?	| Pullum: Chapter 1 |
 |	Wednesday, Sep 2nd	| How many languages are there? | Canvas: How Many?	|
 |	Monday, Sep 7th	| Labor Day	| (no class)	|

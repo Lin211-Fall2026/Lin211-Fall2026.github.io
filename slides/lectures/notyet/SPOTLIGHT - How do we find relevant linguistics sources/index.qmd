@@ -1,0 +1,193 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](images/SPOTLIGHT%20-%20How%20do%20we%20find%20relevant%20linguistics%20sources_0.jpg)
+
+# How Do You Find Relevant Linguistic Resources?
+
+# Olivia Marquardt
+LIN 211: Introduction to Linguistics for non-Majors
+
+
+---
+
+
+![](images/SPOTLIGHT%20-%20How%20do%20we%20find%20relevant%20linguistics%20sources_1.jpg)
+
+# Ling Link
+
+With the people around you\, discuss where you find information\. Is it through search engines\, databases\, social media? Discuss and see what techniques have helped you gather information in the past when you have a question\.
+
+
+---
+
+
+![](images/SPOTLIGHT%20-%20How%20do%20we%20find%20relevant%20linguistics%20sources_2.jpg)
+
+# Research Process Steps
+
+We talked about creating a research question: “Where do people have different words for a carbonated beverage?”
+
+Then\, we discussed creating an  _ethical_  experiment to test the question\.
+
+Now\, we need to find sources to support our points\.
+
+
+---
+
+
+# Final Assignment: Data Analysis
+
+Remember our Midterm Data Collection assignment?
+
+You will now use your learned skills to think of a research question and find an academic resource to support your argument\!
+
+This is the process linguists must do  _every time_  they ask a question\.
+
+
+---
+
+
+![](images/SPOTLIGHT%20-%20How%20do%20we%20find%20relevant%20linguistics%20sources_3.png)
+
+You can find this under Assignments  Data Analysis in Canvas\!
+
+
+---
+
+
+# Question slide: What do you normally do when you research?
+
+
+---
+
+
+# How A Linguist Would Do This
+
+As researchers\, we must find credible sources that comment on linguistic data\.
+
+You are  _NOT_  finding more sources of data\. You already have your data: our corpus of Country Songs\!
+
+We need to collect additional thoughts from other professionals in order to make a case for our own research\.
+
+![](images/SPOTLIGHT%20-%20How%20do%20we%20find%20relevant%20linguistics%20sources_4.png)
+
+
+---
+
+
+# Three Sites You Can Use
+
+Google Scholar
+
+UK Library Databases
+
+Linguistics and Languages Behavior Abstracts \(LLBA\)
+
+Let’s go through each of them and see how they work\!
+
+
+---
+
+
+# https://scholar.google.com/
+
+
+---
+
+
+# https://libguides.uky.edu/az.php
+
+
+---
+
+
+# https://proquest.libguides.com/llba
+
+
+---
+
+
+# Question slide: What are some techniques to make a search accurate?
+
+
+---
+
+
+![](images/SPOTLIGHT%20-%20How%20do%20we%20find%20relevant%20linguistics%20sources_5.jpg)
+
+# Chatbots
+
+On Wednesday\, we discussed what Chatbots do when they respond to us\.
+
+It is all pattern\-based\, built upon rules and language corpus\.
+
+With this in mind\, could we use Chatbots to help us with research?
+
+
+---
+
+
+# https://www.youtube.com/watch?v=j6MluLbavac
+
+
+---
+
+
+# Question slide: True or False: ChatGPT is a reliable platform to find trustworthy resources.
+
+
+---
+
+
+# Databases over AI
+
+AI has become an extremely powerful and helpful tool\, but when it comes to research\, it often gets things wrong\.
+
+Chatbots try to give answers rather than sources that can lead you to those answers\.
+
+It has even made up lies about Dr\. Cramer\!
+
+![](images/SPOTLIGHT%20-%20How%20do%20we%20find%20relevant%20linguistics%20sources_6.png)
+
+
+---
+
+
+![](images/SPOTLIGHT%20-%20How%20do%20we%20find%20relevant%20linguistics%20sources_7.jpg)
+
+# Why Do We Do This?
+
+When we do research\, we need to explain what we are doing\.
+
+It is helpful to use the findings of other professionals to support your argument\.
+
+This is how we make a convincing case for the work we are doing  by providing evidence that these questions matter\!
+
+
+---
+
+
+# What’s Next?
+
+
+
+* Come on Wednesday to start our next module: Language and Culture
+  * “Are actors good at dialects?”
+  * Read: Interview with a Dialect Coach
+  * Quiz 11 in Recitation on Friday
+  * You can get started on the Data Analysis Assignment\, due May 5th at 11:59pm
+
+
+![](images/SPOTLIGHT%20-%20How%20do%20we%20find%20relevant%20linguistics%20sources_8.jpg)
+

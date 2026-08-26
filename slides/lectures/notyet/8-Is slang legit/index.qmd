@@ -1,0 +1,295 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Is slang legit?
+
+# Bits and Pieces
+
+
+---
+
+
+The following slide is a link to a recently updated list of Gen Z slang \(including some explicit\-ish content\)\. Spend the next three minutes doing the following:
+
+Read the short bit at the top\. Note how it is framed for parents\!
+
+Find a word that is an “everyday word” \(as the article says\) with a different slang meaning\.
+
+Find a word that is an acronym or initialism\.
+
+Find a word that is a clipping or other shortening\.
+
+Find your favorite slang word\!
+
+Are these words you use? How do you use them with? When? Why?
+
+# Ling Link
+
+
+---
+
+
+# Media
+
+[https://gabb\.com/blog/teen\-slang/](https://gabb.com/blog/teen-slang/)
+
+
+---
+
+
+# Recall
+
+
+
+* All languages have words\, but what is a word?
+  * It’s all about meaning\!
+* We introduced  __phonetics\, phonology\, syntax\, morphology __ and  __semantics __ – that’s a lot\!
+* Knowing a word requires:
+  * Phonetic/phonological knowledge
+  * Syntactic knowledge
+  * Morphological knowledge
+  * Semantic knowledge
+
+---
+
+
+# Words!
+
+![](images/8-Is%20slang%20legit_0.png)
+
+
+
+* So where do words get their meaning?
+  * History
+  * Morphological processes
+  * Usage\!
+* Context matters\!
+
+---
+
+
+# How does context matter?
+
+
+
+* Scenario: Dinner table conversation
+  * Q1 – Is there a state income tax in Connecticut?
+    * R1 – Yes\, No\, or I don’t know
+    * Simply informational
+  * Q2 – Is there any salt on the table?
+    * R2 – Yes\, No\, I don’t know…or passing the salt\!
+    * Not meant to be information request
+    * First three responses are rude\!
+
+
+![](images/8-Is%20slang%20legit_1.png)
+
+
+---
+
+
+![](images/8-Is%20slang%20legit_2.jpg)
+
+# Pragmatics
+
+
+
+* __Pragmatics __ is the study of language use\, in particular\, the relationship among syntax\, semantics\, and interpretation in light of the  _context of the discourse_
+  * Discourse = sequence of language\, joined in situation
+  * Context = where we are\, what came before\, etc\.
+  * Differs from  __semantics __ in that the focus there is on meanings of words\, sentences\, and phrases  _in isolation_  _\, without regard to contextual information_
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=MPwpk\-YgvjQ](https://www.youtube.com/watch?v=MPwpk-YgvjQ) stop at 5:29
+
+
+---
+
+
+# Q slide
+
+True or false: Relevance is one of the four main assumptions that pragmatists talk about when it comes to communication\. True
+
+
+---
+
+
+
+
+* We say that native speakers have two things:
+  * __Grammatical competence__  – the ability to produce and assign meaning to grammatical sentences
+    * Our unconscious\, or implicit\, knowledge of vocabulary\, pronunciation\, sentence structure\, and meaning\.
+    * Everything a native speaker says = grammatical
+  * _AND_
+  * __Communicative competence __ – the ability to produce and interpret utterances relevant to their context of use
+    * Our ability to use language  __appropriately__  in each context to achieve the function that we intend to achieve
+    * This is the part we’ll be focusing on here\!
+
+
+# Patterns of use
+
+
+---
+
+
+![](images/8-Is%20slang%20legit_3.jpg)
+
+# Contexts of use
+
+
+
+* Let’s consider the example from the video:
+* “Can you close the window?”
+  * Interrogative sentence = a request for information \(that is\, “Are you able to close the window?”\)
+  * But\, in a specific context\, say\, one where two people are trying to study in a room with an open window\, but the marching band is practicing on the field next door…
+    * It serves as a request for action
+    * The speaker wants the addressee to shut the window
+    * Expected response ≠ “Yes”\, “No”\, “I don’t know”
+
+---
+
+
+# Real world contexts also call for…
+
+![](images/8-Is%20slang%20legit_4.png)
+
+
+
+* __Sociolinguistics __ is the study of the interaction of language and social factors
+  * It’s a two\-way street – language influences society and society influences language\!
+  * Language doesn’t exist in a vacuum
+* Plus\,  _NO ONE speaks the same way ALL THE TIME_
+  * They vary by age\, gender\, race\, situation\, region\, style\, etc\.
+  * So…context matters\!
+
+---
+
+
+![](images/8-Is%20slang%20legit_5.jpg)
+
+# Why do people vary their speech?
+
+
+
+* People have at their disposal an entire  __linguistic repertoire__
+  * The set of language varieties exhibited in the speaking and writing patterns of a speech community
+  * We adjust to the speech situation = who\, what\, where\, when\, why\, how\, etc\.
+  * Remember communicative competence\!
+* Languages \(and dialects\, styles\, registers\, etc\.\) can differ in vocabulary\, phonology\, grammar\, semantics\, etc\. across a variety of speech situations
+* We’ll focus on lexical and semantic markers of differences in speech situations
+::: {.notes}
+
+Purpose = The kind of activity taking place and the interlocutors’ goals guide language choice
+Setting = Changes in topic, location, and mode of communication (speaking vs. writing) guide language choice
+Participants = Identities of the speaker and addressee and their roles in the interaction guide language choice
+
+:::
+
+
+---
+
+
+# Q slide
+
+Name one language\-related thing that is \(potentially\) different between talking to someone at a funeral vs\. talking to that same person at a bar\.
+
+
+---
+
+
+# Lexical Markers
+
+
+---
+
+
+# Slang
+
+![](images/8-Is%20slang%20legit_6.png)
+
+
+
+* Contrary to popular belief\, slang ≠ bad speech
+* __Slang __ is the register used in situations of  _extreme informality_
+  * Its use may signal rebellious undertones or an intentional distancing of its users from certain mainstream values
+  * But it may also signal cultural knowledge\, intimacy\, belonging
+  * Everyone can use slang\, given the appropriate situation
+* Slang ≠  __jargon__
+::: {.notes}
+
+Jargon is a specialized vocabulary associated with professions (such as medicine, finance, and engineering) and with activities (such as sports, music, and computing)
+Unlike slang, jargon isn’t limited to situations of extreme informality and doesn’t carry rebellious undertones
+Words often have meanings other than those in the profession/activity
+Example
+Baseball: plate, pitch, curveball, changeup, swing, hit, run, out, homerun, closer, reliever, doubled, singled, homered, etc.
+
+:::
+
+
+---
+
+
+# Q slide
+
+Name a slang word you use with its meaning\. \[Keep it clean\!\]
+
+
+---
+
+
+# But is slang legit?
+
+![](images/8-Is%20slang%20legit_7.png)
+
+
+
+* Our question for today was about legitimacy though
+  * What makes any part of language “legit”?
+* Some would say that a word is legit if it’s in the dictionary…
+  * _Babygirl_
+  * _Dudebro_
+  * _Hot rodent man_
+  * _Chemo brain_
+
+---
+
+
+# Media
+
+[https://www\.dictionary\.com/e/hot\-off\-the\-presses\-the\-latest\-dictionary\-additions/](https://www.dictionary.com/e/hot-off-the-presses-the-latest-dictionary-additions/)
+
+
+---
+
+
+# Legitimacy in language
+
+
+---
+
+
+# What’s next?
+
+![](images/8-Is%20slang%20legit_8.jpg)
+
+
+
+* Come to lecture Monday for “Why are some words bad words?”
+* Observation Notes \#2 = due Friday\, 11:59pm\, Canvas\!
+  * Get it submitted on time
+  * No AI\!
+* Quiz 4 Friday\!

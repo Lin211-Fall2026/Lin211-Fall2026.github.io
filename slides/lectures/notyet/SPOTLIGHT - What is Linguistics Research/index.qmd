@@ -1,0 +1,275 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_0.jpg)
+
+# What is Linguistics Research?
+
+# LIN 211
+Jules Blank
+
+
+---
+
+
+# Recall…
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_1.png)
+
+We’ve talked about what linguistics is\, what language is\, where language comes from\, & how many languages there are
+
+Friday we continued our conversation about historical linguistics with a discussion of Proto languages
+
+
+---
+
+
+# Goals
+
+_Today\!_
+
+Pivot point: move away from the basics
+
+Learn what linguistics research is
+
+Consider what types of research questions can be asked
+
+Prepare for future projects in this course
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_2.png)
+
+
+---
+
+
+# LING LINK…
+
+
+
+* Spend the next two minutes jotting down question\(s\) you’ve had about language
+  * These can be general \(“Do animals have language?”\) or more specific \(“Why does my grandmother say ‘warsh’?\)
+* Talk to your neighbor about your inquiries
+  * Have you had similar thoughts?
+  * Can you think of any ways you could go about answering your questions?
+::: {.notes}
+
+Have them share?
+9:10
+
+:::
+
+
+---
+
+
+__How does language influence identity?	__
+
+# Some possible (broad) questions…
+
+__How do computers impact __  __modern __  __language?__
+
+__How do people feel about how others speak?__
+
+
+---
+
+
+# How do we find out?
+
+
+---
+
+
+# What is research?
+
+__Finding answers to questions\!__
+
+Many different ways to approach this…
+
+Future spotlight lectures:
+
+\(1\) Research methods & ethics
+
+\(2\) How to find relevant sources
+
+_…But first: how do we know what questions to ask…? _
+
+
+---
+
+
+__Are based on previous research__
+
+# In general, good research questions…
+
+
+---
+
+
+# So let’s think of a question!
+
+
+---
+
+
+# Remember our first recitation?
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_3.png)
+
+
+
+* Discussion of different words for things
+  * Pop\, soda\, coke
+  * Lightning bug\, firefly
+  * Roly poly\, potato bug\, pill bug
+* And of different pronunciations\!
+  * Wash v\. wa\(r\)sh
+  * Says “pin” and “pen” differently v\. the same
+  * Caramel \(care\-uh\-mel v\. car\-mul\)
+
+---
+
+
+# Echo Question: What are some examples of words that people you know say differently from you?
+
+
+---
+
+
+# Ok, people speak differently. So what?
+
+Why might that be? This is a good line of questioning to explore in linguistics\.
+
+
+---
+
+
+# OUR QUESTION FOR TODAY…
+
+__Where do different people say different things for a carbonated beverage?__
+
+
+---
+
+
+# Based on previous research?
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_4.png)
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_5.png)
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_6.png)
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_7.png)
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_8.png)
+
+
+---
+
+
+# Practical & specific?
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_9.png)
+
+
+
+* __Practical__
+  * You can just ask people what they say\!
+  * Most people will have a word for this
+  * Often differences are based on where people are from
+* __Specific__
+  * “Where”
+  * “Carbonated beverage”
+
+---
+
+
+# Why do we care?
+
+The way we speak says things about who we are \(in this case: where we are from\)
+
+Showing that different ways of speech ≠ bad
+
+If we understand other ways of speaking\, we can communicate better
+
+It’s interesting\!
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_10.png)
+
+
+---
+
+
+# Class connections…
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_11.png)
+
+Midterm project: Collecting linguistic data
+
+Final project: Analyzing linguistic data
+
+Future lecture: discussion of regional variety in language
+
+
+---
+
+
+![](images/SPOTLIGHT%20-%20What%20is%20Linguistics%20Research_12.png)
+
+
+---
+
+
+# Echo Question: Is this regional map accurate based on where you’re from?
+
+
+---
+
+
+# Media slide: https://www.youtube.com/watch?v=4HLYe31MBrg
+
+::: {.notes}
+
+4 minutes
+
+:::
+
+
+---
+
+
+# In Conclusion
+
+
+
+* Linguistics research spans all different types of questions\!
+* Asking good research questions means
+  * Connections to previous research
+  * Practical & specific topics
+* Looking at regions where people speak differently is one of  __many __ ways to answer a question about language
+* Being a good researcher = being curious
+
+---
+
+
+# Coming up
+
+Come to class Wednesday to discuss “What is a Word?”
+
+Read Chapter 3 by Wednesday
+
+Recitation Friday: Quiz 3 & a continuation of the transition to the nuts & bolts of linguistics
+
+Future spotlight lectures: dive into methods of inquiry and finding linguistic sources
+

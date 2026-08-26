@@ -1,0 +1,354 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# What is a word?
+
+# Bits and Pieces
+
+
+---
+
+
+![](images/6-What%20is%20a%20word_0.jpg)
+
+# Ling Link
+
+
+
+* I am going to play a song for you
+  * There is a link to lyrics on next slide \(yes\, there are cuss words\)
+  * There is a link to the audio one slide after that \(if you missed class and need to see what you missed\)
+* While the song is playing\, listen carefully\, and try to answer these questions
+  * Are some of these “made\-up words”? How do you know? What is a “real word”?
+  * What kinds of processes did she use to make them up? And why did she do it?
+* Now\, talk to your partner about what you found\!
+::: {.notes}
+
+Espresso: https://www.youtube.com/watch?v=4h0a1NCeC14 
+
+:::
+
+
+---
+
+
+# Media
+
+Lyrics to Sabrina Carpenter’s “Espresso”: [https://www\.azlyrics\.com/lyrics/sabrinacarpenter/espresso\.html](https://www.azlyrics.com/lyrics/sabrinacarpenter/espresso.html)
+
+
+---
+
+
+[https://www\.youtube\.com/watch?v=4h0a1NCeC14](https://www.youtube.com/watch?v=4h0a1NCeC14)
+
+Audio for Espresso
+
+
+---
+
+
+[https://www\.them\.us/story/sabrina\-carpenter\-espresso\-lyrics\-analysis\-meaning\-explained](https://www.them.us/story/sabrina-carpenter-espresso-lyrics-analysis-meaning-explained)
+
+Neat bonus story
+
+
+---
+
+
+# Thanks to Jules!
+
+
+
+* Quick thanks to Jules for running our first SPOTLIGHT lecture on “What is linguistics research?”
+  * Research = finding answers to questions
+  * Good research questions are…
+    * Based on previous research
+    * Practical
+    * Specific
+  * Why do we care?
+  * Be curious\!
+
+
+![](images/6-What%20is%20a%20word_1.png)
+
+
+---
+
+
+![](images/6-What%20is%20a%20word_2.jpg)
+
+# Recall
+
+
+
+* Moving beyond the introductory\!
+* Languages are “structured systems for making articulated thoughts fully explicit”
+* Focus on the human capacity for language
+* Language developed over time
+  * The study of language change over time is  __historical linguistics__
+  * All languages change\!
+  * Language families
+
+---
+
+
+# But what is language?
+
+![](images/6-What%20is%20a%20word_3.png)
+
+
+
+* Specifically\, now\, I mean to have us focus on the bits and pieces
+* And our question today is – what is a word?
+  * We all agree that languages have words
+  * And we all know A LOT of words in our native language
+* But how do we  _define _ what _ _ a word is?
+* Does that seem like a silly question?
+
+---
+
+
+# What is a word?
+
+
+
+* “The smallest separate piece of a language that all by itself will have a meaning\.”
+  * _	red		class		work_
+* But what about…
+  * _red_  _ness	_  _class_  _es	_  _work_  _ing_
+  * _      _  _red_  _neck	_  _class_  _room	home_  _work_
+  * _      _  _red_  _den	_  _class_  _y	_  _work_  _aholic	_
+::: {.notes}
+
+Definition from (Elgin, “Colorless Green Ideas”)
+
+:::
+
+
+---
+
+
+
+
+* How about: the smallest meaningful unit that can occur by itself?
+* But the following words never occur alone:
+  * _the	a	on	with_
+* Do they have meaning?
+
+---
+
+
+![](images/6-What%20is%20a%20word_4.png)
+
+“A word is the sequence of letters between two blanks\.”
+
+But does language = writing?
+
+What about languages with no writing systems?
+
+Or writing systems with no spacing?
+
+Ancient Latin text
+
+::: {.notes}
+
+Definition from (Roy Byrd, “Colorless Green Ideas”)
+
+:::
+
+
+---
+
+
+Chinese
+
+German
+
+
+
+* Not so much…
+  * __Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz__  ‘law for the delegation of monitoring beef labeling’
+
+
+Almost entirely one syllable
+
+_	néng _  __能__  ‘be able’
+
+zhou  __周__  ‘week’
+
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=iEsYD4yVSBA](https://www.youtube.com/watch?v=iEsYD4yVSBA)
+
+
+---
+
+
+# Q slide
+
+According to the video\, linguists have a fully satisfying answer to the question “what is a word?” \[false\]
+
+
+---
+
+
+![](images/6-What%20is%20a%20word_5.jpg)
+
+# What does it mean to “know” a word?
+
+
+
+* Using/Knowing a word requires \(at least\) four __ __ kinds of information:
+  * __Phonetic__ / __phonological__  information
+  * __Syntactic__  information
+  * __Morphological__  information
+  * __Semantic__  information
+
+---
+
+
+![](images/6-What%20is%20a%20word_6.jpg)
+
+# What is phonetics/phonology?
+
+
+
+* __Phonetics__  is the study of the sounds in a language
+* Two branches:
+  * __Articulatory phonetics__  focuses on the human vocal apparatus and describes sounds in terms of their articulation in the vocal tract
+  * __Acoustic phonetics__  uses the tools of physics to study the nature of sound waves produced in human language
+* __Phonology __ is the study of the  _system_  of contrastive relationships among the speech sounds
+  * It’s about syllables\, stress\, phonotactics\, etc\.
+  * Often discussed as what is in your mind \(which might be different than what comes out of your mouth\)
+
+---
+
+
+![](images/6-What%20is%20a%20word_7.jpg)
+
+# What is syntax?
+
+
+
+* “The way in which words are put together to form phrases and sentences\.” \(American Heritage Dictionary\)
+  * It’s all about  __structure__  and  __rules__ \!
+  * It is easy to see that some words have some things in common; they share certain characteristics and behave similarly\.
+* But in order to talk about structure\, we need to know a little about…
+
+---
+
+
+# Syntactic information
+
+
+
+* __Parts of Speech __ are categories of words based on similar meanings\, forms\, and functions
+  * AKA  __lexical categories__ \,  __word classes__ \,  __syntactic categories__
+  * Major classes: Nouns\, Verbs\, Adjectives\, Adverbs
+  * Minor classes: Pronouns\, Determiners\, Prepositions\, Auxiliaries\, Conjunctions
+* Sometimes classification can be fuzzy
+  * Same form ≠ same word \(ex\. Use “e\-mail” in a sentence\)
+  * What’s going on here?
+  * “Time flies like an arrow; fruit flies like a banana\.”
+::: {.notes}
+
+Come back to this later maybe
+
+:::
+
+
+---
+
+
+# Q slide
+
+What is the part of speech of "orange" in this sentence? I love to eat orange tomatoes\. \(MC\, adj\)
+
+
+---
+
+
+# Morphology
+
+
+
+* To explore morphological knowledge\, we need the subfield of  __morphology__ \, which is the study of word formation
+* In morphology\, we study a word’s component parts and internal structures
+  * How many parts are there in a word?
+  * For example\, how many parts are in the word  _friendliness_ ?
+  * These parts are called  __morphemes __ – the smallest meaningful unit in language \(that is\, the lowest level a word may be broken down into and still express some meaning\)
+
+---
+
+
+![](images/6-What%20is%20a%20word_8.jpg)
+
+# Morphological Rules
+
+
+
+* As well as the operations that create and modify those parts and internal structures in various ways\, which we call  __morphological rules__
+* Remember\, grammar = rules\, and all languages have rules\!
+* Example rule in English:
+  * How do we make a noun into an adjective?
+    * Smell \+ \-y = smelly
+    * Cat \+ \-like = catlike
+    * Man \+ \-ly = manly
+* Morphological rules thus create new words\!
+
+---
+
+
+# Morphological information
+
+
+---
+
+
+# Q slide
+
+Which of these words only has one morpheme?
+
+“friends”?
+
+“carefully”?
+
+“silly”?
+
+I don’t know
+
+
+---
+
+
+# What is semantics?
+
+
+---
+
+
+# What’s next?
+
+![](images/6-What%20is%20a%20word_9.jpg)
+
+Come to lecture Monday for “How do words get their meaning?”
+
+Get started on Observation Notes \#2 \(due February 14\)\!
+
+Quiz 3 Friday\!
+

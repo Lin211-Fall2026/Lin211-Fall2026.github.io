@@ -1,0 +1,141 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 2 Discussion
+
+# Getting Started
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is LANGUAGE
+
+:::
+
+
+---
+
+
+# Quick Review
+
+
+
+* _Linguistics_  is the scientific and systematic approach to understanding how language works
+  * Not polyglots\, not grammar police
+* _Languages_  are “structured systems for making articulated thoughts fully explicit”
+* _Language_  is a uniquely human ability
+* Descriptive vs\. prescriptive
+
+
+![](images/Recitation%202_0.jpg)
+
+
+---
+
+
+![](images/Recitation%202_1.png)
+
+# A platypus in the bathtub?
+
+::: {.notes}
+
+Just remind them that we did this, and click to the next slide
+
+:::
+
+
+---
+
+
+![](images/Recitation%202_2.png)
+
+![](images/Recitation%202_3.png)
+
+# PERRY the platypus in the bathtub?!
+
+::: {.notes}
+
+On this slide, ask some of them to explain parts of the simple communicative act. Just get 2-3 responses that are close to what we said has to happen in order to get a thought that’s in your head into someone else’s. This is the first “interactive” part of the class, and I suspect you could spend like up to 10 minutes on it. You don’t need to do ALL of the things, but you can get them thinking about what all goes into making an utterance. You can take it a step further by saying the difference between the two slides is that, with the hat, it is a specific platypus, which not only changes what is said but also the context of use (i.e., a generic platypus is just confusing, but Perry is a threat to Dr. D!)
+
+:::
+
+
+---
+
+
+![](images/Recitation%202_4.jpg)
+
+# Features of Language
+
+
+
+* So far\, we’ve said that language is systematic\, complex\, communicative\, non\-primitive\, always changing\, arbitrary\, etc\.
+* Another feature of language is that it is  __productive__ \, which means that humans have an ability to produce and understand messages that have never been expressed before
+  * Basically\, I can say the sentence\, “Marge left tiny sneakers in the dishwasher last night\, and even my dog thinks she has lost her mind\,” and be fairly confident that 1\) you understood it and 2\) no one has ever said it before\!
+  * [https://youtu\.be/3MWpHQQ\-wQg?si=fKH614a224ARZl\-2&t=121](https://youtu.be/3MWpHQQ-wQg?si=fKH614a224ARZl-2&t=121)
+::: {.notes}
+
+Point out that we’ll keep adding to the features of language this semester and go into more discussion of these things
+Can stop the video at 3:01; get their thoughts on it (if you can)
+
+:::
+
+
+---
+
+
+# Activity time!
+
+
+
+* Try it out\! If you have your computer/phone\, do the following \(you can try it at home\, too\):
+  * Write out one \(1\) fun and rather long sentence in English\. Keep it clean\!
+  * Go to Google \(or your favorite search engine\) and search for your sentence\. \[Hint: Use quotes around the sentence\.\]
+  * How many hits? Why?
+
+
+![](images/Recitation%202_5.png)
+
+::: {.notes}
+
+I used this sentence and got no hits: "I don't think the reason he gave is sufficient, but I hate to throw him out on his tail because of it.“
+FOR THE ACTIVITY SUBMISSION: Write this sentence on the board, have them do the Googling, and do it on the computer together (show them how to go beyond the AI answer and emphasize the importance of using quotation marks.) THEN direct them to the Canvas activity. It asks them to pick the right one in a multiple choice list AND asks how many hits it got (0).
+Have them share their sentences!
+
+:::
+
+
+---
+
+
+# Next week!
+
+![](images/Recitation%202_6.png)
+
+
+
+* Monday and Wednesday in Singletary
+  * How many languages are there?
+  * Where does language come from?
+* Read “How Many” in Canvas for Monday
+* First Observation Notes due next Friday
+* Friday = Quiz 2
+  * Be here\!
+  * Let me know if you have any questions or concerns

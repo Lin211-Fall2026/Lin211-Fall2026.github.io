@@ -1,0 +1,183 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 14 Discussion
+
+# Language and Culture
+
+::: {.notes}
+
+Thinking about how we have defined language, explain one way in which animal communication is not the same thing as human language. [Pretty open ended, but I’m hoping they can hit on one of the eight things we listed last week.]
+
+
+:::
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is CULTURE
+
+:::
+
+
+---
+
+
+# Any questions about the Data Analysis assignment?
+
+First things first
+
+::: {.notes}
+
+You can pull up the assignment, or maybe the PDF with the questions
+
+:::
+
+
+---
+
+
+
+
+* How do linguists find relevant background research for their research questions?
+  * Remember\, as researchers\, we must find  _credible sources _ that comment on linguistic data\.
+  * You are NOT finding more sources of data\. You already have your data: our corpus of Country Songs\!
+  * We need to collect additional thoughts from other professionals in order to make a case for our own research\.
+* Olivia and Dr\. Cramer’s faves?
+  * Google Scholar
+  * UK Library Databases \(or just the library itself – books are cool\!\)
+  * Linguistics and Languages Behavior Abstracts \(LLBA\)
+
+
+# Quick Review
+
+::: {.notes}
+
+You can play around with one of these resources if you think that would help your classes
+
+:::
+
+
+---
+
+
+
+
+* Language is a mediator between worlds\, and so is the media\!
+* What makes a movie good?
+  * A good story = one that gets audiences on board
+  * Good characters = ones that we get to “know” quickly
+* How do we get to know them?
+  * A  __stereotype __ is a cognitive structure that includes the beliefs\, preconceived knowledge\, and expectations about a particular social group as held by a particular perceiver
+  * Problems using adult stereotypes for character development in kid movies?
+
+---
+
+
+![](images/Recitation%2012_0.png)
+
+
+
+* Some actors do a good job\, but…
+* Some actors can’t quite get the accent\!
+* How are they supposed to change how they talk?\!
+  * A good understanding of the vocal anatomy and what it means to configure your vocal apparatus to make sounds differently\!
+  * Dialect coaches and the IPA
+* Why does it matter?
+
+---
+
+
+
+
+* White Lotus is super popular \(but Dr\. Cramer knows NOTHING about it except this…\)
+  * Accents are a big part of the commentary/critique – especially Southern ones\!
+  * Have you watched it? What do you think?
+* Let’s a watch a short clip from the trailer – focus on the first guy in the yellow shirt
+  * [https://youtu\.be/kmryjQoCtJE?si=LUgd\_u0ZnkyE1NGP&t=82](https://youtu.be/kmryjQoCtJE?si=LUgd_u0ZnkyE1NGP&t=82)
+  * He’s supposed to be from North Carolina – what do you think?
+* Now let’s listen to the actor \(Jason Isaacs\) talk about doing the accent\!
+  * [https://www\.youtube\.com/watch?v=wcxKggLyHRc](https://www.youtube.com/watch?v=wcxKggLyHRc)
+  * What do you think now?
+* Last one – here is a short video commentary about the accent
+  * [https://www\.youtube\.com/watch?v=qz7SxFfs\-0s](https://www.youtube.com/watch?v=qz7SxFfs-0s)
+  * I don’t know these guys\, but they seem to be impressed\! Thoughts?
+
+
+# Activity time!
+
+::: {.notes}
+
+Can watch through about 2:06 on first video; through 4:50 on the second
+If you want to talk about Parker Posey too, here is a fun video commentary on her accent: https://www.instagram.com/landontalks/reel/DGg6vW0yS-M/?hl=en
+
+:::
+
+
+---
+
+
+# Next week!
+
+![](images/Recitation%2012_1.png)
+
+
+
+* Monday and Wednesday in Singletary
+  * Can you make your own language?
+  * Do animals use language?
+  * Read LA Times article
+* Quiz 12 next Friday \(last one\!\)
+* Extra credit and Data Analysis assignment\!
+
+---
+
+
+# Activity time!
+
+First\, let’s watch this clip of Kyra Sedgwick \(the first woman who speaks\) in the TV show “The Closer” and answer a few questions: [https://www\.youtube\.com/watch?v=TVZxAsNC66I](https://www.youtube.com/watch?v=TVZxAsNC66I)
+
+What kind of accent does she have? Does it sound authentic? Why/why not?
+
+If you’re not familiar with the show\, it’s about Brenda Johnson\, a Los Angeles Police Department deputy chief and CIA\-trained interrogator who is originally from Atlanta\, Georgia and has a reputation as an interrogator who not only solves a case\, but also obtains confessions that lead to convictions\, thus "closing" the case\. What impact does having this accent have on the story/character? Even if you don’t know the show\, how do you feel about a person in this role having this accent?
+
+Where is the actress actually from? Does that change any of your thoughts?
+
+::: {.notes}
+
+Let them pair up to discuss, then bring it together as a group
+
+:::
+
+
+---
+
+
+
+
+* Now\, read this short clip from a story about the show: [https://variety\.com/2009/scene/markets\-festivals/sedgwick\-perfects\-southern\-accent\-1118004602/](https://variety.com/2009/scene/markets-festivals/sedgwick-perfects-southern-accent-1118004602/)
+  * “I grew up in the South with really smart people who had that accent\, and every time I saw them on television\, they seemed like the stupidest people on the face of the earth\. Like the accent was a badge of inferiority\,” he explains\. “I thought\, as long as we’re doing something different\, how about if the woman lead with the Southern accent is the smartest person in the room instead of the most ignorant?” \(Duff\, one of the producers\, who is from Texas\)
+* You can read the rest \(it talks about how she perfected it\)\, but what do you think of this accent being used\, given the “story\-value” it has for the producers?
+::: {.notes}
+
+Read quote aloud. Connect back to first part of activity. If they aren’t jumping to talk, you can provide your own take. My take is that some people go straight to the stereotypes of Southerners as stupid, and it won’t get better than that until the media creators also try to shift the narrative. This producer was trying to do that. My own experiences with being a (basically) competent Southern person in a woman-shaped body are such that I have experienced the “you are the exception to the rule” bit; but the more people have exposure to different kinds of Southernness, the less likely I am to experience that. I can just be a Southern woman without the stereotype first, exceptionality second thing.
+
+:::
+

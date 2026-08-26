@@ -1,0 +1,164 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 3 Discussion
+
+# Getting Started
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is HISTORICAL
+
+:::
+
+
+---
+
+
+# Quick Review
+
+
+---
+
+
+
+---
+
+
+# What’s with the “proto” stuff?
+
+
+
+* A  __proto\-language__  is a postulated ancestral language from which a number of languages are believed to have descended by evolution\, forming a language family
+  * __Attested __ = languages we have evidence for their existence \(e\.g\.\, Latin\)
+  * Proto\-languages are usually  __unattested__ \, or partially attested at best
+  * They are reconstructed by way of the  __comparative reconstruction__
+* Languages like “Proto\-Indo\-European” are  __reconstructed languages__
+  * That is\, we have no direct record of it\, but we use the daughter languages to attempt to understand what language would have been like\!
+::: {.notes}
+
+Tell them Dr. Cramer didn’t get to this part in lecture on Friday, so you are going to briefly cover it. Not giving the reconstruction example though.
+
+:::
+
+
+---
+
+
+![](images/Recitation%203_0.png)
+
+# Proto-Indo-European
+
+
+
+* Proto\-Indo\-European is thought to be the common ancestor in the  __Indo\-European __ language family\, which includes branches like Indo\-Iranian\, Germanic\, Celtic\, and Italic
+  * Family = largest \(46% of the world’s population speaks an Indo\-European language as a first language\)
+  * Cool story: everyone was on board to say Greek and Latin were related\. In the 1700s\, a guy named William Jones wanted to add Sanskrit\, an Indian language\, to the mix\. He had a bunch of it wrong\, but it still made the connection between European languages and others more apparent\.
+* For context\, we believe Proto\-Indo\-European was spoken around 4500\-2500 BCE somewhere in eastern Europe\, near the Black Sea
+  * Fun fact: they were nomadic and likely responsible for domesticating horses\!
+  * Speakers migrated away from the area and lost touch\, therefore creating different groups then different dialects then different languages
+  * [https://en\.wikipedia\.org/wiki/Proto\-Indo\-European\_language](https://en.wikipedia.org/wiki/Proto-Indo-European_language)
+
+---
+
+
+![](images/Recitation%203_1.jpg)
+
+
+---
+
+
+![](images/Recitation%203_2.png)
+
+
+---
+
+
+
+
+* On the next slide\, I have a short excerpt from Chaucer’s  _The Canterbury Tales_  written in Middle English\. You must do the following with a partner:
+  * “Translate” the text into Modern English
+    * First\, try guessing what each word is
+    * If you are struggling\, you can Google the word
+    * Don’t just leave it word\-for\-word\! Make it sound like something you might say\! It doesn’t have to rhyme\!
+  * Describe the kinds of things you had to change aside from spelling\.
+    * Did you have to get a newer word? Did you have to change word order\, word endings\, etc\.? What pronunciation differences do you think there are\, based on the spelling?
+  * Finally\, check your translation here: [https://openl\.io/translate/middle\-english](https://openl.io/translate/middle-english)
+    * How similar are they? How different?
+
+
+# Activity time!
+
+::: {.notes}
+
+Tell them NOT to go to a translator first!! Maybe print out some copies of the next slide?
+You can show them what happens when they google “nathelees”: https://en.wiktionary.org/wiki/nathelees 
+Have them try to say it out loud to get partners to guess what word it is (like mad gab!)
+To show them the translation, you can just do the checking part of the exercise up on the board. So open https://openl.io/translate/middle-English and copy the text of the passage after they’ve had a chance to do it themselves.
+
+:::
+
+
+---
+
+
+![](images/Recitation%203_3.jpg)
+
+But nathelees\, whil I have tyme and space\,
+
+Er that I ferther in this tale pace\,
+
+Me thynketh it acordaunt to resoun
+
+To telle yow al the condicioun
+
+Of ech of hem\, so as it semed me\,
+
+And whiche they weren and of what degree\,
+
+And eek in what array that they were inne;
+
+And at a Knyght than wol I first bigynne\.
+
+::: {.notes}
+
+Part of the Prologue. Full text of Prologue here: https://www.poetryfoundation.org/poems/43926/the-canterbury-tales-general-prologue
+Remind them that we aren’t looking for right or wrong answers. Translation can be tricky!
+
+:::
+
+
+---
+
+
+# Next week!
+
+![](images/Recitation%203_4.png)
+
+
+
+* Monday and Wednesday in Singletary
+  * Our first SPOTLIGHT LECTURE\!
+  * What is a word?
+* Observation notes \#1 due TODAY\!\!
+* Friday = Quiz 3
+  * Be here\!
+  * Let me know if you have any questions or concerns

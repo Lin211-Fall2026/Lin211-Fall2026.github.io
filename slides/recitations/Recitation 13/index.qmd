@@ -1,0 +1,149 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 15 Discussion
+
+# Language and Culture
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is CONLANG
+
+:::
+
+
+---
+
+
+# Quick Review
+
+
+
+* What’s most important about this unit is that nothing we do with language is detached from the rest of what’s going on around us – our bodies\, our societies\, and our pop worlds\!
+* Back to the question from the beginning – what is language?
+  * Natural language vs\. conlang
+* What do you need to make your own language?
+* Why do we do it?
+* Who cares?
+
+
+![](images/Recitation%2013_0.jpg)
+
+
+---
+
+
+# More fun with conlangs!
+
+![](images/Recitation%2013_1.png)
+
+
+
+* A news show – CBS Sunday Morning – recently highlighted the work of David and Jessie Peterson\, some awesome conlangers
+  * Watch this short video: [https://www\.youtube\.com/watch?v=EoCNir\_tOsM](https://www.youtube.com/watch?v=EoCNir_tOsM)
+  * They made some of the most popular languages in movies today\!
+  * This is something written in Chakobsa\, from Dune
+::: {.notes}
+
+Cool stuff about Chokobsa: https://www.omniglot.com/conscripts/neochakobsa.htm 
+If you have a class that is really intrigued by this stuff, you can give them the link above, show them the writing system, and get them to pick apart the writing in this image
+
+:::
+
+
+---
+
+
+![](images/Recitation%2013_2.png)
+
+![](images/Recitation%2013_3.png)
+
+![](images/Recitation%2013_4.png)
+
+# Quick Review
+
+Three basic modes of human communication
+
+::: {.notes}
+
+Ask them what some of the modes of animal communication are
+
+:::
+
+
+---
+
+
+# Review from Week 14
+
+::: {.notes}
+
+See if they can explain any of these
+
+:::
+
+
+---
+
+
+
+
+* In your groups\, list anything you can think of as a way that an animal communicates\, including what you think it means
+  * Ex\. “My dog whimpers when she’s hungry\.”
+* As a class\, come together to discuss these forms of communication
+  * Each group will now select/be assigned one animal
+* Now\, back in your groups – describe as many of the ways that this  _specific animal communicates_ \, and explain how these modes of communication do or do not align with what we said about human language
+  * Each group will do research and explain to the class\, so have someone take notes\!
+
+
+# Activity time!
+
+::: {.notes}
+
+If they are being less participatory, you can use the random animal generator here: https://www.randomlists.com/random-animals 
+
+:::
+
+
+---
+
+
+# Questions about the Data Analysis assignment?
+
+
+---
+
+
+# Next week and the end!
+
+![](images/Recitation%2013_5.png)
+
+
+
+* Monday and Wednesday in Singletary
+  * “Who really uses this stuff?”
+  * “Why linguistics?”
+  * Read the Conclusion in your textbook for Monday
+* No class next Friday \(semester ends 4/30\)
+* Be working on the Data Analysis assignment
+  * Read instructions\, ask questions
+  * We’ll be available during the scheduled finals time\, too \(Monday\, May 5\, 8\-10am\, in Singletary\)
+  * Due Monday\, May 5 in Canvas by 11:59pm\!

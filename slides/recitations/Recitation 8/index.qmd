@@ -1,0 +1,132 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 8 Discussion
+
+# Language in the World
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is FIRST
+
+:::
+
+
+---
+
+
+# First things first!
+
+![](images/Recitation%208_0.png)
+
+
+
+* Any questions about the data collection assignments?\!
+  * Opportunity next Friday to work on it\, ask questions\, etc\.
+  * There will be no quiz next Friday\, so if you complete the data collection assignments and don’t need help\, you do not have to come\!
+::: {.notes}
+
+If you are hosting online discussion, let them know. If you are expecting them to come to class next Friday, let them know. But no one should take attendance on March 14.
+
+:::
+
+
+---
+
+
+![](images/Recitation%208_1.jpg)
+
+# Quick Review
+
+
+
+* __Language acquisition __ is the process by which humans acquire the ability to use\, produce\, and perceive language\!
+  * FLA vs\. SLA
+  * Learning vs\. acquiring
+* How do children acquire language?
+  * Induction AND innateness
+  * Symbolization AND using tools
+* What is baby talk?
+* What are the stages of acquisition we discussed?
+
+---
+
+
+
+
+* We’ve talked about features of language this semester like “All languages change” and “All languages have rules\.”
+* One other important feature about language:  __All languages are equally challenging__
+  * …or equally easy\.
+  * Every child who is capable of acquiring language will acquire a language
+  * There is no biological basis that predisposes children to learn any PARTICULAR language \(This is usually determined by the language\(s\)/ culture\(s\) children grow up in\)
+  * However\, acquiring certain features of certain languages may require more time to acquire
+    * Ex\. German vs\. English definite articles
+
+
+# Principles of Language Acquisition
+
+
+---
+
+
+# Activity time!
+
+
+
+* In terms of adult input\, we’ve said that language acquisition isn’t merely imitation
+  * But this does not diminish the importance of  _exposure_  to linguistic input
+  * Acquisition REQUIRES interaction with speakers of the language being acquired
+* Ex\. Genie \- [https://www\.youtube\.com/watch?v=mshp3s4r3u8](https://www.youtube.com/watch?v=mshp3s4r3u8)
+* We’ll watch the video\, and you can jot down things you notice about her language\, the research with her\, and anything else that stands out to you\.
+
+---
+
+
+![](images/Recitation%208_2.jpg)
+
+
+
+* On the other hand\, parents do not TEACH language to their children directly
+* What kinds of things DO parents teach children about how language works?
+  * Talk to your neighbor and try to come up with some ideas
+  * You can search the internet \(but try to find things LINGUISTS say\)
+  * Or try to see what AI thinks\!
+::: {.notes}
+
+You can leave this out if you run out of time; I expect they’ll talk about manners, not cussing, and maybe some stuff about standard (e.g., “don’t say ‘like’ so much).
+
+:::
+
+
+---
+
+
+# Next week!
+
+![](images/Recitation%208_3.png)
+
+
+
+* Monday in Singletary is “How does bilingualism work?”
+* No class on Wednesday\, the week after \(Singletary closed\, Spring Break\)
+* NO QUIZ NEXT FRIDAY\!\! But…
+  * _Data Collection assignments and Observation notes \#4 due 3/14_
+  * See us if you have questions\!\!

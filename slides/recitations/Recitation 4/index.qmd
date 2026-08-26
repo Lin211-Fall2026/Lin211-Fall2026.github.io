@@ -1,0 +1,210 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 4 Discussion
+
+# Bits and Pieces
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is PIECES
+
+:::
+
+
+---
+
+
+![](images/Recitation%204_0.jpg)
+
+# Quick Review
+
+
+
+* All languages have words\, but what is a word?
+  * Not really about letters and spaces…
+  * It’s all about meaning\!
+* Knowing a word requires:
+  * Phonetic/phonological knowledge
+  * Syntactic knowledge
+  * Morphological knowledge
+  * Semantic knowledge
+
+---
+
+
+![](images/Recitation%204_1.jpg)
+
+
+
+* We introduced:
+  * __Phonetics__  is the study of the sounds in a language
+  * __Phonology __ is the study of the  _system_  of contrastive relationships among the speech sounds
+  * __Syntax __ is the study of the way in which words are put together to form phrases and sentences
+  * __Morphology__  is the study of word formation\, including a word’s component parts\, internal structure\, and rules for word creation
+  * __Semantics__  is the study of meaning
+
+---
+
+
+# Morphemes?
+
+
+---
+
+
+
+
+* What does it mean that we use morphological rules to create new words?
+  * Like “happy” becoming “unhappy” by adding the un\- prefix\, people invent new words all the time by simply combining materials \(morphemes\!\) already in the language
+  * For example\, “Instagram” is a  __portmanteau __ \(or a kind of blending\) of the words “instant camera” and “telegram” – two old technologies that get repurposed for the photo\-sharing app
+    * The creators took morphemes from those two words \(sort of…”insta\-” is weird\) and smushed them together
+    * Lots of examples of portmanteaus – like?
+  * But it is also how we convert the proper name “Instagram” into new kinds of words\!
+    * Can you make “Instagram” into an adjective?
+    * Make it fit this sentence – “That picture is so \_\_\_\_\!” or “That is an \_\_\_\_ picture\!”
+
+
+# Morphological rules?
+
+::: {.notes}
+
+Have them raise their hands to offer options for adjectives. Instagrammable or instagrammy are common.
+
+:::
+
+
+---
+
+
+![](images/Recitation%204_2.jpg)
+
+# And how we learn new words!
+
+::: {.notes}
+
+Get them to raise their hands to describe what’s happening with “uglification”
+
+:::
+
+
+---
+
+
+# Parts of speech!
+
+
+
+* We also revisited \(because you learned these in grade school\)  __parts of speech__ \!
+  * What are these? Nouns\, Verbs\, Adjectives\, Adverbs\, Prepositions\, Pronouns
+  * Sometimes classification can be fuzzy \(same form ≠ same word\) – examples?
+* Not about memorizing categories
+* You “know” them even if you don’t know you know them
+
+---
+
+
+# Activity time!
+
+
+
+* __Mad Libs\!__
+* Fill in the blanks with appropriate answers \(keep it clean\!\):
+* 1\.	\_\_\_\_\_\_\_\_\_ walks the \_\_\_\_\_\_\_\_\_ dog\.
+  * \(pronoun\)		     \(adjective\)
+* 2\.	Students \_\_\_\_\_\_\_\_\_ this \_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_ at night\.
+  * \(preposition\)	\(noun\)        \(verb\)
+* 3\.	Her sister from Tulsa \_\_\_\_\_\_\_\_\_ a\(n\) \_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\.
+* \(verb\)	          \(adjective\)  \(noun\)
+::: {.notes}
+
+Let them work in groups. Have them turn in a page with their names and their answers.
+Talk about words that can be fuzzy. Of the ones already here, “walks” can be a noun like “I like to go on morning walks.” How do we know it’s a verb here? What about the words they filled in? Could any of those have other meanings?
+Xander found this: https://svickars.github.io/mad-libs/ 
+
+:::
+
+
+---
+
+
+# Next week!
+
+![](images/Recitation%204_3.png)
+
+
+
+* Monday and Wednesday in Singletary
+  * How do words get their meaning?
+  * Is slang legit?
+* Read ch\. 2 in your book \(PDF in Canvas\)
+* Keep working on Observation Notes
+* Friday = Quiz 4
+  * Be here\!
+  * Let me know if you have any questions or concerns
+
+---
+
+
+| __Esperanto__ | __English__ | __Esperanto__ | __English__ |
+| :-: | :-: | :-: | :-: |
+| bildo | picture | kuniklo | rabbit |
+| infano | child | pomo | apple |
+| pilko | ball | instruisto | teacher |
+| hundo | dog | arbo | tree |
+| desegni | to draw | kukurbo | pumpkin |
+| piedbati | to kick | manĝi | to eat |
+| persekuti | to chase | vidi | to see |
+| __Esperanto__ |  | __English__ |  |
+| La infano desegnas la bildon\. |  | The child draws the picture\. |  |
+| La infanoj vidi la bildojn\. |  | The children see the pictures\. |  |
+| La instruisto piedbatas la pilkon\. |  | The teacher kicks the ball\. |  |
+| La hundoj persekuti la kuniklon\. |  | The dogs chase the rabbit\. |  |
+
+# Activity time!
+
+
+
+* __Part II: Morphological rules__
+  * What is the plural marker in Esperanto? __ __
+  * What is the marking found on the object of the verb?
+  * If you have a plural object of the verb\, which comes first – plural or object marking?
+  * What is the third person singular marking on the verb?
+  * What happens to the verb\-final vowel when you add the third person singular marking on the verb? Does it remain or get deleted?
+::: {.notes}
+
+**NOT DOING THIS ONE***
+Let them work in groups. Have them turn in a page with their names and their answers to both parts of the activity.
+
+Here is some data from Esperanto (with English translations). Look it over and answer the questions.
+What is the plural marker? -j
+What is the marking found on the object of the verb? -n
+If you have a plural object of the verb, which comes first – plural or object marking? plural
+What is the third person singular marking on the verb? –as
+What happens to the verb-final vowel when you add the third person singular marking on the verb? Does it remain or get deleted? Gets deleted
+IF YOU HAVE TIME: See if someone wants to translate one of these sentences into Esperanto (or let them try to come up with a novel sentence).
+The rabbit kicks the tree. La kuniklo piedbatas la arbon.
+The pumpkin eats the children. La kukurbo manĝas la infanojn.
+The apples chase the teachers. La pomoj persekuti la instruistojn. 
+The apple sees the dog. La pomo vidas la hundon.
+
+:::
+

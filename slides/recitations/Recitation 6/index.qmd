@@ -1,0 +1,119 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 6 Discussion
+
+# Bits and Pieces
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is CURSE
+
+:::
+
+
+---
+
+
+# Quick Review
+
+![](images/Recitation%206_0.png)
+
+
+
+* __Swearing__  \(or cursing\, cussing\, etc\.\) is the use of words that are deemed taboo \(by a community\) to express the emotional state of the speaker
+  * Focus on  __connotation __ and  __perception__
+  * Returned to historical linguistics\, morphology\, and pragmatics
+
+---
+
+
+
+
+* We explored the ideas about how words get their meanings:
+* History
+  * Comparative reconstruction
+  * [https://www\.etymonline\.com/](https://www.etymonline.com/search?q=shit)
+* Morphological processes
+  * Affixes \(includes prefixes\, suffixes\, infixes\)
+  * English infixation\!
+* Usage
+  * Politeness \(negative and positive\)
+  * Saving face
+
+
+
+---
+
+
+# Big takeaway = context matters!
+
+
+---
+
+
+# Warning!
+
+![](images/Recitation%206_1.png)
+
+
+
+* __WARNING: This video contains the F\-word\. Like\, a lot\. __
+  * As we said in class\, we recognize that some people are uncomfortable with swearing\.
+  * I’ll give you a minute if you want to put in headphones and listen to something else for 6\.5 minutes\.
+  * To participate in the activity\, though\, you will need to review the transcript that we have included in Canvas\.
+  * And we will use the substitute word “freak” and its variants in our discussion
+::: {.notes}
+
+Be considerate of students who are uncomfortable. Tell them that they can raise any concerns with me directly.
+
+:::
+
+
+---
+
+
+# Activity time!
+
+
+
+* The New Yorker’s “The F\-Word”: [https://www\.youtube\.com/watch?v=\_42tJgX\_S48](https://www.youtube.com/watch?v=_42tJgX_S48)
+  * As you watch/read\, think about what parts of speech the f\-word can be and what forms it can take
+  * We’ll also talk about the factors in this video that point to the importance of context
+    * Aside from general concerns about swearing\, what might make people uncomfortable? Why?
+    * How is this conversation structured? Why does the dad just keep talking?
+
+---
+
+
+# Next week!
+
+![](images/Recitation%206_2.png)
+
+
+
+* Monday and Wednesday in Singletary
+  * Who says “pop” and why?
+  * Where do dialects come from?
+* Be working on Observation Notes \#3
+* Friday = Quiz 6
+  * Be here\!
+  * Let me know if you have any questions or concerns

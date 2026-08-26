@@ -1,0 +1,234 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# How does bilingualism work?
+
+# Language in the World
+
+
+---
+
+
+![](images/14-How%20does%20bilingualism%20work_0.jpg)
+
+# Ling Link
+
+
+
+* For the next 2 minutes\, write down the names of places in the world \(e\.g\.\, countries\, regions\, cities\) where you know people tend to speak more than one language\. Also list the languages they speak\, if you know them\.
+  * After you have made your list\, spend a minute talking to your neighbor
+  * Compare lists\, discuss how you know they use multiple languages\, talk about whether you’ve been to those places\, and explain anything you know about how language functions in those places
+
+---
+
+
+# Recall
+
+
+
+* All language helps us do stuff in the world
+  * That’s what this module is all about\!
+* __Language acquisition __ is the process by which humans acquire the ability to use\, produce\, and perceive language\!
+  * __First Language Acquisition: __ how an infant acquires his/her first or native language
+  * __Second Language Acquisition: __ how children and adults acquire additional languages beyond the first
+* No one teaches you language\!
+  * You are built for it\!
+  * Kids can do a lot in language before they can do the simplest of activities\!
+* What about learning more than one language?
+
+---
+
+
+![](images/14-How%20does%20bilingualism%20work_1.png)
+
+# Second language acquisition (SLA)
+
+
+
+* Remember that we made a distinction between  __acquisition __ and  __learning__
+  * __Acquire __ = happens to you naturally \(like digestion\)
+  * __Learning __ = someone has to teach you \(like tying your shoes\)
+
+---
+
+
+# Second Language Acquisition
+
+
+---
+
+
+![](images/14-How%20does%20bilingualism%20work_2.jpg)
+
+![](images/14-How%20does%20bilingualism%20work_3.jpg)
+
+# Differences in First and Second Language Learning
+
+First\-language acquisition involves an initial linguistic experience\, while a second language is mastered only by someone who  _already speaks another language_
+
+A first language is usually acquired in a context\-rich\, home environment
+
+Because of age and social identity\, the adaptability and flexibility of learners decreases for 2nd language learners
+
+![](images/14-How%20does%20bilingualism%20work_4.jpg)
+
+
+---
+
+
+![](images/14-How%20does%20bilingualism%20work_5.jpg)
+
+
+
+* Second\-language learners ordinarily have  __metalinguistic awareness __ that is lacking at least in the early stages of a first language
+* __Metalinguistic awareness__  refers to the ability to  _consciously_  reflect on how language works
+  * Helps in understanding the transfer of linguistic knowledge across languages \(e\.g\.\, code\-switching\, translation\)
+  * Recognition that the potential exists to go beyond the literal meaning and that language offers flexibility  \(e\.g\.\, irony\, sarcasm\, word play\)
+  * Understanding that language has a structure that can be manipulated \(we can talk about phonological\, word\, syntactic\, and pragmatic awareness\)
+
+---
+
+
+# Q slide
+
+True or false: When you learn a second language\, what you already know about how your first language works can be helpful\. \[True\]
+
+
+---
+
+
+# Media
+
+[https://youtu\.be/QKdT5pF6hSQ?si=jvc\_P8EfwguyEyuc&t=124](https://youtu.be/QKdT5pF6hSQ?si=jvc_P8EfwguyEyuc&t=124)
+
+
+---
+
+
+# Metalinguistic Awareness
+
+
+
+* Metalinguistic awareness = the exercise of the relevant\, cognitive control
+  * Language users can select the relevant pieces of language to manipulate \(cognition\) = they can think clearly about how language works
+  * Language users can apply the meaning and structure of the manipulated language \(analysis\) = they can move from thinking to doing\!
+* For bilinguals\, this type of cognitive control is important \(and they tend to have higher levels of awareness\)
+  * It helps make connections between one language and another
+  * Can make it easier to learn additional language \(that’s why so many people tell me they wish they’d had linguistics before taking a language\!\)
+
+
+![](images/14-How%20does%20bilingualism%20work_6.png)
+
+
+---
+
+
+![](images/14-How%20does%20bilingualism%20work_7.jpg)
+
+# Bilingualism
+
+
+
+* But our question today is not just about second language acquisition\!
+  * _Bilingualism_  is the ability to use/speak two languages natively/fluently
+  * _Multilingualism_  is the ability to use/speak many languages natively/fluently
+* We’ll basically use these terms interchangeably
+* __Bilingual acquisition __ – children who are regularly exposed to two \(or more\) languages will  __naturally__  acquire fluency in those languages \(i\.e\.\, people who acquire more than one language in childhood speak more than one language fluently\)
+
+---
+
+
+![](images/14-How%20does%20bilingualism%20work_8.jpg)
+
+# Two languages = THE GLOBAL NORM!
+
+
+
+* _Individual bilingualism_  – a person’s ability to use two languages
+  * This is what happens when\, say\, you studied a language in school\, decided to go abroad\, learned the language better\, and are now fluent
+* _Societal bilingualism \(or multilingualism\)_  – a society in which two \(or more\) languages are used regularly
+  * Example = anywhere on Earth other than large swaths of the US\, UK 
+
+---
+
+
+# An example of a Multilingual Society
+
+Brussels\, Belgium
+
+![](images/14-How%20does%20bilingualism%20work_9.png)
+
+
+---
+
+
+
+
+* Many \(all?\) bilingual speakers engage in  __code\-switching__ \, or a kind of alternation between languages or dialects
+  * If everyone in a particular social group speaks more than one language\, code\-switching may be  _the norm_  for in\-group communication
+  * Because each language may index particular aspects of one’s identity\, the languages may be used independently or together\, depending on the social context
+  * In addition to knowing two languages\, native bilinguals know contexts for using each and the ways in which they may be combined \(communicative competence\)
+  * Code\-switching is NOT “broken English” \(or any other language\) – it is the use of TWO languages SYSTEMATICALLY and is  _rule\-governed_
+
+
+# Code-switching
+
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=W48ORvJ7uqM](https://www.youtube.com/watch?v=W48ORvJ7uqM)
+
+
+---
+
+
+# Q about video
+
+Sarah Phillips’ work is about Korean\-English bilinguals in the US and focuses on whether the brain exerts additional cognitive effort when switching between languages\. \[True\]
+
+
+---
+
+
+![](images/14-How%20does%20bilingualism%20work_10.jpg)
+
+# So, how does it work?
+
+
+
+* Brains are wired for language
+  * But studies also show that the brain uses a shared mechanism for combining words from one language and for switching between languages = switching is natural\!
+  * While there are differences in the brains of monolingual and bilingual speakers\, how things like cognition and neural plasticity are impacted by one’s language abilities has more to do with how and why they have that status
+* Yet monolinguals marvel at those who can manage more than one language
+  * Next time\, we’ll explore why many monolinguals think learning/acquiring additional languages is hard
+  * Hint: it’s not about their brain power\!
+
+---
+
+
+![](images/14-How%20does%20bilingualism%20work_11.jpg)
+
+# What’s next?
+
+
+
+* No class Wednesday \(Singletary closed\)
+* No class next week \(Spring Break\)
+* No quiz on Friday – check with your TA about how to get help on your Data Collection assignments\!
+  * These are due FRIDAY\!\! March 14\, 11:59pm
+  * No late work\, no AI
+  * Just follow the instructions\!
+* Observation notes \#4 due FRIDAY\!\!

@@ -1,0 +1,125 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 12 Discussion
+
+# Language in the World
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is EMOJI
+
+:::
+
+
+---
+
+
+![](images/Recitation%2010_0.jpg)
+
+# Quick Review
+
+
+
+* First\, remember about language acquisition:
+  * We  __acquire__  speech/sign
+  * We must  __learn __ writing
+* So\, what about CMC/emoji?
+  * Characteristics?
+  * Writing is learned\, but modern texting appears to be acquired
+  * CMC is often very different from traditional modes of writing
+* Texting seems to be about efficiency and meaning\-making
+  * Examples?
+
+---
+
+
+# Emojis
+
+![](images/Recitation%2010_1.png)
+
+
+
+* Probably kind of pictograms/ideogram
+* BUT they do seem to provide a bit of extralinguistic information\, like emotion\, sarcasm\, other message modulations
+* Not a separate language
+* Not ruining language
+  * Same for other parts of CMC
+  * These forms of communication differ stylistically from each other AND from traditional modes of communication\!
+
+---
+
+
+![](images/Recitation%2010_2.jpg)
+
+# Quick Review
+
+
+
+* __Computational linguistics__  is the area of linguistics that applies the methods of computer science to the analysis of language and speech
+* Speech synthesis and speech recognition = not easy problems\!\!
+  * Speech recognition = speech\-to\-text \(accuracy and speed\)
+  * Speech synthesis = text\-to\-speech \(human\-like voices\)
+* Why does it matter?
+
+---
+
+
+# Activity time!
+
+
+
+* So\, since we’ve said that a lot of CMC is about  __meaning\-making__ \, we want to know how you interpret various emojis\!
+* For each emoji \(next slide\)\, you need to do the following:
+  * Answer this question: By itself\, what does it mean?
+  * If you have differences in meaning between platforms \(e\.g\.\, text vs\. Snapchat\)\, explain those\.
+  * Write out a text message you might send with this emoji\.
+  * Explain how the addition of this emoji adds meaning beyond the text that is there\. Provide context\, as needed\.
+  * Did we miss your fave? Tell us about it in the same way\!
+
+---
+
+
+::: {.notes}
+
+You can either tell them to pick 5-6 individually to work on or divide them into groups to write and discuss. Just see if you can cover them all!
+
+:::
+
+
+---
+
+
+# Next week!
+
+
+
+* Monday and Wednesday in Singletary
+  * “How do computers help with language?”
+  * “Are chatbots real?”
+* Friday = Quiz 10
+  * Be here\!
+  * Let me know if you have any questions or concerns
+* Observation notes \#6 \(last one\!\) due next Friday\!\!
+
+
+![](images/Recitation%2010_3.png)
+

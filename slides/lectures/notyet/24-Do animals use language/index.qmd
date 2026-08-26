@@ -1,0 +1,451 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Do animals use language?
+
+# Language and Culture
+
+
+---
+
+
+# Ling Link
+
+
+
+* There are always stories \(like the one you read\) in the media about animals learning language
+  * About Koko and Washoe\, two very famous primates
+    * __Washoe:__  chimp\, ASL = better suited for chimps who are known for their manual dexterity\, raised like a human child in most respects\, used 130\+ signs\, understood three times as many
+    * __Koko__ : gorilla\, knows 1\,000 signs and understands spoken English
+  * Humans are fascinated by these stories\, but they also place a lot of human thought on what the animals are doing\, when we can’t really justify it
+  * Watch this video about Washoe and jot down your thoughts about what’s interesting and how it relates to language
+
+---
+
+
+# Washoe video
+
+[http://www\.youtube\.com/watch?v=OUwOvF7TqgA](http://www.youtube.com/watch?v=OUwOvF7TqgA)
+
+
+---
+
+
+# Recall
+
+
+
+* Wrapping up “language and culture” module
+  * Language and movies
+  * Conlangs
+* Let’s see how entangled our humanness is with our language and culture
+  * Not just pop culture\!
+  * __Culture __ includes social behaviors\, institutions\, societal norms in human societies\, including knowledge\, beliefs\, arts\, laws\, etc\.
+* In thinking about language and culture\, we can explore exactly what sets humans apart from other animals \(who also have culture\, though different\)
+
+---
+
+
+# What is language?
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_1.png)
+
+![](images/24-Do%20animals%20use%20language_2.png)
+
+![](images/24-Do%20animals%20use%20language_3.png)
+
+# Three Basics Modes of Communication
+
+
+---
+
+
+# Q slide
+
+Name some ways that animals communicate to other animals \(including humans\)\.
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_4.png)
+
+![](images/24-Do%20animals%20use%20language_5.png)
+
+# Modes for Animals: Sounds and Gestures
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_6.png)
+
+# Modes for Animals: Visual Signs
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_7.png)
+
+![](images/24-Do%20animals%20use%20language_8.jpg)
+
+# Modes for Animals: Ultrasound
+
+![](images/24-Do%20animals%20use%20language_9.png)
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_10.png)
+
+Caribbean Reef Squid
+
+# Modes for Animals: Electricity and Changing Color
+
+![](images/24-Do%20animals%20use%20language_11.png)
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_12.png)
+
+![](images/24-Do%20animals%20use%20language_13.png)
+
+![](images/24-Do%20animals%20use%20language_14.png)
+
+![](images/24-Do%20animals%20use%20language_15.png)
+
+
+---
+
+
+# System = Language!
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_16.jpg)
+
+# What is language?
+
+For our discussion today\, we need to outline a set of things that  _must_  be true to count as a language
+
+So\, we can say that language is a system of communication that…
+
+Is arbitrary
+
+Has a grammar
+
+Exhibits duality of patterning
+
+Always changes
+
+Is inaccessible
+
+Is creative
+
+Permits displacement
+
+Is culturally transmitted
+
+
+---
+
+
+# Language exhibits arbitrariness
+
+![](images/24-Do%20animals%20use%20language_17.jpg)
+
+![](images/24-Do%20animals%20use%20language_18.jpg)
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_19.png)
+
+![](images/24-Do%20animals%20use%20language_20.png)
+
+# …has a grammar
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_21.png)
+
+# …exhibits duality of patterning
+
+
+
+* __Duality of patterning __ is a feature of language whereby discrete units of language at one level \(such as the level of sounds\) can be combined to create different kinds of units at a different level \(such as words\)
+  * That is\, we think of language as having two distinct levels that we encounter at the same time
+  * Meaningless/arbitrary elements like sounds  _AND_
+  * Meaningful elements like words
+  * A limited set of meaningless things that we can put together to make essentially infinite meaningful things\!
+
+
+![](images/24-Do%20animals%20use%20language_22.png)
+
+![](images/24-Do%20animals%20use%20language_23.png)
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_24.png)
+
+Proto\-Indo\-European
+
+# …always changes
+
+
+---
+
+
+# …is inaccessible
+
+![](images/24-Do%20animals%20use%20language_25.png)
+
+
+
+* Linguistic knowledge is  _subconscious_
+* Past tense morpheme =  _\-_  _ed_  _ _ :
+  * Hunted	\[hʌnt __\-əd__ \]
+  * Slipped	\[slɪp __\-t__ \]
+  * Buzzed	\[bʌz __\-d__ \]
+
+---
+
+
+# …is creative
+
+Humans are capable of producing and perceiving an  __infinite__  number of  novel sentences\.
+
+![](images/24-Do%20animals%20use%20language_26.png)
+
+
+---
+
+
+# …permits displacement
+
+![](images/24-Do%20animals%20use%20language_27.png)
+
+![](images/24-Do%20animals%20use%20language_28.png)
+
+
+---
+
+
+# …is culturally transmitted
+
+![](images/24-Do%20animals%20use%20language_29.jpg)
+
+
+---
+
+
+# Bee Video
+
+[https://youtu\.be/bFDGPgXtK\-U?t=25s](https://youtu.be/bFDGPgXtK-U?t=25s)
+
+
+---
+
+
+# Is a bee dance language?
+
+![](images/24-Do%20animals%20use%20language_30.jpg)
+
+
+
+* Type of dance done by forager bees indicates precise distance to flower
+  * Round dance = 5m from hive
+  * Sickle dance = 5\-20m from hive
+  * Tail\-wagging = 20\+ meters
+* Angle of dance indicates direction to flower
+
+---
+
+
+# LT Quiz
+
+Bee dancing is arbitrary\, non\-arbitrary or  __both__ ?
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_31.png)
+
+![](images/24-Do%20animals%20use%20language_32.tiff)
+
+# Creativity
+
+
+---
+
+
+# Permitting Displacement
+
+![](images/24-Do%20animals%20use%20language_33.png)
+
+\*“I was the happiest I’ve ever been one year ago\.”
+
+\*“Go ahead and pet me\, whatever\.” \(Sarcasm\)
+
+\*“You can stay for now\, but I hope you go away next week\.”
+
+
+---
+
+
+# Do animals have “Language”?
+
+
+
+* We find that in  _nearly_  all cases\, systems of non\-human communication:
+  * are non\-arbitrary;
+  * not culturally transmitted;
+  * do not exhibit duality of patterning;
+  * do not change;
+  * lack creativity;
+  * do not allow the animal to discuss past\, future or hypothetical events\, and most importantly
+  * _DO NOT_  __ __ have grammar\!
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_34.jpg)
+
+# But can any animals learn Language?
+
+Perhaps a better comparison to human language may be found in studies of primates \(mostly chimps\)\, who are closely related to humans
+
+
+---
+
+
+# The problem?
+
+![](images/24-Do%20animals%20use%20language_35.gif)
+
+Chimpanzees do not have the same mouth and throat anatomy as humans\, which makes speaking an impossible task
+
+With a tremendous amount of effort\, Viki \(one chimpanzee in early work on this question\) learned to \(sort of\) pronounce a few words like  _papa _ and  _cup_
+
+
+---
+
+
+
+
+* The more recent work with bonobos has brought the entire research to a different focal question – when apes use the signs we teach them\, do they know what it means?
+  * That is\, they might use the signs in a way that looks like how humans do\, but do they perceive it in the same way or are they just mimicking?
+  * Savage\-Rumbaugh suggests that in the earlier experiments\, apes were NOT using language symbolically
+  * Instead\, it was conditioned behavior \(do X\, get Y\)
+  * She thinks we have to make this step first \(teaching symbolism\) before we can find out whether they can learn language
+
+
+# So, have these primates learned Language?
+
+
+---
+
+
+# What’s next?
+
+
+
+* Come next week for “So\, what?”
+  * “Who really uses this stuff?”
+  * “Why linguistics?”
+  * Read the Conclusion in your textbook for Monday
+* Wrapping up\!
+  * Quiz 12 \(last one\!\) in recitation Friday
+  * Data Analysis – ask questions in recitation\, come see me during our scheduled final exam time \(Monday\, May 5\, 8\-10am\) in this room
+  * Extra credit – see if you can still get scheduled for the research projects OR an alternative assignment will show up in Canvas on the last day of classes \(due Wednesday\, May 7 at 11:59pm\)
+
+
+![](images/24-Do%20animals%20use%20language_36.jpg)
+
+
+---
+
+
+# Birds: Calls vs. Songs
+
+
+
+* Are typically not done in winter
+* Are primarily restricted to males
+* Are unique by species\, can even vary by individual
+* Purpose of songs?
+  * To announce and delimit the territory of the male
+  * To attract a mate
+* Are made year round
+* Can be heard in both males and females
+* For many birds\, individual calls associated with specific activities
+* Purpose of calls?
+  * To warn of predators
+  * To coordinate flocking and flight activity
+  * To express aggression
+  * To accompany nesting or feeding behavior\.
+
+---
+
+
+# Chaffinches
+
+![](images/24-Do%20animals%20use%20language_37.png)
+
+Many bird species do not develop fully characteristic songs if they’re not exposed to them early in life
+
+If chaffinches are reared in isolation\, they do sing\, but only the the typical song of the species\.
+
+If young chaffinches are reared away from adults\, but with other young chaffinches\, the entire experimental community develops  __an identical song__ \.
+
+
+---
+
+
+# LT Quiz
+
+Which feature of human language seems to also hold true for chaffinches? \(Cultural transmission\) \[make true or false\]
+
+
+---
+
+
+![](images/24-Do%20animals%20use%20language_38.png)
+
+
+
+* Chimps aren’t the only ones who’ve been in experiments\!
+  * __Chantek__ : orangutan\, learned 150 signs over 8 years
+  * __Kanzi__ : bonobo\, doesn’t use ASL but lexigrams\, understands spoken English and knows about 400 lexigrams
+
+
+Kanzi and Sue Savage\-Rumbaugh
+
+# Other Primates
+

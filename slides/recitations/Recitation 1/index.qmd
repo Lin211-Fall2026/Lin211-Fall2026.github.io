@@ -1,0 +1,149 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Meet your TA
+
+# Getting Started
+
+
+---
+
+
+# Your Instructional Team!
+
+Professor Jennifer Cramer \([jennifer\.cramer@uky\.edu](mailto:jennifer.cramer@uky.edu)\)
+
+TAs:
+
+| _Sections 001\, 003\, and 007_ Name: Alex MorganEmail:  _[alex\.m@uky\.edu](mailto:alex.m@uky.edu)_ | _Section 006_ Name: Olivia MarquardtEmail:  _[olivia\.marquardt@uky\.edu](mailto:olivia.marquardt@uky.edu)_ |
+| :-: | :-: |
+| _Sections 002 and 005_ Name: Xander JohnsonEmail:  _[xander\.johnson@uky\.edu](mailto:xander.johnson@uky.edu)_ | _Sections 004_ Name: Jules BlankEmail:  _[jules\.blank@uky\.edu](mailto:jules.blank@uky.edu)_ |
+
+
+---
+
+
+# A getting-to-know-you activity!
+
+
+---
+
+
+Calls the insect that has a rear section that glows in the dark a “lightning bug”\.
+
+Calls a sweetened carbonated beverage a “pop”\.
+
+Calls the bug that when you touch it\, it curls into a ball a “roly poly”\.
+
+Says “warsh”\.
+
+Says the names “Don” and “Dawn” the same\.
+
+Says “y’all”\.
+
+Says the words “pen” and “pin” differently\.
+
+Says “caramel” with two syllables \(like “car\-mul”\)\.
+
+
+---
+
+
+![](images/Recitation%201_0.png)
+
+![](images/Recitation%201_1.png)
+
+# https://www.businessinsider.com/american-english-dialects-maps-2018-1
+
+::: {.notes}
+
+After you show them these maps, give them 5 minutes to submit the Canvas quiz. Walk around to make sure they don’t use AI.
+
+:::
+
+
+---
+
+
+# Where do I go?
+
+MW = Lecture \(9\-9:50am\, Singletary 150\)
+
+F = discussion section
+
+![](images/Recitation%201_2.png)
+
+| Section 001: F 8\-8:50am\, FB 306A |
+| :-: |
+| Section 002: F 9\-9:50am\, JSB 181 |
+| Section 003: F 9\-9:50am\, TPC 113 |
+| Section 004: F 9\-9:50am\, TPC 212 |
+| Section 005: F 10\-10:50am\, MMR 112 |
+| Section 006: F 10\-10:50am\, BH 303 |
+| Section 007: F 10\-10:50am\, TPC 212 |
+
+
+---
+
+
+![](images/Recitation%201_3.jpg)
+
+# Review from Week 1
+
+
+
+* LIN 211 = basic introduction to linguistics designed for non\-majors
+* Textbook =  _Linguistics: Why it matters _ by Geoffrey Pullum
+* We will use Canvas extensively
+* Echo 360 = where you can find lecture slides\, keep notes\, ask questions\, mark slides as confusing\, and participate in lecture
+  * So\, you must bring your device to class\!
+  * Make sure it is charged\, you know how to use it\, and you don’t use it for non\-class stuff\!
+* Review the syllabus and detailed schedule on Canvas for more info on expectations and requirements in the class
+
+---
+
+
+
+
+* Linguistics is the study of language
+  * ≠ learning many languages
+  * ≠ studying a language with the goal of learning to communicate in it
+  * ≠ being the grammar police
+* Scientific\, systematic exploration of how language works
+  * Includes the study of the  _structure_  of language \(how do we make a sentence?\) and the  _use_  of language \(how do we speak with one another?\)
+  * Linguists are interested in  __descriptive grammar__ \, not focused on  __prescriptive grammar__
+::: {.notes}
+
+Can refer back to the group activity, if relevant
+Prescriptive rules are often trivial, historical, and absurdly motivated
+Often can connect to social attitudes against groups
+
+
+:::
+
+
+---
+
+
+# Next week!
+
+![](images/Recitation%201_4.png)
+
+
+
+* No class Monday \(MLK Day\)
+* Lecture on Wednesday in Singletary
+  * What is language? \(read ch\. 1\)
+* Friday = Quiz 1
+  * Be here\!
+  * Let me know if you have any questions or concerns

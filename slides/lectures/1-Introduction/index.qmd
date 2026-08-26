@@ -1,6 +1,7 @@
 ---
 title: "What is this course?"
 subtitle: "Lin 211 • Section 1, Part 1"
+date: 08/24/2026
 authors:
   - name: Kevin B McGowan
     orcid: 0000-0002-8214-1901
@@ -87,7 +88,7 @@ categories: [Getting Started]
   - F 12 pm → Funkhouser 306A
 
 - - Section 007
-  - F 12 pm → Funkhouser 311
+  - F 12 pm → Whitehall 229
 :::
 ::::
 ::::::

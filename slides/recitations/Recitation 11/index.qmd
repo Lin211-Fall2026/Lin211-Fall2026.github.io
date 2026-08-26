@@ -1,0 +1,127 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 13 Discussion
+
+# Language in the World
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is CHATBOT
+
+:::
+
+
+---
+
+
+# Quick Review
+
+![](images/Recitation%2011_0.png)
+
+
+
+* __Computational linguistics __ is the area of linguistics that applies the methods of computer science to the analysis of language and speech
+  * Speech synthesis and speech recognition
+  * Natural Language Processing
+* __Corpus linguistics __ is a research paradigm that considers language as text in the form of a “corpus” \(Lat\. for “body”\)
+* Generative AI\, LLMs\, parsing\, annotating\, and parrots?
+* Important takeaway = Computers are stupid\!
+  * How so?
+
+---
+
+
+# Hazards of Gen AI?
+
+
+---
+
+
+# Quick Review
+
+
+
+* __Syntax__  is the study of how words are put together to make sentences
+  * Words belong to lexical categories \(= parts of speech\)\.
+  * Word order is important\.
+  * Words form constituents\, that is\, groups of words that ‘go together’ and function as a unit\.
+  * Constituents nest inside one another at different levels to form a hierarchical structure\.
+* Computers need to know A LOT to be like HAL\!
+  * Like?
+
+
+![](images/Recitation%2011_1.png)
+
+::: {.notes}
+
+Ask them how we get the tree that’s here. Then walk them through the steps: 1. identify which part is the subject of the sentence, and which part is the predicate. 2. identify the parts of speech. 3. figure out if there are things that “go together” like determiners, articles, etc. with nouns, like in this one. 4. Put the subject under the NP node and put the predicate (with all its parts) under the VP node (you can talk about direct and indirect objects, if you think that helps). Do it on the board?
+
+:::
+
+
+---
+
+
+# Activity time!
+
+
+
+* Drawing trees\!
+  * Many students struggle with this\, so don’t worry\!
+  * Work together in pairs to complete these steps \(in this order\!\):
+    * Identify which part is the subject and which part is the predicate\. Remember\, your predicate will start with the verb\, and everything before it is \(in these examples\) the subject\!
+    * Label each word in the sentence with the correct parts of speech\. Pay attention to the context\!
+    * Try to make constituents – this will be a noun phrase \(NP\) subject and a verb phrase \(VP\) predicate\. Hint: each sentence here includes an embedded prepositional phrase \(PP\) in the VP\!
+    * The final trees will look VERY SIMILAR to the one on the previous slide\!
+
+---
+
+
+# Drawing trees!
+
+![](images/Recitation%2011_2.png)
+
+The cat walked under the table\.
+
+My angry neighbor eats at McDonald’s\.
+
+You study in dangerous locations\!
+
+
+---
+
+
+# Next week!
+
+
+
+* Monday and Wednesday in Singletary
+  * New module\! Language and Culture\!
+  * SPOTLIGHT LECTURE: How do we find relevant linguistics sources?
+  * Are actors good at dialects? \(Read LA Times article\)
+* Next Friday = Quiz 11
+* Last observation notes due TODAY\!\!
+  * No late work\, no AI
+
+
+![](images/Recitation%2011_3.png)
+

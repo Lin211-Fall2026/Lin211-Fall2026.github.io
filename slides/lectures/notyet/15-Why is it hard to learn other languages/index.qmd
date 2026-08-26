@@ -1,0 +1,251 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Why is it hard to learn other languages?
+
+# Language in the WOrld
+
+
+---
+
+
+![](images/15-Why%20is%20it%20hard%20to%20learn%20other%20languages_0.jpg)
+
+# Ling Link
+
+
+
+* Many of you are native speakers of English\. Spend the next 2 minutes writing down as many things as you can think of that might be tricky to learn in English if you speak another language as your first language\.
+  * After you make your list\, talk to your neighbor and see what they came up with
+  * Discuss what makes these things “hard”
+  * Bonus: if you know enough about another language\, what specific differences between it and English do you think cause speakers the most difficulty?
+
+---
+
+
+# Recall
+
+
+
+* __Language acquisition __ is the process by which humans acquire the ability to use\, produce\, and perceive language\!
+  * __First Language Acquisition: __ how an infant acquires his/her first or native language
+  * __Second Language Acquisition: __ how children and adults acquire additional languages beyond the first
+* How is FLA different than SLA?
+* Metalinguistic awareness
+* Multilingualism = global norm\!
+
+---
+
+
+# Let’s back up!
+
+![](images/15-Why%20is%20it%20hard%20to%20learn%20other%20languages_1.png)
+
+
+
+* I want to point to a specific way of discussing the kind of linguistics we’re focusing on right now
+* We usually refer to the exploration of language\-related issues with respect to how they impact people in real\-life scenarios as  __applied linguistics__
+  * Isn’t that sociolinguistics? Sure\!
+  * But scholars who apply the lessons of linguistics to things like language acquisition are also \(and more commonly labeled as\) applied linguists
+
+---
+
+
+# Acquiring a second language
+
+
+
+* Remember\, a  __second language __ is any language that is acquired after one’s first language
+  * It may well be a third or fourth “second” language
+  * Many differences – environmental\, metalinguistic\, etc\.
+* What are some of the issues associated with learning a second language later in life?
+  * Helps in understanding why not everyone learns to speak “proper” English
+  * And why you might have felt like you struggled with learning a language\!
+
+
+![](images/15-Why%20is%20it%20hard%20to%20learn%20other%20languages_2.jpg)
+
+
+---
+
+
+![](images/15-Why%20is%20it%20hard%20to%20learn%20other%20languages_3.jpg)
+
+# Let’s start with your brain
+
+
+
+* If you read the short reading from before break \(a blog entry from Duolingo\)\, you saw:
+  * Learning a new language = a cognitive workout\!
+  * Our brains are flexible\!
+* They talked about multiple languages being at different “volumes”
+  * How “loud” a language is = connected to age\, how often you use it\, how proficient you are
+  * It’s harder to lower the volume on some languages \(e\.g\.\, the ones you use most\)
+  * The switching costs depend on how similar the languages are
+* All of this contributes to how well we acquire additional languages
+
+---
+
+
+# Teaching and learning additional languages
+
+
+---
+
+
+
+
+* Some researchers view second\-language learners as developing a series of interlanguages in their progression towards mastery of the target language
+  * An  __interlanguage__  is the set of forms of the target language that a learner has internalized\, some of which may be native\-like while many may not\, but may still develop toward the native norm
+* A big problem in learning a second language is  __fossilization__
+  * The process by which second language learners develop a linguistic system that is different from both the learner's first language and the target language
+  * Looks like a plateau or loss of progress
+  * In most adults\, the language\-learning process typically slows down or ceases at some point\, for various reasons such as age\, motivation\, and social flexibility
+
+
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=Qh8QlfYLUO0](https://www.youtube.com/watch?v=Qh8QlfYLUO0)
+
+
+---
+
+
+# Q slide
+
+True or false: According to the video\, Chomsky’s “language acquisition device” is taken as fact by all linguists and never debated\. \[false\]
+
+
+---
+
+
+
+
+* So\, it’s possible fossilization is connected to this idea of a  __critical period __
+  * The hypothesis is that\, as we age\, learning a second language becomes more difficult
+  * It is more ideal to acquire language in childhood\, in those context\-rich environments
+  * This ideal time is usually thought to be before and around the start of puberty\, but it differs from person to person
+  * The evidence in favor of the topic has been centered on the study of second language accents
+  * It’s also discussed in terms of first language acquisition\, like the cases of Victor\, Genie\, and other feral children
+  * Highly debated topic\, but…
+
+
+# Critical Period
+
+
+---
+
+
+# Activity
+
+Do you think it makes much sense for Americans to BEGIN studying a second language in 9th grade?
+
+
+---
+
+
+# Genie
+
+[https://youtu\.be/mshp3s4r3u8?si=xwPMxsuFmJC0j6t9&t=286](https://youtu.be/mshp3s4r3u8?si=xwPMxsuFmJC0j6t9&t=286)
+
+
+---
+
+
+
+
+* In addition to the things we’ve already said about language \(e\.g\.\, rule\-governed\, systematic\, communicative\, arbitrary\)\, we can also say that:
+  * __All languages are equally challenging__
+    * …or equally easy
+    * Every child who is capable of acquiring language  __will acquire__  a language
+* There is no biological basis that predisposes children to learn any PARTICULAR language
+  * This is usually determined by the language\(s\)/culture\(s\) children grow up in
+  * However\, acquiring certain features of certain languages  _may_  require more time to acquire
+    * Ex\. German vs\. English definite articles
+
+
+# Principles of language acquisition
+
+
+---
+
+
+# Language is relative!
+
+![](images/15-Why%20is%20it%20hard%20to%20learn%20other%20languages_4.png)
+
+Plenty of people will say Latin/Arabic/Chinese “is soooooo hard”
+
+What they really mean = “It is soooooo hard for me compared to my native language”
+
+No such thing as “primitive” languages; all languages have  __linguistic complexity__
+
+Simplicity in one area > relative complexity in another
+
+
+---
+
+
+![](images/15-Why%20is%20it%20hard%20to%20learn%20other%20languages_5.jpg)
+
+# The role of motivation
+
+
+
+* Many of you are here because you decided that you don’t like learning languages\, or you feel like you aren’t “good” at them
+* Perhaps you also lack the motivation to learn one
+  * “When would I ever use French in real life?”
+  * “English is spoken everywhere now\!”
+* What types of motivations can we find?
+  * __Instrumental motivation:__  one in which knowledge of the target language will help achieve some other goal
+    * Singing opera\, conducting business\, etc\.
+  * __Integrative motivation: __ need to learn to fully integrate into a community that uses the language
+    * I want to live there\!
+
+---
+
+
+# The role of attitudes
+
+![](images/15-Why%20is%20it%20hard%20to%20learn%20other%20languages_6.png)
+
+Similarly\, attitudes toward a language can help/hurt your chances of acquiring it
+
+Remember all that we’ve said about identity\!
+
+
+---
+
+
+# Q slide
+
+Think about your own language\-learning situations\. Do some of these concepts help you understand the issues you faced?
+
+
+---
+
+
+![](images/15-Why%20is%20it%20hard%20to%20learn%20other%20languages_7.jpg)
+
+# What’s next?
+
+Come to lecture on Wednesday for “How is writing different from speaking?”
+
+Get working on Observation notes \#5
+
+Quiz 8 in recitation on Friday
+

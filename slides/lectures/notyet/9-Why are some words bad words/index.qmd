@@ -1,0 +1,284 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Why are some words “bad words”?
+
+# Bits and Pieces
+
+::: {.notes}
+
+Second half on politeness? https://www.youtube.com/watch?v=MPwpk-YgvjQ
+
+:::
+
+
+---
+
+
+
+
+* Maybe you swear\, maybe you don’t – but you ALL know some “bad” words \(in your native language and maybe some languages you’ve studied\)
+* Spend the next minute writing down as many SUBSTITUTE swear words as you can think of
+  * You know\, like “darn” or “shoot”
+  * You need not write the real swear word… 
+* Why do we swear? Why do we choose substitutes? Why do some people avoid swearing altogether?
+
+
+# Ling link
+
+
+---
+
+
+# Recall
+
+
+
+* All languages have words\, but what is a word?
+* We introduced  __pragmatics __ and _ _  __sociolinguistics__
+* Words get their meaning from
+  * History
+  * Morphological processes
+  * Usage
+* Context matters\!
+  * Grammatical AND communicative competence
+  * Slang is legit\!
+
+---
+
+
+![](images/9-Why%20are%20some%20words%20bad%20words_0.jpg)
+
+# But what about “bad words”?
+
+
+
+* Slang may be legit\, but what about those words people call “bad”?
+  * Curse words\, cuss words\, swear words\, taboo words\, potty words\, expletives\, profanity
+  * Which words are “bad”\, and are they legit?
+* __Swearing __ \(or cursing\, cussing\, etc\.\) is the use of words that are deemed taboo \(by a community\) to express the emotional state of the speaker
+  * Focus =  __connotative__  meaning \(what it implies\)
+  * And =  __perception__  \(what it means to hearers\)
+* Today we will return to __ historical linguistics\,__   __morphology__ \, and  __pragmatics__
+
+---
+
+
+![](images/9-Why%20are%20some%20words%20bad%20words_1.png)
+
+# Twitter’s “bad words”
+
+
+---
+
+
+
+
+* Like all words: history\, morphological processes\, and usage\!
+* Let’s start with history\!
+* What word do you think this is?
+  * Old English  _scitan_ \, from Proto\-Germanic  _\*skit\-_  \(source also of North Frisian  _skitj_ \, Dutch  _schijten_ \, German  _scheissen_ \)\, from Proto\-Indo\-European root  _\*_  _skei_  _\-_  “to cut\, split”\, extension of root  _\*_  _sek_  “to cut”
+  * The idea is about separation from the body
+  * And it’s related to  _science_ \,  _omniscient_ \, _ _ and  _conscience_ \!
+
+
+# How do we make “bad words”?
+
+
+---
+
+
+# Media
+
+[https://www\.etymonline\.com/search?q=shit](https://www.etymonline.com/search?q=shit)
+
+
+---
+
+
+
+
+* __Comparative reconstruction __ is a method used in historical linguistics to uncover vocabulary and structures of an ancestor language by drawing inferences from the evidence remaining in several daughter languages
+  * Often dealing with the  _sounds_  of a language
+  * You can use the IPA chart in Canvas if you want to know more now \(we’ll do more phonetics soon\)
+* So\, with the previous example:
+  * _\*_  _skei_  _\- > \*skit\- _ = vowel change\, addition of \[t\] \(though see  _\*_  _sek_  _\-_ \)
+  * _\*skit\- > _  _scitan_  _ _ = maybe not a change for k > c \(?\)\, addition of verbal suffix
+  * _scitan_  _ _ >  _shit_  = \[sk\] > \[ʃ\]\, loss of inflexion
+
+
+# Comparative Reconstruction
+
+
+---
+
+
+# Morphological Processes
+
+
+---
+
+
+![](images/9-Why%20are%20some%20words%20bad%20words_2.jpg)
+
+# Infixes
+
+
+---
+
+
+# Q slide
+
+True or false: In Tagalog\, speakers use the infix \-in\- the same way English speakers use the suffix \-ed to make a verb past tense\. True\.
+
+
+---
+
+
+# Infixation in English?
+
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=dt22yWYX64w](https://www.youtube.com/watch?v=dt22yWYX64w)
+
+
+---
+
+
+# There’s a rule!!
+
+
+
+* Take a multi\-syllable word
+* Break it at the point just before the stress
+  * ab\-so\- _lute_ \-ly
+* Insert “bad word” before that stress
+  * ab\-so\- __freaking__ \-lute\-ly
+* Don’t put it anywhere else\!
+  * ab\-freaking\-so\-lute\-ly?
+  * ab\-so\-lute\-freaking\-ly?
+
+
+![](images/9-Why%20are%20some%20words%20bad%20words_3.png)
+
+
+---
+
+
+# But English Isn’t Unique!
+
+![](images/9-Why%20are%20some%20words%20bad%20words_4.jpg)
+
+
+---
+
+
+# Q slide
+
+Do you think you use the infixed cuss words? Yes\, no\, I don’t cuss\, I don’t know
+
+
+---
+
+
+# Why do we use “bad words”?
+
+![](images/9-Why%20are%20some%20words%20bad%20words_5.png)
+
+
+
+* It’s usually about emotion\!
+  * Neurological\, psychological\, and sociocultural
+  * A learned behavior
+* Some people talk about it with respect to politeness
+  * That’s where pragmatics comes back\!
+  * You should know\, however\, that swearing is not universally rude
+  * It can be funny\, cathartic\, automatic\, related to brain injury\, etc\.
+
+---
+
+
+# Doing stuff with language
+
+
+
+* Language is the principal means we have to “do stuff”
+  * To greet\, compliment\, and insult one another\,
+  * To plead or flirt\,
+  * To seek and supply information\, and
+  * To accomplish hundreds of other daily tasks
+* Actions that are carried out through language are called  __speech acts__
+  * Such as lying\, promising\, greeting\, etc\.
+  * Let’s focus on  __indirect speech acts__
+
+
+![](images/9-Why%20are%20some%20words%20bad%20words_6.png)
+
+
+---
+
+
+# Politeness
+
+
+---
+
+
+![](images/9-Why%20are%20some%20words%20bad%20words_7.png)
+
+
+
+* It’s all about “saving face”
+* Brown and Levinson \(1987\) discussed the most influential and comprehensive model for understanding politeness –  __face\-saving model__
+  * Face = one’s public self\-image
+    * Universal notion in human societies
+    * Two kinds of face:
+      * __Positive face: __ one’s desire to be liked \(See positive politeness…\)
+      * __Negative face: __ one’s desire to be left alone \(See negative politeness…\)
+
+---
+
+
+# Why do we do that?
+
+![](images/9-Why%20are%20some%20words%20bad%20words_8.png)
+
+Think about who you feel comfortable swearing around
+
+Remember that it’s a learned behavior
+
+If swearing is seen as rude by the hearer\, the speaker has violated the hearer’s negative face \(to be left alone\)
+
+Self\-censorship \(to save others’ faces\) potentially threatens the speaker’s positive face \(perhaps swearing is their most charming feature\)
+
+And even if broad social norms make swearing more acceptable in some contexts\, because of their connection to rudeness\, etc\.\, some listeners may find it unwelcome
+
+
+---
+
+
+![](images/9-Why%20are%20some%20words%20bad%20words_9.jpg)
+
+# What’s next?
+
+
+
+* Come on Wednesday for “Who says ‘pop’ and why?”
+  * Read chapter 4
+* Catch\-up quiz for excused absences in weeks 4\-5
+* Get started on next Observation Notes
+* Quiz 5 Friday\!

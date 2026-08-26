@@ -1,0 +1,265 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Are chatbots real?
+
+# Language in the World
+
+
+---
+
+
+# Ling Link
+
+
+---
+
+
+# Media
+
+[https://psych\.fullerton\.edu/mbirnbaum/psych101/eliza\.htm](https://psych.fullerton.edu/mbirnbaum/psych101/eliza.htm)
+
+
+---
+
+
+# Recall
+
+
+
+* __Computational linguistics __ is the area of linguistics that applies the methods of computer science to the analysis of language and speech
+  * Speech synthesis and speech recognition
+  * Natural language processing
+* Computers are stupid\!
+* __Syntax __ is the way in which words are put together to form phrases and sentences
+  * Words belong to  __lexical categories __ \(= parts of speech\)\.
+  * __Word order __ is important\.
+  * Words form  __constituents__ \, that is\, groups of words that ‘go together’ and function as a unit\.
+  * Constituents nest inside one another at different levels to form a  __hierarchical structure__ \.
+
+---
+
+
+![](images/21-Are%20chatbots%20real_0.jpg)
+
+# Today’s question?
+
+Many of the questions I have been posing are ones I’ve heard in real life
+
+I’ve never actually heard anyone ask if chatbots are real though
+
+This question comes from a different kind of observation – one that requires a little background information on what they are and how they work
+
+We’ll focus on the linguistics of them and return to the question at the end
+
+
+---
+
+
+![](images/21-Are%20chatbots%20real_1.jpg)
+
+# What is a chatbot?
+
+
+
+* __Chatbots __ \(previously called “chatterbots”\) are computer programs/applications/web interfaces that are designed to have conversations with users
+  * Sometimes text\, sometimes speech
+  * Most today are based on  __generative artificial intelligence__ \, a type of AI that produces language by using models that learn the patterns and structures of training data to produce new language forms
+  * Older models \(like ELIZA\) were still based on AI\, but not like ChatGPT\, which are based on  __large language models__ \, or LLMs\, a type of machine learning model that uses natural language processing and that has predictive power on linguistic factors \(e\.g\.\, syntax\, semantics\) because it is based on a human language corpus\.
+
+---
+
+
+# Media
+
+[https://youtu\.be/fOvTtapxa9c?si=UysitIPNwZ9iy1c0&t=251](https://youtu.be/fOvTtapxa9c?si=UysitIPNwZ9iy1c0&t=251)
+
+::: {.notes}
+
+Through 5:25
+
+:::
+
+
+---
+
+
+# Question
+
+True or false: early chatbots were primarily rule\-based\, where experts would encode hundreds of rules mapping what a user might say to how a program should reply\. \[true\]
+
+
+---
+
+
+# Corpus Linguistics
+
+
+
+* __Corpus linguistics __ is a research paradigm that considers language as text in the form of a “corpus” \(Lat\. for “body”\)
+  * A  __corpus __ – like the one you have helped create in the “Data Collection” assignment – is a dataset that contains a large body of language data that are either originally text\-based \(like a scraped website\) or digitized spoken language \(like the Buckeye Corpus on the next slide\)
+  * A corpus is usually  __annotated__ \, or marking additional information with the language data; and example would be a part\-of\-speech tagger that indicates the lexical category for a word in a tag that makes it easily searchable
+
+---
+
+
+# Media
+
+[https://buckeyecorpus\.osu\.edu/](https://buckeyecorpus.osu.edu/)
+
+
+---
+
+
+![](images/21-Are%20chatbots%20real_2.jpg)
+
+# Where does meaning come from?
+
+
+
+* Much of meaning in the world boils down to individual human experiences with language
+  * Sometimes we’re focused on  __intention__ \, what the speaker meant to convey\, as opposed to some kind of hard and fast definition \(e\.g\.\, when a friend says\, “I’m cold” = state of being BUT ALSO perhaps “Can you get me a blanket?”\)
+  * Chatbots\, by definition\, cannot have intentions
+  * Pragmatists might say\, then\, that their utterances have no content = meaningless
+  * But humans are predisposed to assigning meaning to language\!\!
+* It appears that humans engage with machines AS IF the machine were producing meaningful utterances \(like humans would\)
+  * These “counterfeit people” deceive us into thinking they are real\!
+  * But human speech = tied to human experience\!
+::: {.notes}
+
+Counterfeit people from here: https://www.citizen.org/article/chatbots-are-not-people-dangerous-human-like-anthropomorphic-ai-report/
+
+:::
+
+
+---
+
+
+![](images/21-Are%20chatbots%20real_3.jpg)
+
+# Stochastic Parrots?
+
+
+
+* Emily Bender describes LLMs as “stochastic parrots”
+  * __Stochastic __ means something is randomly determined or has a random probability distribution
+  * “for haphazardly stitching together sequences of linguistic forms … according to probabilistic information about how they combine\, but without any reference to meaning\.” \(Bender\)
+  * The expression means generative AI can create surprisingly real\-sounding texts using statistical modelling\, but\, like parrots\, they can’t understand what they have produced
+
+---
+
+
+
+
+* The idea is that chatbots can carry on a conversation in a way that mimics a human conversational partner
+  * But what is really happening?
+  * Remember – computers are stupid\, so any “intelligence” these AI\-based systems have are from humans in some way
+  * “You can’t expect a machine\-learning system to learn stuff that’s not in it’s training data…otherwise you’re expecting magic\.” \(Bender\) = if no one trained the system to understand “skibbidi” as used by native speakers of the variety\, it won’t get it \(until it trains on new input in the form of your talk\)
+  * Indeed\, even the notion of “understanding” may be too much\!
+* And\, in reality\, LLMs are really like black boxes\, so we often have no idea what’s going on behind the scenes
+
+
+# What’s under the hood?
+
+
+---
+
+
+# Question
+
+Do you use generative AI? If so\, how much?
+
+No\, Sometimes\, At least once per day\, I run everything through gen AI\!
+
+
+---
+
+
+![](images/21-Are%20chatbots%20real_4.png)
+
+# Did you know?
+
+
+
+* LLMs are
+  * High on energy costs
+  * Expensive to create
+  * Overconfident on related falsehoods as facts
+  * Biased in certain ways \(e\.g\.\, ChatGPT bias toward positivity\)
+  * Bad at parsing languages other than English
+
+
+![](images/21-Are%20chatbots%20real_5.png)
+
+::: {.notes}
+
+Other image from here: https://www.webfx.com/blog/marketing/chatgpt-fails/
+
+:::
+
+
+---
+
+
+# The question of the day?
+
+
+
+* I said that I asked this question not because people ask it of me but because of a different observation
+* Generative AI is everywhere – which means people are interacting with them more than ever
+* With the invention and wide distribution of the internet\, people were already accustomed to less face\-to\-face interaction; what does the introduction of AI change?
+* And there are famously people who believe there is a sentient being behind the AI:
+  * Google fired an engineer in 2022 because he made public claims about their chatbot’s sentience
+  * People are dating chatbots?
+  * At least one story of a person who heeded very bad advice from an AI chatbot
+* Coupled with thinking computers are always right = dangerous for humans moving forward
+
+---
+
+
+![](images/21-Are%20chatbots%20real_6.jpg)
+
+# What makes us human?
+
+
+---
+
+
+# Media
+
+[https://nymag\.com/intelligencer/article/ai\-artificial\-intelligence\-chatbots\-emily\-m\-bender\.html](https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html)
+
+::: {.notes}
+
+I didn’t assign this as reading because it is pretty intense near the end and may be triggering. But these are real questions one must consider.
+
+:::
+
+
+---
+
+
+![](images/21-Are%20chatbots%20real_7.jpg)
+
+# What’s next?
+
+
+
+* Come on Monday for our next/last SPOTLIGHT lecture
+  * “How do we find relevant linguistics sources?”
+  * Important for the “Data Analysis” assignment\!
+* Wednesday = new module on language and culture\, starting with “Are actors good at dialects?” \(read the PDF in Canvas\)
+* Quiz 10 in recitation on Friday
+* Observation notes \#6 \(last one\!\) due Friday\!
+  * No late work\, no AI
+  * If you are happy with your grade in this category\, you can skip this one\, as we drop the lowest one\!

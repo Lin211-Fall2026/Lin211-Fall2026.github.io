@@ -1,0 +1,189 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 5 Discussion
+
+# Bits and Pieces
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is SLANG
+
+:::
+
+
+---
+
+
+# Quick Review
+
+
+
+* We introduced  __semantics__
+  * Study of the systematic ways in which languages structure meaning\, especially in words and sentences
+  * Mental lexicon and the relationship between words \- Why did all y’all say “cardinal”?
+* Language is arbitrary\!
+  * No direct relationship between form and meaning
+  * Except onomatopoeia\, but even that is culture\-bound\!
+* Sapir\-Whorf “Hypothesis”
+  * Probably not so strict as determining thought
+  * But language and thought ARE linked\!
+
+
+![](images/Recitation%205_0.png)
+
+
+---
+
+
+![](images/Recitation%205_1.jpg)
+
+
+
+* Where do words get their meanings?
+  * History
+  * Morphological processes
+  * Usage
+* We introduced  __pragmatics__
+  * The study of language use\, in particular\, the relationship among syntax\, semantics\, and interpretation in light of the context of the discourse
+  * “Can you close the window?”
+  * Requires  __grammatical competence __ and  __communicative competence __ – what are those?
+::: {.notes}
+
+For “can you close..”, try to point out that the syntax = a question, and “can” means ability in the semantic sense to get them to understand why context matters (so it has the literal meaning in the case where someone is asking about ability but not so in the marching band is outside version)
+
+:::
+
+
+---
+
+
+![](images/Recitation%205_2.jpg)
+
+
+
+* We also introduced  __sociolinguistics__
+  * The study of the interaction of language and social factors
+  * No one speaks the same way all the time
+  * Can find variation in all parts of the linguistic system\, but we focused on  __lexical variation__  \(or variation in word choice\)
+* __Slang __ is the register used in situations of  _extreme informality_
+  * Everyone can use it\!
+  * But is it legit? How do you know?
+::: {.notes}
+
+This person is cool (and they have to agree with you for this). What are some slang words you might use to describe someone as cool?
+
+:::
+
+
+---
+
+
+# Activity time!
+
+__Part I: Your mental lexicon__
+
+Each person will get a small slip of paper\.
+
+The first person in the row/group will write a word on that slip and pass it to the next person in the row/group\. Keep it clean\!
+
+The next person will write the first word that comes to mind when they read that word on their slip of paper and pass it to the next person\.
+
+And so on until everyone in the group has written a word\.
+
+Now\, discuss as a group what the first word was and how you got to the last word\.
+
+![](images/Recitation%205_3.png)
+
+::: {.notes}
+
+As a class, talk about how this is related to our class discussion about meaning, denotation/connotation, relationships between words, etc.
+
+:::
+
+
+---
+
+
+
+
+* __Part II: Slang timeline __
+  * You’ve got your slang\, and I’ve got mine\!
+  * For this assignment\, you’ll find the most popular slang term for each year\, and you’ll write down the word and its meaning
+  * Go to [https://www\.goodhousekeeping\.com/life/g4252/slang\-year\-you\-were\-born/](https://www.goodhousekeeping.com/life/g4252/slang-year-you-were-born/) or scan the QR code
+  * 1926\, 1951\, 1982\, 1994\, the year you were born
+  * Do you know any of these? Do you use any of these?
+
+
+![](images/Recitation%205_4.png)
+
+::: {.notes}
+
+They can also Google “goodhousekeeping slang” to find the link
+Groups, have them turn in a page with their names and answers. Encourage them to skim the other slang mentioned in the article.
+
+:::
+
+
+---
+
+
+| Get wasted | Loose | Hazed | Aced |
+| :-: | :-: | :-: | :-: |
+| Get stiff | Fried | Z’d | Pound a few |
+| Snockered | Zoned | Blasted | Catch a cold |
+| Crocked | Ripped | Plastered | Pissed |
+| Slushed | Buzzed | Loaded | Toasted |
+| Stoned | Tanked | Plowed | Rimmed |
+| Shit\-faced | Lubered |  |  |
+
+
+
+* __Part III: Variability in slang __
+  * What’s your word for drunk?
+  * Are any of these new to you? How did these words come to have this meaning? Do you use any of these words to mean something else? What’s missing? Why are there so many?
+
+
+::: {.notes}
+
+If you have time, you can do this one (or just show them the list and marvel at the many ways one can say “drunk”)
+Just have them discuss in pairs or groups then as a class. It’s hard to read the questions, but I wanted to make sure the list was easy to see.
+
+:::
+
+
+---
+
+
+# Next week!
+
+![](images/Recitation%205_5.png)
+
+
+
+* Monday and Wednesday in Singletary
+  * What are some words “bad words”?
+  * Who says “pop” and why?
+* Observation notes due TODAY\!\!
+  * No AI\, no late work
+* Friday = Quiz 5
+  * Be here\!
+  * Let me know if you have any questions or concerns

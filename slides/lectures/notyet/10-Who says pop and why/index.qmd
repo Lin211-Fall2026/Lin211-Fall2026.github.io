@@ -1,0 +1,314 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Who says “pop” and why?
+
+# Bits and Pieces
+
+
+---
+
+
+# Q slide
+
+What do you call a carbonated beverage? Give me the generic word you would use to say\, “I’m thirsty\. I’m going to get something from the \_\_\_\_\_\_\_\_\_ machine\.”
+
+Coke
+
+Soda
+
+Pop
+
+Soft Drink
+
+Other
+
+::: {.notes}
+
+Refer back to Spotlight lecture
+
+:::
+
+
+---
+
+
+![](images/10-Who%20says%20pop%20and%20why_0.png)
+
+
+---
+
+
+# Recall
+
+
+
+* Slang is legit\! Bad words are legit\!
+* Words get their meaning from history\, morphological processes\, and usage
+* __Sociolinguistics __ is the study of the interaction of language and social factors
+  * No one speaks the same way all the time\!
+  * Social categories\, speech situation\, linguistic repertoire\, etc\.
+  * Vary in all parts of the system
+  * All languages change\!
+
+---
+
+
+# Regional variation
+
+![](images/10-Who%20says%20pop%20and%20why_1.gif)
+
+
+
+* __Regional variation __ has to do with how speakers in different parts of a country speak the same language differently
+  * Differs from other kinds of variation \(e\.g\.\, age\, gender\, ethnicity\, community of practice\)
+  * We’re talking about regional dialects\!
+
+---
+
+
+![](images/10-Who%20says%20pop%20and%20why_2.jpg)
+
+# What’s a dialect?
+
+
+
+* A  __dialect__  is the language variety characteristic of a particular regional\, ethnic\, or social group
+  * It is systematically different from other varieties of the same language
+  * Dialects of the same language are  __mutually intelligible__
+  * It is different from an  __accent__
+* Everyone has an accent\! Everyone has a dialect\!
+* Dialects are not bad\! Dialects are just different\!
+::: {.notes}
+
+Dialect includes vocabulary, grammar, pronunciation, pragmatics, and any other aspect of the linguistic system
+Dialectology is the study of linguistic variation in dialects, often focused on mapping those differences; seek to understand what the differences are between varieties and why people continue to utilize these differences
+
+
+:::
+
+
+---
+
+
+# Media slide
+
+[https://www\.youtube\.com/watch?v=CpnBKllISTg](https://www.youtube.com/watch?v=CpnBKllISTg)
+
+
+---
+
+
+# Q slide
+
+
+
+* What are the  _two things_  the younger Boston brother claims are accomplished by using his local dialect as opposed to some standard dialect?
+  * Impressive for women
+  * Intimidating for men
+
+---
+
+
+![](images/10-Who%20says%20pop%20and%20why_3.png)
+
+# To be able to talk about variation…
+
+
+
+* We’re gonna need to go back to  __phonetics__ \!
+  * The study of the sounds in a language
+  * Two branches:  __Articulatory __ and  __acoustic__
+* Our focus today is on articulatory\, which means we’re looking at the human vocal apparatus and how we configure it to make sounds\!
+
+---
+
+
+
+
+* A  __phonetic alphabet__  is a system of transcription which represents each speech sound with a single symbol and each symbol with a single speech sound\.
+* Phonetic transcription is a one\-to\-one correspondence between sounds and symbols\.
+* This eliminates the ambiguity of the sound\-symbol variations within a language or across languages\.
+    * The most widely used phonetic alphabet is the  __International Phonetic Alphabet__
+    * Why can’t we just use the English/Roman alphabet?\!
+
+
+# Phonetic Alphabet
+
+
+---
+
+
+![](images/10-Who%20says%20pop%20and%20why_4.png)
+
+# English is nuts…
+
+Sounds ≠ Spellings
+
+![](images/10-Who%20says%20pop%20and%20why_5.png)
+
+
+---
+
+
+![](images/10-Who%20says%20pop%20and%20why_6.jpg)
+
+# International Phonetic Alphabet (IPA)
+
+[https://en\.wikipedia\.org/wiki/File:IPA\_chart\_\(C\)2005\.pdf](https://en.wikipedia.org/wiki/File:IPA_chart_(C)2005.pdf)
+
+
+---
+
+
+# Media slide
+
+[https://www\.ipachart\.com/](https://www.ipachart.com/)
+
+
+---
+
+
+![](images/10-Who%20says%20pop%20and%20why_7.png)
+
+# American English Sounds
+
+We also need two more:
+
+\[ʔ\] = the sound in “uh\-oh”
+
+\[ɾ\] = the sound in “water”
+
+![](images/10-Who%20says%20pop%20and%20why_8.png)
+
+
+---
+
+
+# Distinctive Features
+
+![](images/10-Who%20says%20pop%20and%20why_9.jpg)
+
+
+
+* For Consonants:
+  * Voicing
+  * Place of Articulation
+  * Manner of Articulation
+* For Vowels:
+  * Tongue Height
+  * Tongue Frontness
+  * Tenseness
+  * Lip Roundedness
+
+---
+
+
+# Describing Sounds: Consonants
+
+
+
+* __Voicing:__  vibration of the vocal folds
+  * If air is pushed between the vocal cords while they are held together\, they vibrate and create a  __voiced__  sound\.
+  * If the vocal cords are held slightly apart\, air can flow through the space \(the glottis\) without causing a vibration\, thus creating a  __voiceless__  sound\.
+* How can you tell?
+  * Place your hand against your throat and say “sssssss” then “zzzzzzz”
+  * If you feel buzzing\, it is voiced; if not\, it is voiceless
+
+
+![](images/10-Who%20says%20pop%20and%20why_10.jpg)
+
+
+---
+
+
+# Q slide
+
+True or false: \[s\] is voiced\, and \[z\] is voiceless\. \[False\]
+
+
+---
+
+
+
+
+* __Place of Articulation:__  Where the airstream is most obstructed
+  * __Bilabial:__  two lips \[p\]\, \[b\]\, \[m\]
+  * __Labiodental:__  lips and teeth \[f\]\, \[v\]
+  * __Interdental:__  the ‘th’ sounds\, “thin\, then” \[θ\]\, \[ð\]
+  * __Alveolar:__  tongue contacts the ridge behind the teeth \[t\]\, \[d\]\, \[s\]\, \[z\]\, \[n\]\, \[ɾ\]\, \[r\]\, \[l\]
+  * __Alveopalatal:__  tongue makes contact between the alveolar ridge and the top of the palate\, “church\, judge” \[tʃ\]\, \[dʒ\]\, \[ʃ\]\, \[ʒ\]
+  * __Palatal: __ tongue touches palate \[j\]
+  * __Velar:__  Back of tongue contacts velum \[k\]\, \[g\]\, \[ŋ\]
+    * __Labiovelar:__  velar with rounded lips \[w\]
+  * __Glottal: __ sound made with glottis \[h\]\, \[ʔ\]
+
+
+# Describing Sounds: Consonants
+
+
+---
+
+
+
+
+* __Manner of articulation:__  The particular way the airstream is obstructed
+  * __Stops:__  air is built up in the vocal tract and suddenly released through the mouth
+  * __Fricatives: __ continuous stream of air forced through a narrow opening
+  * __Affricates: __ stop consonant released into a fricative; like a stop\-fricative combo
+  * __Nasals: __ air redirected through nasal cavity instead of oral cavity
+  * __Others: __ Liquids\, rhotics\, glides\, flaps\, trills\, clicks
+
+---
+
+
+# Describing (English) Vowels
+
+![](images/10-Who%20says%20pop%20and%20why_11.jpg)
+
+__Height:__  how high in your mouth is your tongue – high\, mid\, low
+
+__Frontness__  __: __ how far forward in your mouth is your tongue – front\, central\, back
+
+__Tenseness:__  the amount of muscle tension in the vocal tract – tense\, lax
+
+__Roundedness:__  produced by rounding the lips – round\, unround
+
+
+---
+
+
+# Why are we talking about this?!
+
+
+
+* To better understand what is meant by “people who sound different” \(= part of a dialect\)\, we have to have the right tools for discussion\!
+  * Indeed\, many linguists believe that the sounds in a dialect are often not only the noticeable parts that vary but are also the place where we are seeing the most dynamic changes
+  * And though many believe that the media is making us “all sound the same”\, research suggests that this is not the case
+  * If anything\, constant contact with the world seems to be making people want to remember where they are from
+
+---
+
+
+![](images/10-Who%20says%20pop%20and%20why_12.jpg)
+
+# What’s next?
+
+Come to lecture Monday for “Where do dialects come from?”
+
+Catch\-up quiz for excused absences\!
+
+Get started on Observation Notes \#3 \(due February 28\)\!
+
+Quiz 5 Friday\!
+

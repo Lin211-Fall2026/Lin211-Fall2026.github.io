@@ -1,0 +1,290 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Can you make your own language?
+
+# Language and Culture
+
+
+---
+
+
+![](images/23-Can%20you%20make%20your%20own%20language_0.jpg)
+
+# Ling Link
+
+
+
+* Are you a fan of science fiction? Great\! Name as many fictional languages that belong to \(science\) fictional universes\!
+  * This might be in books\, movies\, television\, comics\, video games\, etc\.
+  * Even if you aren’t a fan\, can you list some?
+  * Spend a minute talking to your partner about what you know about  __conlangs __ \(we’ll talk about this term soon\!\)
+* Bragging on UK Linguistics: You’ll see a bit about my colleague later\, but one of our undergrads went on to co\-create Torfan\, a language spoken by the inhabitants of Torfa in the movie  _Captain Marvel_ \!
+
+---
+
+
+# Media
+
+[https://news\.cornell\.edu/stories/2019/04/linguistics\-students\-create\-language\-captain\-marvel](https://news.cornell.edu/stories/2019/04/linguistics-students-create-language-captain-marvel) \(story about Joseph Rhyne\)
+
+
+---
+
+
+# Recall
+
+
+
+* We’re focusing on the interaction of language and \(pop\) culture
+  * Language and the media = mediators between worlds\!
+  * Language and movies – storytelling\, dialect coaches
+* To talk about those\, we needed to talk about
+  * Sociolinguistics and linguistic anthropology
+  * Cognition and learning theory
+* What’s most important about this unit is that nothing we do with language is detached from the rest of what’s going on around us – including our bodies\, our societies\, and our pop worlds\!
+
+---
+
+
+![](images/23-Can%20you%20make%20your%20own%20language_1.jpg)
+
+# Create your own?
+
+
+
+* One of the key things we have said about language is that it is  _acquired_ \, which suggests something that happens to a human naturally
+* Languages that are used in the “real world” are called  __natural languages __ \(sometimes  __natlang__  for short\)
+* But\, in “fictional world\(s\)”\, we may run across  __constructed languages __ \(or  __conlangs __ for short\)
+  * Conlangs are any language that has been consciously created
+  * These might be like Dothraki from  _Game of Thrones _ or various languages in the  _Star Wars _ and  _Marvel _ franchises\, for example
+  * We can also call these kind of languages  __fictional languages__
+  * Not all conlangs are just in fictional worlds though – languages like Esperanto exist
+
+---
+
+
+# Q slide
+
+Did you or you and your friend/sibling/cousin ever try to make up a language?
+
+
+---
+
+
+![](images/23-Can%20you%20make%20your%20own%20language_2.jpg)
+
+# A little plug…
+
+We actually teach a whole class on this\!\!
+
+LIN 200: How to create your own language
+
+Fulfills UK Core Arts and Creativity requirement
+
+And can be your other LIN course for C&I majors
+
+We regularly offer sections in person and online; fall\, spring\, and summer\!
+
+
+---
+
+
+# Q slide
+
+Are you planning to sign up for LIN 200 next semester?
+
+Yes\, I’m already signed up
+
+Yes\, I plan to
+
+No\, I already took it
+
+No\, I’m taking a different linguistics class
+
+Maybe\, just not next semester
+
+Probably not\, but I don’t want to hurt Dr\. Cramer’s feelings…
+
+
+---
+
+
+![](images/23-Can%20you%20make%20your%20own%20language_3.jpg)
+
+# Why would we make our own?
+
+
+
+* Aside from the Hollywood angle\, one might make another language to:
+  * Help make communication easier \(like making what’s called an  __international auxiliary language__ \, which can be used by people who speak other languages when they need to communicate; kind of like a  __lingua franca__ \) = Esperanto
+  * Experiment with what is possible within the areas of linguistics\, cognitive science\, and machine learning
+  * Make a game\! As a hobby\!
+* As we’ll see\, they require a lot of work\, so very few gain a lot of traction beyond their original creation reason
+  * Esperanto has gained a bit of ground over time\, but no other  __planned__  languages have really caught on
+  * With the advent of the internet\, fans have been more particular about having “good” languages in their films and shows \(and will drag producers online if they don’t\)
+
+---
+
+
+
+
+* Think about our “bits and pieces” we’ve been discussing
+  * Sounds
+  * Rules about sounds
+  * Morphemes
+  * Rules about morphemes
+  * Sentence structure
+  * Rules about sentence structure
+  * Pragmatics
+  * Writing system \(maybe\)
+  * Etc\.\, etc\.\, etc\.
+
+
+# What do you need?
+
+
+---
+
+
+
+
+* Here is just a small list of things you would need to decide about your language:
+  * Which consonants/vowels?
+  * How do you make syllables?
+  * What are the rules about putting sounds together?
+  * Is your language stress\-based or tonal?
+  * How would someone know you were asking a question?
+  * What parts of speech?
+  * What are the words?
+  * How do you mark nouns for number/gender/role?
+  * Do adjectives agree?
+  * Does it have articles like “the” and “a”?
+  * How do you conjugate verbs?
+  * Do you mark tense/aspect/mood?
+  * What is your language’s word order?
+
+
+# Think about it…
+
+
+---
+
+
+# Media
+
+[https://youtu\.be/4OoFrio2j9o?si=jiGJjzNKlhEEUwDG&t=17](https://youtu.be/4OoFrio2j9o?si=jiGJjzNKlhEEUwDG&t=17)
+
+
+---
+
+
+# To be a language…
+
+
+
+* You need a self\-contained sound system that is distinct from other languages
+  * This is why “Pig Latin” isn’t really a different language
+* You need a self\-contained word/sentence system that is distinct from other languages
+  * Also why “Pig Latin” isn’t a different language
+* It must be systematic…
+  * Ubese \( _Star Wars_ \)
+  * __Yaté__  __ __  __yaté__  __ __  __yotó__  __\. 					__
+  * __I have come for the bounty on this Wookie\. 		__
+  * __Yotó__  __ __  __yotó__  __\. __
+  * __50\,000\, no less\.__
+
+---
+
+
+# And…
+
+
+
+* Your language will inevitably be embedded in some kind of culture
+  * When a character in a movie uses another language\, it is because that person is being represented as belonging to that culture
+  * Like with our discussion of movies\, it is important to the character development
+  * And it shouldn’t be random\! There will be aspects of your culture that matter to your language
+    * Ex\. If your culture is very focused on politeness\, your language will need to have built\-in ways to show deference\, kind of like Japanese does
+    * Ex\. If you want to represent a hierarchical society\, you will have standard/proper dialects spoken by those in higher positions and non\-standard versions spoken by people in lower positions
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=wGgIyfwG0oY](https://www.youtube.com/watch?v=wGgIyfwG0oY) \(how\)
+
+
+---
+
+
+# Writing system
+
+![](images/23-Can%20you%20make%20your%20own%20language_4.png)
+
+
+
+* We already talked about the fact that
+  * Not all languages are written
+  * Writing is learned\, not acquired
+  * There are many ways to represent language in writing
+  * Writing must represent language \(not pictograms\)
+* What does this mean for a conlang?
+  * You can use a pre\-existing writing system\!
+  * You can make it up altogether\!
+  * Remember – the squiggles we make to represent English are just as arbitrary as any other way to represent language\!
+  * Must be systematic\!
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=4xPuxJkMA5o&t=1s](https://www.youtube.com/watch?v=4xPuxJkMA5o&t=1s) \(Byrds\)
+
+
+---
+
+
+
+
+* Remember – last class\, we were talking about whether actors are good at doing dialects
+  * We said that this matters for the sake of a believable story\, even in cases where what is going on is not like our own real worlds
+  * E\.g\.\, we need someone who “sounds” like they could come from Africa in a story told about a fictional world where people have super high\-tech weapons that we can’t even begin to dream about making in the real world
+* So\, in certain fictional worlds\, it will make the most sense for a culture to have its own language
+  * And\, again\, the fan base for many of these fictional universes is huge\, vocal\, and online
+  * The success/failure of a franchise may lie in the conlang\!
+  * Ok\, so Star Wars had bad ones\, and they did fine\! But those movies \(originally\) pre\-date the internet
+  * Things like Game of Thrones were more successful because fans got on board with the languages\!
+
+
+# Who cares?
+
+
+---
+
+
+![](images/23-Can%20you%20make%20your%20own%20language_5.jpg)
+
+# What’s next?
+
+
+
+* Wednesday we will talk about animals\!
+  * “Do animals have language?”
+  * Read “LA Times 2018” PDF in Canvas
+* Quiz 12 in recitation on Friday \(last one\!\)
+* Extra credit
+* Data Analysis
+* Evaluations

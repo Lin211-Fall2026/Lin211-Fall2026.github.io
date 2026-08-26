@@ -1,0 +1,297 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Who really uses this stuff?
+
+# So, what?
+
+
+---
+
+
+# Ling Link
+
+
+---
+
+
+# Q slide
+
+What career will you pursue when you graduate from UK?
+
+
+---
+
+
+# Recall
+
+
+
+* We’re at the end of the semester\!
+* We’ve talked about A LOT of linguistics \(and more\!\)
+  * What is linguistics?				How many languages are there?
+  * What is language?				Where does language come from?
+  * What is a word?				How do words get their meaning?
+  * Is slang legit?					Why are some words “bad words”?
+  * Who says “pop” and why?			Are chatbots real?
+  * How do kids learn to talk?			Where do dialects come from?
+  * How is writing different from speaking?		How does bilingualism work?
+  * How do computers help with language?		Why is it hard to learn other languages?
+  * Are actors good at dialects?			Do animals use language?
+  * Why can’t Siri pronounce my name?		SPOTLIGHTS\!
+
+---
+
+
+# But the big question is…
+
+![](images/25-Who%20really%20uses%20this%20stuff_0.png)
+
+So\, what? Who cares? Who needs to know this stuff?
+
+
+---
+
+
+# Q slide
+
+When you signed up for this class\, what did you hope to learn about\, and did we?
+
+
+---
+
+
+![](images/25-Who%20really%20uses%20this%20stuff_1.jpg)
+
+# Linguistics helps us understand our world
+
+We weren’t just listing facts that you needed to memorize\!
+
+Course description:
+
+This course is designed to give students a broad introduction to the field of linguistics from the  _perspective of language users_ \. As native users of at least one spoken or signed language\, students are already in some ways  _experts_  in how language works\. This course will explore the  _beliefs about and perceptions of language_  that they already possess and build upon this knowledge by  _comparing popular notions about language with those developed in linguistic science_ \, paying attention to the contributions of popular belief as well as the differences between them and scientific findings\.
+
+
+---
+
+
+# Student Learning Outcomes
+
+
+---
+
+
+# Careers in linguistics?
+
+
+
+* Yes\, some of us become professors \(though this is a vanishingly small number…\)
+* Obvious jobs = ESL/language teacher\, translation/interpretation\, speech and hearing sciences
+* You can find people with linguistics degrees \(or linguistics training\) in a number of non\-academic spheres\, including but not limited to:
+  * The not\-for profit space: research\, scientific writing\, document design\, media production\, digital storytelling\, advocacy
+  * Tech: human\-language technology\, UX\, taxonomy\, localization/internationalization\, conversational AI\, voice user interface
+  * Business: consulting\, training/development\, HR\, onboarding\, leadership development\, intercultural communication
+  * Government: Census\, FBI\, CIA\, NSA\, strategic communications
+
+
+![](images/25-Who%20really%20uses%20this%20stuff_2.png)
+
+
+---
+
+
+![](images/25-Who%20really%20uses%20this%20stuff_3.jpg)
+
+# Skills breakdown: If you are a linguist, you can:
+
+Design and execute research projects \(“end\-to\-end research design”\)
+
+Recruit participants
+
+Develop rapport with both individuals and groups for purposes of data collection
+
+Interview participants & collect data
+
+Analyze the data \(qualitatively & quantitatively\)
+
+Synthesize your results
+
+Present your findings
+
+
+---
+
+
+# Media
+
+[https://youtu\.be/KcMmIm207\_g?si=7w8DrzM1\_BuRJFgI&t=1931](https://youtu.be/KcMmIm207_g?si=7w8DrzM1_BuRJFgI&t=1931)
+
+
+---
+
+
+Academic Course Scheduler
+
+Accessibility Specialist
+
+Administrative Assistant
+
+Analyst
+
+Annotator
+
+Artificial Intelligence Engineer
+
+Audio Coordinator
+
+Behavior Interventionist
+
+Bilingual After\-School Curriculum Developer
+
+Billing Specialist
+
+Bookkeeper
+
+Career counselor
+
+Computational Linguist
+
+Content Creator
+
+Content Specialist
+
+Consultant
+
+Cross\-cultural Communications Specialist
+
+Data Specialist
+
+Design Researcher
+
+English for Academic Purposes Instructor
+
+Editor
+
+Electronic Publications Associate
+
+English teacher
+
+ESL instructor
+
+Fundraising grant writer
+
+Government Contractor/Analyst
+
+Independent contractor
+
+Interpreter
+
+K\-12 teacher
+
+Linguist
+
+Linguist/Junior Programmer
+
+Linguistic Project Manager
+
+Linguistic Researcher
+
+Localization Manager
+
+Machine translation specialist
+
+NLP Engineer
+
+Non\-profit research
+
+Partner Development Representative
+
+Product Analyst
+
+Production Assistant
+
+Program Coordinator
+
+Program Manager
+
+Project Associate
+
+Project Coordinator
+
+Project Manager
+
+Research and Product Development Associate
+
+Social Media Analyst
+
+Social Listening
+
+Software Engineer
+
+Speech Data Researcher
+
+Speech Language Pathologist
+
+Student loan counselor
+
+Teacher
+
+Teaching Assistant
+
+Technical Staff
+
+Test Developer
+
+Translation Project Coordinator
+
+Tutor
+
+UX Researcher
+
+Web Technologist
+
+# First job titles for linguistics grads (all degrees)
+
+::: {.notes}
+
+What do you see here?
+
+
+
+:::
+
+
+---
+
+
+![](images/25-Who%20really%20uses%20this%20stuff_4.jpg)
+
+# How will you use what you’ve learned?
+
+
+---
+
+
+# What’s next?
+
+![](images/25-Who%20really%20uses%20this%20stuff_5.jpg)
+
+
+
+* I’ll see you back here on Wednesday for “Why linguistics?”
+* No class Friday\!
+* Finish Data Analysis assignment
+  * Read the instructions in Canvas\, and let me know if you have questions
+  * I’ll be available during the scheduled finals time\, too
+    * Monday\, May 5\, 8\-10am\, Singletary
+* Extra credit and evaluations\!

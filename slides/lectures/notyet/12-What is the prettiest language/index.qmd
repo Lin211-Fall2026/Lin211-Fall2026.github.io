@@ -1,0 +1,244 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# What is the prettiest language?
+
+# Bits and Pieces
+
+
+---
+
+
+# Q slide
+
+Let’s go back to dialects of American English\. How correct do you think the speech of people in New Jersey is? 1 = correct\, 4 = not correct
+
+
+---
+
+
+Let’s go back to dialects of American English\. How pleasant do you think the speech of people in New Jersey is? 1 = pleasant\, 4 = not pleasant
+
+
+---
+
+
+# Recall
+
+
+
+* All language helps us do stuff in the world
+* __Sociolinguistics __ is the study of the interaction of language and social factors
+* There are  __many__  explanations for dialects
+  * Settlement\, migration\, geography
+  * Identity\!
+* Dialects exist because they help people do stuff
+  * Not good\, not bad
+  * Just rules that are different\!
+
+---
+
+
+# Today’s question
+
+![](images/12-What%20is%20the%20prettiest%20language_0.png)
+
+We’re asking about the prettiest language – which one?
+
+
+---
+
+
+# Q slide
+
+What is the prettiest language?
+
+
+---
+
+
+![](images/12-What%20is%20the%20prettiest%20language_1.jpg)
+
+What people see/hear as beautiful \(or ugly\) is subjective – it’s an opinion\!
+
+# How do you know?
+
+
+---
+
+
+# People reveal their ideas in many ways…
+
+
+---
+
+
+# What do people base their ideas on?
+
+
+---
+
+
+# Q slide
+
+Think about a language you think of as beautiful\. What characteristic do you think made you pick it?
+
+
+---
+
+
+# Language attitudes
+
+
+---
+
+
+# Media
+
+[https://www\.youtube\.com/watch?v=rfkAv5w5r3E&t=578s](https://www.youtube.com/watch?v=rfkAv5w5r3E&t=578s)
+
+
+---
+
+
+# Q slide
+
+True or false \(based on the video\): Language attitudes trigger stereotypical perceptions\. \[true\]
+
+
+---
+
+
+# Perceptual Dialectology
+
+
+
+* __Perceptual Dialectology __ \(also known as “folk linguistics”\) is the study of how nonlinguists classify different dialects\, as well as their beliefs about and attitudes toward different dialects  _and their speakers_
+  * It deals with where nonlinguists believe variation comes from\, where nonlinguists believe variation exists\, and why nonlinguists believe variation happens
+* In many traditional dialectology studies\, there is a lack of inclusion of nonlinguists’ attitudes and beliefs about linguistic varieties and variation
+  * Perceptual dialectology fills this gap
+  * Contrasts with perspective that only production data counts as “real” data
+
+---
+
+
+# What are language ideologies?
+
+![](images/12-What%20is%20the%20prettiest%20language_3.gif)
+
+
+
+* __Language ideologies__  are a set of beliefs\, feelings\, ideas\, or thoughts about languages as they are used in everyday\, social settings
+  * Linguists and anthropologists study these in order to understand certain worldviews held by the cultures they are investigating
+  * Part of a larger social/cultural system; engrained\, broad\, socio\-cultural schemas
+  * Connections between language use and reactions to language use
+  * Two\-way street\!
+
+---
+
+
+
+
+* _All_  varieties of all languages display variation
+* Variation may be tied to various factors:
+  * __identity__  – variation may relate to social groups \(i\.e\.\, age\, region\, ethnicity\, gender\, etc\.\)
+  * __context__  – variation may relate to the context in which language is used \(i\.e\.\, register\)
+  * __genre__  – variation may relate to spoken or written genres \(i\.e\.\, joke\, sermon\, argument\, etc\.\)
+* Variation happens in all domains of a language variety
+  * Words\, sounds\, sentence structure\, etc\.
+  * Conscious and unconscious…
+
+
+# We already know…
+
+
+---
+
+
+“When we choose among variants available to us…we use those language signals that will mark us as belonging to specific social groupings\, and distance us from others\.”
+
+\(Lippi\-Green\, p\. 40\)
+
+
+---
+
+
+# Language as social action
+
+
+---
+
+
+# Belonging
+
+![](images/12-What%20is%20the%20prettiest%20language_4.jpg)
+
+Acknowledging that you have a certain accent/dialect means you acknowledge that you  __belong to __ some group of people who have that accent/dialect \(and don’t belong to another…\)
+
+It’s all about identity and belonging…
+
+But what we know about language ideologies is that they often lead to/conjure up stereotypes…
+
+
+---
+
+
+# Stereotypes!
+
+
+
+* __Stereotypes __ are \(over\)generalizations made about a particular group of people
+  * True for one = true for all\!
+  * Positive vs\. negative? Explicit vs\. implicit?
+* Why do we do it?
+  * Useful in making quick decisions – see several police cars at a donut shop\, choose not to go to that donut shop
+  * Remember\, humans seek patterns
+* Problems?
+  * Encourages prejudice
+
+
+![](images/12-What%20is%20the%20prettiest%20language_5.jpg)
+
+
+---
+
+
+
+
+* The point is this
+  * Ideas about “correct” forms of language are primarily social \(rather than linguistic\) and are largely based upon stereotypes about the social groups that speak particular varieties
+  * The idea of what is “correct” varies from country to country\, culture to culture \(compare “proper” British and American English\)
+  * The same linguistic process may be “correct” in one society and “incorrect” in another \(e\.g\.\, Word\-final /r/ in varieties of English\, multiple negation\)
+  * The variety that is considered “correct” is almost universally the variety of the social group with the most political and economic power in a given society
+
+
+# Social Meaning
+
+
+---
+
+
+# What’s next?
+
+![](images/12-What%20is%20the%20prettiest%20language_6.jpg)
+
+Come to lecture Monday for the start of our next module –  _Language in the world_ \, with our first one on “How do kids learn to talk?”
+
+Read “Nine ideas” in Canvas
+
+Observation Notes \#3 due Friday\, October 11 by 11:59pm \(not late\, no AI\)
+
+Quiz 6 Friday\!
+
+Check out Data Collection assignments\!
+

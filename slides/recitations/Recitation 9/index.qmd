@@ -1,0 +1,101 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+# Week 11 Discussion
+
+# Language in the World
+
+
+---
+
+
+# Let’s start with the quiz!
+
+Get out your device\, use the access code on the board\, and complete the quiz\!
+
+::: {.notes}
+
+Access code is WRITING
+
+:::
+
+
+---
+
+
+# Quick Review
+
+
+
+* __Language acquisition__  is the process by which humans acquire the ability to use\, produce\, and perceive language\!
+* But why is it hard to learn other languages?\!
+  * The way it is taught
+  * When it is taught
+  * How you feel about the relative complexity of it
+  * Your motivations for learning it
+  * Your attitudes towards it \(and its speakers\)
+* Cool concepts: applied linguistics\, communicative approach\, interlanguage\, fossilization\, language acquisition device\, critical period
+
+
+![](images/Recitation%209_0.png)
+
+
+---
+
+
+::: {.notes}
+
+Can refer back to quiz
+
+:::
+
+
+---
+
+
+# Activity Time!
+
+
+
+* We’re passing around a document with three different alphabets – try to write your name in all three\!
+  * What if we can’t find our sounds? Let’s talk about it\!
+  * Come write one of them on the board\!
+  * Can you find another script online where you can write your name?
+* For example\, Dr\. Cramer found a website that would write her name in Japanese katakana \([https://japanesenameconverter\.nolanlawson\.com/](https://japanesenameconverter.nolanlawson.com/)\) – not sure about the validity of the website\, but what do you notice about it?
+
+
+![](images/Recitation%209_1.png)
+
+::: {.notes}
+
+For “what do you notice”, lead them to talk about the spelling at the end = no R sound, so double the vowel sound. I don’t know why it is 5 characters though; looks like it should be 4 syllables (je-ni-fa-a). You don’t have to have all the answers either!
+
+:::
+
+
+---
+
+
+# Next week!
+
+![](images/Recitation%209_2.png)
+
+
+
+* Monday and Wednesday in Singletary
+  * 🤷
+  * Why can’t Siri pronounce my name?
+* Friday = Quiz 9
+  * Be here\!
+  * Let me know if you have any questions or concerns
+* _Observation notes due tonight by 11:59pm \(not late\, not AI\)_

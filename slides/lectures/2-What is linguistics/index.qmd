@@ -1,24 +1,29 @@
 ---
-title: "What is linguistics anyway?"
+title: "What is linguistics?"
 subtitle: "Lin 211 • Section 1, Part 2"
+date: 08/26/2026
+description: " "
+categories: [Getting Started]
 authors:
-  - name: Kevin B McGowan
-    orcid: 0000-0002-8214-1901
-    email: kbmcgowan@uky.edu
+    - name: Kevin B McGowan
+      orcid: 0000-0002-8214-1901
+      email: kbmcgowan@uky.edu
 tbl-cap-location: bottom
 format:
   revealjs:
     slide-number: c/t
     width: 1600
     height: 900
+    maxscale: 2.0
     footer: "Getting Started"
     incremental: true
     theme: [simple, includes/styles.scss]
     template-partials:
       - includes/title-slide.html
-categories: [Getting Started]
 ---
-# Ling Link!
+# Ling Link! 
+
+::: {.nonincremental}
 
 - Part of what I said we would do in a class like this is dive deep on bits of language that are an ordinary and mundane part of your everyday life
 - So – let’s try it\!
@@ -28,113 +33,134 @@ categories: [Getting Started]
   - What information is left unanswered? What evidence supports that knowledge?
 - Spend 2 minutes talking to your seat neighbor(s)\!
 
+:::
 
 
+::: {.nonincremental}
 
-## A first definition
+## Grading Breakdown (from the syllabus)
 
+| Activity | Percentage |
+|:---------|:----------:|
+| Quizzes (10): | 30% |
+| Observation notes (5): | 15% |
+| Data Collection: | 20% |
+| Data Analysis: | 25% |
+| Participation: | 10% |
+: Grade Breakdown {.striped .hover}
+
+::: 
+
+## Course Activities and Exams (from the syllabus)
+
+
+- **Quizzes (30%)**: Each week in discussion sections (beginning during the second week of classes), students will complete a short quiz in Canvas over the material that has been covered in lecture and in the course readings. Twelve 12 total quizzes and the lowest two (2) quiz grades will be dropped.
+
+
+- **Observation notes (15%)**: Beginning in the second week of classes, you need to keep an online language observation journal.The idea is just to **pay attention to language use in the real world and think about how it works**.
+
+- **Data Collection (20%)**: Near the middle of the semester, students will complete a large-scale assignment  involving the collection of linguistic data. This assignment is worth 20% of the final grade.
+
+- **Data Analysis (25%)**: Near the end of the semester, students will complete another large-scale assignment. This assignment will involve the analysis of the linguistic data collected near midterm.  (There is no final exam)
+
+## Course Activities and Exams (from the syllabus)
+
+- **Participation (10%)**: Students are expected to attend each class (lecture and discussion) and to have done any reading or other work assigned for that day. 
+- Friday Discussion: participation will be gauged by attendance, participation in class activities, and/or submission of assignments, as required.
+- Monday/Wednesday lectures: participation in the class will be gauged by responses to participation questions that are sprinkled throughout the lectures. Students will be able to submit answers in class through Echo360 using a laptop, tablet, or mobile phone. If you have questions or concerns about this aspect of the course, please see the instructor immediately
+
+## What is Linguistics? {.center}
+
+::: {.r-fit-text}
 _Linguistics_  is the study of language\.
+:::
 
+## But what does that mean? {auto-animate=true}
 
-## But what does that mean?
+::: {style="margin-top: 100px;"}
+Answer for yourself, just in your own mind, but try to be as clear about what you think as possible.  Take a stand!  What does "Linguistics is the study of language" *mean*?
 
-Answer for yourself, just in your own mind, but try to be as clear about what you think as possible.  Take a stand!  What does "Linguistics is the study of language" *mean*.
+:::
 
-## Linguistics is the study of language
+## But what does that mean? {auto-animate=true}
 
-* Let’s start with what it  _DOES NOT_  mean\!
+::: {style="margin-top: 125px; font-size: 2.25em; color: black;"}
+Answer for yourself, just in your own mind, but try to be as clear about what you think as possible.  Take a stand!  What does "Linguistics is the study of language" *mean*?
+
+:::
+
+## Let’s start with what it does not  mean
+
+- "Linguistics is the study of language"
     * ≠ learning many languages
     * ≠ studying a language with the goal of learning to communicate in it
     * ≠ noticing and pointing out grammatical errors
+    * (did you have a different meaning in mind?)
 
-## Ok, then! But what is it?!
+## Ok, then! But what is Linguistics?!
 
 
 ![](images/2-What is linguistics_1.jpg)
 
 
 
-## Ok, then! But what is it?!
+## Ok, then! But what is Linguistics?!
 
-* If linguists aren’t just studying a bunch of languages or correcting people’s speech\, what are they doing?
-* Here is a (not very useful) first definition:
-  * LSA = Linguistic Society of America
-  * LSA definition: Linguistics is the  _scientific_  study of language\. Linguists apply the scientific method to conduct formal studies of speech sounds and gestures\, grammatical structures\, and meaning across the world’s 6\,000\+ languages\.
+- If linguists aren’t just studying a bunch of languages or correcting people’s speech\, what are they doing?
+- Here is a (not very useful) first definition from the Linguistic Society of America (LSA):
+  * Linguistics is the  _scientific_  study of language\. Linguists apply the scientific method to conduct formal studies of speech sounds and gestures\, grammatical structures\, and meaning across the world’s 6\,000\+ languages\.
   * Includes the study of:
     * the structure of language – i\.e\.\, how do we make a sentence?
     * and the use of language – i\.e\.\, how do we speak with one another?
 
-## But what is language?!?
+## Then what is _language_?!?
 
-![](images/2-What is linguistics_2.png)
+::: {style="font-size: 1.5em; color: black;"}
 
-We’ll dive into this next time, but
+- First – we are talking about language as an  _ability_ humans have, not any particular code.
+- (It's a bit like the difference between studying the biology of frogs and dissecting a particular frog)
+- Second – and perhaps most importantly – the kinds of things we talk about with any individual language can be talked about for any other language because _language is a feature of being human_
 
-First – we are talking about language as an  _ability_ \, not any individual language
+:::
 
-Second – and perhaps most importantly – the kinds of things we talk about with any individual language can be talked about for any other language because language is  _a feature of being human_
-
-
-## Q slide
+## Example Q slide
 
 One thing we’ll say is that all languages follow rules and that linguists try to figure out those rules\. Think about times when someone has talked to you about what you can/should do with language \(spoken\, written\, or signed\)\. What’s a rule someone told you to follow?
 
 
 ## We can talk about two kinds of rules
 
-Prescriptive Grammar
+- **Prescriptive**: probably what you've experienced before this class
 
-Descriptive Grammar
+- **Descriptive**: what linguists do
 
-= described \(like you saw it and wrote it down for others\)
+## Pescriptive Rules
 
-Rules are based on observations of language in use by real language users
-
-Native speakers = good grammar; if a native speaker can’t say/understand it = bad grammar
-
-“Native speakers of English put ‘the’ in front of nouns\, not after\.”
-
-= prescribed \(like a doctor telling you what medicine to take\)
-
-Rules are made up by external actors \(e\.g\.\, teachers\, grammar book writers\)
-
-The expectation is that one can write a set of rules like this and expect all language users to conform
-
-“Don’t end a sentence with a preposition\.”
+- Rules are made up by external actors \(e\.g\.\, teachers\, grammar book writers\)
+- The expectation is that one can write a set of rules like this and expect all language users to conform
+- “Don’t end a sentence with a preposition\.”
 
 
-## Question slides
+## Descriptive Rules
 
-
-
-* Prescriptively or Descriptively Ungrammatical or Both?
-  * How you doing?
-  * What you do me book with at now\, yes?
-
----
-
-
-![](images/2-What is linguistics_3.jpg)
+- Rules are based on observations of language in use by real language users.
+- Native speakers = good grammar; if a native speaker can’t say/understand it = bad grammar
+- “Native speakers of English put ‘the’ in front of nouns\, not after\.”
 
 
 ## Why do prescriptive rules exist?
 
+- The justification for prescriptive rules is often historically motivated\, usually for absurd reasons
+- “Don’t split infinitives” or “Don’t end sentences in a preposition”
+- Why?
+- Because Latin doesn’t/can’t\.
+- Wait\, what?
+- The Latin language heavily influenced Western grammarians
 
+## More about Prescriptive rules
 
-* The justification for prescriptive rules is often historically motivated\, usually for absurd reasons
-  * “Don’t split infinitives” or “Don’t end sentences in a preposition”
-  * Why?
-    * Because Latin doesn’t/can’t\.
-  * Wait\, what?
-    * The Latin language heavily influenced Western grammarians
-
-## Descriptive vs. Prescriptive
-
-![](images/2-What is linguistics_4.png)
-
-Prescriptive judgments of “right” vs\. “wrong” or superior vs\. inferior represent learned  _social attitudes_  to a particular variety or a particular form\.
-
-They are usually judgments  _against the speaker groups_  that use those varieties rather than against the language itself\.
+- Prescriptive judgments of “right” vs\. “wrong” or superior vs\. inferior represent learned  _social attitudes_  to a particular variety or a particular form\.
+- They are usually judgments  _against the speaker groups_  who use those varieties rather than against the language itself\.
 
 
 ---
@@ -142,114 +168,20 @@ They are usually judgments  _against the speaker groups_  that use those varieti
 
 ![](images/2-What is linguistics_5.png)
 
+## "Y'all"
 
-
-* __A prescriptivist would say\, “Don’t use…”__
-  * __‘y’all’\, ‘__  __y’uns__  __’__
-  * __‘__  __fixin__  __’ to’__
-  * __\[__  __ra:d__  __\] vs\. \[raid\]__
-* __These are all judgments against Southerners \(not language\) and reflect mainstream society’s view of Southern culture and people\!__
-
----
-
-
-|  | __Theme__ |
-| :-: | :-: |
-| M 1/12 | _Getting started:_  __ __ What is this course? |
-| W 1/15 | What is linguistics anyway? |
-| M 1/20 | __\*\*NO CLASS\*\*__ |
-| W 1/22 | What is language? |
-| M 1/27 | How many languages are there? |
-| W 1/29 | Where does language come from? |
-| M 2/3 | _SPOTLIGHT LECTURE: What is linguistics research?_ |
-| W 2/5 | _Bits and pieces:_  __ __ What is a word? |
-| M 2/10 | How do words get their meaning? |
-| W 2/12 | Is slang legit? |
-| M 2/17 | Why are some words “bad words”? |
-| W 2/19 | Who says “pop” and why? |
-| M 2/24 | Where do dialects come from? |
-| W 2/26 | What is the prettiest language? |
-| M 3/3 | _SPOTLIGHT LECTURE: What methods and ethics of inquiry are used?_ |
-| W 3/5 | _Language in the world:_  __ __ How do kids learn to talk? |
-
-# What can you expect this semester?
-
-| M 3/10 | How does bilingualism work? |
-| :-: | :-: |
-| W 3/12 | __\*\*NO CLASS\*\*__ |
-| M 3/17 | __\*\*NO CLASS\*\*__ |
-| W 3/19 | __\*\*NO CLASS\*\*__ |
-| M 3/24 | Why is it hard to learn other languages? |
-| W 3/26 | How is writing different from speaking? |
-| M 3/31 | 🤷 |
-| W 4/2 | Why can’t Siri pronounce my name? |
-| M 4/7 | How do computers help with language? |
-| W 4/9 | Are chatbots real? |
-| M 4/14 | _SPOTLIGHT LECTURE: _  _How do we find relevant linguistics sources?_ |
-| W 4/16 | _Language and culture: _ Are actors good at dialects? |
-| M 4/21 | Can you make your own language? |
-| W 4/23 | Do animals use language? |
-| M 4/28 | _So\, what?: _ Who really uses this stuff? |
-| W 4/30 | Why linguistics? |
-
+* A prescriptivist would say\, “Don’t use 'y'all'”
+* also: __‘__  __fixin__  __’ to’__
+* or:  __\[__  __ra:d__  __\] vs\. \[raid\]__
+* These are all judgments against Southerners \(not really about language\) and reflect mainstream society’s view of Southern culture and people\!
 
 ---
 
-
-|  | Theme |
-| :-: | :-: |
-| F 1/17 | Meet your TA |
-| F 1/24 | Quiz 1 |
-| F 1/31 | Quiz 2 |
-| F 2/7 | Quiz 3 |
-| F 2/14 | Quiz 4 |
-| F 2/21 | Quiz 5 |
-| F 2/28 | Quiz 6 |
-| F 3/7 | Quiz 7 |
-| F 3/14 | __Work on Data Collection__ |
-| F 3/21 | __\*\*NO CLASS\*\*__ |
-| F 3/28 | Quiz 8 |
-| F 4/4 | Quiz 9 |
-| F 4/11 | Quiz 10 |
-| F 4/18 | Quiz 11 |
-| F 4/25 | Quiz 12 |
-| F 5/2 | __\*\*NO CLASS\*\*__ |
-
-| Section 001: F 8\-8:50am\, FB 306A |
-| :-: |
-| Section 002: F 9\-9:50am\, JSB 181 |
-| Section 003: F 9\-9:50am\, TPC 113 |
-| Section 004: F 9\-9:50am\, TPC 212 |
-| Section 005: F 10\-10:50am\, MMR 112 |
-| Section 006: F 10\-10:50am\, BH 303 |
-| Section 007: F 10\-10:50am\, TPC 212 |
-
-
----
-
-
-| _Sections 001\, 003\, and 007_ Name: Alex MorganEmail:  _[alex\.m@uky\.edu](mailto:alex.m@uky.edu)_ | _Section 006_ Name: Olivia MarquardtEmail:  _[olivia\.marquardt@uky\.edu](mailto:olivia.marquardt@uky.edu)_ |
-| :-: | :-: |
-| _Sections 002 and 005_ Name: Xander JohnsonEmail:  _[xander\.johnson@uky\.edu](mailto:xander.johnson@uky.edu)_ | _Section _  _004_ Name: Jules BlankEmail:  _[jules\.blank@uky\.edu](mailto:jules.blank@uky.edu)_ |
-
-
-## Q slide
-
-
----
-
-
-![](images/2-What is linguistics_6.jpg)
 
 ## What’s next?
 
-Go to recitation on Friday\!
-
-No class Monday \(MLK Day\)
-
-Get your textbook as soon as possible
-
-Read Chapter 1 from your textbook for Wednesday
-
-Take a look at Observation Notes \#1 before Wednesday \(we’ll discuss it that day\)
+- Go to your discussion section on Friday\!
+- Get your textbook as soon as possible
+- Read Chapter 1 from your textbook for Monday (a pdf is on canvas)
+- Take a look at Observation Notes \#1 before Monday \(we’ll discuss it that day\)
 
