@@ -1,0 +1,228 @@
+---
+title: "What is language?"
+subtitle: "Lin 211 • Section 1, Part 3"
+date: 08/31/2026
+description: "Pullum Chapter 1"
+categories: [Getting Started]
+authors:
+  - name: Kevin B McGowan
+    orcid: 0000-0002-8214-1901
+    email: kbmcgowan@uky.edu
+tbl-cap-location: bottom
+format:
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    footer: "Getting Started"
+    incremental: false
+    scrollable: true
+    theme: [sky, includes/styles.scss]
+    template-partials:
+      - includes/title-slide.html
+---
+
+
+## We can talk about two kinds of language rules
+
+:::: {style="margin-top: 125px; font-size: 1.25em; color: black;"}
+:::::::: {.incremental}
+
+[**Prescriptive**: an attempt to **control** how language is used]{.fragment fragment-index=1}
+
+::: {.fragment fragment-index=3} 
+ ⤷ very common (english teachers, grammar police, etc.)
+  
+:::
+
+&nbsp;<br>
+
+[**Descriptive**: an attempt to **understand** how language is used]{.fragment fragment-index=2}
+
+::: {.fragment fragment-index=4} 
+ ⤷ uncommon (linguists & lexicographers)
+
+::: 
+
+::::::::
+::::
+
+![](images/oed.png){width=20% .absolute bottom=0 right=0}
+
+## Prescriptive Rules
+
+- **Prescriptive Rules** are made up by external actors (e.g., teachers, grammar book writers, grammar police, etc.)
+- That person (or group) asserts authority in language and issues a prohibition/command that is meant to be unquestioningly followed
+- Often they try to use shame or threats as motivation
+- examples:
+  * "Don’t end a sentence with a preposition\."
+  * "Do not use contractions."
+  * "It is incorrect to ~~ever~~ split an infinitive.
+  * "You sound ignorant if you say _ain't_."
+
+## Descriptive Rules
+
+- **Descriptive Rules** emerge from usage and custom. Descriptive rules vest authority in the people who use and speak the language _not_ in external authorities.
+  * Rules are based on observations of language in use by real language users.
+  * These rules can be broken!  It is possible to say things that are _ungrammatical_.
+  * It's just that _ungrammatical_ in the descriptive sense means "no one says that"
+
+## Descriptive Rules and ungrammatical examples
+
+- **Example Descriptive Rule**: English speakers have to use 'the' or 'a/an' before a noun.
+  * \* You must have ticket to ride train. ^[See that asterisk (\*)? Linguists use it to mean 'speakers of this language can't/don't say this. It literally means _ungrammatical_.]
+  * You must have **a** ticket to ride **the** train.
+- **Example Descriptive Rule**: the past tense of _go_ is _went_
+  * \* Daddy _goed_ on the airplane!
+  * Daddy _went_ on the airplane!
+
+## Why do prescriptive rules exist?
+
+:::: {.incrmental}
+
+- Knowing and following descriptive rules _feels right_ to us
+- It can be a way of demonstrating one's erudition, learning, belonging, but...
+- Enforcing prescriptive rules can also be a way of gatekeeping who gets to be in your group
+- **Prescriptive rules are *always* social judgements, not linguistic facts.**
+
+::::
+
+## More about Prescriptive rules
+
+:::: {style="margin-top: 125px; font-size: 1.25em; color: black;"}
+
+- Prescriptive judgments of "right" vs\. "wrong" or superior vs\. inferior represent learned  _social attitudes_  to a particular variety or a particular form\.
+- They are usually judgments  _against the speaker groups_  who use those varieties rather than against the language itself\.
+
+::::
+
+
+## Ling Link
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](images/discussion.png)
+
+:::
+
+::: {.column width="50%"}
+
+* What is a 'rule' someone has told you about English?
+  - Figure out together whether this 'rule' is Descriptive or Prescriptive
+* Do these two sentences contain any 'errors' and, if so, do they violate _prescriptive_ or _descriptive_ rules?
+  - "If she ain't here, I'm leavin'!"
+  - "\* The weather in this part of is extremely."
+
+:::
+
+::::
+  
+## 
+
+::: {.r-fit-text style="margin-top: 300px;" .incremental}
+
+- Imagine a friend says this sentence to you:
+  - "I saw a platypus at the zoo today. Did you know they lay eggs!?!?"
+
+- **Take a stance:** How do you know what a platypus is??
+
+:::
+
+## Q slide
+
+:::: {style="margin-top: 125px; font-size: 1.25em; color: black;"}
+
+This is our first attendance question.  You can find it as "August 31st in class" on Canvas and the access code is 'PLATYPUS'.
+
+::::
+
+![](images/qr-code.png){width=20% .absolute bottom=0 right=0}
+
+## How do you know what a platypus is?
+
+- How do you know what any word is?
+- Most people say: "look it up in the dictionary"
+- But that almost never happens.
+- Besides, dictionaries are **descriptive**, not **prescriptive**
+
+## Platypus
+
+:::: {.columns}
+
+::: {.column width="60%" .incremental}
+
+- Usually, we know what a platypus (or any word!) is by combining what we already know with the evidence from the utterance to arrive at a meaning that is enough to go on
+- You don't have to know that a platypus is venomous, you don't have to know that they mammals who don't have nipples, or that its Latin name is __Ornithorhynchus anatinus__ to know what "I saw a platypus at the zoo" means
+- Imagine someone said to you: "Can I pet that __snorgfloos__?
+- what is a __snorgfloos__?
+
+:::
+
+::: {.column width="40%"}
+
+![](images/platypus.png)
+
+:::
+
+::::
+  
+## What is language?
+
+:::: {.incremental}
+
+* Last week we said we are talking about language as a distinctly human ability\, not any individual language
+  * All humans use language
+  * Language may be spoken or signed\, written or not
+* According to your book\, "human languages are structured systems for making articulated thoughts fully explicit both internally \(mentally\) and externally \(in a form perceptible to other humans\)" \(p\. 3\)
+* But that "fully explicit" depends on: who is talking,  who is listening, and the context they're in!
+
+::::
+
+## How do our brains process language?
+
+ [https://www\.youtube\.com/watch?v=nZP7pb\_t4oA](https://www.youtube.com/watch?v=nZP7pb_t4oA)
+
+
+---
+
+
+# What makes humans so special?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![An Australian Shepherd dog](images/Australian_Shepherd_1000.png)
+
+:::
+
+::: {.column width="50%"}
+
+- **linguistics** is about understanding how we take these noises that our bodies can make using our mouths or the shapes and movements our hands can make to DO STUFF
+- **language** is a human capacity to symbolically represent & decode thoughts, ideas, and feelings
+- human **languages** are structured systems for making articulated thoughts fully explicit
+- Even the brightest dog can’t do that\!
+
+:::
+
+::::
+
+---
+
+
+# What’s next?
+
+![](images/3-What%20is%20language_12.jpg)
+
+Accommodations letters\, athlete notes\, etc\. ASAP
+
+Go to recitation on Friday for your first quiz\!
+
+Get your textbook as soon as possible
+
+Read "How many" \(a PDF on Canvas\) for Monday
+
+Get started on Observation Notes \#1
+
