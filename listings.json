@@ -3,7 +3,9 @@
     "listing": "/slides/index.html",
     "items": [
       "/slides/lectures/1-Introduction/index.html",
-      "/slides/lectures/2-What is linguistics/index.html"
+      "/slides/lectures/2-What is linguistics/index.html",
+      "/slides/lectures/3-What is language/index.html",
+      "/slides/lectures/4-How many languages/index.html"
     ]
   }
 ]
