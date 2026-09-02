@@ -1,240 +1,1036 @@
 ---
 title: "How many languages are there?"
-subtitle: "Lin 211 • Section 1, Part 3"
-description: "Canvas: How many?"
+subtitle: "Lin 211 • Section 1, Part 4"
+description: "[How many? (pdf)](https://uk.instructure.com/files/119829257/download?download_frd=1)"
 date: 09/02/2026
 categories: [Getting Started]
-format: 
+authors:
+  - name: Kevin B McGowan
+    orcid: 0000-0002-8214-1901
+    email: kbmcgowan@uky.edu
+tbl-cap-location: bottom
+format:
   revealjs:
     slide-number: c/t
     width: 1600
     height: 900
-    logo: img/logo.png
-    footer: "Organization"
-    incremental: true
-    theme: [simple]
----
-# How many languages are there?
-
-# Getting Started
-
-
+    footer: "Getting Started"
+    incremental: false
+    scrollable: true
+    theme: [sky, includes/styles.scss]
+    template-partials:
+      - includes/title-slide.html
 ---
 
+```{r}
+library("tidyverse")
+# library(remotes)
+# remotes::install_github("jvcasillas/worldlanguages")
+library(worldlanguages)
+```
 
+## What makes humans so special?
 
+:::: {.columns}
 
-* According to your reading\, there are 7\,164 languages spoken in the world\. They got this number from a cool resource called  _Ethnologue_ \.
-* Go to the website \(link is the next slide in Echo360\)\, type the name of a language in the search box\, and spend 3 minutes answering the following questions with your neighbor:
-  * Examine the map\. Where is this language spoken?
-  * Examine the information about population\. How many people speak it? Is this a large number or a small number \(read the info under “Details”\)?
-  * Examine the category of language vitality\. Is this language at a risk of dying \(read the info under “Details”\)?
-  * What language family does the language belong to?
+::: {.column width="40%"}
 
+![An Australian Shepherd dog](images/Australian_Shepherd_1000.png)
 
-# Ling Link
+:::
 
+::: {.column width="60%".incremental}
 
----
+- **linguistics** is the scientific study of language
+- **language** is the human capacity to symbolically represent thoughts, ideas, and feelings
+- and to experience those symbolic representations as meaning
+- human **languages** are structured systems for making articulated thoughts fully explicit
+- and critically depend on knowing (more or less) what the people around us know or believe, how they're feeling, and what they might be interested in
+- Even the brightest dog can’t do that\!
 
+:::
 
-# Media
+::::
 
-[https://www\.ethnologue\.com/](https://www.ethnologue.com/)
+## Ling Link
 
+* Please go to [ethnologue.com](https://ethnologue.com/), Click on "Languages" on the left, click on any one of the huge list of languages that come up, and spend ~3 minutes answering the following questions with your neighbor:
+  * Examine the map. Where is this language spoken?
+  * Examine the information about population. How many people speak it? Is this a large number or a small number (read the info under "Details")?
+  * Examine the category of **language vitality**. Is this language at a risk of dying \(read the info under "Details"\)? Is it Stable?  Is it Institutional?
+  * What language family does the language belong to? Had you heard of that family before?
 
----
+## Take a guess
 
+::: {.r-fit-text style="margin-top: 200px;" .incremental}
 
-# Recall
+- If you had to guess, how many different ways do you think there are on Earth to say 'Earth'? or 'love' or 'person'?
+- In other words, how many languages do you think there are on Earth?
 
+:::
 
----
+## Attendance Question
 
+- the attendance question is now unlocked on canvas
+- it is called: **attendance question (lecture day 4)**
+- the access code is: TARDIS
 
-![](images/4-How%20many%20languages_0.jpg)
+## About 7,170 Languages
 
-# But how many languages are there?
+- There are roughly 8.3 billion people: [8,319,554,735](https://worldpopulationclock.net/) on September 1st 2026
+- That could mean there are roughly 1,160,328 speakers per language, right?
+$$
+\frac{8,319,554,735}{7,170} = 1,160,328
+$$
 
+## Top Languages by number of First Language speakers
 
-
-* Depends on how you count\!
-  * Is American English a “different language” than British English?
-  * Is French a “different language” than Spanish?
-  * Is the Korean spoken in North Korea a “different language” than that spoken in South Korea?
-* Typically\, it comes down to something called  __mutual intelligibility__
-  * If I can understand you\, it’s the same language; if not\, it’s not
-  * But politics comes into play: Chinese “dialects” vs\. Scandinavian languages
-
----
-
-
-# Q slide
-
-Wait\, how many languages are there? Just English\!\, 200 \(about one for every country\)\, 7 billion \(about one for every person\)\, about 7\,000
-
-
----
-
-
-# What are those languages?
-
-
----
-
-
-# Features of language
-
-![](images/4-How%20many%20languages_1.jpg)
-
-
-
-* We’ve already listed the things we think make a language\, and we’ll see more later about how it differs from animal forms of communication
-* For the time being\, we’ll list some of the things that make it distinct:
-  * Language always changes
-  * Language is creative
-  * Language is culturally transmitted
-  * And…
-
----
-
-
-
-
-* There are really two ways that linguists use arbitrary to describe language:
-  * Arbitrariness is the absence of any natural or necessary connection between a word's meaning and its sound or form\. That is\, there is no inherent\, inevitable\, natural\, necessary connection between a word used to identify a thing and the thing itself\.
-    * For example\, there is nothing about the sounds that make up “cat” that means the furry domesticated animal that dogs hate\.
-    * Indeed\, Spanish speakers call the same entity “gato”\, and French speakers say\, “chat”\.
-    * This is why it’s hard to learn the vocabulary of a new language\!
-  * But arbitrariness also has to do with what counts as grammatical in any given language from a prescriptive standpoint\. That is\, when the language mavens decide some linguistic structure is “bad” in their language\, it has little to do with whether the structure can actually exist in human language and more to do with who says it\.
-    * These are interrelated\. We’re focusing on this one today\!
-
-
-# Language is arbitrary!
-
-
----
-
-
-# Q slide
-
-What does arbitrary mean?
-
-A\. Existing or coming about seemingly at random or by chance
-
-B\. Based on or determined by individual preference or convenience rather than by necessity
-
-C\. The meaning of linguistic signs is not predictable from its word form\, nor is the word form dictated by its meaning/function
-
-D\. Actually\, all of the above
-
-
----
-
-
-
-
-* What’s \(un\)grammatical is fairly  __arbitrary__
-  * Language = “an arbitrary system used by human beings to communicate with one another” \(Finegan\, p\. 22\)
-  * Arbitrary = ?
-* Since the connection between language and what it symbolizes is arbitrary\, there is no linguistic basis for saying that this form is “wrong\.”
-  * In this sense\, grammar is a lot like fashion…
-
-
-# Arbitrary!
-
-
----
-
-
-![](images/4-How%20many%20languages_2.jpg)
-
-# Arbitrariness
-
-Fashion = arbitrary
-
-Think about what’s cool today\. What used to be cool that’s not anymore?
-
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
-
-Ex\. Big glasses = cool on Buddy Holly \(back in the day…\)
-
-
----
-
-
-![](images/4-How%20many%20languages_3.jpg)
-
-# But on these people?
-
-![](images/4-How%20many%20languages_4.jpg)
-
-
----
-
-
-![](images/4-How%20many%20languages_5.jpg)
-
-![](images/4-How%20many%20languages_6.jpg)
-
-# Wait, cool again! (Still?)
-
-
----
-
-
-# Fashion & Goodness
-
-![](images/4-How%20many%20languages_7.png)
-
-
-
-* The ‘goodness’ or ‘coolness’ value of big glasses have changed throughout the years
-* There’s no real reason for fashion styles to be inherently ‘bad’ or ‘good’
-  * Society has assigned these values based on  _its opinion_  of those who wear them
-  * It’s arbitrary\!
-
----
-
-
-
-
-* Similarly\, the ‘goodness’ value of a grammatical feature\, like double negation\, is assigned by society
-  * There’s nothing inherently wrong with a structure like “I don’t care nothing about her\.”
-  * In fact\, in many languages\,  __double negation __ is the prescriptively CORRECT way of negating \(and the real ‘rebels’ are the ones who neglect one of those negating pieces…\)
-* Compare French:
-  * Il   ne    mange rien    = Standard\, formal language
-  * _ He NOT eats    nothing  _ 'He doesn't eat anything’
-  * Il    mange rien     _= _  colloquial \(informal\) language
-  * _He  eats     nothing      _ 'He doesn't eat anything’
-* It’s  _completely arbitrary_  whether double negation is the standard or colloquial way of expressing negation
-
-
-# Language & ‘Goodness’
-
-
----
-
-
-# Q slide
-
-How is fashion related to language?
-
-
----
-
-
-# What’s next?
+```{r}
+ggplot(native_speakers, aes(x = factor(reorder(language, -native_speakers_millions)), y = native_speakers_millions)) +
+  geom_col(fill = "#3a86d4", alpha = 0.7) + 
+  # geom_density(colour = "#1b3a5b", linewidth = 1) +
+  labs(x = "Language", y = "First Language Speakers (millions)") +
+    scale_x_discrete(guide = guide_axis(angle = 90)) +
+  theme_minimal()
+```
+
+## Most Spoken Languages on Earth
+
+```{=html}
+<section data-mw-section-id="1" id="mwNg" aria-labelledby="Ethnologue_(2026)">
+        <span class="mw-empty-elt" about="#mwt25" typeof="mw:Transclusion" id="mwSA" data-mw="{&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;static row numbers&quot;,&quot;href&quot;:&quot;./Template:Static_row_numbers&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}">
+            <style data-mw-deduplicate="TemplateStyles:r1311145907" typeof="mw:Extension/templatestyles" about="#mwt26" data-mw="{&quot;name&quot;:&quot;templatestyles&quot;,&quot;attrs&quot;:{&quot;src&quot;:&quot;Template:Static row numbers/styles.css&quot;}}">
+            .mw-parser-output .static-row-numbers {
+                counter-reset:rowNumber
+            }
+
+            .mw-parser-output .static-row-numbers tr::before {
+                content: "";
+                display: table-cell;
+                padding-right: 0.5em;
+                padding-left: 0.5em;
+                text-align: right;
+                vertical-align:inherit
+            }
+
+            .mw-parser-output .static-row-numbers.static-row-numbers-center tr::before {
+                text-align:center
+            }
+
+            .mw-parser-output .static-row-numbers.static-row-numbers-left tr::before {
+                text-align:left
+            }
+
+            .mw-parser-output .static-row-numbers.wikitable tr::before {
+                background-color:var(--background-color-neutral, #eaecf0)
+            }
+
+            .mw-parser-output .static-row-numbers thead + tbody tr:first-child:not(.static-row-header):not(.static-row-numbers-norank)::before, .mw-parser-output .static-row-numbers tbody tr:not(:first-child):not(.static-row-header):not(.static-row-numbers-norank)::before {
+                counter-increment: rowNumber;
+                content: counter(rowNumber)
+            }
+
+            .mw-parser-output .static-row-numbers.sortable[data-srn-limit="10"] tbody tr:nth-child(n /**/ + 11)::before {
+                content: ""
+            }
+
+            .mw-parser-output .static-row-header-text.static-row-numbers thead tr:first-child::before, .mw-parser-output .static-row-header-text.static-row-numbers caption + tbody tr:first-child::before, .mw-parser-output .static-row-header-text.static-row-numbers tbody:first-child tr:first-child::before {
+                content: "No.";
+                font-weight:bold
+            }
+
+            .mw-parser-output .static-row-header-hash.static-row-numbers thead tr:first-child::before, .mw-parser-output .static-row-header-hash.static-row-numbers caption + tbody tr:first-child::before, .mw-parser-output .static-row-header-hash.static-row-numbers tbody:first-child tr:first-child::before {
+                content: "#";
+                font-weight:bold
+            }
+
+            .mw-parser-output .static-row-numbers.wikitable tr::before {
+                border:0 solid var(--border-color-base, #a2a9b1)
+            }
+
+            .mw-parser-output .static-row-numbers.wikitable thead + tbody tr:first-child:not(.static-row-header)::before, .mw-parser-output .static-row-numbers.wikitable tbody tr:not(:first-child):not(.static-row-header)::before {
+                border-width:1px
+            }
+
+            body.skin-monobook .mw-parser-output .static-row-numbers.wikitable tr::before {
+                border-color:#aaa
+            }
+
+            body.skin-timeless .mw-parser-output .static-row-numbers.wikitable tr::before {
+                border-color:#c8ccd1
+            }
+
+            .mw-parser-output table[border].static-row-numbers:not(.wikitable) tr::before {
+                border:0 inset var(--color-base, #202122)
+            }
+
+            .mw-parser-output table[border].static-row-numbers:not(.wikitable) thead + tbody tr:first-child:not(.static-row-header)::before, .mw-parser-output table[border].static-row-numbers:not(.wikitable) tbody tr:not(:first-child):not(.static-row-header)::before {
+                border-width:1px
+            }
+
+            html.skin-theme-clientpref-night .mw-parser-output table[border].static-row-numbers:not(.wikitable), html.skin-theme-clientpref-night .mw-parser-output table[border].static-row-numbers:not(.wikitable) tr::before, html.skin-theme-clientpref-night .mw-parser-output table[border].static-row-numbers:not(.wikitable) th, html.skin-theme-clientpref-night .mw-parser-output table[border].static-row-numbers:not(.wikitable) td {
+                border-color:gray
+            }
+
+            @media (prefers-color-scheme: dark) {
+                html.skin-theme-clientpref-os .mw-parser-output table[border].static-row-numbers:not(.wikitable), html.skin-theme-clientpref-os .mw-parser-output table[border].static-row-numbers:not(.wikitable) tr::before, html.skin-theme-clientpref-os .mw-parser-output table[border].static-row-numbers:not(.wikitable) th, html.skin-theme-clientpref-os .mw-parser-output table[border].static-row-numbers:not(.wikitable) td {
+                    border-color:gray
+                }
+            }
+
+            body.skin-timeless .mw-parser-output .static-row-numbers.mw-datatable:not(.wikitable) tr::before {
+                border:0 solid #c8ccd1
+            }
+
+            body.skin-timeless .mw-parser-output .static-row-numbers.mw-datatable:not(.wikitable) thead + tbody tr:first-child:not(.static-row-header)::before, body.skin-timeless .mw-parser-output .static-row-numbers.mw-datatable:not(.wikitable) tbody tr:not(:first-child):not(.static-row-header)::before {
+                border-width: 1px
+            }
+            </style>
+        </span>
+        <span class="mw-empty-elt" about="#mwt27" typeof="mw:Transclusion" id="mwSQ" data-mw="{&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;table alignment&quot;,&quot;href&quot;:&quot;./Template:Table_alignment&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}">
+            <style data-mw-deduplicate="TemplateStyles:r1349610755" typeof="mw:Extension/templatestyles" about="#mwt28" data-mw="{&quot;name&quot;:&quot;templatestyles&quot;,&quot;attrs&quot;:{&quot;src&quot;:&quot;Template:Table alignment/styles.css&quot;}}">
+            .mw-parser-output .defaultleft, .mw-parser-output .col1left td:nth-child(1), .mw-parser-output .col2left td:nth-child(2), .mw-parser-output .col3left td:nth-child(3), .mw-parser-output .col4left td:nth-child(4), .mw-parser-output .col5left td:nth-child(5), .mw-parser-output .col6left td:nth-child(6), .mw-parser-output .col7left td:nth-child(7), .mw-parser-output .col8left td:nth-child(8), .mw-parser-output .col9left td:nth-child(9), .mw-parser-output .col10left td:nth-child(10), .mw-parser-output .col11left td:nth-child(11), .mw-parser-output .col12left td:nth-child(12), .mw-parser-output .col13left td:nth-child(13), .mw-parser-output .col14left td:nth-child(14), .mw-parser-output .col15left td:nth-child(15), .mw-parser-output .col16left td:nth-child(16), .mw-parser-output .col17left td:nth-child(17), .mw-parser-output .col18left td:nth-child(18), .mw-parser-output .col19left td:nth-child(19), .mw-parser-output .col20left td:nth-child(20), .mw-parser-output .col21left td:nth-child(21), .mw-parser-output .col22left td:nth-child(22), .mw-parser-output .col23left td:nth-child(23), .mw-parser-output .col24left td:nth-child(24), .mw-parser-output .col25left td:nth-child(25), .mw-parser-output .col26left td:nth-child(26), .mw-parser-output .col27left td:nth-child(27), .mw-parser-output .col28left td:nth-child(28), .mw-parser-output .col29left td:nth-child(29), .mw-parser-output .col-1left td:nth-last-child(1), .mw-parser-output .col-2left td:nth-last-child(2), .mw-parser-output .col-3left td:nth-last-child(3), .mw-parser-output .col-4left td:nth-last-child(4), .mw-parser-output .col-5left td:nth-last-child(5), .mw-parser-output .col-6left td:nth-last-child(6), .mw-parser-output .col-7left td:nth-last-child(7), .mw-parser-output .col-8left td:nth-last-child(8), .mw-parser-output .col-9left td:nth-last-child(9) {
+                text-align:left
+            }
+
+            .mw-parser-output .defaultcenter, .mw-parser-output .col1center td:nth-child(1), .mw-parser-output .col2center td:nth-child(2), .mw-parser-output .col3center td:nth-child(3), .mw-parser-output .col4center td:nth-child(4), .mw-parser-output .col5center td:nth-child(5), .mw-parser-output .col6center td:nth-child(6), .mw-parser-output .col7center td:nth-child(7), .mw-parser-output .col8center td:nth-child(8), .mw-parser-output .col9center td:nth-child(9), .mw-parser-output .col10center td:nth-child(10), .mw-parser-output .col11center td:nth-child(11), .mw-parser-output .col12center td:nth-child(12), .mw-parser-output .col13center td:nth-child(13), .mw-parser-output .col14center td:nth-child(14), .mw-parser-output .col15center td:nth-child(15), .mw-parser-output .col16center td:nth-child(16), .mw-parser-output .col17center td:nth-child(17), .mw-parser-output .col18center td:nth-child(18), .mw-parser-output .col19center td:nth-child(19), .mw-parser-output .col20center td:nth-child(20), .mw-parser-output .col21center td:nth-child(21), .mw-parser-output .col22center td:nth-child(22), .mw-parser-output .col23center td:nth-child(23), .mw-parser-output .col24center td:nth-child(24), .mw-parser-output .col25center td:nth-child(25), .mw-parser-output .col26center td:nth-child(26), .mw-parser-output .col27center td:nth-child(27), .mw-parser-output .col28center td:nth-child(28), .mw-parser-output .col29center td:nth-child(29), .mw-parser-output .col-1center td:nth-last-child(1), .mw-parser-output .col-2center td:nth-last-child(2), .mw-parser-output .col-3center td:nth-last-child(3), .mw-parser-output .col-4center td:nth-last-child(4), .mw-parser-output .col-5center td:nth-last-child(5), .mw-parser-output .col-6center td:nth-last-child(6), .mw-parser-output .col-7center td:nth-last-child(7), .mw-parser-output .col-8center td:nth-last-child(8), .mw-parser-output .col-9center td:nth-last-child(9) {
+                text-align:center
+            }
+
+            .mw-parser-output .defaultright, .mw-parser-output .col1right td:nth-child(1), .mw-parser-output .col2right td:nth-child(2), .mw-parser-output .col3right td:nth-child(3), .mw-parser-output .col4right td:nth-child(4), .mw-parser-output .col5right td:nth-child(5), .mw-parser-output .col6right td:nth-child(6), .mw-parser-output .col7right td:nth-child(7), .mw-parser-output .col8right td:nth-child(8), .mw-parser-output .col9right td:nth-child(9), .mw-parser-output .col10right td:nth-child(10), .mw-parser-output .col11right td:nth-child(11), .mw-parser-output .col12right td:nth-child(12), .mw-parser-output .col13right td:nth-child(13), .mw-parser-output .col14right td:nth-child(14), .mw-parser-output .col15right td:nth-child(15), .mw-parser-output .col16right td:nth-child(16), .mw-parser-output .col17right td:nth-child(17), .mw-parser-output .col18right td:nth-child(18), .mw-parser-output .col19right td:nth-child(19), .mw-parser-output .col20right td:nth-child(20), .mw-parser-output .col21right td:nth-child(21), .mw-parser-output .col22right td:nth-child(22), .mw-parser-output .col23right td:nth-child(23), .mw-parser-output .col24right td:nth-child(24), .mw-parser-output .col25right td:nth-child(25), .mw-parser-output .col26right td:nth-child(26), .mw-parser-output .col27right td:nth-child(27), .mw-parser-output .col28right td:nth-child(28), .mw-parser-output .col29right td:nth-child(29), .mw-parser-output .col-1right td:nth-last-child(1), .mw-parser-output .col-2right td:nth-last-child(2), .mw-parser-output .col-3right td:nth-last-child(3), .mw-parser-output .col-4right td:nth-last-child(4), .mw-parser-output .col-5right td:nth-last-child(5), .mw-parser-output .col-6right td:nth-last-child(6), .mw-parser-output .col-7right td:nth-last-child(7), .mw-parser-output .col-8right td:nth-last-child(8), .mw-parser-output .col-9right td:nth-last-child(9) {
+                text-align: right
+            }
+            </style>
+        </span>
+    </p>
+    <table class="static-row-numbers sortable wikitable col4right col5right col6right jquery-tablesorter" id="mwSg">
+        <thead>
+            <tr class="static-row-header" id="mwUg">
+                <th rowspan="2" id="mwUw" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Language</th>
+                <th rowspan="2" id="mwVA" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Family</th>
+                <th rowspan="2" id="mwVg" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Branch</th>
+                <th colspan="3" id="mwVw">
+                    Numbers of speakers
+                    <br id="mwWA">
+                    (millions)
+                </th>
+            </tr>
+            <tr class="static-row-header" id="mwWQ">
+                <th data-sort-type="number" id="mwWg" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/First_language" title="First language" id="mwWw">
+                        First-
+                        <br id="mwXA">
+                        language
+                    </a>
+                    <br id="mwXQ">
+                    (L1)
+                </th>
+                <th data-sort-type="number" id="mwXg" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Second_language" title="Second language" id="mwXw">
+                        Second-
+                        <br id="mwYA">
+                        language
+                    </a>
+                    <br id="mwYQ">
+                    (L2)
+                </th>
+                <th data-sort-type="number" id="mwYg" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+                    Total
+                    <br id="mwYw">
+                    (L1+L2)
+                </th>
+            </tr>
+        </thead>
+        <tbody id="mwUQ">
+
+            <tr id="mwZA">
+                <td id="mwZQ">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:eng" title="ISO 639:eng" class="mw-redirect" id="mwZg">English</a>
+                    <br id="mwZw">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/English-based_creole_languages" title="English-based creole languages" id="mwaA">creole languages</a>
+                    )
+                </td>
+                <td id="mwaQ">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwag">Indo-European</a>
+                </td>
+                <td id="mwaw">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Germanic_languages" title="Germanic languages" id="mwbA">Germanic</a>
+                </td>
+                <td id="mwbQ">372</td>
+                <td data-sort-value="1135 million" id="mwbg">1,121</td>
+                <td data-sort-value="1515 million" id="mwbw">1,493</td>
+            </tr>
+            <tr id="mwcA">
+                <td id="mwcQ">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:cmn" title="ISO 639:cmn" class="mw-redirect" id="mwcg">Mandarin Chinese</a>
+                    <br id="mwcw">
+                    (incl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Standard_Chinese" title="Standard Chinese" id="mwdA">Standard Chinese</a>
+                     but excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Varieties_of_Chinese" title="Varieties of Chinese" id="mwdQ">other varieties</a>
+                    )
+                </td>
+                <td id="mwdg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Sino-Tibetan_languages" title="Sino-Tibetan languages" id="mwdw">Sino-Tibetan</a>
+                </td>
+                <td id="mweA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Sinitic_languages" title="Sinitic languages" id="mweQ">Sinitic</a>
+                </td>
+                <td id="mweg">988</td>
+                <td id="mwew">194</td>
+                <td data-sort-value="1140 million" id="mwfA">1,183</td>
+            </tr>
+            <tr id="mwfQ">
+                <td id="mwfg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:hin" title="ISO 639:hin" class="mw-redirect" id="mwfw">Hindi</a>
+                    <br id="mwgA">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Urdu" title="Urdu" id="mwgQ">Urdu</a>
+                    )
+                </td>
+                <td id="mwgg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwgw">Indo-European</a>
+                </td>
+                <td id="mwhA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-Aryan_languages" title="Indo-Aryan languages" id="mwhQ">Indo-Aryan</a>
+                </td>
+                <td id="mwhg">347</td>
+                <td id="mwhw">264</td>
+                <td id="mwiA">611</td>
+            </tr>
+            <tr id="mwiQ">
+                <td id="mwig">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:spa" title="ISO 639:spa" class="mw-redirect" id="mwiw">Spanish</a>
+                    <br id="mwjA">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Spanish-based_creole_languages" title="Spanish-based creole languages" id="mwjQ">creole languages</a>
+                    )
+                </td>
+                <td id="mwjg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwjw">Indo-European</a>
+                </td>
+                <td id="mwkA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Romance_languages" title="Romance languages" id="mwkQ">Romance</a>
+                </td>
+                <td id="mwkg">487</td>
+                <td id="mwkw">75</td>
+                <td id="mwlA">561</td>
+            </tr>
+            <tr id="mwlQ">
+                <td id="mwlg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:arb" title="ISO 639:arb" class="mw-redirect" id="mwlw">Modern Standard Arabic</a>
+                    <br id="mwmA">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Varieties_of_Arabic" title="Varieties of Arabic" id="mwmQ">dialects</a>
+                    )
+                </td>
+                <td id="mwmg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Afroasiatic_languages" title="Afroasiatic languages" id="mwmw">Afro-Asiatic</a>
+                </td>
+                <td id="mwnA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Semitic_languages" title="Semitic languages" id="mwnQ">Semitic</a>
+                </td>
+                <td id="mwng">
+                    0
+                    <sup about="#mwt30" class="mw-ref reference" id="cite_ref-8" rel="dc:references" typeof="mw:Transclusion mw:Extension/ref" data-mw="{&quot;name&quot;:&quot;ref&quot;,&quot;attrs&quot;:{&quot;group&quot;:&quot;lower-alpha&quot;},&quot;body&quot;:{&quot;id&quot;:&quot;mw-reference-text-cite_note-8&quot;},&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;efn&quot;,&quot;href&quot;:&quot;./Template:Efn&quot;},&quot;params&quot;:{&quot;1&quot;:{&quot;wt&quot;:&quot;[[Modern Standard Arabic]] (MSA) is not an L1. Arabic speakers first learn their respective local [[Varieties of Arabic|dialect]]. MSA is acquired through formal education.&lt;ref&gt;{{e27|arb|Arabic, Standard}}&lt;/ref&gt;&quot;}},&quot;i&quot;:0}}]}">
+                        <a href="#cite_note-8" data-mw-group="lower-alpha" id="mwnw">
+                            <span class="mw-reflink-text" id="mwoA">
+                                <span class="cite-bracket" id="mwoQ">[</span>
+                                a
+                                <span class="cite-bracket" id="mwog">]</span>
+                            </span>
+                        </a>
+                    </sup>
+                </td>
+                <td id="mwow">335</td>
+                <td id="mwpA">335</td>
+            </tr>
+            <tr id="mwpQ">
+                <td id="mwpg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:fra" title="ISO 639:fra" class="mw-redirect" id="mwpw">French</a>
+                    <br id="mwqA">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/French-based_creole_languages" title="French-based creole languages" id="mwqQ">creole languages</a>
+                    )
+                </td>
+                <td id="mwqg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwqw">Indo-European</a>
+                </td>
+                <td id="mwrA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Romance_languages" title="Romance languages" id="mwrQ">Romance</a>
+                </td>
+                <td id="mwrg">75</td>
+                <td id="mwrw">258</td>
+                <td id="mwsA">334</td>
+            </tr>
+            <tr id="mwsQ">
+                <td id="mwsg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:ben" title="ISO 639:ben" class="mw-redirect" id="mwsw">Bengali</a>
+                </td>
+                <td id="mwtA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwtQ">Indo-European</a>
+                </td>
+                <td id="mwtg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-Aryan_languages" title="Indo-Aryan languages" id="mwtw">Indo-Aryan</a>
+                </td>
+                <td id="mwuA">234</td>
+                <td id="mwuQ">43</td>
+                <td id="mwug">274</td>
+            </tr>
+            <tr id="mwuw">
+                <td id="mwvA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:por" title="ISO 639:por" class="mw-redirect" id="mwvQ">Portuguese</a>
+                    <br id="mwvg">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Portuguese-based_creole_languages" title="Portuguese-based creole languages" id="mwvw">creole languages</a>
+                    )
+                </td>
+                <td id="mwwA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwwQ">Indo-European</a>
+                </td>
+                <td id="mwwg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Romance_languages" title="Romance languages" id="mwww">Romance</a>
+                </td>
+                <td id="mwxA">252</td>
+                <td id="mwxQ">18</td>
+                <td id="mwxg">269</td>
+            </tr>
+            <tr id="mwxw">
+                <td id="mwyA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:ind" title="ISO 639:ind" class="mw-redirect" id="mwyQ">Indonesian</a>
+                </td>
+                <td id="mwyg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Austronesian_languages" title="Austronesian languages" id="mwyw">Austronesian</a>
+                </td>
+                <td id="mwzA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Malayo-Polynesian_languages" title="Malayo-Polynesian languages" id="mwzQ">Malayo-Polynesian</a>
+                </td>
+                <td id="mwzg">78</td>
+                <td id="mwzw">177</td>
+                <td id="mw0A">255</td>
+            </tr>
+            <tr id="mw0Q">
+                <td id="mw0g">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:urd" title="ISO 639:urd" class="mw-redirect" id="mw0w">Urdu</a>
+                    <br id="mw1A">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Hindi" title="Hindi" id="mw1Q">Hindi</a>
+                    )
+                </td>
+                <td id="mw1g">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mw1w">Indo-European</a>
+                </td>
+                <td id="mw2A">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-Aryan_languages" title="Indo-Aryan languages" id="mw2Q">Indo-Aryan</a>
+                </td>
+                <td id="mw2g">78</td>
+                <td id="mw2w">168</td>
+                <td id="mw3A">246</td>
+            </tr>
+            <tr id="mw3Q">
+                <td id="mw3g">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:rus" title="ISO 639:rus" class="mw-redirect" id="mw3w">Russian</a>
+                </td>
+                <td id="mw4A">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mw4Q">Indo-European</a>
+                </td>
+                <td id="mw4g">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Balto-Slavic_languages" title="Balto-Slavic languages" id="mw4w">Balto-Slavic</a>
+                </td>
+                <td id="mw5A">133</td>
+                <td id="mw5Q">77</td>
+                <td id="mw5g">210</td>
+            </tr>
+            <tr id="mw5w">
+                <td id="mw6A">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:deu" title="ISO 639:deu" class="mw-redirect" id="mw6Q">Standard German</a>
+                </td>
+                <td id="mw6g">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mw6w">Indo-European</a>
+                </td>
+                <td id="mw7A">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Germanic_languages" title="Germanic languages" id="mw7Q">Germanic</a>
+                </td>
+                <td id="mw7g">76</td>
+                <td id="mw7w">57</td>
+                <td id="mw8A">133</td>
+            </tr>
+            <tr id="mw8Q">
+                <td id="mw8g">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:jpn" title="ISO 639:jpn" class="mw-redirect" id="mw8w">Japanese</a>
+                </td>
+                <td id="mw9A">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Japonic_languages" title="Japonic languages" id="mw9Q">Japonic</a>
+                </td>
+                <td data-sort-value="" style="vertical-align: middle; text-align: center; " class="table-na" typeof="mw:Transclusion" about="#mwt37" id="mw9g" data-mw="{&quot;parts&quot;:[&quot;| &quot;,{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;N/A&quot;,&quot;href&quot;:&quot;./Template:N/A&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}">
+                    <span aria-hidden="true">—</span>
+                    <style data-mw-deduplicate="TemplateStyles:r1152813436" typeof="mw:Extension/templatestyles" about="#mwt38" data-mw="{&quot;name&quot;:&quot;templatestyles&quot;,&quot;attrs&quot;:{&quot;src&quot;:&quot;Screen reader-only/styles.css&quot;}}">
+                    .mw-parser-output .sr-only {
+                        border: 0;
+                        clip: rect(0, 0, 0, 0);
+                        clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+                        height: 1px;
+                        margin: -1px;
+                        overflow: hidden;
+                        padding: 0;
+                        position: absolute;
+                        width: 1px;
+                        white-space: nowrap
+                    }
+                    </style>
+                    <span class="sr-only">N/a</span>
+                </td>
+                <td id="mw9w">124</td>
+                <td id="mw-A">2</td>
+                <td id="mw-Q">126</td>
+            </tr>
+            <tr id="mw-g">
+                <td id="mw-w">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:pcm" title="ISO 639:pcm" class="mw-redirect" id="mw_A">Nigerian Pidgin</a>
+                </td>
+                <td id="mw_Q">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/English-based_creole_languages" title="English-based creole languages" id="mw_g">English Creole</a>
+                </td>
+                <td id="mw_w">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/West_African_Pidgin_English" title="West African Pidgin English" id="mwAQA">West African Pidgin English</a>
+                </td>
+                <td id="mwAQE">5</td>
+                <td id="mwAQI">116</td>
+                <td id="mwAQM">121</td>
+            </tr>
+            <tr id="mwAQQ">
+                <td id="mwAQU">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:arz" title="ISO 639:arz" class="mw-redirect" id="mwAQY">Egyptian Arabic</a>
+                    <br id="mwAQc">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Varieties_of_Arabic" title="Varieties of Arabic" id="mwAQg">other Arabic dialects</a>
+                    )
+                </td>
+                <td id="mwAQk">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Afroasiatic_languages" title="Afroasiatic languages" id="mwAQo">Afro-Asiatic</a>
+                </td>
+                <td id="mwAQs">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Semitic_languages" title="Semitic languages" id="mwAQw">Semitic</a>
+                </td>
+                <td id="mwAQ0">83</td>
+                <td id="mwAQ4">35</td>
+                <td id="mwAQ8">118</td>
+            </tr>
+            <tr id="mwARA">
+                <td id="mwARE">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:mar" title="ISO 639:mar" class="mw-redirect" id="mwARI">Marathi</a>
+                </td>
+                <td id="mwARM">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwARQ">Indo-European</a>
+                </td>
+                <td id="mwARU">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-Aryan_languages" title="Indo-Aryan languages" id="mwARY">Indo-Aryan</a>
+                </td>
+                <td id="mwARc">83</td>
+                <td id="mwARg">16</td>
+                <td id="mwARk">99</td>
+            </tr>
+            <tr id="mwARo">
+                <td id="mwARs">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:vie" title="ISO 639:vie" class="mw-redirect" id="mwARw">Vietnamese</a>
+                </td>
+                <td id="mwAR0">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Austroasiatic" title="Austroasiatic" class="mw-redirect" id="mwAR4">Austroasiatic</a>
+                </td>
+                <td id="mwAR8">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Vietic_languages" title="Vietic languages" id="mwASA">Vietic</a>
+                </td>
+                <td id="mwASE">86</td>
+                <td id="mwASI">11</td>
+                <td id="mwASM">97</td>
+            </tr>
+            <tr id="mwASQ">
+                <td id="mwASU">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:tel" title="ISO 639:tel" class="mw-redirect" id="mwASY">Telugu</a>
+                </td>
+                <td id="mwASc">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Dravidian_languages" title="Dravidian languages" id="mwASg">Dravidian</a>
+                </td>
+                <td id="mwASk">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Dravidian_languages#Classification" title="Dravidian languages" id="mwASo">South-Central</a>
+                </td>
+                <td id="mwASs">83</td>
+                <td id="mwASw">13</td>
+                <td id="mwAS0">96</td>
+            </tr>
+            <tr id="mwAS4">
+                <td id="mwAS8">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:swh" title="ISO 639:swh" class="mw-redirect" id="mwATA">Swahili</a>
+                </td>
+                <td id="mwATE">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Niger-Congo_languages" title="Niger-Congo languages" class="mw-redirect" id="mwATI">Niger–Congo</a>
+                </td>
+                <td id="mwATM">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Bantu_languages" title="Bantu languages" id="mwATQ">Bantu</a>
+                </td>
+                <td id="mwATU">4</td>
+                <td id="mwATY">91</td>
+                <td id="mwATc">95</td>
+            </tr>
+            <tr id="mwATg">
+                <td id="mwATk">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:hau" title="ISO 639:hau" class="mw-redirect" id="mwATo">Hausa</a>
+                </td>
+                <td id="mwATs">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Afroasiatic_languages" title="Afroasiatic languages" id="mwATw">Afro-Asiatic</a>
+                </td>
+                <td id="mwAT0">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Chadic_languages" title="Chadic languages" id="mwAT4">Chadic</a>
+                </td>
+                <td id="mwAT8">58</td>
+                <td id="mwAUA">36</td>
+                <td id="mwAUE">94</td>
+            </tr>
+            <tr id="mwAUI">
+                <td id="mwAUM">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:tur" title="ISO 639:tur" class="mw-redirect" id="mwAUQ">Turkish</a>
+                </td>
+                <td id="mwAUU">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Turkic_languages" title="Turkic languages" id="mwAUY">Turkic</a>
+                </td>
+                <td id="mwAUc">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Oghuz_languages" title="Oghuz languages" id="mwAUg">Oghuz</a>
+                </td>
+                <td id="mwAUk">86</td>
+                <td id="mwAUo">7</td>
+                <td id="mwAUs">94</td>
+            </tr>
+            <tr id="mwAUw">
+                <td id="mwAU0">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:pnb" title="ISO 639:pnb" class="mw-redirect" id="mwAU4">Western Punjabi</a>
+                    <br id="mwAU8">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Punjabi_dialects#Eastern_Punjabi" title="Punjabi dialects" id="mwAVA">Eastern Punjabi</a>
+                    )
+                </td>
+                <td id="mwAVE">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwAVI">Indo-European</a>
+                </td>
+                <td id="mwAVM">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-Aryan_languages" title="Indo-Aryan languages" id="mwAVQ">Indo-Aryan</a>
+                </td>
+                <td data-sort-value="" style="vertical-align: middle; text-align: center; " class="table-na" typeof="mw:Transclusion" about="#mwt39" id="mwAVU" data-mw="{&quot;parts&quot;:[&quot;| &quot;,{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;N/A&quot;,&quot;href&quot;:&quot;./Template:N/A&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}">
+                    <span aria-hidden="true">—</span>
+                    <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1152813436" about="#mwt40" typeof="mw:Extension/templatestyles" data-mw="{&quot;name&quot;:&quot;templatestyles&quot;,&quot;attrs&quot;:{&quot;src&quot;:&quot;Screen reader-only/styles.css&quot;}}">
+                    <span class="sr-only">N/a</span>
+                </td>
+                <td data-sort-value="" style="vertical-align: middle; text-align: center; " class="table-na" typeof="mw:Transclusion" about="#mwt41" id="mwAVY" data-mw="{&quot;parts&quot;:[&quot;| &quot;,{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;N/A&quot;,&quot;href&quot;:&quot;./Template:N/A&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}">
+                    <span aria-hidden="true">—</span>
+                    <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1152813436" about="#mwt42" typeof="mw:Extension/templatestyles" data-mw="{&quot;name&quot;:&quot;templatestyles&quot;,&quot;attrs&quot;:{&quot;src&quot;:&quot;Screen reader-only/styles.css&quot;}}">
+                    <span class="sr-only">N/a</span>
+                </td>
+                <td id="mwAVc">90</td>
+            </tr>
+            <tr id="mwAVg">
+                <td id="mwAVk">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:tgl" title="ISO 639:tgl" class="mw-redirect" id="mwAVo">Tagalog</a>
+                    <sup about="#mwt43" class="mw-ref reference" id="cite_ref-9" rel="dc:references" typeof="mw:Transclusion mw:Extension/ref" data-mw="{&quot;name&quot;:&quot;ref&quot;,&quot;attrs&quot;:{&quot;group&quot;:&quot;lower-alpha&quot;},&quot;body&quot;:{&quot;id&quot;:&quot;mw-reference-text-cite_note-9&quot;},&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;efn&quot;,&quot;href&quot;:&quot;./Template:Efn&quot;},&quot;params&quot;:{&quot;1&quot;:{&quot;wt&quot;:&quot;[[ISO 639:tgl|Tagalog]] and [[Filipino language|Filipino]] are defined as two different languages in the ISO 639 standard. ''[[Ethnologue]]'' considers that Filipino is a standardized variety of the Tagalog language with no speakers.&quot;}},&quot;i&quot;:0}}]}">
+                        <a href="#cite_note-9" data-mw-group="lower-alpha" id="mwAVs">
+                            <span class="mw-reflink-text" id="mwAVw">
+                                <span class="cite-bracket" id="mwAV0">[</span>
+                                b
+                                <span class="cite-bracket" id="mwAV4">]</span>
+                            </span>
+                        </a>
+                    </sup>
+                </td>
+                <td id="mwAV8">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Austronesian_languages" title="Austronesian languages" id="mwAWA">Austronesian</a>
+                </td>
+                <td id="mwAWE">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Malayo-Polynesian_languages" title="Malayo-Polynesian languages" id="mwAWI">Malayo-Polynesian</a>
+                </td>
+                <td id="mwAWM">33</td>
+                <td id="mwAWQ">54</td>
+                <td id="mwAWU">87</td>
+            </tr>
+            <tr id="mwAWY">
+                <td id="mwAWc">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:tam" title="ISO 639:tam" class="mw-redirect" id="mwAWg">Tamil</a>
+                </td>
+                <td id="mwAWk">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Dravidian_languages" title="Dravidian languages" id="mwAWo">Dravidian</a>
+                </td>
+                <td id="mwAWs">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/South_Dravidian_languages" title="South Dravidian languages" id="mwAWw">South</a>
+                </td>
+                <td id="mwAW0">79</td>
+                <td id="mwAW4">8</td>
+                <td id="mwAW8">86</td>
+            </tr>
+            <tr id="mwAXA">
+                <td id="mwAXE">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:yue" title="ISO 639:yue" class="mw-redirect" id="mwAXI">Yue Chinese</a>
+                    <br id="mwAXM">
+                    (incl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Cantonese" title="Cantonese" id="mwAXQ">Cantonese</a>
+                    )
+                </td>
+                <td id="mwAXU">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Sino-Tibetan_languages" title="Sino-Tibetan languages" id="mwAXY">Sino-Tibetan</a>
+                </td>
+                <td id="mwAXc">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Sinitic_languages" title="Sinitic languages" id="mwAXg">Sinitic</a>
+                </td>
+                <td id="mwAXk">85</td>
+                <td id="mwAXo">1</td>
+                <td id="mwAXs">86</td>
+            </tr>
+            <tr id="mwAXw">
+                <td id="mwAX0">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:wuu" title="ISO 639:wuu" class="mw-redirect" id="mwAX4">Wu Chinese</a>
+                    <br id="mwAX8">
+                    (incl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Shanghainese" title="Shanghainese" id="mwAYA">Shanghainese</a>
+                    )
+                </td>
+                <td id="mwAYE">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Sino-Tibetan_languages" title="Sino-Tibetan languages" id="mwAYI">Sino-Tibetan</a>
+                </td>
+                <td id="mwAYM">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Sinitic_languages" title="Sinitic languages" id="mwAYQ">Sinitic</a>
+                </td>
+                <td id="mwAYU">83</td>
+                <td id="mwAYY">&lt;1</td>
+                <td id="mwAYc">83</td>
+            </tr>
+            <tr id="mwAYg">
+                <td id="mwAYk">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:pes" title="ISO 639:pes" class="mw-redirect" id="mwAYo">Iranian Persian</a>
+                    <br id="mwAYs">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Persian_language" title="Persian language" id="mwAYw">other Persian dialects</a>
+                    )
+                </td>
+                <td id="mwAY0">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwAY4">Indo-European</a>
+                </td>
+                <td id="mwAY8">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Iranian_languages" title="Iranian languages" id="mwAZA">Iranian</a>
+                </td>
+                <td id="mwAZE">65</td>
+                <td id="mwAZI">17</td>
+                <td id="mwAZM">82</td>
+            </tr>
+            <tr id="mwAZQ">
+                <td id="mwAZU">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:kor" title="ISO 639:kor" class="mw-redirect" id="mwAZY">Korean</a>
+                </td>
+                <td id="mwAZc">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Koreanic_languages" title="Koreanic languages" id="mwAZg">Koreanic</a>
+                </td>
+                <td data-sort-value="" style="vertical-align: middle; text-align: center; " class="table-na" typeof="mw:Transclusion" about="#mwt46" id="mwAZk" data-mw="{&quot;parts&quot;:[&quot;| &quot;,{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;N/A&quot;,&quot;href&quot;:&quot;./Template:N/A&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}">
+                    <span aria-hidden="true">—</span>
+                    <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1152813436" about="#mwt47" typeof="mw:Extension/templatestyles" data-mw="{&quot;name&quot;:&quot;templatestyles&quot;,&quot;attrs&quot;:{&quot;src&quot;:&quot;Screen reader-only/styles.css&quot;}}">
+                    <span class="sr-only">N/a</span>
+                </td>
+                <td id="mwAZo">82</td>
+                <td id="mwAZs">1</td>
+                <td id="mwAZw">82</td>
+            </tr>
+            <tr id="mwAZ0">
+                <td id="mwAZ4">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:amh" title="ISO 639:amh" class="mw-redirect" id="mwAZ8">Amharic</a>
+                </td>
+                <td id="mwAaA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Afroasiatic_languages" title="Afroasiatic languages" id="mwAaE">Afro-Asiatic</a>
+                </td>
+                <td id="mwAaI">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Semitic_languages" title="Semitic languages" id="mwAaM">Semitic</a>
+                </td>
+                <td id="mwAaQ">39</td>
+                <td id="mwAaU">39</td>
+                <td id="mwAaY">78</td>
+            </tr>
+            <tr id="mwAac">
+                <td id="mwAag">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:tha" title="ISO 639:tha" class="mw-redirect" id="mwAak">Thai</a>
+                </td>
+                <td id="mwAao">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Tai–Kadai_languages" title="Tai–Kadai languages" class="mw-redirect" id="mwAas">Kra–Dai</a>
+                </td>
+                <td id="mwAaw">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Tai_languages" title="Tai languages" id="mwAa0">Zhuang–Tai</a>
+                </td>
+                <td id="mwAa4">27</td>
+                <td id="mwAa8">44</td>
+                <td id="mwAbA">71</td>
+            </tr>
+            <tr id="mwAbE">
+                <td id="mwAbI">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:jav" title="ISO 639:jav" class="mw-redirect" id="mwAbM">Javanese</a>
+                </td>
+                <td id="mwAbQ">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Austronesian_languages" title="Austronesian languages" id="mwAbU">Austronesian</a>
+                </td>
+                <td id="mwAbY">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Malayo-Polynesian_languages" title="Malayo-Polynesian languages" id="mwAbc">Malayo-Polynesian</a>
+                </td>
+                <td data-sort-value="" style="vertical-align: middle; text-align: center; " class="table-na" typeof="mw:Transclusion" about="#mwt48" id="mwAbg" data-mw="{&quot;parts&quot;:[&quot;| &quot;,{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;N/A&quot;,&quot;href&quot;:&quot;./Template:N/A&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}">
+                    <span aria-hidden="true">—</span>
+                    <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1152813436" about="#mwt49" typeof="mw:Extension/templatestyles" data-mw="{&quot;name&quot;:&quot;templatestyles&quot;,&quot;attrs&quot;:{&quot;src&quot;:&quot;Screen reader-only/styles.css&quot;}}">
+                    <span class="sr-only">N/a</span>
+                </td>
+                <td data-sort-value="" style="vertical-align: middle; text-align: center; " class="table-na" typeof="mw:Transclusion" about="#mwt50" id="mwAbk" data-mw="{&quot;parts&quot;:[&quot;| &quot;,{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;N/A&quot;,&quot;href&quot;:&quot;./Template:N/A&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}">
+                    <span aria-hidden="true">—</span>
+                    <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1152813436" about="#mwt51" typeof="mw:Extension/templatestyles" data-mw="{&quot;name&quot;:&quot;templatestyles&quot;,&quot;attrs&quot;:{&quot;src&quot;:&quot;Screen reader-only/styles.css&quot;}}">
+                    <span class="sr-only">N/a</span>
+                </td>
+                <td id="mwAbo">69</td>
+            </tr>
+            <tr id="mwAbs">
+                <td id="mwAbw">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:ita" title="ISO 639:ita" class="mw-redirect" id="mwAb0">Italian</a>
+                </td>
+                <td id="mwAb4">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwAb8">Indo-European</a>
+                </td>
+                <td id="mwAcA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Romance_languages" title="Romance languages" id="mwAcE">Romance</a>
+                </td>
+                <td id="mwAcI">60</td>
+                <td id="mwAcM">6</td>
+                <td id="mwAcQ">66</td>
+            </tr>
+            <tr id="mwAcU">
+                <td id="mwAcY">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:guj" title="ISO 639:guj" class="mw-redirect" id="mwAcc">Gujarati</a>
+                </td>
+                <td id="mwAcg">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwAck">Indo-European</a>
+                </td>
+                <td id="mwAco">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-Aryan_languages" title="Indo-Aryan languages" id="mwAcs">Indo-Aryan</a>
+                </td>
+                <td id="mwAcw">58</td>
+                <td id="mwAc0">5</td>
+                <td id="mwAc4">62</td>
+            </tr>
+            <tr id="mwAc8">
+                <td id="mwAdA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:kan" title="ISO 639:kan" class="mw-redirect" id="mwAdE">Kannada</a>
+                </td>
+                <td id="mwAdI">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Dravidian_languages" title="Dravidian languages" id="mwAdM">Dravidian</a>
+                </td>
+                <td id="mwAdQ">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/South_Dravidian_languages" title="South Dravidian languages" id="mwAdU">South</a>
+                </td>
+                <td id="mwAdY">44</td>
+                <td id="mwAdc">15</td>
+                <td id="mwAdg">59</td>
+            </tr>
+            <tr id="mwAdk">
+                <td id="mwAdo">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:apc" title="ISO 639:apc" class="mw-redirect" id="mwAds">Levantine Arabic</a>
+                    <br id="mwAdw">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Varieties_of_Arabic" title="Varieties of Arabic" id="mwAd0">other Arabic dialects</a>
+                    )
+                </td>
+                <td id="mwAd4">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Afroasiatic_languages" title="Afroasiatic languages" id="mwAd8">Afro-Asiatic</a>
+                </td>
+                <td id="mwAeA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Semitic_languages" title="Semitic languages" id="mwAeE">Semitic</a>
+                </td>
+                <td id="mwAeI">55</td>
+                <td id="mwAeM">3</td>
+                <td id="mwAeQ">58</td>
+            </tr>
+            <tr id="mwAeU">
+                <td id="mwAeY">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:apd" title="ISO 639:apd" class="mw-redirect" id="mwAec">Sudanese Arabic</a>
+                    <br id="mwAeg">
+                    (excl. 
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Varieties_of_Arabic" title="Varieties of Arabic" id="mwAek">other Arabic dialects</a>
+                    )
+                </td>
+                <td id="mwAeo">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Afroasiatic_languages" title="Afroasiatic languages" id="mwAes">Afro-Asiatic</a>
+                </td>
+                <td id="mwAew">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Semitic_languages" title="Semitic languages" id="mwAe0">Semitic</a>
+                </td>
+                <td id="mwAe4">43</td>
+                <td id="mwAe8">11</td>
+                <td id="mwAfA">54</td>
+            </tr>
+            <tr id="mwAfE">
+                <td id="mwAfI">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:yor" title="ISO 639:yor" class="mw-redirect" id="mwAfM">Yoruba</a>
+                </td>
+                <td id="mwAfQ">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Niger-Congo_languages" title="Niger-Congo languages" class="mw-redirect" id="mwAfU">Niger-Congo</a>
+                </td>
+                <td id="mwAfY">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Yoruboid_languages" title="Yoruboid languages" id="mwAfc">Yoruboid</a>
+                </td>
+                <td id="mwAfg">48</td>
+                <td id="mwAfk">5</td>
+                <td id="mwAfo">53</td>
+            </tr>
+            <tr id="mwAfs">
+                <td id="mwAfw">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/ISO_639:bho" title="ISO 639:bho" class="mw-redirect" id="mwAf0">Bhojpuri</a>
+                </td>
+                <td id="mwAf4">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-European_languages" title="Indo-European languages" id="mwAf8">Indo-European</a>
+                </td>
+                <td id="mwAgA">
+                    <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Indo-Aryan_languages" title="Indo-Aryan languages" id="mwAgE">Indo-Aryan</a>
+                </td>
+                <td id="mwAgI">53</td>
+                <td id="mwAgM">&lt;1</td>
+                <td id="mwAgQ">53</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+
+</section>
+```
+
+## Most people speak one of these 20 languages
+
+```{=html}
+<table class="static-row-numbers sortable wikitable jquery-tablesorter" id="mwAhE">
+    <caption id="mwAhI">
+        Most spoken languages, CIA, 2022
+        <sup about="#mwt55" class="mw-ref reference" id="cite_ref-CIA_10-1" rel="dc:references" typeof="mw:Extension/ref" data-mw="{&quot;name&quot;:&quot;ref&quot;,&quot;attrs&quot;:{&quot;name&quot;:&quot;CIA&quot;},&quot;body&quot;:{&quot;id&quot;:&quot;mw-reference-text-cite_note-CIA-10&quot;}}">
+            <a href="#cite_note-CIA-10" id="mwAhM">
+                <span class="mw-reflink-text" id="mwAhQ">
+                    <span class="cite-bracket" id="mwAhU">[</span>
+                    8
+                    <span class="cite-bracket" id="mwAhY">]</span>
+                </span>
+            </a>
+        </sup>
+    </caption>
+    <thead>
+        <tr id="mwAhg">
+            <th id="mwAhk" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Language</th>
+            <th id="mwAho" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Percentage of world population (2022)</th>
+        </tr>
+    </thead>
+    <tbody id="mwAhc">
+        <tr id="mwAhs">
+            <td id="mwAhw">
+                <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/English_language" title="English language" id="mwAh0">English</a>
+            </td>
+            <td id="mwAh4">18.8%</td>
+        </tr>
+        <tr id="mwAh8">
+            <td id="mwAiA">
+                <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Mandarin_Chinese" title="Mandarin Chinese" id="mwAiE">Mandarin Chinese</a>
+            </td>
+            <td id="mwAiI">13.8%</td>
+        </tr>
+        <tr id="mwAiM">
+            <td id="mwAiQ">
+                <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Hindi" title="Hindi" id="mwAiU">Hindi</a>
+            </td>
+            <td id="mwAiY">7.5%</td>
+        </tr>
+        <tr id="mwAic">
+            <td id="mwAig">
+                <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Spanish_language" title="Spanish language" id="mwAik">Spanish</a>
+            </td>
+            <td id="mwAio">6.9%</td>
+        </tr>
+        <tr id="mwAis">
+            <td id="mwAiw">
+                <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/French_language" title="French language" id="mwAi0">French</a>
+            </td>
+            <td id="mwAi4">3.4%</td>
+        </tr>
+        <tr id="mwAi8">
+            <td id="mwAjA">
+                <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Arabic_language" title="Arabic language" class="mw-redirect" id="mwAjE">Arabic</a>
+            </td>
+            <td id="mwAjI">3.4%</td>
+        </tr>
+        <tr id="mwAjM">
+            <td id="mwAjQ">
+                <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Bengali_language" title="Bengali language" id="mwAjU">Bengali</a>
+            </td>
+            <td id="mwAjY">3.4%</td>
+        </tr>
+        <tr id="mwAjc">
+            <td id="mwAjg">
+                <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Russian_language" title="Russian language" id="mwAjk">Russian</a>
+            </td>
+            <td id="mwAjo">3.2%</td>
+        </tr>
+        <tr id="mwAjs">
+            <td id="mwAjw">
+                <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Portuguese_language" title="Portuguese language" id="mwAj0">Portuguese</a>
+            </td>
+            <td id="mwAj4">3.2%</td>
+        </tr>
+        <tr id="mwAj8">
+            <td id="mwAkA">
+                <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Urdu" title="Urdu" id="mwAkE">Urdu</a>
+            </td>
+            <td id="mwAkI">2.9%</td>
+        </tr>
+    </tbody>
+    <tfoot></tfoot>
+</table>
+
+```
+
+## How are there 7,170 languages? 
+
+:::: {.incremental}
+
+- **Most people** speak at least two languages
+- When a group is divided, the code they share can often become so different that they become less **mutually intelligible**
+- Also, language is constantly changing. The language you speak every day would sound very strange to your great grand parents and might be genuinely difficult to understand for *their* great grand parents.
+- This kind of splitting and change creates groups of languages that are similar to each other. We call these groups of languages **language families**
+- The branches of linguistics that studies these relationship are called **historical linguistics** and **sociolinguistics**
+
+::::
+
+
+## 840 Languages {background-iframe="https://wals.info/country/PG#6/-6.500/148.292" background-interaction="true"}
+
+
+## {background-iframe="https://wals.info/languoid/samples/200" background-interactive="true"}
+
+## An obvious fact with profound consequences
+
+:::: {.incremental}
+
+- The link between linguistic forms and their meanings is **arbitrary**
+- **Arbitrary** in the sense that linguistic forms only mean what speakers of that language *agree* that they mean!
+- Think of any word...
+
+::::
+
+![](images/cats.png){width=75% .absolute bottom=0 right=0}
+
+# Language is arbitrary, at every level!
+
+
+
+
+
+
+
+## What’s next?
 
 ![](images/4-How%20many%20languages_8.jpg)
 
-Come to lecture Wednesday for “Where does language come from?”
-
-Still finalizing accommodations\, other letters\, etc\.
-
-If you didn’t do the reading for today\, do it now\! And get your textbook if you haven’t already\!
-
-Observation Notes \#1 due Friday\!
-
-Quiz 2 Friday\!
+- Come to lecture Wednesday for "Where does language come from?"
+- Still finalizing accommodations\, other letters\, etc\.
+- If you didn’t do the reading for today or Monday\, do thenm now\!
+- And get your textbook if you haven’t already\!
+- Quiz 2 Friday!
 

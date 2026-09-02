@@ -2,7 +2,7 @@
 title: "What is language?"
 subtitle: "Lin 211 • Section 1, Part 3"
 date: 08/31/2026
-description: "Pullum Chapter 1"
+description: "[Pullum Chapter 1](https://uk.instructure.com/files/119766417/download?download_frd=1)"
 categories: [Getting Started]
 authors:
   - name: Kevin B McGowan
@@ -185,34 +185,7 @@ This is our first attendance question.  You can find it as "August 31st in class
  [https://www\.youtube\.com/watch?v=nZP7pb\_t4oA](https://www.youtube.com/watch?v=nZP7pb_t4oA)
 
 
----
-
-
-# What makes humans so special?
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-![An Australian Shepherd dog](images/Australian_Shepherd_1000.png)
-
-:::
-
-::: {.column width="50%"}
-
-- **linguistics** is about understanding how we take these noises that our bodies can make using our mouths or the shapes and movements our hands can make to DO STUFF
-- **language** is a human capacity to symbolically represent & decode thoughts, ideas, and feelings
-- human **languages** are structured systems for making articulated thoughts fully explicit
-- Even the brightest dog can’t do that\!
-
-:::
-
-::::
-
----
-
-
-# What’s next?
+## What’s next?
 
 ![](images/3-What%20is%20language_12.jpg)
 
