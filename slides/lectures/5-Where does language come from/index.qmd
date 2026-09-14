@@ -102,26 +102,18 @@ format:
 
 ## Language and Evolution
 
-::: {.incremental}
-
 - Humans acquired language ability during the prehistoric past (possibly *hundreds* of thousands of years ago)
   * _Homo sapiens _ (~300,000 years ago) or even earlier ancestor  _Homo erectus_ (~2,000,000 years ago)
   * The mythical Bible story of Tower of Babel (Genesis 11:1-9) shows us that humans have been wondering where language (and languages) come from since at least the Bronze Age 
   * What we do know is that it is a quintessentially human phenomenon!
 
-:::
-
 ## Language and Evolution (cont.)
-
-::: {.incremental}
 
 - Why language? Why then?
   * Likely, Language, as a human ability, facilitated hunting (working as a team against larger, faster, more numerous prey) or reproduction (or both!)
   * Must have built on an already-evolved ability to think symbolically
   * The evolution of how we use sounds is closely tied to our physical abilities to create and hear sounds
   * Related to the same human abilities that would give us cave paintings!
-
-:::
 
 ## 
 
@@ -157,12 +149,6 @@ format:
   * Describe how specific languages have changed through time
   * History of languages and how they are related
   * Theories about how and why languages change
-  
-::: {.notes}
-
-How has English changed since it first became a language? What languages is English related to? Why would a person want to speak differently than their parents?
- 
-:::
 
 
 ## There are two ways to think about time
@@ -198,7 +184,7 @@ How has English changed since it first became a language? What languages is Engl
 
 - Language is arbitrary
 - Language is constantly changing
-- Changes happen in knowable, predicatable ways
+- Changes happen in knowable, predictable ways
 - Once a change starts, it tends to spread through the entire language
 - Some changes are so unlikely (so unlike the way language works) that they never happen on their own (e.g. two unrelated languages whose speakers have never met randomly becoming more similar to each other)
 
