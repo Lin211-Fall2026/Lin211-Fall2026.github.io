@@ -67,7 +67,7 @@
     "href": "slides/lectures/5-Where does language come from/index.html#so-what-can-we-know",
     "title": "Where does language come from?",
     "section": "So what can we know?",
-    "text": "So what can we know?\n\nWhat do linguists do to try to understand how languages have changed over time?\nThis is called historical linguistics !\n\nDescribe how specific languages have changed through time\nHistory of languages and how they are related\nTheories about how and why languages change\n\n\n\nHow has English changed since it first became a language? What languages is English related to? Why would a person want to speak differently than their parents?"
+    "text": "So what can we know?\n\nWhat do linguists do to try to understand how languages have changed over time?\nThis is called historical linguistics !\n\nDescribe how specific languages have changed through time\nHistory of languages and how they are related\nTheories about how and why languages change"
   },
   {
     "objectID": "slides/lectures/5-Where does language come from/index.html#there-are-two-ways-to-think-about-time",
@@ -102,7 +102,7 @@
     "href": "slides/lectures/5-Where does language come from/index.html#some-first-principles-for-diachronic-linguistics",
     "title": "Where does language come from?",
     "section": "Some First Principles for Diachronic Linguistics",
-    "text": "Some First Principles for Diachronic Linguistics\n\nLanguage is arbitrary\nLanguage is constantly changing\nChanges happen in knowable, predicatable ways\nOnce a change starts, it tends to spread through the entire language\nSome changes are so unlikely (so unlike the way language works) that they never happen on their own (e.g. two unrelated languages whose speakers have never met randomly becoming more similar to each other)"
+    "text": "Some First Principles for Diachronic Linguistics\n\nLanguage is arbitrary\nLanguage is constantly changing\nChanges happen in knowable, predictable ways\nOnce a change starts, it tends to spread through the entire language\nSome changes are so unlikely (so unlike the way language works) that they never happen on their own (e.g. two unrelated languages whose speakers have never met randomly becoming more similar to each other)"
   },
   {
     "objectID": "slides/lectures/5-Where does language come from/index.html#vocabulary-words-can-change",
@@ -196,102 +196,389 @@
     "text": "What’s next?\nCome to lecture Monday for the very first SPOTLIGHT LECTURE (led by Jules)\nObservation Notes #1 due Friday!\nQuiz 2 Friday! = Go to recitation!"
   },
   {
-    "objectID": "slides/lectures/3-What is language/index.html#we-can-talk-about-two-kinds-of-language-rules",
-    "href": "slides/lectures/3-What is language/index.html#we-can-talk-about-two-kinds-of-language-rules",
-    "title": "What is language?",
-    "section": "We can talk about two kinds of language rules",
-    "text": "We can talk about two kinds of language rules\n\nPrescriptive: an attempt to control how language is used\n\n⤷ very common (english teachers, grammar police, etc.)\n\n \nDescriptive: an attempt to understand how language is used\n\n⤷ uncommon (linguists & lexicographers)"
-  },
-  {
-    "objectID": "slides/lectures/3-What is language/index.html#prescriptive-rules",
-    "href": "slides/lectures/3-What is language/index.html#prescriptive-rules",
-    "title": "What is language?",
-    "section": "Prescriptive Rules",
-    "text": "Prescriptive Rules\n\nPrescriptive Rules are made up by external actors (e.g., teachers, grammar book writers, grammar police, etc.)\nThat person (or group) asserts authority in language and issues a prohibition/command that is meant to be unquestioningly followed\nOften they try to use shame or threats as motivation\nexamples:\n\n“Don’t end a sentence with a preposition.”\n“Do not use contractions.”\n“It is incorrect to ever split an infinitive.\n“You sound ignorant if you say ain’t.”"
-  },
-  {
-    "objectID": "slides/lectures/3-What is language/index.html#descriptive-rules",
-    "href": "slides/lectures/3-What is language/index.html#descriptive-rules",
-    "title": "What is language?",
-    "section": "Descriptive Rules",
-    "text": "Descriptive Rules\n\nDescriptive Rules emerge from usage and custom. Descriptive rules vest authority in the people who use and speak the language not in external authorities.\n\nRules are based on observations of language in use by real language users.\nThese rules can be broken! It is possible to say things that are ungrammatical.\nIt’s just that ungrammatical in the descriptive sense means “no one says that”"
-  },
-  {
-    "objectID": "slides/lectures/3-What is language/index.html#descriptive-rules-and-ungrammatical-examples",
-    "href": "slides/lectures/3-What is language/index.html#descriptive-rules-and-ungrammatical-examples",
-    "title": "What is language?",
-    "section": "Descriptive Rules and ungrammatical examples",
-    "text": "Descriptive Rules and ungrammatical examples\n\nExample Descriptive Rule: English speakers have to use ‘the’ or ‘a/an’ before a noun.\n\n* You must have ticket to ride train. 1\nYou must have a ticket to ride the train.\n\nExample Descriptive Rule: the past tense of go is went\n\n* Daddy goed on the airplane!\nDaddy went on the airplane!\n\n\nSee that asterisk (*)? Linguists use it to mean ’speakers of this language can’t/don’t say this. It literally means ungrammatical."
-  },
-  {
-    "objectID": "slides/lectures/3-What is language/index.html#why-do-prescriptive-rules-exist",
-    "href": "slides/lectures/3-What is language/index.html#why-do-prescriptive-rules-exist",
-    "title": "What is language?",
-    "section": "Why do prescriptive rules exist?",
-    "text": "Why do prescriptive rules exist?\n\n\nKnowing and following descriptive rules feels right to us\nIt can be a way of demonstrating one’s erudition, learning, belonging, but…\nEnforcing prescriptive rules can also be a way of gatekeeping who gets to be in your group\nPrescriptive rules are always social judgements, not linguistic facts."
-  },
-  {
-    "objectID": "slides/lectures/3-What is language/index.html#more-about-prescriptive-rules",
-    "href": "slides/lectures/3-What is language/index.html#more-about-prescriptive-rules",
-    "title": "What is language?",
-    "section": "More about Prescriptive rules",
-    "text": "More about Prescriptive rules\n\n\nPrescriptive judgments of “right” vs. “wrong” or superior vs. inferior represent learned social attitudes to a particular variety or a particular form.\nThey are usually judgments against the speaker groups who use those varieties rather than against the language itself."
-  },
-  {
-    "objectID": "slides/lectures/3-What is language/index.html#ling-link",
-    "href": "slides/lectures/3-What is language/index.html#ling-link",
-    "title": "What is language?",
-    "section": "Ling Link",
-    "text": "Ling Link\n\n\n\n\n\nWhat is a ‘rule’ someone has told you about English?\n\nFigure out together whether this ‘rule’ is Descriptive or Prescriptive\n\nDo these two sentences contain any ‘errors’ and, if so, do they violate prescriptive or descriptive rules?\n\n“If she ain’t here, I’m leavin’!”\n“* The weather in this part of is extremely.”"
-  },
-  {
-    "objectID": "slides/lectures/3-What is language/index.html#section",
-    "href": "slides/lectures/3-What is language/index.html#section",
-    "title": "What is language?",
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#section",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#section",
+    "title": "Spotlight 1: What is linguistics research?",
     "section": "",
-    "text": "Imagine a friend says this sentence to you:\n\n“I saw a platypus at the zoo today. Did you know they lay eggs!?!?”\n\nTake a stance: How do you know what a platypus is??"
+    "text": "What is linguistics research?"
   },
   {
-    "objectID": "slides/lectures/3-What is language/index.html#q-slide",
-    "href": "slides/lectures/3-What is language/index.html#q-slide",
-    "title": "What is language?",
-    "section": "Q slide",
-    "text": "Q slide\n\nThis is our first attendance question. You can find it as “August 31st in class” on Canvas and the access code is ‘PLATYPUS’."
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#this-course-is-structured-around-questions",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#this-course-is-structured-around-questions",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "This course is structured around questions",
+    "text": "This course is structured around questions\n\n\n\n\n\n\n\n\nWhat is linguistics?\n\nHow do kids learn to talk?\n\n\n\n\nWhat is language?\n\nHow does bilingualism work?\n\n\nHow many languages are there?\n\nWhy is it hard to learn other languages?\n\n\nWhere does language come from?\n\nHow is writing different from speaking?\n\n\nSpotlight Lecture: What is linguistics research?\n\n🤷\n\n\nWhat is a word?\n\nWhy can’t Siri pronounce my name?\n\n\nHow do words get their meaning?\n\nHow do computers help with language?\n\n\nIs slang legit?\n\nAre chatbots real?\n\n\nWhy are some words “bad words”?\n\nSpotlight lecture: How do we find relevant linguistics sources?\n\n\nWho says “pop” and why?\n\nAre actors good at dialects?\n\n\nWhere do dialects come from?\n\nCan you make your own language?\n\n\nWhat is the prettiest language?\n\nDo animals use language?\n\n\nSpotlight lecture: What methods and ethics of inquiry are used?\n\nWho really uses this stuff?\n\n\nWhy Linguistics?"
   },
   {
-    "objectID": "slides/lectures/3-What is language/index.html#how-do-you-know-what-a-platypus-is",
-    "href": "slides/lectures/3-What is language/index.html#how-do-you-know-what-a-platypus-is",
-    "title": "What is language?",
-    "section": "How do you know what a platypus is?",
-    "text": "How do you know what a platypus is?\n\nHow do you know what any word is?\nMost people say: “look it up in the dictionary”\nBut that almost never happens.\nBesides, dictionaries are descriptive, not prescriptive"
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#making-questions-approachable",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#making-questions-approachable",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Making questions approachable",
+    "text": "Making questions approachable\nWeek 1 lecture and recitation: What is linguistics?\n\n\nwhat is language?\nwhat types of language are objects of inquiry?\nwhat can language variation look like?\nhow do/can linguists and non-linguists talk about language?\nwhat do people believe about linguistic rules/expectations?"
   },
   {
-    "objectID": "slides/lectures/3-What is language/index.html#platypus",
-    "href": "slides/lectures/3-What is language/index.html#platypus",
-    "title": "What is language?",
-    "section": "Platypus",
-    "text": "Platypus\n\n\n\nUsually, we know what a platypus (or any word!) is by combining what we already know with the evidence from the utterance to arrive at a meaning that is enough to go on\nYou don’t have to know that a platypus is venomous, you don’t have to know that they mammals who don’t have nipples, or that its Latin name is Ornithorhynchus anatinus to know what “I saw a platypus at the zoo” means\nImagine someone said to you: “Can I pet that snorgfloos?\nwhat is a snorgfloos?"
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#goal-1-assignment-prep",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#goal-1-assignment-prep",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Goal #1: assignment prep",
+    "text": "Goal #1: assignment prep\n\n\n\n\nPrepare for future projects in the course\nMidterm project: data collection\nFinal project: thinking about data collected\nAsk a research question ⟶ Spotlight 1 linguistics research)\nPropose methods ⟶ Spotlight 2 (methods and ethics)\nFind a relevant source ⟶ Spotlight 3 (finding sources)"
   },
   {
-    "objectID": "slides/lectures/3-What is language/index.html#what-is-language",
-    "href": "slides/lectures/3-What is language/index.html#what-is-language",
-    "title": "What is language?",
-    "section": "What is language?",
-    "text": "What is language?\n\nLast week we said we are talking about language as a distinctly human ability, not any individual language\n\nAll humans use language\nLanguage may be spoken or signed, written or not\n\nAccording to your book, “human languages are structured systems for making articulated thoughts fully explicit both internally (mentally) and externally (in a form perceptible to other humans)” (p. 3)\nBut that “fully explicit” depends on: who is talking, who is listening, and the context they’re in!"
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#goal-2-being-curious",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#goal-2-being-curious",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Goal #2: being curious",
+    "text": "Goal #2: being curious\n\n\nMove away from “Getting Started”\nHow can I apply course concepts?\nWhat’s involved in starting (linguistics) research?\nHow do I use concepts to make richer observations?\nWhat are the qualities of a fruitful (linguistics) research question?\nHow could I turn observations into questions?"
   },
   {
-    "objectID": "slides/lectures/3-What is language/index.html#how-do-our-brains-process-language",
-    "href": "slides/lectures/3-What is language/index.html#how-do-our-brains-process-language",
-    "title": "What is language?",
-    "section": "How do our brains process language?",
-    "text": "How do our brains process language?\nhttps://www.youtube.com/watch?v=nZP7pb_t4oA"
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#ling-link",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#ling-link",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Ling-link…",
+    "text": "Ling-link…\n\n\n\nSpend 1-2 minutes jotting down questions(s) that you’ve had about language\nGeneral (“do animals have language?”) or specific (“why does my grandma say warsh ? ”)\nSpend 2-3 minutes talking with your neighbor(s) about your inquiries\nHave you all had similar questions or ideas?\nHow might you go about answering your question?"
   },
   {
-    "objectID": "slides/lectures/3-What is language/index.html#whats-next",
-    "href": "slides/lectures/3-What is language/index.html#whats-next",
-    "title": "What is language?",
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#our-questions",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#our-questions",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Our Questions",
+    "text": "Our Questions\n\n(screenshot of in-class ms form goes here)"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#questions-come-from-observations",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#questions-come-from-observations",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Questions come from observations",
+    "text": "Questions come from observations\n\n“I talk differently when communicating to my friends than my professors”\n\nHow does language influence identity?\n\n“People complain about texting ruining how people speak”\n\nHow do computers impact modern language?\n\n“[company] said that Southerners sound unprofessional when they talk”\n\nHow do people feel about how others speak?\n\n“People have vastly different experiences but can understand each other”\n\nHow can people process speech?"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#how-would-we-find-out",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#how-would-we-find-out",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "How would we find out?",
+    "text": "How would we find out?\n\n\nResearch!\n\n\nImagine that you have questions like the ones that you have on the board How could we know? Commit to an answer\nLook it up - many questions for which we know the answer but so many more that we don’t know the answer to"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#whats-involved-in-research",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#whats-involved-in-research",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "What’s involved in research?",
+    "text": "What’s involved in research?\n\nFinding plausible explanations for questions\nMany ways to approach doing research\n\n\n\n\n\n\n\n\n\nAsking a research question\nHow do I ask a question?\n\n\n\n\n\nHow do I know what questions I can be asking?\n\n\n\n\n\n\n\n\n\n\n\n\nSelecting an appropriate method\nWhat are methods?\n\n\n\n\n\nHow do I do research ethically?\n\n\n\n\n\n\n\n\n\n\n\n\nContextualizing\nHow do I find resources to support my research?\n\n\n\n\n\n\n\n\n\n\n\nPlanning ahead"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#qualities-of-solid-research-questions",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#qualities-of-solid-research-questions",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Qualities of solid research questions",
+    "text": "Qualities of solid research questions\n\n\nBased on previous research\n\nWhy: connect to other studies\n\nAre practical\n\nWhy: need to be doable\n\nAre specific\n\nWhy: more specific = more precise answers\n\n\n\nCoherent collection of research helping us understand phenomena happening in the world that our field studies’\nTime and money and possible at all\nMore targeted = more specific"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#where-doescan-research-start",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#where-doescan-research-start",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Where does/can research start?",
+    "text": "Where does/can research start?\n\n\n\nSomething that we observe, read about, find interesting, find confusing, find controversial, etc.\n\nFor the final project: midterm data + semester content\n\n\n“I noticed that someone uses bubbler to refer to a water fountain… I wonder what other words might vary between people…”\n\n\n“I heard someone claiming that bubbler and water fountain refer to the same thing, but I wonder if other people think about them differently…”"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#starting-with-observations-from-recitation-1",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#starting-with-observations-from-recitation-1",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Starting with observations (from Recitation 1)",
+    "text": "Starting with observations (from Recitation 1)\n\n\nOther examples of regional variation\n\nPop, soda, coke\nlightning bug, firefly\nRoly poly, potato bug, pill bug\n\n\nIncluding different pronunciations\n\n\nWash vs. warsh\npin = pen, pin ≠ pen\nCaramel (2 vs. 3 syllables)\n\n\n\n➙ ➙ ➙\n\n\n\nPeople speak differently\n\nIn what ways?\nWhy?\nWhat effects does this have on how people interact?"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#observations-questions",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#observations-questions",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Observations ➙ questions",
+    "text": "Observations ➙ questions\nToo broad:\n\nHow does regional identity influence lexical variation?\n( what type of lexical (=word) variation? what kind of region? )\n\n\n☞ More optimal:\n\n\nwhere, exactly, do people use different words for a carbonated beverage?\nhow do people there feel about the word?\nwhy do less standard forms persist?"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#attendance-question-9-14-lecture-day-6",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#attendance-question-9-14-lecture-day-6",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Attendance Question 9-14 (lecture day 6)",
+    "text": "Attendance Question 9-14 (lecture day 6)\n\nWhat object with regionally varying names are we using in our example research question? Or, what is the object featured in the example research question on the previous slide?"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#based-on-previous-research",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#based-on-previous-research",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "1. Based on Previous research",
+    "text": "1. Based on Previous research\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwhy important"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#section-1",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#section-1",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "",
+    "text": "Soda vs soder\nI say it wrong, I say bag (raised /æ/), most people in minnesota do"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#section-2",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#section-2",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "",
+    "text": "■ Soda\n■ Pop\n■ Coke\n■ Soft drink\n➙ ➙ ➙"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#practical-and-3.-specific",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#practical-and-3.-specific",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "2. Practical and 3. Specific",
+    "text": "2. Practical and 3. Specific\n\n\nAre there feasible methods for testing this?\nIf I needed to, could I use a specific method for answering?\nWhat methods are available?\nIs this narrowed enough to be doable?\nCan I find methods that will let me adequately answer this question?\nHow much time do I have to research this question?\nWould it be easier for me to answer this question if I broke it down into several smaller questions?"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#why-examine-variation-in-words-for-fizzy-beverages",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#why-examine-variation-in-words-for-fizzy-beverages",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "Why examine variation in words for fizzy beverages?",
+    "text": "Why examine variation in words for fizzy beverages?\n“human languages are structured systems for making articulated thoughts fully explicit both internally (mentally) and externally (in a form perceptible to other humans)” (Pullum, p. 3)\n\nLanguage variation, then…\n\n\nreflects historical and cultural trends\nis personal and creative\nis natural and “normal”\n\n\nThe ways we use language express information about who we are\n\n\nUnderstanding/acknowledging others’ motivations for using language differently can make us more effective and empathetic communicators\n\n\n\nCoke ATL"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#whatd-we-talk-about",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#whatd-we-talk-about",
+    "title": "Spotlight 1: What is linguistics research?",
+    "section": "What’d we talk about?",
+    "text": "What’d we talk about?\n\n\n\nLinguistics research asks questions across a span of topics\nRegional variation for lexical items = one of so many ways to answer a question about language\nAppropriate research questions are\n\nConnected to previous research\nPractical and about specific topics\n\nQuestions start with observations"
+  },
+  {
+    "objectID": "slides/lectures/6-SPOTLIGHT 1/index.html#whats-next",
+    "href": "slides/lectures/6-SPOTLIGHT 1/index.html#whats-next",
+    "title": "Spotlight 1: What is linguistics research?",
     "section": "What’s next?",
-    "text": "What’s next?\n\nAccommodations letters, athlete notes, etc. ASAP\nGo to recitation on Friday for your first quiz!\nGet your textbook as soon as possible\nRead “How many” (a PDF on Canvas) for Monday\nGet started on Observation Notes #1"
+    "text": "What’s next?\n\nWednesday: What is a word? + Pullum chapter 3 (“Words, Meaning, and Thought”)\nFriday: recitation and Quiz 3\nThe more distant future: 2) methods of inquiry and 3) finding linguistic sources"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#grading-breakdown-from-the-syllabus",
+    "href": "slides/lectures/2-What is linguistics/index.html#grading-breakdown-from-the-syllabus",
+    "title": "What is linguistics?",
+    "section": "Grading Breakdown (from the syllabus)",
+    "text": "Grading Breakdown (from the syllabus)\n\nGrade Breakdown\n\n\nActivity\nPercentage\n\n\n\n\nQuizzes (10):\n30%\n\n\nObservation notes (5):\n15%\n\n\nData Collection:\n20%\n\n\nData Analysis:\n25%\n\n\nParticipation:\n10%"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#course-activities-and-exams-from-the-syllabus",
+    "href": "slides/lectures/2-What is linguistics/index.html#course-activities-and-exams-from-the-syllabus",
+    "title": "What is linguistics?",
+    "section": "Course Activities and Exams (from the syllabus)",
+    "text": "Course Activities and Exams (from the syllabus)\n\nQuizzes (30%): Each week in discussion sections (beginning during the second week of classes), students will complete a short quiz in Canvas over the material that has been covered in lecture and in the course readings. Twelve 12 total quizzes and the lowest two (2) quiz grades will be dropped.\nObservation notes (15%): Beginning in the second week of classes, you need to keep an online language observation journal.The idea is just to pay attention to language use in the real world and think about how it works.\nData Collection (20%): Near the middle of the semester, students will complete a large-scale assignment involving the collection of linguistic data. This assignment is worth 20% of the final grade.\nData Analysis (25%): Near the end of the semester, students will complete another large-scale assignment. This assignment will involve the analysis of the linguistic data collected near midterm. (There is no final exam)"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#course-activities-and-exams-from-the-syllabus-1",
+    "href": "slides/lectures/2-What is linguistics/index.html#course-activities-and-exams-from-the-syllabus-1",
+    "title": "What is linguistics?",
+    "section": "Course Activities and Exams (from the syllabus)",
+    "text": "Course Activities and Exams (from the syllabus)\n\nParticipation (10%): Students are expected to attend each class (lecture and discussion) and to have done any reading or other work assigned for that day.\nFriday Discussion: participation will be gauged by attendance, participation in class activities, and/or submission of assignments, as required.\nMonday/Wednesday lectures: participation in the class will be gauged by responses to participation questions that are sprinkled throughout the lectures. Students will be able to submit answers in class through Echo360 using a laptop, tablet, or mobile phone. If you have questions or concerns about this aspect of the course, please see the instructor immediately"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#what-is-linguistics",
+    "href": "slides/lectures/2-What is linguistics/index.html#what-is-linguistics",
+    "title": "What is linguistics?",
+    "section": "What is Linguistics?",
+    "text": "What is Linguistics?\n\nLinguistics is the study of language."
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#but-what-does-that-mean",
+    "href": "slides/lectures/2-What is linguistics/index.html#but-what-does-that-mean",
+    "title": "What is linguistics?",
+    "section": "But what does that mean?",
+    "text": "But what does that mean?\n\nAnswer for yourself, just in your own mind, but try to be as clear about what you think as possible. Take a stand! What does “Linguistics is the study of language” mean?"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#but-what-does-that-mean-1",
+    "href": "slides/lectures/2-What is linguistics/index.html#but-what-does-that-mean-1",
+    "title": "What is linguistics?",
+    "section": "But what does that mean?",
+    "text": "But what does that mean?\n\nAnswer for yourself, just in your own mind, but try to be as clear about what you think as possible. Take a stand! What does “Linguistics is the study of language” mean?"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#lets-start-with-what-it-does-not-mean",
+    "href": "slides/lectures/2-What is linguistics/index.html#lets-start-with-what-it-does-not-mean",
+    "title": "What is linguistics?",
+    "section": "Let’s start with what it does not mean",
+    "text": "Let’s start with what it does not mean\n\n“Linguistics is the study of language”\n\n≠ learning many languages\n≠ studying a language with the goal of learning to communicate in it\n≠ noticing and pointing out grammatical errors\n(did you have a different meaning in mind?)"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#ok-then-but-what-is-linguistics",
+    "href": "slides/lectures/2-What is linguistics/index.html#ok-then-but-what-is-linguistics",
+    "title": "What is linguistics?",
+    "section": "Ok, then! But what is Linguistics?!",
+    "text": "Ok, then! But what is Linguistics?!"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#ok-then-but-what-is-linguistics-1",
+    "href": "slides/lectures/2-What is linguistics/index.html#ok-then-but-what-is-linguistics-1",
+    "title": "What is linguistics?",
+    "section": "Ok, then! But what is Linguistics?!",
+    "text": "Ok, then! But what is Linguistics?!\n\nIf linguists aren’t just studying a bunch of languages or correcting people’s speech, what are they doing?\nHere is a (not very useful) first definition from the Linguistic Society of America (LSA):\n\nLinguistics is the scientific study of language. Linguists apply the scientific method to conduct formal studies of speech sounds and gestures, grammatical structures, and meaning across the world’s 6,000+ languages.\nIncludes the study of:\n\nthe structure of language – i.e., how do we make a sentence?\nand the use of language – i.e., how do we speak with one another?"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#then-what-is-language",
+    "href": "slides/lectures/2-What is linguistics/index.html#then-what-is-language",
+    "title": "What is linguistics?",
+    "section": "Then what is language?!?",
+    "text": "Then what is language?!?\n\n\nFirst – we are talking about language as an ability humans have, not any particular code.\n(It’s a bit like the difference between studying the biology of frogs and dissecting a particular frog)\nSecond – and perhaps most importantly – the kinds of things we talk about with any individual language can be talked about for any other language because language is a feature of being human"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#example-q-slide",
+    "href": "slides/lectures/2-What is linguistics/index.html#example-q-slide",
+    "title": "What is linguistics?",
+    "section": "Example Q slide",
+    "text": "Example Q slide\nOne thing we’ll say is that all languages follow rules and that linguists try to figure out those rules. Think about times when someone has talked to you about what you can/should do with language (spoken, written, or signed). What’s a rule someone told you to follow?"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#we-can-talk-about-two-kinds-of-rules",
+    "href": "slides/lectures/2-What is linguistics/index.html#we-can-talk-about-two-kinds-of-rules",
+    "title": "What is linguistics?",
+    "section": "We can talk about two kinds of rules",
+    "text": "We can talk about two kinds of rules\n\nPrescriptive: probably what you’ve experienced before this class\nDescriptive: what linguists do"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#pescriptive-rules",
+    "href": "slides/lectures/2-What is linguistics/index.html#pescriptive-rules",
+    "title": "What is linguistics?",
+    "section": "Pescriptive Rules",
+    "text": "Pescriptive Rules\n\nRules are made up by external actors (e.g., teachers, grammar book writers)\nThe expectation is that one can write a set of rules like this and expect all language users to conform\n“Don’t end a sentence with a preposition.”"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#descriptive-rules",
+    "href": "slides/lectures/2-What is linguistics/index.html#descriptive-rules",
+    "title": "What is linguistics?",
+    "section": "Descriptive Rules",
+    "text": "Descriptive Rules\n\nRules are based on observations of language in use by real language users.\nNative speakers = good grammar; if a native speaker can’t say/understand it = bad grammar\n“Native speakers of English put ‘the’ in front of nouns, not after.”"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#why-do-prescriptive-rules-exist",
+    "href": "slides/lectures/2-What is linguistics/index.html#why-do-prescriptive-rules-exist",
+    "title": "What is linguistics?",
+    "section": "Why do prescriptive rules exist?",
+    "text": "Why do prescriptive rules exist?\n\nThe justification for prescriptive rules is often historically motivated, usually for absurd reasons\n“Don’t split infinitives” or “Don’t end sentences in a preposition”\nWhy?\nBecause Latin doesn’t/can’t.\nWait, what?\nThe Latin language heavily influenced Western grammarians"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#more-about-prescriptive-rules",
+    "href": "slides/lectures/2-What is linguistics/index.html#more-about-prescriptive-rules",
+    "title": "What is linguistics?",
+    "section": "More about Prescriptive rules",
+    "text": "More about Prescriptive rules\n\nPrescriptive judgments of “right” vs. “wrong” or superior vs. inferior represent learned social attitudes to a particular variety or a particular form.\nThey are usually judgments against the speaker groups who use those varieties rather than against the language itself."
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#yall",
+    "href": "slides/lectures/2-What is linguistics/index.html#yall",
+    "title": "What is linguistics?",
+    "section": "“Y’all”",
+    "text": "“Y’all”\n\nA prescriptivist would say, “Don’t use ‘y’all’”\nalso: ‘ fixin ’ to’\nor: [ ra:d ] vs. [raid]\nThese are all judgments against Southerners (not really about language) and reflect mainstream society’s view of Southern culture and people!"
+  },
+  {
+    "objectID": "slides/lectures/2-What is linguistics/index.html#whats-next",
+    "href": "slides/lectures/2-What is linguistics/index.html#whats-next",
+    "title": "What is linguistics?",
+    "section": "What’s next?",
+    "text": "What’s next?\n\nGo to your discussion section on Friday!\nGet your textbook as soon as possible\nRead Chapter 1 from your textbook for Monday (a pdf is on canvas)\nTake a look at Observation Notes #1 before Monday (we’ll discuss it that day)"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#what-makes-humans-so-special",
+    "href": "slides/lectures/4-How many languages/index.html#what-makes-humans-so-special",
+    "title": "How many languages are there?",
+    "section": "What makes humans so special?",
+    "text": "What makes humans so special?\n\n\n\n\n\nAn Australian Shepherd dog\n\n\n\n\nlinguistics is the scientific study of language\nlanguage is the human capacity to symbolically represent thoughts, ideas, and feelings\nand to experience those symbolic representations as meaning\nhuman languages are structured systems for making articulated thoughts fully explicit\nand critically depend on knowing (more or less) what the people around us know or believe, how they’re feeling, and what they might be interested in\nEven the brightest dog can’t do that!"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#ling-link",
+    "href": "slides/lectures/4-How many languages/index.html#ling-link",
+    "title": "How many languages are there?",
+    "section": "Ling Link",
+    "text": "Ling Link\n\nPlease go to ethnologue.com, Click on “Languages” on the left, click on any one of the huge list of languages that come up, and spend ~3 minutes answering the following questions with your neighbor:\n\nExamine the map. Where is this language spoken?\nExamine the information about population. How many people speak it? Is this a large number or a small number (read the info under “Details”)?\nExamine the category of language vitality. Is this language at a risk of dying (read the info under “Details”)? Is it Stable? Is it Institutional?\nWhat language family does the language belong to? Had you heard of that family before?"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#take-a-guess",
+    "href": "slides/lectures/4-How many languages/index.html#take-a-guess",
+    "title": "How many languages are there?",
+    "section": "Take a guess",
+    "text": "Take a guess\n\n\nIf you had to guess, how many different ways do you think there are on Earth to say ‘Earth’? or ‘love’ or ‘person’?\nIn other words, how many languages do you think there are on Earth?"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#attendance-question",
+    "href": "slides/lectures/4-How many languages/index.html#attendance-question",
+    "title": "How many languages are there?",
+    "section": "Attendance Question",
+    "text": "Attendance Question\n\nthe attendance question is now unlocked on canvas\nit is called: attendance question (lecture day 4)\nthe access code is: TARDIS"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#about-7170-languages",
+    "href": "slides/lectures/4-How many languages/index.html#about-7170-languages",
+    "title": "How many languages are there?",
+    "section": "About 7,170 Languages",
+    "text": "About 7,170 Languages\n\nThere are roughly 8.3 billion people: 8,319,554,735 on September 1st 2026\nThat could mean there are roughly 1,160,328 speakers per language, right? \\[\n\\frac{8,319,554,735}{7,170} = 1,160,328\n\\]"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#top-20-languages-by-first-language-speakers",
+    "href": "slides/lectures/4-How many languages/index.html#top-20-languages-by-first-language-speakers",
+    "title": "How many languages are there?",
+    "section": "Top 20 Languages by First Language speakers",
+    "text": "Top 20 Languages by First Language speakers"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#most-spoken-languages-on-earth",
+    "href": "slides/lectures/4-How many languages/index.html#most-spoken-languages-on-earth",
+    "title": "How many languages are there?",
+    "section": "Most Spoken Languages on Earth",
+    "text": "Most Spoken Languages on Earth\n\n\n\n\n    \n\n    \n    \n    \n      \n        Language by Total Number of Speakers (in Millions)\n        \n\n \nSpeakers (in millions)\n\n              \n                Language\n                First Language\n                Second Language\n                Total\n              \n        \n        \n        \n                \n                  English\n                  372.9\n                  1080.0\n                  1452.0\n                \n                \n                  Mandarin Chinese\n                  929.0\n                  198.7\n                  1118.0\n                \n                \n                  Hindi\n                  343.9\n                  258.3\n                  602.2\n                \n                \n                  Spanish\n                  474.7\n                  73.6\n                  548.3\n                \n                \n                  French\n                  79.9\n                  194.2\n                  274.1\n                \n                \n                  Modern Standard Arabic\n                  0.0\n                  274.0\n                  274.0\n                \n                \n                  Bengali\n                  233.7\n                  39.0\n                  272.7\n                \n                \n                  Russian\n                  154.0\n                  104.1\n                  258.2\n                \n                \n                  Portuguese\n                  232.4\n                  25.2\n                  257.7\n                \n                \n                  Urdu\n                  70.2\n                  161.0\n                  231.3\n                \n                \n                  Indonesian\n                  43.6\n                  155.4\n                  199.0\n                \n                \n                  Standard German\n                  75.6\n                  59.1\n                  134.6\n                \n                \n                  Japanese\n                  125.3\n                  0.1\n                  125.4\n                \n                \n                  Nigerian Pidgin\n                  4.7\n                  116.0\n                  120.7\n                \n                \n                  Marathi\n                  83.1\n                  16.0\n                  99.1\n                \n                \n                  Telugu\n                  82.7\n                  13.0\n                  95.7\n                \n                \n                  Turkish\n                  82.2\n                  5.9\n                  88.1\n                \n                \n                  Tamil\n                  78.4\n                  8.0\n                  86.4\n                \n                \n                  Yue Chinese\n                  85.2\n                  0.4\n                  85.6\n                \n                \n                  Vietnamese\n                  84.6\n                  0.7\n                  85.3"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#most-people-speak-one-of-these-20-languages",
+    "href": "slides/lectures/4-How many languages/index.html#most-people-speak-one-of-these-20-languages",
+    "title": "How many languages are there?",
+    "section": "Most people speak one of these 20 languages",
+    "text": "Most people speak one of these 20 languages\n\n\n\n\n\n\nLanguage\nPercentage of world population (2022)\n\n\n\n\nEnglish\n18.8%\n\n\nMandarin Chinese\n13.8%\n\n\nHindi\n7.5%\n\n\nSpanish\n6.9%\n\n\nFrench\n3.4%\n\n\nArabic\n3.4%\n\n\nBengali\n3.4%\n\n\nRussian\n3.2%\n\n\nPortuguese\n3.2%\n\n\nUrdu\n2.9%\n\n\n\n\n\nTable 1: Most spoken languages, CIA, 2022  [ 8 ]"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#how-are-there-7170-languages",
+    "href": "slides/lectures/4-How many languages/index.html#how-are-there-7170-languages",
+    "title": "How many languages are there?",
+    "section": "How are there 7,170 languages?",
+    "text": "How are there 7,170 languages?\n\nMost people speak at least two languages\nWhen a group is divided, the code they share can often become so different that they become less mutually intelligible\nAlso, language is constantly changing. The language you speak every day would sound very strange to your great grand parents and might be genuinely difficult to understand for their great grand parents.\nAnd sometimes we’ll arbitrarily call two mutually intelligible codes separate languages for political reasons, rather than purely linguistic ones\nThis kind of splitting and change creates groups of languages that are similar to each other. We call these groups of languages language families\nThe branches of linguistics that studies these relationship are called historical linguistics and sociolinguistics"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#languages",
+    "href": "slides/lectures/4-How many languages/index.html#languages",
+    "title": "How many languages are there?",
+    "section": "840 Languages",
+    "text": "840 Languages"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#languages-1",
+    "href": "slides/lectures/4-How many languages/index.html#languages-1",
+    "title": "How many languages are there?",
+    "section": "200 Languages",
+    "text": "200 Languages"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#an-obvious-fact-with-profound-consequences",
+    "href": "slides/lectures/4-How many languages/index.html#an-obvious-fact-with-profound-consequences",
+    "title": "How many languages are there?",
+    "section": "An obvious fact with profound consequences",
+    "text": "An obvious fact with profound consequences\n\nThe link between linguistic forms and their meanings is arbitrary\nArbitrary in the sense that linguistic forms only mean what speakers of that language agree that they mean!\nThink of any word…"
+  },
+  {
+    "objectID": "slides/lectures/4-How many languages/index.html#whats-next",
+    "href": "slides/lectures/4-How many languages/index.html#whats-next",
+    "title": "How many languages are there?",
+    "section": "What’s next?",
+    "text": "What’s next?\n\n\n\nCome to lecture Wednesday for “Where does language come from?”\nStill finalizing accommodations, other letters, etc.\nIf you didn’t do the reading for today or Monday, please do them now!\nAnd get your textbook if you haven’t already!\nQuiz 2 Friday!"
+  },
+  {
+    "objectID": "slides/index.html",
+    "href": "slides/index.html",
+    "title": "Slides",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Theme\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTheme\n\n\n\nDue\n\n\n\n\n\n\n\n\nAug 24, 2026\n\n\nWhat is this course?\n\n\n\n\n\n\n\n\n\nAug 26, 2026\n\n\nWhat is linguistics?\n\n\n \n\n\n\n\n\n\nAug 31, 2026\n\n\nWhat is language?\n\n\nPullum Chapter 1\n\n\n\n\n\n\nSep 2, 2026\n\n\nHow many languages are there?\n\n\nHow many? (pdf)\n\n\n\n\n\n\nSep 9, 2026\n\n\nWhere does language come from?\n\n\n\n\n\n\n\n\n\nSep 14, 2026\n\n\nSpotlight 1: What is linguistics research?\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Linguistics 211 (Fall 2026)",
+    "section": "",
+    "text": "Welcome to the course website for Linguistics 211 at the University of Kentucky Department of Linguistics. This course is an introduction to the broad field of linguistics for non-majors.\nKentucky students registered in the course will also have access to the Canvas site for LIN 211 for Fall 2026. Note: although sections meet separately on Fridays, all students share the same canvas site."
   },
   {
     "objectID": "syllabus/Lin211-Fall2026-Syllabus.html#kevin-b.-mcgowan",
@@ -497,235 +784,102 @@
     "text": "Policy on the use of Generative “AI” Tools (e.g. LLMs such as ChatGPT, Claude, or Grammarly, image generators, audio/video deepfake engines, etc.)\nFor most assignments in this course, the use of GenAI to complete any part of the submitted work is prohibited unless explicitly specified by the instructor or TA. In the event that specific permission to use GenAI tools is given, it will (1) be explicitly stated, in writing, in the assignment, that such tools are allowed and (2) students must acknowledge any work that is not their own. The absence of either (1) explicit permission or (2) full acknowledgement by the student will be considered cheating and the student will earn zero points on the affected assignment(s). Use of these tools includes: citations for outside scholarship or information gathered from other sources, automatically paraphrasing existing work, generating text or media in response to assignment prompts, even if subsequently modified by the student, and any other use of these tools. “Full acknowledgment” means that students will, through highlighting or the use of track changes (or footnotes, etc.), clearly delineate any text or media that is generated by a GenAI tool. If you have any questions or concerns about this policy, contact your instructor before submitting any assignments. See UK-Advance instructional guidelines for more information."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Linguistics 211 (Fall 2026)",
-    "section": "",
-    "text": "Welcome to the course website for Linguistics 211 at the University of Kentucky Department of Linguistics. This course is an introduction to the broad field of linguistics for non-majors.\nKentucky students registered in the course will also have access to the Canvas site for LIN 211 for Fall 2026. Note: although sections meet separately on Fridays, all students share the same canvas site."
+    "objectID": "slides/lectures/3-What is language/index.html#we-can-talk-about-two-kinds-of-language-rules",
+    "href": "slides/lectures/3-What is language/index.html#we-can-talk-about-two-kinds-of-language-rules",
+    "title": "What is language?",
+    "section": "We can talk about two kinds of language rules",
+    "text": "We can talk about two kinds of language rules\n\nPrescriptive: an attempt to control how language is used\n\n⤷ very common (english teachers, grammar police, etc.)\n\n \nDescriptive: an attempt to understand how language is used\n\n⤷ uncommon (linguists & lexicographers)"
   },
   {
-    "objectID": "slides/index.html",
-    "href": "slides/index.html",
-    "title": "Slides",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Theme\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTheme\n\n\n\nDue\n\n\n\n\n\n\n\n\nAug 24, 2026\n\n\nWhat is this course?\n\n\n\n\n\n\n\n\n\nAug 26, 2026\n\n\nWhat is linguistics?\n\n\n \n\n\n\n\n\n\nAug 31, 2026\n\n\nWhat is language?\n\n\nPullum Chapter 1\n\n\n\n\n\n\nSep 2, 2026\n\n\nHow many languages are there?\n\n\nHow many? (pdf)\n\n\n\n\n\n\nSep 9, 2026\n\n\nWhere does language come from?\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "slides/lectures/3-What is language/index.html#prescriptive-rules",
+    "href": "slides/lectures/3-What is language/index.html#prescriptive-rules",
+    "title": "What is language?",
+    "section": "Prescriptive Rules",
+    "text": "Prescriptive Rules\n\nPrescriptive Rules are made up by external actors (e.g., teachers, grammar book writers, grammar police, etc.)\nThat person (or group) asserts authority in language and issues a prohibition/command that is meant to be unquestioningly followed\nOften they try to use shame or threats as motivation\nexamples:\n\n“Don’t end a sentence with a preposition.”\n“Do not use contractions.”\n“It is incorrect to ever split an infinitive.\n“You sound ignorant if you say ain’t.”"
   },
   {
-    "objectID": "slides/lectures/4-How many languages/index.html#what-makes-humans-so-special",
-    "href": "slides/lectures/4-How many languages/index.html#what-makes-humans-so-special",
-    "title": "How many languages are there?",
-    "section": "What makes humans so special?",
-    "text": "What makes humans so special?\n\n\n\n\n\nAn Australian Shepherd dog\n\n\n\n\nlinguistics is the scientific study of language\nlanguage is the human capacity to symbolically represent thoughts, ideas, and feelings\nand to experience those symbolic representations as meaning\nhuman languages are structured systems for making articulated thoughts fully explicit\nand critically depend on knowing (more or less) what the people around us know or believe, how they’re feeling, and what they might be interested in\nEven the brightest dog can’t do that!"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#ling-link",
-    "href": "slides/lectures/4-How many languages/index.html#ling-link",
-    "title": "How many languages are there?",
-    "section": "Ling Link",
-    "text": "Ling Link\n\nPlease go to ethnologue.com, Click on “Languages” on the left, click on any one of the huge list of languages that come up, and spend ~3 minutes answering the following questions with your neighbor:\n\nExamine the map. Where is this language spoken?\nExamine the information about population. How many people speak it? Is this a large number or a small number (read the info under “Details”)?\nExamine the category of language vitality. Is this language at a risk of dying (read the info under “Details”)? Is it Stable? Is it Institutional?\nWhat language family does the language belong to? Had you heard of that family before?"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#take-a-guess",
-    "href": "slides/lectures/4-How many languages/index.html#take-a-guess",
-    "title": "How many languages are there?",
-    "section": "Take a guess",
-    "text": "Take a guess\n\n\nIf you had to guess, how many different ways do you think there are on Earth to say ‘Earth’? or ‘love’ or ‘person’?\nIn other words, how many languages do you think there are on Earth?"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#attendance-question",
-    "href": "slides/lectures/4-How many languages/index.html#attendance-question",
-    "title": "How many languages are there?",
-    "section": "Attendance Question",
-    "text": "Attendance Question\n\nthe attendance question is now unlocked on canvas\nit is called: attendance question (lecture day 4)\nthe access code is: TARDIS"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#about-7170-languages",
-    "href": "slides/lectures/4-How many languages/index.html#about-7170-languages",
-    "title": "How many languages are there?",
-    "section": "About 7,170 Languages",
-    "text": "About 7,170 Languages\n\nThere are roughly 8.3 billion people: 8,319,554,735 on September 1st 2026\nThat could mean there are roughly 1,160,328 speakers per language, right? \\[\n\\frac{8,319,554,735}{7,170} = 1,160,328\n\\]"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#top-20-languages-by-first-language-speakers",
-    "href": "slides/lectures/4-How many languages/index.html#top-20-languages-by-first-language-speakers",
-    "title": "How many languages are there?",
-    "section": "Top 20 Languages by First Language speakers",
-    "text": "Top 20 Languages by First Language speakers"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#most-spoken-languages-on-earth",
-    "href": "slides/lectures/4-How many languages/index.html#most-spoken-languages-on-earth",
-    "title": "How many languages are there?",
-    "section": "Most Spoken Languages on Earth",
-    "text": "Most Spoken Languages on Earth\n\n\n\n\n    \n\n    \n    \n    \n      \n        Language by Total Number of Speakers (in Millions)\n        \n\n \nSpeakers (in millions)\n\n              \n                Language\n                First Language\n                Second Language\n                Total\n              \n        \n        \n        \n                \n                  English\n                  372.9\n                  1080.0\n                  1452.0\n                \n                \n                  Mandarin Chinese\n                  929.0\n                  198.7\n                  1118.0\n                \n                \n                  Hindi\n                  343.9\n                  258.3\n                  602.2\n                \n                \n                  Spanish\n                  474.7\n                  73.6\n                  548.3\n                \n                \n                  French\n                  79.9\n                  194.2\n                  274.1\n                \n                \n                  Modern Standard Arabic\n                  0.0\n                  274.0\n                  274.0\n                \n                \n                  Bengali\n                  233.7\n                  39.0\n                  272.7\n                \n                \n                  Russian\n                  154.0\n                  104.1\n                  258.2\n                \n                \n                  Portuguese\n                  232.4\n                  25.2\n                  257.7\n                \n                \n                  Urdu\n                  70.2\n                  161.0\n                  231.3\n                \n                \n                  Indonesian\n                  43.6\n                  155.4\n                  199.0\n                \n                \n                  Standard German\n                  75.6\n                  59.1\n                  134.6\n                \n                \n                  Japanese\n                  125.3\n                  0.1\n                  125.4\n                \n                \n                  Nigerian Pidgin\n                  4.7\n                  116.0\n                  120.7\n                \n                \n                  Marathi\n                  83.1\n                  16.0\n                  99.1\n                \n                \n                  Telugu\n                  82.7\n                  13.0\n                  95.7\n                \n                \n                  Turkish\n                  82.2\n                  5.9\n                  88.1\n                \n                \n                  Tamil\n                  78.4\n                  8.0\n                  86.4\n                \n                \n                  Yue Chinese\n                  85.2\n                  0.4\n                  85.6\n                \n                \n                  Vietnamese\n                  84.6\n                  0.7\n                  85.3"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#most-people-speak-one-of-these-20-languages",
-    "href": "slides/lectures/4-How many languages/index.html#most-people-speak-one-of-these-20-languages",
-    "title": "How many languages are there?",
-    "section": "Most people speak one of these 20 languages",
-    "text": "Most people speak one of these 20 languages\n\n\n\n\n\n\nLanguage\nPercentage of world population (2022)\n\n\n\n\nEnglish\n18.8%\n\n\nMandarin Chinese\n13.8%\n\n\nHindi\n7.5%\n\n\nSpanish\n6.9%\n\n\nFrench\n3.4%\n\n\nArabic\n3.4%\n\n\nBengali\n3.4%\n\n\nRussian\n3.2%\n\n\nPortuguese\n3.2%\n\n\nUrdu\n2.9%\n\n\n\n\n\nTable 1: Most spoken languages, CIA, 2022  [ 8 ]"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#how-are-there-7170-languages",
-    "href": "slides/lectures/4-How many languages/index.html#how-are-there-7170-languages",
-    "title": "How many languages are there?",
-    "section": "How are there 7,170 languages?",
-    "text": "How are there 7,170 languages?\n\nMost people speak at least two languages\nWhen a group is divided, the code they share can often become so different that they become less mutually intelligible\nAlso, language is constantly changing. The language you speak every day would sound very strange to your great grand parents and might be genuinely difficult to understand for their great grand parents.\nAnd sometimes we’ll arbitrarily call two mutually intelligible codes separate languages for political reasons, rather than purely linguistic ones\nThis kind of splitting and change creates groups of languages that are similar to each other. We call these groups of languages language families\nThe branches of linguistics that studies these relationship are called historical linguistics and sociolinguistics"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#languages",
-    "href": "slides/lectures/4-How many languages/index.html#languages",
-    "title": "How many languages are there?",
-    "section": "840 Languages",
-    "text": "840 Languages"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#languages-1",
-    "href": "slides/lectures/4-How many languages/index.html#languages-1",
-    "title": "How many languages are there?",
-    "section": "200 Languages",
-    "text": "200 Languages"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#an-obvious-fact-with-profound-consequences",
-    "href": "slides/lectures/4-How many languages/index.html#an-obvious-fact-with-profound-consequences",
-    "title": "How many languages are there?",
-    "section": "An obvious fact with profound consequences",
-    "text": "An obvious fact with profound consequences\n\nThe link between linguistic forms and their meanings is arbitrary\nArbitrary in the sense that linguistic forms only mean what speakers of that language agree that they mean!\nThink of any word…"
-  },
-  {
-    "objectID": "slides/lectures/4-How many languages/index.html#whats-next",
-    "href": "slides/lectures/4-How many languages/index.html#whats-next",
-    "title": "How many languages are there?",
-    "section": "What’s next?",
-    "text": "What’s next?\n\n\n\nCome to lecture Wednesday for “Where does language come from?”\nStill finalizing accommodations, other letters, etc.\nIf you didn’t do the reading for today or Monday, please do them now!\nAnd get your textbook if you haven’t already!\nQuiz 2 Friday!"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#grading-breakdown-from-the-syllabus",
-    "href": "slides/lectures/2-What is linguistics/index.html#grading-breakdown-from-the-syllabus",
-    "title": "What is linguistics?",
-    "section": "Grading Breakdown (from the syllabus)",
-    "text": "Grading Breakdown (from the syllabus)\n\nGrade Breakdown\n\n\nActivity\nPercentage\n\n\n\n\nQuizzes (10):\n30%\n\n\nObservation notes (5):\n15%\n\n\nData Collection:\n20%\n\n\nData Analysis:\n25%\n\n\nParticipation:\n10%"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#course-activities-and-exams-from-the-syllabus",
-    "href": "slides/lectures/2-What is linguistics/index.html#course-activities-and-exams-from-the-syllabus",
-    "title": "What is linguistics?",
-    "section": "Course Activities and Exams (from the syllabus)",
-    "text": "Course Activities and Exams (from the syllabus)\n\nQuizzes (30%): Each week in discussion sections (beginning during the second week of classes), students will complete a short quiz in Canvas over the material that has been covered in lecture and in the course readings. Twelve 12 total quizzes and the lowest two (2) quiz grades will be dropped.\nObservation notes (15%): Beginning in the second week of classes, you need to keep an online language observation journal.The idea is just to pay attention to language use in the real world and think about how it works.\nData Collection (20%): Near the middle of the semester, students will complete a large-scale assignment involving the collection of linguistic data. This assignment is worth 20% of the final grade.\nData Analysis (25%): Near the end of the semester, students will complete another large-scale assignment. This assignment will involve the analysis of the linguistic data collected near midterm. (There is no final exam)"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#course-activities-and-exams-from-the-syllabus-1",
-    "href": "slides/lectures/2-What is linguistics/index.html#course-activities-and-exams-from-the-syllabus-1",
-    "title": "What is linguistics?",
-    "section": "Course Activities and Exams (from the syllabus)",
-    "text": "Course Activities and Exams (from the syllabus)\n\nParticipation (10%): Students are expected to attend each class (lecture and discussion) and to have done any reading or other work assigned for that day.\nFriday Discussion: participation will be gauged by attendance, participation in class activities, and/or submission of assignments, as required.\nMonday/Wednesday lectures: participation in the class will be gauged by responses to participation questions that are sprinkled throughout the lectures. Students will be able to submit answers in class through Echo360 using a laptop, tablet, or mobile phone. If you have questions or concerns about this aspect of the course, please see the instructor immediately"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#what-is-linguistics",
-    "href": "slides/lectures/2-What is linguistics/index.html#what-is-linguistics",
-    "title": "What is linguistics?",
-    "section": "What is Linguistics?",
-    "text": "What is Linguistics?\n\nLinguistics is the study of language."
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#but-what-does-that-mean",
-    "href": "slides/lectures/2-What is linguistics/index.html#but-what-does-that-mean",
-    "title": "What is linguistics?",
-    "section": "But what does that mean?",
-    "text": "But what does that mean?\n\nAnswer for yourself, just in your own mind, but try to be as clear about what you think as possible. Take a stand! What does “Linguistics is the study of language” mean?"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#but-what-does-that-mean-1",
-    "href": "slides/lectures/2-What is linguistics/index.html#but-what-does-that-mean-1",
-    "title": "What is linguistics?",
-    "section": "But what does that mean?",
-    "text": "But what does that mean?\n\nAnswer for yourself, just in your own mind, but try to be as clear about what you think as possible. Take a stand! What does “Linguistics is the study of language” mean?"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#lets-start-with-what-it-does-not-mean",
-    "href": "slides/lectures/2-What is linguistics/index.html#lets-start-with-what-it-does-not-mean",
-    "title": "What is linguistics?",
-    "section": "Let’s start with what it does not mean",
-    "text": "Let’s start with what it does not mean\n\n“Linguistics is the study of language”\n\n≠ learning many languages\n≠ studying a language with the goal of learning to communicate in it\n≠ noticing and pointing out grammatical errors\n(did you have a different meaning in mind?)"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#ok-then-but-what-is-linguistics",
-    "href": "slides/lectures/2-What is linguistics/index.html#ok-then-but-what-is-linguistics",
-    "title": "What is linguistics?",
-    "section": "Ok, then! But what is Linguistics?!",
-    "text": "Ok, then! But what is Linguistics?!"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#ok-then-but-what-is-linguistics-1",
-    "href": "slides/lectures/2-What is linguistics/index.html#ok-then-but-what-is-linguistics-1",
-    "title": "What is linguistics?",
-    "section": "Ok, then! But what is Linguistics?!",
-    "text": "Ok, then! But what is Linguistics?!\n\nIf linguists aren’t just studying a bunch of languages or correcting people’s speech, what are they doing?\nHere is a (not very useful) first definition from the Linguistic Society of America (LSA):\n\nLinguistics is the scientific study of language. Linguists apply the scientific method to conduct formal studies of speech sounds and gestures, grammatical structures, and meaning across the world’s 6,000+ languages.\nIncludes the study of:\n\nthe structure of language – i.e., how do we make a sentence?\nand the use of language – i.e., how do we speak with one another?"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#then-what-is-language",
-    "href": "slides/lectures/2-What is linguistics/index.html#then-what-is-language",
-    "title": "What is linguistics?",
-    "section": "Then what is language?!?",
-    "text": "Then what is language?!?\n\n\nFirst – we are talking about language as an ability humans have, not any particular code.\n(It’s a bit like the difference between studying the biology of frogs and dissecting a particular frog)\nSecond – and perhaps most importantly – the kinds of things we talk about with any individual language can be talked about for any other language because language is a feature of being human"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#example-q-slide",
-    "href": "slides/lectures/2-What is linguistics/index.html#example-q-slide",
-    "title": "What is linguistics?",
-    "section": "Example Q slide",
-    "text": "Example Q slide\nOne thing we’ll say is that all languages follow rules and that linguists try to figure out those rules. Think about times when someone has talked to you about what you can/should do with language (spoken, written, or signed). What’s a rule someone told you to follow?"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#we-can-talk-about-two-kinds-of-rules",
-    "href": "slides/lectures/2-What is linguistics/index.html#we-can-talk-about-two-kinds-of-rules",
-    "title": "What is linguistics?",
-    "section": "We can talk about two kinds of rules",
-    "text": "We can talk about two kinds of rules\n\nPrescriptive: probably what you’ve experienced before this class\nDescriptive: what linguists do"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#pescriptive-rules",
-    "href": "slides/lectures/2-What is linguistics/index.html#pescriptive-rules",
-    "title": "What is linguistics?",
-    "section": "Pescriptive Rules",
-    "text": "Pescriptive Rules\n\nRules are made up by external actors (e.g., teachers, grammar book writers)\nThe expectation is that one can write a set of rules like this and expect all language users to conform\n“Don’t end a sentence with a preposition.”"
-  },
-  {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#descriptive-rules",
-    "href": "slides/lectures/2-What is linguistics/index.html#descriptive-rules",
-    "title": "What is linguistics?",
+    "objectID": "slides/lectures/3-What is language/index.html#descriptive-rules",
+    "href": "slides/lectures/3-What is language/index.html#descriptive-rules",
+    "title": "What is language?",
     "section": "Descriptive Rules",
-    "text": "Descriptive Rules\n\nRules are based on observations of language in use by real language users.\nNative speakers = good grammar; if a native speaker can’t say/understand it = bad grammar\n“Native speakers of English put ‘the’ in front of nouns, not after.”"
+    "text": "Descriptive Rules\n\nDescriptive Rules emerge from usage and custom. Descriptive rules vest authority in the people who use and speak the language not in external authorities.\n\nRules are based on observations of language in use by real language users.\nThese rules can be broken! It is possible to say things that are ungrammatical.\nIt’s just that ungrammatical in the descriptive sense means “no one says that”"
   },
   {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#why-do-prescriptive-rules-exist",
-    "href": "slides/lectures/2-What is linguistics/index.html#why-do-prescriptive-rules-exist",
-    "title": "What is linguistics?",
+    "objectID": "slides/lectures/3-What is language/index.html#descriptive-rules-and-ungrammatical-examples",
+    "href": "slides/lectures/3-What is language/index.html#descriptive-rules-and-ungrammatical-examples",
+    "title": "What is language?",
+    "section": "Descriptive Rules and ungrammatical examples",
+    "text": "Descriptive Rules and ungrammatical examples\n\nExample Descriptive Rule: English speakers have to use ‘the’ or ‘a/an’ before a noun.\n\n* You must have ticket to ride train. 1\nYou must have a ticket to ride the train.\n\nExample Descriptive Rule: the past tense of go is went\n\n* Daddy goed on the airplane!\nDaddy went on the airplane!\n\n\nSee that asterisk (*)? Linguists use it to mean ’speakers of this language can’t/don’t say this. It literally means ungrammatical."
+  },
+  {
+    "objectID": "slides/lectures/3-What is language/index.html#why-do-prescriptive-rules-exist",
+    "href": "slides/lectures/3-What is language/index.html#why-do-prescriptive-rules-exist",
+    "title": "What is language?",
     "section": "Why do prescriptive rules exist?",
-    "text": "Why do prescriptive rules exist?\n\nThe justification for prescriptive rules is often historically motivated, usually for absurd reasons\n“Don’t split infinitives” or “Don’t end sentences in a preposition”\nWhy?\nBecause Latin doesn’t/can’t.\nWait, what?\nThe Latin language heavily influenced Western grammarians"
+    "text": "Why do prescriptive rules exist?\n\n\nKnowing and following descriptive rules feels right to us\nIt can be a way of demonstrating one’s erudition, learning, belonging, but…\nEnforcing prescriptive rules can also be a way of gatekeeping who gets to be in your group\nPrescriptive rules are always social judgements, not linguistic facts."
   },
   {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#more-about-prescriptive-rules",
-    "href": "slides/lectures/2-What is linguistics/index.html#more-about-prescriptive-rules",
-    "title": "What is linguistics?",
+    "objectID": "slides/lectures/3-What is language/index.html#more-about-prescriptive-rules",
+    "href": "slides/lectures/3-What is language/index.html#more-about-prescriptive-rules",
+    "title": "What is language?",
     "section": "More about Prescriptive rules",
-    "text": "More about Prescriptive rules\n\nPrescriptive judgments of “right” vs. “wrong” or superior vs. inferior represent learned social attitudes to a particular variety or a particular form.\nThey are usually judgments against the speaker groups who use those varieties rather than against the language itself."
+    "text": "More about Prescriptive rules\n\n\nPrescriptive judgments of “right” vs. “wrong” or superior vs. inferior represent learned social attitudes to a particular variety or a particular form.\nThey are usually judgments against the speaker groups who use those varieties rather than against the language itself."
   },
   {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#yall",
-    "href": "slides/lectures/2-What is linguistics/index.html#yall",
-    "title": "What is linguistics?",
-    "section": "“Y’all”",
-    "text": "“Y’all”\n\nA prescriptivist would say, “Don’t use ‘y’all’”\nalso: ‘ fixin ’ to’\nor: [ ra:d ] vs. [raid]\nThese are all judgments against Southerners (not really about language) and reflect mainstream society’s view of Southern culture and people!"
+    "objectID": "slides/lectures/3-What is language/index.html#ling-link",
+    "href": "slides/lectures/3-What is language/index.html#ling-link",
+    "title": "What is language?",
+    "section": "Ling Link",
+    "text": "Ling Link\n\n\n\n\n\nWhat is a ‘rule’ someone has told you about English?\n\nFigure out together whether this ‘rule’ is Descriptive or Prescriptive\n\nDo these two sentences contain any ‘errors’ and, if so, do they violate prescriptive or descriptive rules?\n\n“If she ain’t here, I’m leavin’!”\n“* The weather in this part of is extremely.”"
   },
   {
-    "objectID": "slides/lectures/2-What is linguistics/index.html#whats-next",
-    "href": "slides/lectures/2-What is linguistics/index.html#whats-next",
-    "title": "What is linguistics?",
+    "objectID": "slides/lectures/3-What is language/index.html#section",
+    "href": "slides/lectures/3-What is language/index.html#section",
+    "title": "What is language?",
+    "section": "",
+    "text": "Imagine a friend says this sentence to you:\n\n“I saw a platypus at the zoo today. Did you know they lay eggs!?!?”\n\nTake a stance: How do you know what a platypus is??"
+  },
+  {
+    "objectID": "slides/lectures/3-What is language/index.html#q-slide",
+    "href": "slides/lectures/3-What is language/index.html#q-slide",
+    "title": "What is language?",
+    "section": "Q slide",
+    "text": "Q slide\n\nThis is our first attendance question. You can find it as “August 31st in class” on Canvas and the access code is ‘PLATYPUS’."
+  },
+  {
+    "objectID": "slides/lectures/3-What is language/index.html#how-do-you-know-what-a-platypus-is",
+    "href": "slides/lectures/3-What is language/index.html#how-do-you-know-what-a-platypus-is",
+    "title": "What is language?",
+    "section": "How do you know what a platypus is?",
+    "text": "How do you know what a platypus is?\n\nHow do you know what any word is?\nMost people say: “look it up in the dictionary”\nBut that almost never happens.\nBesides, dictionaries are descriptive, not prescriptive"
+  },
+  {
+    "objectID": "slides/lectures/3-What is language/index.html#platypus",
+    "href": "slides/lectures/3-What is language/index.html#platypus",
+    "title": "What is language?",
+    "section": "Platypus",
+    "text": "Platypus\n\n\n\nUsually, we know what a platypus (or any word!) is by combining what we already know with the evidence from the utterance to arrive at a meaning that is enough to go on\nYou don’t have to know that a platypus is venomous, you don’t have to know that they mammals who don’t have nipples, or that its Latin name is Ornithorhynchus anatinus to know what “I saw a platypus at the zoo” means\nImagine someone said to you: “Can I pet that snorgfloos?\nwhat is a snorgfloos?"
+  },
+  {
+    "objectID": "slides/lectures/3-What is language/index.html#what-is-language",
+    "href": "slides/lectures/3-What is language/index.html#what-is-language",
+    "title": "What is language?",
+    "section": "What is language?",
+    "text": "What is language?\n\nLast week we said we are talking about language as a distinctly human ability, not any individual language\n\nAll humans use language\nLanguage may be spoken or signed, written or not\n\nAccording to your book, “human languages are structured systems for making articulated thoughts fully explicit both internally (mentally) and externally (in a form perceptible to other humans)” (p. 3)\nBut that “fully explicit” depends on: who is talking, who is listening, and the context they’re in!"
+  },
+  {
+    "objectID": "slides/lectures/3-What is language/index.html#how-do-our-brains-process-language",
+    "href": "slides/lectures/3-What is language/index.html#how-do-our-brains-process-language",
+    "title": "What is language?",
+    "section": "How do our brains process language?",
+    "text": "How do our brains process language?\nhttps://www.youtube.com/watch?v=nZP7pb_t4oA"
+  },
+  {
+    "objectID": "slides/lectures/3-What is language/index.html#whats-next",
+    "href": "slides/lectures/3-What is language/index.html#whats-next",
+    "title": "What is language?",
     "section": "What’s next?",
-    "text": "What’s next?\n\nGo to your discussion section on Friday!\nGet your textbook as soon as possible\nRead Chapter 1 from your textbook for Monday (a pdf is on canvas)\nTake a look at Observation Notes #1 before Monday (we’ll discuss it that day)"
+    "text": "What’s next?\n\nAccommodations letters, athlete notes, etc. ASAP\nGo to recitation on Friday for your first quiz!\nGet your textbook as soon as possible\nRead “How many” (a PDF on Canvas) for Monday\nGet started on Observation Notes #1"
   },
   {
     "objectID": "slides/lectures/1-Introduction/index.html#opening-question",
