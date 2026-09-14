@@ -124,10 +124,159 @@ include-in-header:
 
 ## Our Questions
 
-::: {.r-fit-text style="margin-top: 250px;"}
+> "Why do some languages have words for concepts that other languages don’t even have a meaning? "
 
-(screenshot of in-class ms form goes here)
-:::
+
+> "Why can’t people understand certain accents?"
+
+
+> "I have always wondered what english sounds like to non english speakers"
+
+
+> "Do animals have language "
+
+
+> " If someone is bilingual, what determines which language they think in?"
+
+
+> "How do slang words develop and who comes up with them?"
+
+
+> "After moving to another state how does language and accents change?"
+
+
+> "why does my dad say “wuder” and i say “water” if we grew up in the exact same area?"
+
+
+> "Why do we yell when we feel an intense emotion?"
+
+
+> "How fast does language evolve over time"
+
+
+> "Who or what made the alphabet and how did it become a universal thing that everyone agreed upon"
+
+
+> "Why do singers from other countries often sound like Americans when they sing?"
+
+
+> "What are the roots of different accents?"
+
+
+> "Why do some people say their a’s differently for example like bad "
+
+
+> "What causes accents to happen, and stay over time? "
+
+
+> "How did/do dialects first form?"
+
+
+> "how does someone’s language change when they move regions and is that called something "
+
+
+> "How can one overcome an accent when learning and communicating in a different language "
+
+
+> "Do we think certain animals can communicate to an advanced degree?"
+
+
+> "why is silence sometimes considered a type of language?"
+
+
+> "How did the Appalachian accent start? "
+
+
+> "How did we get so many languages and why are some so similar but still different "
+
+
+> "Why are some people who are bi-lingual speak with accents and some don’t? "
+
+
+> "Why do my older family members say warsh and torlet"
+
+
+> "How do new languages form "
+
+
+> "Why does every individual have a unique way of speaking? "
+
+
+> "Why do people use “I seen” instead of “I saw”?"
+
+
+> "What do u think has been the number 1 change in language over time? "
+
+
+> "Why do people in the south say yall but people in the north do not?"
+
+
+> "how can me and gang make our own language "
+
+
+> "why are there some languages that are disappearing "
+
+
+> "Why are there so many rules that go into every different language?"
+
+
+> "Why is it harder to learn some languages than others?"
+
+
+> "How do babies learn to think in words if they can’t speak"
+
+
+> "Is it normal to think in your own voice? "
+
+
+> "Why do we as humans take certain words so personal? "
+
+
+> "why does my grandma say hubbub? "
+
+
+> "Why is it when I say bag, I am pronouncing it as beg?"
+
+
+> "Can you accent change if you were born in the South and then moved up North? "
+
+
+> "why do different parts of the world adapt to language differently? "
+
+
+> "How are certain words more popular in certain regions, how did they originate to that distinct place and then stay?"
+
+
+> "What’s the most common American accent from a non-domestic POV? Why is this the first one that comes to mind?"
+
+
+> "If you speak two languages and grew up with both which one do you think in?"
+
+
+> "Do animals think the way we do? "
+
+
+> "Is there a right and wrong way of saying certain things in certain places "
+
+
+> "what age to babies actually start thinking in a language (or just thinking in general)"
+
+
+> "Can animals communicate with other animal species?"
+
+
+> "Why are accents so different even in places super close to each other? "
+
+
+> "Why do accents vary based on where you’re from?"
+
+
+> "Why do people say crayon differently? "
+
+
+> "How does a baby know to say just “mama”, instead of “say mama”?"
+
+
 
 ## Questions come from observations
 
@@ -145,9 +294,13 @@ include-in-header:
 
 ## How would we find out?
 
+::: {.fragment .fade-right }
+
 ![](img/SPOTLIGHT%201%20-%20What%20is%20linguistics%20research_5.jpg)
 
-::: {.fragment .absolute top="45%" right="0"}
+:::
+
+::: {.fragment .absolute .fade-right top="45%" right="0"}
 ### Research!
 :::
 
@@ -208,7 +361,7 @@ Planning ahead
 ---
 
 
-## Qualities of solid research questions
+## Qualities of solid research questions {.nonincremental}
 
 ![](img/SPOTLIGHT%201%20-%20What%20is%20linguistics%20research_6.png){.absolute top="35" right="0"}
 
@@ -310,22 +463,26 @@ People speak differently
 
 
 
-## Observations ➙ questions
+## Observations ➙ questions {.nonincremental}
 
 ### Too broad:
+
+::: {.nonincremental}
 
 - How does regional identity influence lexical variation?
 - ( what _type_ of lexical (=word) variation? what kind of region? )
 
-:::::: {.fragment}
+:::
 
 ### ☞ More optimal:
 
-::::::
+::: {.nonincremental}
 
  - _where, exactly, do people use different words for a carbonated beverage?_
  - _how do people there feel about the word?_
  - _why do less standard forms persist?_
+
+:::
 
 ![](img/SPOTLIGHT%201%20-%20What%20is%20linguistics%20research_10.jpg){.absolute width="25%" bottom="0" right="0"}
 

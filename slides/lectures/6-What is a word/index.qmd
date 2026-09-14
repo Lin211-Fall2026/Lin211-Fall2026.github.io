@@ -1,17 +1,26 @@
 ---
-title: "Presentation Title"
-author: "Author"
-format: 
+title: "What is a word?"
+subtitle: "Lin 211 • Section 2, Part 2"
+date: 09/09/2026
+categories: [Getting Started]
+authors:
+  - name: Kevin B McGowan
+    orcid: 0000-0002-8214-1901
+    email: kbmcgowan@uky.edu
+tbl-cap-location: bottom
+format:
   revealjs:
     slide-number: c/t
     width: 1600
     height: 900
-    logo: img/logo.png
-    footer: "Organization"
-    incremental: true
-    theme: [simple]
+    footer: "Bits &amp; Pieces"
+    incremental: false
+    scrollable: true
+    theme: [sky, includes/styles.scss]
+    css: includes/inline-fragment.css
+    template-partials:
+      - includes/title-slide.html
 ---
-# What is a word?
 
 # Bits and Pieces
 
