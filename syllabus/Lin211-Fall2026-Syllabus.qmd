@@ -10,6 +10,7 @@ format:
       columns: 1
       number-sections: false
       css-property-processing: translate
+      pdf-standard: ua-1
 editor: source
 ---
 # Syllabus
