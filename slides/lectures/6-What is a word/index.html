@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tabby.min.js"></script>
-<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.10.18">
 
-  <meta name="author" content="Author">
-  <title>Lin211 Fall 2026 – Presentation Title</title>
+  <meta name="dcterms.date" content="2026-09-09">
+  <title>Lin211 Fall 2026 – What is a word?</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../../../../site_libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="../../../../site_libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reveal.css">
   <style>
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,12 +34,33 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
-  <link rel="stylesheet" href="../../../../site_libs/revealjs/dist/theme/quarto-0427d8d92a431aa6a6430e53ec02a470.css">
-  <link href="../../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="../../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="../../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../../../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-e6a7bc94e10ebab7eb828ed64b0046ac.css">
+  <link rel="stylesheet" href="includes/inline-fragment.css">
+  <link rel="stylesheet" href="custom.css">
+  <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
@@ -51,6 +72,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -133,169 +155,136 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Presentation Title</h1>
+  <h1 class="title">What is a word?</h1>
+  <p class="subtitle">Lin 211 • Section 2, Part 2</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Author
+Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-title-author-orcid" aria-label="ORCID profile for Kevin B McGowan"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+</div>
+<div class="quarto-title-author-email">
+<a href="mailto:kbmcgowan@uky.edu">kbmcgowan@uky.edu</a>
 </div>
 </div>
 </div>
 
-</section>
-<section id="what-is-a-word" class="title-slide slide level1 center">
-<h1>What is a word?</h1>
+  <p class="date">2026-09-09</p>
 
 </section>
-
-<section>
-<section id="bits-and-pieces" class="title-slide slide level1 center">
-<h1>Bits and Pieces</h1>
-
-</section>
-<section class="slide level2">
-
-
-<img data-src="images/6-What is a word_0.jpg" class="r-stretch"></section></section>
-<section>
-<section id="ling-link" class="title-slide slide level1 center">
-<h1>Ling Link</h1>
+<section id="ling-link-slide-1-of-4" class="slide level2">
+<h2>Ling Link (slide 1 of 4)</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p><img data-src="images/6-What is a word_0.jpg"></p>
+</div><div class="column" style="width:55%;">
 <ul>
-<li class="fragment">I am going to play a song for you
+<li>We’re going to listen to part of <strong>Espresso</strong> together (note: contains expletives)</li>
+<li>Please observe her use of language
 <ul>
-<li class="fragment">There is a link to lyrics on next slide (yes, there are cuss words)</li>
-<li class="fragment">There is a link to the audio one slide after that (if you missed class and need to see what you missed)</li>
-</ul></li>
-<li class="fragment">While the song is playing, listen carefully, and try to answer these questions
-<ul>
-<li class="fragment">Are some of these “made-up words”? How do you know? What is a “real word”?</li>
-<li class="fragment">What kinds of processes did she use to make them up? And why did she do it?</li>
-</ul></li>
-<li class="fragment">Now, talk to your partner about what you found! ::: {.notes}</li>
-</ul>
-<p>Espresso: https://www.youtube.com/watch?v=4h0a1NCeC14</p>
-<p>:::</p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="media" class="title-slide slide level1 center">
-<h1>Media</h1>
-<p>Lyrics to Sabrina Carpenter’s “Espresso”: <a href="https://www.azlyrics.com/lyrics/sabrinacarpenter/espresso.html">https://www.azlyrics.com/lyrics/sabrinacarpenter/espresso.html</a></p>
-</section>
-<section class="slide level2">
-
-<p><a href="https://www.youtube.com/watch?v=4h0a1NCeC14">https://www.youtube.com/watch?v=4h0a1NCeC14</a></p>
-<p>Audio for Espresso</p>
-</section>
-<section class="slide level2">
-
-<p><a href="https://www.them.us/story/sabrina-carpenter-espresso-lyrics-analysis-meaning-explained">https://www.them.us/story/sabrina-carpenter-espresso-lyrics-analysis-meaning-explained</a></p>
-<p>Neat bonus story</p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="thanks-to-jules" class="title-slide slide level1 center">
-<h1>Thanks to Jules!</h1>
-<ul>
-<li class="fragment">Quick thanks to Jules for running our first SPOTLIGHT lecture on “What is linguistics research?”
-<ul>
-<li class="fragment">Research = finding answers to questions</li>
-<li class="fragment">Good research questions are…
-<ul>
-<li class="fragment">Based on previous research</li>
-<li class="fragment">Practical</li>
-<li class="fragment">Specific</li>
-</ul></li>
-<li class="fragment">Why do we care?</li>
-<li class="fragment">Be curious!</li>
+<li>Can you identify any innovative ways she is using words?</li>
+<li>What is innovative about it?</li>
+<li>How do you know what she means?</li>
 </ul></li>
 </ul>
-
-<img data-src="images/6-What is a word_1.png" class="r-stretch"></section>
-<section class="slide level2">
-
-
-<img data-src="images/6-What is a word_2.jpg" class="r-stretch"></section></section>
-<section>
-<section id="recall" class="title-slide slide level1 center">
-<h1>Recall</h1>
+</div></div>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/xCqW3luDPGw" width="100%" height="100%" title="Sabrina Carpenter: Espresso" aria-label="Video of Sabrina Carpenter's 'Espresso' with lyrics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+<section id="ling-link-3-minutes-slide-3-of-4" class="slide level2">
+<h2>Ling Link 3 minutes (slide 3 of 4)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li class="fragment">Moving beyond the introductory!</li>
-<li class="fragment">Languages are “structured systems for making articulated thoughts fully explicit”</li>
-<li class="fragment">Focus on the human capacity for language</li>
-<li class="fragment">Language developed over time
+<li>Please discuss in pairs or small groups:
 <ul>
-<li class="fragment">The study of language change over time is <strong>historical linguistics</strong></li>
-<li class="fragment">All languages change!</li>
-<li class="fragment">Language families</li>
+<li>What did you observe?</li>
+<li>How do you know it was innovative?</li>
+<li>How do you know what she means?</li>
 </ul></li>
 </ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/6-What is a word_0.jpg"></p>
+</div></div>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="but-what-is-language" class="title-slide slide level1 center">
-<h1>But what is language?</h1>
-
-<img data-src="images/6-What is a word_3.png" class="r-stretch"><ul>
-<li class="fragment">Specifically, now, I mean to have us focus on the bits and pieces</li>
-<li class="fragment">And our question today is – what is a word?
+<section id="ling-link-related-media-slide-4-of-4" class="slide level2">
+<h2>Ling Link Related Media (slide 4 of 4)</h2>
+<dl>
+<dt><a href="https://www.azlyrics.com/lyrics/sabrinacarpenter/espresso.html">https://www.azlyrics.com/lyrics/sabrinacarpenter/espresso.html</a></dt>
+<dd>
+Lyrics for Sabrina Carpenter’s “Espresso”
+</dd>
+<dt><a href="https://www.youtube.com/watch?v=4h0a1NCeC14">https://www.youtube.com/watch?v=4h0a1NCeC14</a></dt>
+<dd>
+Audio for Espresso
+</dd>
+<dt><a href="https://www.them.us/story/sabrina-carpenter-espresso-lyrics-analysis-meaning-explained">https://www.them.us/story/sabrina-carpenter-espresso-lyrics-analysis-meaning-explained</a></dt>
+<dd>
+Neat bonus story
+</dd>
+</dl>
+</section>
+<section id="thanks-to-stella" class="slide level2">
+<h2>Thanks to Stella!</h2>
 <ul>
-<li class="fragment">We all agree that languages have words</li>
-<li class="fragment">And we all know A LOT of words in our native language</li>
+<li>Enormous thanks to Stella for running our first SPOTLIGHT lecture on “What is linguistics research?”
+<ul>
+<li>Research = finding answers to questions</li>
+<li>Good research questions are…
+<ul>
+<li>Based on previous research</li>
+<li>Practical</li>
+<li>Specific</li>
 </ul></li>
-<li class="fragment">But how do we <em>define </em> what _ _ a word is?</li>
-<li class="fragment">Does that seem like a silly question?</li>
+<li>Why do we care?</li>
+<li>Be curious!</li>
+</ul></li>
 </ul>
+<p><img data-src="images/SPOTLIGHT 1 - What is linguistics research_6.png" class="absolute" style="bottom: 0px; right: 0px; width: 40%; "></p>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="what-is-a-word-1" class="title-slide slide level1 center">
-<h1>What is a word?</h1>
+<section id="previously-in-linguistics-211" class="slide level2">
+<h2>Previously in Linguistics 211</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/6-What is a word_2.jpg"></p>
+</div><div class="column" style="width:50%;">
 <ul>
-<li class="fragment">“The smallest separate piece of a language that all by itself will have a meaning.”
-<ul>
-<li class="fragment">_ red class work_</li>
-</ul></li>
-<li class="fragment">But what about…
-<ul>
-<li class="fragment"><em>red</em> <em>ness </em> <em>class</em> <em>es </em> <em>work</em> <em>ing</em></li>
-<li class="fragment">_ _ <em>red</em> <em>neck </em> <em>class</em> <em>room home</em> <em>work</em></li>
-<li class="fragment">_ _ <em>red</em> <em>den </em> <em>class</em> <em>y </em> <em>work</em> <em>aholic </em> ::: {.notes}</li>
-</ul></li>
+<li>Languages are “structured systems for making articulated thoughts fully explicit”</li>
+<li>Focus on the human capacity for language</li>
+<li>There are ~7,000 human languages</li>
+<li>The study of language change over time is <strong>historical linguistics</strong></li>
+<li>All languages change!</li>
+<li>Language families</li>
 </ul>
-<p>Definition from (Elgin, “Colorless Green Ideas”)</p>
-<p>:::</p>
+</div></div>
 </section>
-<section class="slide level2">
-
+<section id="section-1" class="slide level2">
+<h2></h2>
+<div class="r-fit-text">
+<p>What is a word?</p>
+</div>
+</section>
+<section id="what-is-language-made-of" class="slide level2">
+<h2>What is language <em>made of</em>?</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/audrey.png"></p>
+</div><div class="column" style="width:60%;">
 <ul>
-<li class="fragment">How about: the smallest meaningful unit that can occur by itself?</li>
-<li class="fragment">But the following words never occur alone:
+<li>Next we’ll look at the <strong>bits and pieces</strong> that make up language</li>
+<li>Our first question today is: what is a word?
 <ul>
-<li class="fragment"><em>the a on with</em></li>
+<li>We all agree that languages have words</li>
+<li>At 20, Americans know about 42,000 words on average <span class="citation" data-cites="BrysbaertStevensManderaKeuleers2016">(<a href="#/references" role="doc-biblioref" onclick="">Brysbaert et al. 2016</a>)</span></li>
 </ul></li>
-<li class="fragment">Do they have meaning?</li>
+<li>But how do we <em>define</em> what ‘a word’ is?</li>
+<li>Does that seem like a silly question?</li>
 </ul>
-</section>
-<section class="slide level2">
-
-
-<img data-src="images/6-What is a word_4.png" class="r-stretch"><p>“A word is the sequence of letters between two blanks.”</p>
-<p>But does language = writing?</p>
-<p>What about languages with no writing systems?</p>
-<p>Or writing systems with no spacing?</p>
-<p>Ancient Latin text</p>
+</div></div>
 <aside class="notes">
-<p>Definition from (Roy Byrd, “Colorless Green Ideas”)</p>
+<p>Is ‘Mountain Dew’ (beverage) one word or two? is Mountain Dew it for ya the <em>same</em> word?</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -308,221 +297,303 @@ Author
           display:block!important;
       }</style></aside>
 </section>
-<section class="slide level2">
-
-<p>Chinese</p>
-<p>German</p>
+<section id="what-is-a-word" class="slide level2">
+<h2>What is a word?</h2>
 <ul>
-<li class="fragment">Not so much…
-<ul>
-<li class="fragment"><strong>Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz</strong> ‘law for the delegation of monitoring beef labeling’</li>
-</ul></li>
+<li>“The smallest separate piece of a language that all by itself will have a meaning.”</li>
 </ul>
-<p>Almost entirely one syllable</p>
-<p>_ néng _ <strong>能</strong> ‘be able’</p>
-<p>zhou <strong>周</strong> ‘week’</p>
+<table>
+<tbody>
+<tr class="odd">
+<td>red</td>
+<td>class</td>
+<td>work</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<ul>
+<li>But what about…</li>
+</ul>
+<table class="table-striped table-hover">
+<tbody>
+<tr class="odd">
+<td>red -ness</td>
+<td>class -es</td>
+<td>work -ing</td>
+</tr>
+<tr class="even">
+<td>red -den</td>
+<td>class -y</td>
+<td>work -aholic</td>
+</tr>
+<tr class="odd">
+<td>redneck</td>
+<td>classroom</td>
+<td>workhorse</td>
+</tr>
+</tbody>
+</table>
+</div>
+<aside class="notes">
+<p>Definition from (Elgin, “Colorless Green Ideas”)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="media-1" class="title-slide slide level1 center">
-<h1>Media</h1>
-<p><a href="https://www.youtube.com/watch?v=iEsYD4yVSBA">https://www.youtube.com/watch?v=iEsYD4yVSBA</a></p>
+<section id="words" class="slide level2">
+<h2>Words</h2>
+<ul>
+<li>How about: the smallest meaningful unit that can occur by itself?</li>
+<li>But the following words almost never occur alone:</li>
+</ul>
+<table>
+<tbody>
+<tr class="odd">
+<td>the</td>
+<td>a</td>
+<td>an</td>
+</tr>
+<tr class="even">
+<td>of</td>
+<td>with</td>
+<td>will</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Do they have meaning?</li>
+</ul>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="q-slide" class="title-slide slide level1 center">
-<h1>Q slide</h1>
+<section id="dont-confuse-language-with-writing" class="slide level2">
+<h2>Don’t confuse <em>language</em> with <em>writing</em></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/6-What is a word_4.png" style="width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>“A word is the sequence of letters between two blanks.”</li>
+<li>But language != writing</li>
+<li>And there are no pauses between spoken words!</li>
+<li>What about languages with no writing systems?</li>
+<li>Or writing systems with no spacing?</li>
+</ul>
+</div></div>
+<aside class="notes">
+<p>Ancient Latin Text</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-is-a-word-cont." class="slide level2">
+<h2>What is a word? (cont.)</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Mandarin</th>
+<th>German</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Almost entirely one syllable:</td>
+<td>Many syllables per word</td>
+</tr>
+<tr class="even">
+<td><strong>能</strong> <em>néng</em></td>
+<td><em>Nahrungsmittelunverträglichkeit</em></td>
+</tr>
+<tr class="odd">
+<td>‘be able’</td>
+<td>‘food intolerance’</td>
+</tr>
+<tr class="even">
+<td><strong>周</strong> <em>zhou</em></td>
+<td><em>Sprachwissenschaftler</em></td>
+</tr>
+<tr class="odd">
+<td>‘week’</td>
+<td>linguist</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/iEsYD4yVSBA" width="100%" height="100%" title="What is a word?" aria-label="Video asking 'What is a word?'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+<section id="attendance-question-9-16-lecture-day-7" class="slide level2">
+<h2>Attendance Question 9-16 (lecture day 7)</h2>
 <p>According to the video, linguists have a fully satisfying answer to the question “what is a word?” [false]</p>
 </section>
-<section class="slide level2">
-
-
-<img data-src="images/6-What is a word_5.jpg" class="r-stretch"></section></section>
-<section>
-<section id="what-does-it-mean-to-know-a-word" class="title-slide slide level1 center">
-<h1>What does it mean to “know” a word?</h1>
+<section id="to-know-a-word" class="slide level2">
+<h2>To know a word</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
 <ul>
-<li class="fragment">Using/Knowing a word requires (at least) four __ __ kinds of information:
+<li><p>Knowing a word requires (at least) four kinds of knowledge:</p>
 <ul>
-<li class="fragment"><strong>Phonetic</strong> / <strong>phonological</strong> information</li>
-<li class="fragment"><strong>Syntactic</strong> information</li>
-<li class="fragment"><strong>Morphological</strong> information</li>
-<li class="fragment"><strong>Semantic</strong> information</li>
+<li><strong>Phonetic</strong> / <strong>phonological</strong> knowledge</li>
+<li><strong>Syntactic</strong> knowledge</li>
+<li><strong>Morphological</strong> knowledge</li>
+<li><strong>Semantic</strong> knowledge</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:35%;">
+<p><img data-src="images/6-What is a word_5.jpg"></p>
+</div></div>
+</section>
+<section id="what-is-phonetics" class="slide level2">
+<h2>What is phonetics?</h2>
+<ul>
+<li><strong>Phonetics</strong> is the study of the sounds in a language
+<ul>
+<li><strong>Articulatory phonetics</strong> focuses on the human vocal apparatus and describes sounds in terms of their articulation in the vocal tract</li>
+<li><strong>Acoustic phonetics</strong> uses the tools of physics to study the nature of sound waves produced in human language</li>
+<li><strong>Speech perception</strong> uses the tools of psychology &amp; psychoacoustics to study the nature of listeners’ experience of language</li>
 </ul></li>
 </ul>
 </section>
-<section class="slide level2">
-
-
-<img data-src="images/6-What is a word_6.jpg" class="r-stretch"></section></section>
-<section>
-<section id="what-is-phoneticsphonology" class="title-slide slide level1 center">
-<h1>What is phonetics/phonology?</h1>
+<section id="what-is-phonology" class="slide level2">
+<h2>What is phonology?</h2>
 <ul>
-<li class="fragment"><strong>Phonetics</strong> is the study of the sounds in a language</li>
-<li class="fragment">Two branches:
+<li><strong>Phonology </strong> is the study of the <em>systems</em> of contrastive relationships among the speech sounds of different languages
 <ul>
-<li class="fragment"><strong>Articulatory phonetics</strong> focuses on the human vocal apparatus and describes sounds in terms of their articulation in the vocal tract</li>
-<li class="fragment"><strong>Acoustic phonetics</strong> uses the tools of physics to study the nature of sound waves produced in human language</li>
-</ul></li>
-<li class="fragment"><strong>Phonology </strong> is the study of the <em>system</em> of contrastive relationships among the speech sounds
-<ul>
-<li class="fragment">It’s about syllables, stress, phonotactics, etc.</li>
-<li class="fragment">Often discussed as what is in your mind (which might be different than what comes out of your mouth)</li>
+<li>Why do some languages have such different sets of sounds?</li>
+<li>Includes sound categories but also phonotactics, syllables, stress, intonation, etc.</li>
 </ul></li>
 </ul>
 </section>
-<section class="slide level2">
-
-
-<img data-src="images/6-What is a word_7.jpg" class="r-stretch"></section></section>
-<section>
-<section id="what-is-syntax" class="title-slide slide level1 center">
-<h1>What is syntax?</h1>
+<section id="what-is-syntax" class="slide level2">
+<h2>What is syntax?</h2>
 <ul>
-<li class="fragment">“The way in which words are put together to form phrases and sentences.” (American Heritage Dictionary)
+<li><strong>Syntax</strong> is the study of how words can be combined to form larger units of meaning in different languages
 <ul>
-<li class="fragment">It’s all about <strong>structure</strong> and <strong>rules</strong> !</li>
-<li class="fragment">It is easy to see that some words have some things in common; they share certain characteristics and behave similarly.</li>
+<li>It’s all about how words group together (<em>constituency</em>), hierarchical structure, and constraints on how those can happen</li>
+<li>It is easy to see that some words have some things in common; they share certain characteristics and behave similarly.</li>
 </ul></li>
-<li class="fragment">But in order to talk about structure, we need to know a little about…</li>
+<li>But in order to talk about structure, we need to know a little about…</li>
 </ul>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="syntactic-information" class="title-slide slide level1 center">
-<h1>Syntactic information</h1>
+<section id="syntactic-information" class="slide level2">
+<h2>Syntactic information</h2>
 <ul>
-<li class="fragment"><strong>Parts of Speech </strong> are categories of words based on similar meanings, forms, and functions
+<li><strong>Syntactic Categories</strong> are categories of words based on similar functions, meanings, and forms
 <ul>
-<li class="fragment">AKA <strong>lexical categories</strong> , <strong>word classes</strong> , <strong>syntactic categories</strong></li>
-<li class="fragment">Major classes: Nouns, Verbs, Adjectives, Adverbs</li>
-<li class="fragment">Minor classes: Pronouns, Determiners, Prepositions, Auxiliaries, Conjunctions</li>
-</ul></li>
-<li class="fragment">Sometimes classification can be fuzzy
-<ul>
-<li class="fragment">Same form ≠ same word (ex. Use “e-mail” in a sentence)</li>
-<li class="fragment">What’s going on here?</li>
-<li class="fragment">“Time flies like an arrow; fruit flies like a banana.” ::: {.notes}</li>
-</ul></li>
-</ul>
-<p>Come back to this later maybe</p>
-<p>:::</p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="q-slide-1" class="title-slide slide level1 center">
-<h1>Q slide</h1>
-<p>What is the part of speech of “orange” in this sentence? I love to eat orange tomatoes. (MC, adj)</p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="morphology" class="title-slide slide level1 center">
-<h1>Morphology</h1>
-<ul>
-<li class="fragment">To explore morphological knowledge, we need the subfield of <strong>morphology</strong> , which is the study of word formation</li>
-<li class="fragment">In morphology, we study a word’s component parts and internal structures
-<ul>
-<li class="fragment">How many parts are there in a word?</li>
-<li class="fragment">For example, how many parts are in the word <em>friendliness</em> ?</li>
-<li class="fragment">These parts are called <strong>morphemes </strong> – the smallest meaningful unit in language (that is, the lowest level a word may be broken down into and still express some meaning)</li>
+<li>AKA <strong>lexical categories</strong> , <strong>word classes</strong> , <strong>parts of language/speech</strong></li>
+<li>Major classes: Nouns, Verbs, Adjectives, Adverbs</li>
+<li>Minor classes: Pronouns, Determiners, Prepositions, Auxiliary verbs, Conjunctions</li>
 </ul></li>
 </ul>
 </section>
-<section class="slide level2">
-
-
-<img data-src="images/6-What is a word_8.jpg" class="r-stretch"></section></section>
-<section>
-<section id="morphological-rules" class="title-slide slide level1 center">
-<h1>Morphological Rules</h1>
+<section id="morphology" class="slide level2">
+<h2>Morphology</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/6-What is a word_8.jpg"></p>
+</div><div class="column" style="width:50%;">
 <ul>
-<li class="fragment">As well as the operations that create and modify those parts and internal structures in various ways, which we call <strong>morphological rules</strong></li>
-<li class="fragment">Remember, grammar = rules, and all languages have rules!</li>
-<li class="fragment">Example rule in English:
+<li>To explore morphological knowledge, we need the subfield of <strong>morphology</strong> , which is the study of word formation</li>
+<li>In morphology, we study a word’s component parts and internal structures
 <ul>
-<li class="fragment">How do we make a noun into an adjective?
+<li>How many parts are there in a word?</li>
+<li>For example, how many parts are in the word <em>friendliness</em> ?</li>
+<li>These parts are called <strong>morphemes </strong> – the smallest meaningful unit in language (that is, the lowest level a word may be broken down into and still express some meaning)</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="morphological-rules" class="slide level2">
+<h2>Morphological Rules</h2>
 <ul>
-<li class="fragment">Smell + -y = smelly</li>
-<li class="fragment">Cat + -like = catlike</li>
-<li class="fragment">Man + -ly = manly</li>
+<li>The operations that create and modify those parts and internal structures are called <strong>morphological rules</strong></li>
+<li>Remember, grammar = rules, and all languages have rules!</li>
+<li>Example rule in English:
+<ul>
+<li>How do we make a noun into an adjective?
+<ul>
+<li>Smell + -y = smelly</li>
+<li>Cat + -like = catlike</li>
+<li>Man + -ly = manly</li>
 </ul></li>
 </ul></li>
-<li class="fragment">Morphological rules thus create new words!</li>
+<li>Morphological rules can create new words in productive, predictable ways!</li>
 </ul>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="morphological-information" class="title-slide slide level1 center">
-<h1>Morphological information</h1>
-
+<section id="morphological-information" class="slide level2">
+<h2>Morphological information</h2>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="q-slide-2" class="title-slide slide level1 center">
-<h1>Q slide</h1>
-<p>Which of these words only has one morpheme?</p>
-<p>“friends”?</p>
-<p>“carefully”?</p>
-<p>“silly”?</p>
-<p>I don’t know</p>
+<section id="what-is-semantics" class="slide level2">
+<h2>What is semantics?</h2>
+<ul>
+<li>Semantics is the study of linguistic meaning
+<ul>
+<li><p>Deals with the systematic ways in whcih languages structure meaning, especially in words and sentences</p></li>
+<li><p>There are three main types of meaning:</p>
+<ul>
+<li><strong>Denotational meaning</strong>: (aka ‘linguistic meaning’) The literal thing, action, idea, syntactic information that the word points to in our minds</li>
+<li><strong>Affective meaning</strong>: emotional connotation attached to words and utterances</li>
+<li><strong>Social meaning</strong>: How we identify certain social characteristics of speakers and sitations (e.g.&nbsp;<em>y’all</em>, <em>pop/soda/coke</em>, <em>whom</em>)</li>
+</ul></li>
+</ul></li>
+</ul>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="what-is-semantics" class="title-slide slide level1 center">
-<h1>What is semantics?</h1>
-
+<section id="whats-next" class="slide level2">
+<h2>What’s next?</h2>
+<p><img data-src="images/6-What is a word_9.jpg" class="absolute" style="bottom: 0px; right: 0px; width: 30%; "></p>
+<ul>
+<li><p>Come to lecture Monday for “How do words get their meaning?”</p></li>
+<li><p>Get started on Observation Notes #2 (due February 14)!</p></li>
+<li><p>Quiz 3 Friday!</p></li>
+</ul>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section id="whats-next" class="title-slide slide level1 center">
-<h1>What’s next?</h1>
-
-<img data-src="images/6-What is a word_9.jpg" class="r-stretch"><p>Come to lecture Monday for “How do words get their meaning?”</p>
-<p>Get started on Observation Notes #2 (due February 14)!</p>
-<p>Quiz 3 Friday!</p>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-BrysbaertStevensManderaKeuleers2016" class="csl-entry" role="listitem">
+Brysbaert, Marc, Michaël Stevens, Paweł Mandera, and Emmanuel Keuleers. 2016. <span>“How <span>Many Words Do We Know</span>? <span>Practical Estimates</span> of <span>Vocabulary Size Dependent</span> on <span>Word Definition</span>, the <span>Degree</span> of <span>Language Input</span> and the <span>Participant</span>’s <span>Age</span>.”</span> <em>Frontiers in Psychology</em> 7 (July). <a href="https://doi.org/10.3389/fpsyg.2016.01116">https://doi.org/10.3389/fpsyg.2016.01116</a>.
+</div>
+</div>
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="img/logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>Organization</p>
+<p>Bits &amp; Pieces</p>
 </div>
 </div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="../../../../site_libs/revealjs/dist/reveal.js"></script>
+  <script src="../../../site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="../../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="../../../../site_libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/search/search.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
@@ -683,9 +754,9 @@ Author
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1600,
+        width: 1280,
 
-        height: 900,
+        height: 720,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
