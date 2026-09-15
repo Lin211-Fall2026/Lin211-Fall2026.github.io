@@ -1,0 +1,15 @@
+
+/*-- scss:defaults --*/
+
+$body-bg: #ffffff;
+$font-family-sans-serif: "Gentium";
+$presentation-title-slide-text-align: left;
+
+$body-bg: #ffce82 !default;
+$link-color: #b36200 !default;
+$selection-bg: #d7801a!default;
+
+// Background generator
+@mixin bodyBackground() {
+  @include radial-gradient(#ffde92, #ffefbf);
+}
