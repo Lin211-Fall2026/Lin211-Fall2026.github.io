@@ -16,10 +16,6 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: PDF Verification
-        shell: bash
-        run: quarto install verapdf
         
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
