@@ -2,6 +2,7 @@
 title: "What is a word?"
 subtitle: "Lin 211 • Section 2, Part 2"
 bibliography: includes/references.bib
+description: Pullum Chapter 3
 date: 09/16/2026
 categories: [Bits &amp; Pieces]
 authors:

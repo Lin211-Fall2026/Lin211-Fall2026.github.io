@@ -50,7 +50,7 @@ revealjs-plugins:
 
 ::::
 
-## Link Link
+## Ling Link
 
 We're going to watch a 2 minute video, after which this slide will come back up.
 
@@ -70,7 +70,7 @@ Flatulence!  wikipedia says:  Colloquially, flatulence may be referred to as "fa
 {{< video https://youtu.be/4rYZFi7a0Ao width="1280" height="720" >}}
 
 
-## Link Link
+## Ling Link
 
 - What does 'fluffy' mean?  (slightly harder: what lexical category is it being used as in the video?  noun, verb, adjective, pronoun, etc.?)
 - Do you think the characters in the show *know* that it is a euphemism? Or are we supposed to believe it's just their word?
