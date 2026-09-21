@@ -187,6 +187,20 @@ The following dates are approximate, and dates are subject to change. **Pullum**
 |       Friday, Dec 4th         | Quiz 12         |
 : Discussion section dates and activities {.striped .hover}
 
+
+## Tentative Observation Notes dates
+
+| Notes |   Available   |   Due    |  Not available after |
+|-------|-------------|--------|---------------------|
+| 1          |   9-3              | 9-11      |   9-13                             |
+| 2          |  9-21              | 9-25    |    9-27                           |
+| 3          |  9-28             | 10-9    |    10-11                           |
+| 4          |  10-12            | 10-23  |    10-25                         |
+| 5          |  10-26           | 11-6      |    11-8                            |
+| 6          |  11-9              | 11-20    |    11-23                         |
+
+: Relevant dates for Observation Notes {.striped .hover}
+
 ## Course Activities, Assignments, Exams
 
 ### Course Activities and Exams
