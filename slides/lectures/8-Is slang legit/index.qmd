@@ -3,7 +3,7 @@ title: "Is slang legit?"
 subtitle: "Lin 211 • Section 2, Part 3"
 date: 09/23/2026
 categories: [Bits &amp; Pieces]
-description: Pullum Chapter 2
+description: [Pullum Chapter 2](https://uk.instructure.com/files/119767464/download?download_frd=1)
 authors:
   - name: Kevin B McGowan
     orcid: 0000-0002-8214-1901
