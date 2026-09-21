@@ -1,0 +1,53 @@
+/**
+ * Sky theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ *
+ * Adapted for Quarto by Posit, PBC
+ * Copyright (C) 2024 Posit, PBC
+ */
+
+/*-- scss:defaults --*/
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Gravitas+One&family=Peralta&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Gravitas+One&family=Peralta&display=swap);
+
+// Override theme settings
+$font-family-sans-serif: "Gentium Plus", serif !default;
+$body-color: #333 !default;
+$presentation-heading-font: "Gentium Book Plus", serif !default;
+$presentation-heading-color: $body-color !default;
+$presentation-heading-letter-spacing: -0.08em !default;
+$presentation-heading-text-shadow: none !default;
+$presentation-title-slide-text-align: left;
+$body-bg: #ffaaaa !default;
+$link-color: #990000 !default;
+$selection-bg: #990000!default;
+
+$presentation-heading-text-transform: uppercase !default; // from settings.scss
+$presentation-heading-font-weight: normal !default; // from settings.scss
+
+$overlayElementBgColor: 0, 0, 0 !default;
+$overlayElementFgColor: 240, 240, 240 !default;
+
+// Change text colors against dark slide backgrounds
+$dark-bg-text-color: #fff !default;
+
+// code blocks
+$code-block-border-color: lighten($link-color, 30%) !default;
+$code-block-bg: transparent !default;
+
+/*-- scss:rules --*/
+
+// Fix links so they are not cut off
+.reveal a {
+  line-height: 1.3em;
+}
+
+/*-- scss:mixins --*/
+
+// Background generator
+@mixin bodyBackground() {
+  @include radial-gradient(#ffaaaa, #ffeeee);
+}

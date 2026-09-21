@@ -1,23 +1,30 @@
 ---
-title: "Presentation Title"
-author: "Author"
-format: 
+title: "Is slang legit?"
+subtitle: "Lin 211 • Section 2, Part 3"
+date: 09/21/2026
+categories: [Bits &amp; Pieces]
+authors:
+  - name: Kevin B McGowan
+    orcid: 0000-0002-8214-1901
+    email: kbmcgowan@uky.edu
+tbl-cap-location: bottom
+format:
   revealjs:
     slide-number: c/t
-    width: 1600
-    height: 900
-    logo: img/logo.png
-    footer: "Organization"
-    incremental: true
-    theme: [simple]
+    width: 1280
+    height: 720
+    footer: "Bits &amp; Pieces"
+    incremental: false
+    scrollable: true
+    theme: includes/sky.scss
+    css:
+      - includes/inline-fragment.css
+      - custom.css
+    template-partials:
+      - includes/title-slide.html
 ---
-# Is slang legit?
 
-# Bits and Pieces
-
-
----
-
+## Ling Link
 
 The following slide is a link to a recently updated list of Gen Z slang \(including some explicit\-ish content\)\. Spend the next three minutes doing the following:
 
@@ -32,9 +39,6 @@ Find a word that is a clipping or other shortening\.
 Find your favorite slang word\!
 
 Are these words you use? How do you use them with? When? Why?
-
-# Ling Link
-
 
 ---
 

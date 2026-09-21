@@ -1,0 +1,351 @@
+---
+title: "How do words get their meanings?"
+subtitle: "Lin 211 • Section 2, Part 3"
+date: 09/21/2026
+categories: [Bits &amp; Pieces]
+authors:
+  - name: Kevin B McGowan
+    orcid: 0000-0002-8214-1901
+    email: kbmcgowan@uky.edu
+tbl-cap-location: bottom
+format:
+  revealjs:
+    slide-number: c/t
+    width: 1280
+    height: 720
+    footer: "Bits &amp; Pieces"
+    incremental: false
+    scrollable: true
+    theme: includes/sky.scss
+    css:
+      - includes/inline-fragment.css
+      - custom.css
+    template-partials:
+      - includes/title-slide.html
+revealjs-plugins:
+  - quiz
+---
+
+## Euphemism
+
+:::: {.incremental}
+
+- A **euphemism** is an acceptable word we use in place of a less acceptable word.
+- Southerners can say **"Bless his heart"** because it's rude to call someone stupid.
+- We say someone is **senior** because it's rude to call people old.
+- **Dang**, **darn**, **gosh**, **Jimminy Crickets**, **doggone it**, **shoot!**, **sugar**, **fudge**, **pee**,  etc.
+- **sleep together**, **hook up**, **make love**, **score**, **hit it**, **bone**, etc.
+- **Go to the toilets** (British), **Go to the bathroom** (US), **restroom**, **loo**, **WC**, **lavatory** (literally a sink!), **mens room**, **ladies room**, etc.
+
+::::
+
+## Euphemism (cont)
+
+:::: {.incremental}
+
+- An interesting thing about a euphemism is, everyone typically knows what it means! (at least at first)
+- We make up a new, more acceptable, label for a thing and that makes saying the thing a little more okay!
+- But someone who is **vertically challenged** is still short, right?
+- And someone who has **wet himself** or **been let go** or been **downsized** or has **thrown up** or whose partner thinks they should **take a break** is still having a really terrible day, right?
+
+::::
+
+## Link Link
+
+We're going to watch a 2 minute video, after which this slide will come back up.
+
+- What does 'fluffy' mean?  (slightly harder: what lexical category is it being used as in the video?  noun, verb, adjective, pronoun, etc.?)
+- Do you think the characters in the show *know* that it is a euphemism? Or are we supposed to believe it's just their word?
+- What are some other euphemisms you know that mean the same thing as 'fluffy'?
+- Can you think of **non-euphemistic** terms for that thing??
+
+::::: {.notes}
+
+Flatulence!  wikipedia says:  Colloquially, flatulence may be referred to as "farting", "trumping",[9] "breaking wind", "blowing off", "pumping", "pooting", "passing gas", "backfiring", "tooting", "beefing", or simply (in American English) "gas" or (British English) "wind". According to the Oxford English Dictionary, "wind" has been used for over 1100 years, "fart" for over 900 years, "trump" for 700 years, "break wind" for 500 years, and none of the others more than 200 years. Derived terms include vaginal flatulence, otherwise known as a queef. In rhyming slang, blowing a raspberry (at someone) means imitating with the mouth the sound of a fart, in real or feigned derision.
+
+:::::
+
+## Who Fluffied?
+
+{{< video https://youtu.be/4rYZFi7a0Ao width="1280" height="720" >}}
+
+
+## Link Link
+
+- What does 'fluffy' mean?  (slightly harder: what lexical category is it being used as in the video?  noun, verb, adjective, pronoun, etc.?)
+- Do you think the characters in the show *know* that it is a euphemism? Or are we supposed to believe it's just their word?
+- What are some other euphemisms you know that mean the same thing as 'fluffy'?
+- Can you think of **non-euphemistic** terms for that thing??
+
+::::: {.notes}
+
+Flatulence!  wikipedia says:  Colloquially, flatulence may be referred to as "farting", "trumping",[9] "breaking wind", "blowing off", "pumping", "pooting", "passing gas", "backfiring", "tooting", "beefing", or simply (in American English) "gas" or (British English) "wind". According to the Oxford English Dictionary, "wind" has been used for over 1100 years, "fart" for over 900 years, "trump" for 700 years, "break wind" for 500 years, and none of the others more than 200 years. Derived terms include vaginal flatulence, otherwise known as a queef. In rhyming slang, blowing a raspberry (at someone) means imitating with the mouth the sound of a fart, in real or feigned derision.
+
+:::::
+
+## Language is arbitrary
+
+:::: {.incremental}
+
+- Language is arbitrary
+- This solves the problem of how 7,000 languages can each have their own words for such basic things as *mother*, *father*, *finger*, *day*, *night*, *food*, etc., etc., etc.
+- But it creates a whole new problem that is just as puzzling...
+::::
+
+##
+
+::: {.r-fit-text .absolute top="300"}
+
+How do words get their meanings?
+
+:::
+
+:::: {.notes}
+
+This is actually 3 huge problems: where did the meanings of every word we use come from? (diachronic)  How do we understand a new word when it is spoken (processing, synchronic), and how do BABIES learn words?
+
+::::
+
+## Euphemisms often become just normal words
+
+:::: {.incremental}
+
+- When a new euphemism enters the language (like when people started saying 'unalives' or 'pew pew' on social media), everyone knows what it really means *and* why someone would use it
+- But then normal word stuff happens to it, we forget it is a euphemism, and it just starts to mean the thing.
+- Bathroom, passed away, senior, wealthy, pee, with child, sleeping together, powder one's nose, to be let go, mature, adult, and on and on
+- These all started as euphemisms but then the euphemistic **connotation** was lost
+
+::::
+
+## Computer
+
+
+::::: {.columns}
+
+::: {.column width="50%" .incremental}
+
+- As recently as the 1940s, *this* was a room full of computers.
+- This was the literal meaning of the word *computer*, its *denotation*
+- A *computer* was someone who solved math problems (maybe for a living), just like a *plumber* is someone who works with pipes or a *driver* is someone who drives.
+- what changed?  why doesn't it mean this anymore?
+
+:::
+
+::: {.column width="50%"}
+
+
+![](images/Human_computers_-_Dryden.jpeg)
+
+:::
+:::::
+
+## To know a word
+
+::::: {.columns}
+
+::: {.column width="65%"}
+
+- Knowing a word requires (at least) four kinds of knowledge:
+
+  - __Phonetic__ / __phonological__  knowledge: what sounds make up the word?
+  - __Syntactic__  knowledge: how does the word work in a sentence
+  - __Morphological__  knowledge: what meaningful units is the word assembled from?
+  - __Semantic__  knowledge: How does the word **mean**?
+
+:::
+
+::: {.column width="35%"}
+
+
+![](images/6-What%20is%20a%20word_5.jpg)
+
+:::
+:::::
+
+## What is semantics?
+
+::: {.incremental}
+
+- Semantics is the study of linguistic meaning
+  - Deals with the systematic ways in whcih languages structure meaning, especially in words and sentences
+  
+  - There are three main types of meaning:
+    - **Denotational meaning**: (aka 'linguistic meaning') The literal thing, action, idea, syntactic information that the word points to in our minds
+    - **Affective meaning**: emotional connotation attached to words and utterances
+    - **Social meaning**: How we identify certain social characteristics of speakers and sitations (e.g. *y'all*, *pop/soda/coke*, *whom*)
+
+:::
+
+## Denotation & Connotation
+
+{{< video https://www\.youtube\.com/watch?v=0akeQMlvcAs width="1280" height="720" >}}
+
+## The literal meaning of a words is its: {.quiz-question}
+
+- Connotation
+- [Denotation]{.correct}
+- Condensation
+- Declaration
+
+## Attendance Question 9-16 (lecture day 8)
+
+
+::: {.r-fit-text}
+
+Our attendance question for today is on canvas and the access code is on the whiteboard.
+
+
+:::
+
+## Mental Lexicon
+
+![](images/Skull_and_brain_normal_human.svg.png){.absolute right="0" width="40%" bottom="0"}
+
+- All of this information about words is stored in our **mental lexicon**
+- Contains information about:
+    - lexical category
+    - sentence use
+    - pronunciation
+    - meaning(s)
+  - Linked to other related words
+
+## {auto-animate=true}
+
+```{mermaid}
+%%| fig-width: 100%
+
+mindmap
+  root((fluffy))
+    /ˈflʌˌfi/
+    ADJECTIVE
+
+```
+
+## {auto-animate=true}
+
+```{mermaid}
+%%| fig-width: 100%
+
+mindmap
+  root((fluffy))
+    /ˈflʌˌfi/
+    ADJECTIVE
+      Light & soft
+        sheep
+        kitten
+        Sully from Monsters Inc.
+        Cotton Candy
+
+```
+
+## {auto-animate=true}
+
+```{mermaid}
+%%| fig-width: 100%
+
+mindmap
+  root((fluffy))
+    /ˈflʌˌfi/
+    ADJECTIVE
+      Light & soft
+        sheep
+        kitten
+        Sully from Monsters Inc.
+        Cotton Candy
+      frivolous
+        reality tv
+        Dan Brown books
+        pop music
+```
+
+## {auto-animate=true}
+
+```{mermaid}
+%%| fig-width: 100%
+
+mindmap
+  root((fluffy))
+    /ˈflʌˌfi/
+    ADJECTIVE
+      Light & soft
+        sheep
+        kitten
+        Sully from Monsters Inc.
+        Cotton Candy
+      frivolous
+        reality tv
+        Dan Brown books
+        pop music
+    NOUN
+      flatulence slang
+        Australian
+        Bluey
+        Sauerkraut
+        Beans
+      childhood cat
+        longhair
+        nebelung
+        likes aquariums
+```
+
+## Jabberwocky
+[by Lewis Carroll]{.absolute top="0" right="0"}
+
+’Twas brillig, and the slithy toves\
+&nbsp;&nbsp;&nbsp;&nbsp;Did gyre and gimble in the wabe:\
+All mimsy were the borogoves,\
+&nbsp;&nbsp;&nbsp;&nbsp;And the mome raths outgrabe.\
+
+
+“Beware the Jabberwock, my son!\
+&nbsp;&nbsp;&nbsp;&nbsp;The jaws that bite, the claws that catch!\
+Beware the Jubjub bird, and shun\
+&nbsp;&nbsp;&nbsp;&nbsp;The frumious Bandersnatch!”\
+
+
+He took his vorpal sword in hand;\
+&nbsp;&nbsp;&nbsp;&nbsp;Long time the manxome foe he sought—\
+So rested he by the Tumtum tree\
+&nbsp;&nbsp;&nbsp;&nbsp;And stood awhile in thought.\
+
+And, as in uffish thought he stood,\
+&nbsp;&nbsp;&nbsp;&nbsp;The Jabberwock, with eyes of flame,\
+Came whiffling through the tulgey wood,\
+&nbsp;&nbsp;&nbsp;&nbsp;And burbled as it came!\
+
+One, two! One, two! And through and through\
+&nbsp;&nbsp;&nbsp;&nbsp;The vorpal blade went snicker-snack!\
+He left it dead, and with its head\
+&nbsp;&nbsp;&nbsp;&nbsp;He went galumphing back.\
+
+“And hast thou slain the Jabberwock?\
+&nbsp;&nbsp;&nbsp;&nbsp;Come to my arms, my beamish boy!\
+O frabjous day! Callooh! Callay!”\
+&nbsp;&nbsp;&nbsp;&nbsp;He chortled in his joy.\
+
+’Twas brillig, and the slithy toves\
+&nbsp;&nbsp;&nbsp;&nbsp;Did gyre and gimble in the wabe:\
+All mimsy were the borogoves,\
+&nbsp;&nbsp;&nbsp;&nbsp;And the mome raths outgrabe.\
+
+::: {.notes}
+
+alice, through the looking glass, mirror-writing
+
+"It seems very pretty," she said when she had finished it, "but it's rather hard to understand!" (You see she didn't like to confess, even to herself, that she couldn't make it out at all.) "Somehow it seems to fill my head with ideas—only I don't exactly know what they are! However, somebody killed something: that's clear, at any rate."[1]
+
+:::
+
+
+## What’s next?
+
+![](images/7-How%20do%20words%20get%20meaning_20.jpg)
+
+Come to lecture Wednesday for “Is slang legit?”
+
+Read ch\. 2 in your textbook
+
+Get started on Observation Notes \#2 \(due Friday\)\!
+
+Quiz 4 Friday\!
+
