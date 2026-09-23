@@ -154,48 +154,69 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
 
   <p class="quarto-title-description" style="width: fit-content; margin-left: auto; margin-right: 0; border-radius: 10px; background: lightblue; padding: 10px;"> Due today: <a href="https://uk.instructure.com/files/119767464/download?download_frd=1">Pullum Chapter 2</a></p>
 </section>
+<section id="section" class="slide level2">
+<h2></h2>
+<div class="r-fit-text absolute" style="top: 300px; ">
+<p>Where does legitimacy come from in language?</p>
+</div>
+<aside class="notes">
+<p>Many of you, in observation notes, still want to call some kinds of language “bad grammar” and other kinds of language “good grammar”.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="ling-link" class="slide level2">
 <h2>Ling Link</h2>
 <p>The following slide is a link to a recently updated list of Gen Z slang (including some explicit-ish content). Spend the next three minutes doing the following:</p>
-<p>Read the short bit at the top. Note how it is framed for parents!</p>
-<p>Find a word that is an “everyday word” (as the article says) with a different slang meaning.</p>
-<p>Find a word that is an acronym or initialism.</p>
-<p>Find a word that is a clipping or other shortening.</p>
-<p>Find your favorite slang word!</p>
-<p>Are these words you use? How do you use them with? When? Why?</p>
+<ul>
+<li>Read the short bit at the top. Note how it is framed for parents!</li>
+<li>Find a word that is an “everyday word” (as the article says) with a different slang meaning.</li>
+<li>Find a word that is an acronym or initialism.</li>
+<li>Find a word that is a clipping or other shortening.</li>
+<li>Find your favorite slang word!</li>
+<li>Are these words you use? Who do you use them with? When? Why?</li>
+</ul>
 </section>
-<section class="slide level2">
-
-</section>
-<section>
-<section id="media" class="title-slide slide level1 center">
-<h1>Media</h1>
+<section id="media" class="slide level2">
+<h2>Media</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <p><a href="https://gabb.com/blog/teen-slang/">https://gabb.com/blog/teen-slang/</a></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/qr-code.svg" style="width:100.0%"></p>
+</div></div>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="recall" class="title-slide slide level1 center">
-<h1>Recall</h1>
+<section id="mental-lexicon" class="slide level2">
+<h2>Mental Lexicon</h2>
+<p><img data-src="images/Skull_and_brain_normal_human.svg.png" class="absolute" style="bottom: 0px; right: 0px; width: 40%; "></p>
 <ul>
-<li>All languages have words, but what is a word?
+<li>All of this information about words is stored in our <strong>mental lexicon</strong></li>
+<li>Contains information about:
 <ul>
-<li>It’s all about meaning!</li>
-</ul></li>
-<li>We introduced <strong>phonetics, phonology, syntax, morphology </strong> and <strong>semantics </strong> – that’s a lot!</li>
-<li>Knowing a word requires:
-<ul>
-<li>Phonetic/phonological knowledge</li>
-<li>Syntactic knowledge</li>
-<li>Morphological knowledge</li>
-<li>Semantic knowledge</li>
+<li>lexical category</li>
+<li>sentence use</li>
+<li>pronunciation</li>
+<li>meaning(s)</li>
+<li>Linked to other related words</li>
 </ul></li>
 </ul>
 </section>
-<section class="slide level2">
-
-</section></section>
+<section id="section-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<p><img data-src="images/bat-graph-1.svg" class="absolute" style="margin: auto auto;top: 0px; left: 0px; bottom: 0px; right: 0px; height: 90%; "></p>
+</section>
+<section id="section-2" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<p><img data-src="images/bat-graph-2.svg" class="absolute" style="margin: auto auto;top: 0px; left: 0px; bottom: 0px; right: 0px; height: 90%; "></p>
+</section>
 <section>
 <section id="words" class="title-slide slide level1 center">
 <h1>Words!</h1>
@@ -665,6 +686,44 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
