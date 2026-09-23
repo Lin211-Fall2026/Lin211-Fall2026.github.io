@@ -25,47 +25,73 @@ format:
       - includes/title-slide.html
 ---
 
+##
+
+:::: {.r-fit-text .absolute top="300"}
+
+Where does legitimacy come from in language?
+
+::::
+
+::: {.notes}
+Many of you, in observation notes, still want to call some kinds of language "bad grammar" and other kinds of language "good grammar".
+
+:::
+
 ## Ling Link
 
 The following slide is a link to a recently updated list of Gen Z slang \(including some explicit\-ish content\)\. Spend the next three minutes doing the following:
 
-Read the short bit at the top\. Note how it is framed for parents\!
+- Read the short bit at the top\. Note how it is framed for parents\!
+- Find a word that is an “everyday word” \(as the article says\) with a different slang meaning\.
+- Find a word that is an acronym or initialism\.
+- Find a word that is a clipping or other shortening\.
+- Find your favorite slang word\!
+- Are these words you use? Who do you use them with? When? Why?
 
-Find a word that is an “everyday word” \(as the article says\) with a different slang meaning\.
+## Media
 
-Find a word that is an acronym or initialism\.
+::::: {.columns}
 
-Find a word that is a clipping or other shortening\.
-
-Find your favorite slang word\!
-
-Are these words you use? How do you use them with? When? Why?
-
----
-
-
-# Media
+::: {.column width="50%"}
 
 [https://gabb\.com/blog/teen\-slang/](https://gabb.com/blog/teen-slang/)
 
+:::
 
----
+::: {.column width="50%"}
+
+```{r}
+library(qrcode)
+floop <- qr_code("https://gabb.com/blog/teen-slang/)")
+generate_svg(floop, "images/qr-code.svg")
+```
+![](images/qr-code.svg){width="100%"}
+:::
+
+:::::
+
+## Mental Lexicon
+
+![](images/Skull_and_brain_normal_human.svg.png){.absolute right="0" width="40%" bottom="0"}
+
+- All of this information about words is stored in our **mental lexicon**
+- Contains information about:
+    - lexical category
+    - sentence use
+    - pronunciation
+    - meaning(s)
+  - Linked to other related words
+
+## {auto-animate=true}
+
+![](images/bat-graph-1.svg){.absolute left=0 right=0 bottom=0 top=0 height="90%" style="margin: auto auto;"}
+
+## {auto-animate=true}
 
 
-# Recall
+![](images/bat-graph-2.svg){.absolute left=0 right=0 bottom=0 top=0 height="90%" style="margin: auto auto;"}
 
-
-
-* All languages have words\, but what is a word?
-  * It’s all about meaning\!
-* We introduced  __phonetics\, phonology\, syntax\, morphology __ and  __semantics __ – that’s a lot\!
-* Knowing a word requires:
-  * Phonetic/phonological knowledge
-  * Syntactic knowledge
-  * Morphological knowledge
-  * Semantic knowledge
-
----
 
 
 # Words!
