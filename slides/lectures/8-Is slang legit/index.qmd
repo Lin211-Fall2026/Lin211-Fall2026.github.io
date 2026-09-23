@@ -1,5 +1,5 @@
 ---
-title: "Is slang legit?"
+title: "Is slang so valid actually?"
 subtitle: "Lin 211 • Section 2, Part 3"
 date: 09/23/2026
 categories: [Bits &amp; Pieces]
@@ -23,13 +23,19 @@ format:
       - custom.css
     template-partials:
       - includes/title-slide.html
+    pointer:
+      - # set pointer configuration options here
+revealjs-plugins:
+  - pointer
+filters:
+  - diagrams
 ---
 
 ##
 
 :::: {.r-fit-text .absolute top="300"}
 
-Where does legitimacy come from in language?
+Where does authority come from in language?
 
 ::::
 
@@ -38,24 +44,37 @@ Many of you, in observation notes, still want to call some kinds of language "ba
 
 :::
 
+## Authority depends on context
+
+::: {.incremental}
+
+- One of the biggest problems with **prescriptivism** is the way it ignores the social and affective meanings of language
+- When we use a word, we are not only attempting to share its **denotation** with the listener
+- We also choose words for their **connotations**
+- And we choose words, and sounds, and syntactic structures, etc. that are **appropriate to the social situation**
+
+:::
+
+## Authority depends on context (cont.)
+
+- What counts as "good" or "bad" language has to depend on:
+    - who is saying it?
+    - who is listening?
+    - where are you?
+    - what are you trying to accomplish?
+
 ## Ling Link
-
-The following slide is a link to a recently updated list of Gen Z slang \(including some explicit\-ish content\)\. Spend the next three minutes doing the following:
-
-- Read the short bit at the top\. Note how it is framed for parents\!
-- Find a word that is an “everyday word” \(as the article says\) with a different slang meaning\.
-- Find a word that is an acronym or initialism\.
-- Find a word that is a clipping or other shortening\.
-- Find your favorite slang word\!
-- Are these words you use? Who do you use them with? When? Why?
-
-## Media
 
 ::::: {.columns}
 
 ::: {.column width="50%"}
 
-[https://gabb\.com/blog/teen\-slang/](https://gabb.com/blog/teen-slang/)
+[https://www.whatiswiki.com/gen-z-slang-dictionary](https://www.whatiswiki.com/gen-z-slang-dictionary)
+
+- Do you hear friends use these?
+- Do you use them?
+- Decide as a group which are still okay and which are over.
+- Which would be worst for your professor to use?
 
 :::
 
@@ -63,7 +82,7 @@ The following slide is a link to a recently updated list of Gen Z slang \(includ
 
 ```{r}
 library(qrcode)
-floop <- qr_code("https://gabb.com/blog/teen-slang/)")
+floop <- qr_code("https://www.whatiswiki.com/gen-z-slang-dictionary)")
 generate_svg(floop, "images/qr-code.svg")
 ```
 ![](images/qr-code.svg){width="100%"}
@@ -71,17 +90,39 @@ generate_svg(floop, "images/qr-code.svg")
 
 :::::
 
+## Gen Z is the authority on Gen Z slang
+
+- Each generation rejects anything older people said that still *seems* age coded:
+  - Millenials: the pause, adulting, stan, lit, mood, salty, I can has
+  - Gen X: hella, clutch, wack, bogus, fly, fresh, janky, radical
+  - Boomers: groovy, far out, square, righteous, drag, fuzz (meaning police)
+- Each generation also tends to reject anything people younger than them say that *seems* age coded:
+  - Gen Alpha: skibidi, brain rot, rizzler, sigma, mog?, glaze?
+
+## But slang is an important way that words enter the lexicon
+
+- awful, banter, belch, bellhop, bender (drinking), bet (wager), bomb (fail), bootcamp, bootleg, booze, bouncer, brunch, bubble, bully, bungee, cheesy, chum, clobber, clueless, cool, cop, cuss, ditch (v), **divvy**, dreamy, **exam**, fake, fan, flick, flog, fluke, flunk, frat, gal, gawky, geek, grouchy, growler (beer bottle), **gym**, hack (cope), hairy (difficult) heist, hellacious, **hello**, hit (kill), hunch, jay walking, jinx, job, jock, joystick, kid, lag (v), meme, misfit, mob, **ok**, OJ, pal, patrol, pec (muscle), pinpoint, poke, **pub**, rave, scram, sender, sham, shenanigan, shuffling, slang, stoner, super, suss out, swag, teenager, varsity, wimp, wonky, etc.
+
+##
+
+:::: {.r-fit-text .absolute top="300"}
+
+The heck is a **lexicon**?
+
+::::
+
 ## Mental Lexicon
 
-![](images/Skull_and_brain_normal_human.svg.png){.absolute right="0" width="40%" bottom="0"}
+![](images/Skull_and_brain_normal_human.svg.png){.absolute right="0" width="30%" bottom="0"}
 
 - All of this information about words is stored in our **mental lexicon**
-- Contains information about:
+  - Structured by pronunciation & meaning (both)
+  - Includes:
     - lexical category
-    - sentence use
+    - how it works in a sentence
     - pronunciation
-    - meaning(s)
-  - Linked to other related words
+    - meaning(s) (denotation, affect, social)
+  - Words in our mind are linked to other related words
 
 ## {auto-animate=true}
 
@@ -92,21 +133,9 @@ generate_svg(floop, "images/qr-code.svg")
 
 ![](images/bat-graph-2.svg){.absolute left=0 right=0 bottom=0 top=0 height="90%" style="margin: auto auto;"}
 
+## {auto-animate=true}
 
-
-# Words!
-
-![](images/8-Is%20slang%20legit_0.png)
-
-
-
-* So where do words get their meaning?
-  * History
-  * Morphological processes
-  * Usage\!
-* Context matters\!
-
----
+![](images/bat-graph-3.svg){.absolute left=0 right=0 bottom=0 top=0 height="90%" style="margin: auto auto;"}
 
 
 # How does context matter?
