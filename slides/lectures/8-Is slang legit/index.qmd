@@ -82,7 +82,7 @@ Many of you, in observation notes, still want to call some kinds of language "ba
 
 ```{r}
 library(qrcode)
-floop <- qr_code("https://www.whatiswiki.com/gen-z-slang-dictionary)")
+floop <- qr_code("https://www.whatiswiki.com/gen-z-slang-dictionary/")
 generate_svg(floop, "images/qr-code.svg")
 ```
 ![](images/qr-code.svg){width="100%"}
