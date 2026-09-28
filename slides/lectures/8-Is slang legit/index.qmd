@@ -30,7 +30,6 @@ revealjs-plugins:
 filters:
   - diagrams
 ---
-
 ##
 
 :::: {.r-fit-text .absolute top="300"}
@@ -139,13 +138,19 @@ Because slang can't serve its social function if outsiders use it.
 
 ## But slang is also an important way that words enter the lexicon
 
-[art, artsy, awful, bad-mouthing, banter, belch, bellhop, bender (drinking), bet (wager), bingo, bomb (fail), bootcamp, bootleg, booze, bouncer, bratty, brunch, bubble, bully, buff, bungee, burp, cheesy, chum, clobber, clueless, cool, cop, cuss, ditch (v), **divvy**, dork/dorky, dreamy, **exam**, fake, fan, fave, flick, flog, fluke, flunk, frat, gal, gawky, geek, grouchy, growler (beer bottle), gunky, **gym**, hack (cope), hairy (difficult) heist, hellacious, **hello**, hit (kill), hunch, hyper, jay walking, jinx, job, jock, joystick, kid, lag (v), meme, misfit, mob, nerd, nuke, **ok**, OJ, pal, patrol, pec (muscle), pinpoint, poke, **pub**, rave, scram, sender, sham, shenanigan, shuffling, slang, stoner, super, suss out, swag, teenager, varsity, wimp, wonky, etc.]{.r-stretch-text}
+[art, artsy, awful, bad-mouthing, banter, belch, bellhop, bender (drinking), bet (wager), bingo, bomb (fail), bootcamp, bootleg, booze, bouncer, bratty, brunch, bubble, bully, buff, bungee, burp, cheesy, chum, clobber, clueless, cool, cop, cuss, ditch (v), **divvy**, dork/dorky, dreamy, **exam**, fake, fan, fave, flick, flog, fluke, flunk, frat, gal, gawky, geek, grouchy, growler (beer bottle), gunky, **gym**, hack (cope), hairy (difficult) heist, hellacious, **hello**, hit (kill), hunch, hyper, jay walking, jinx, job, jock, joystick, kid, lag (v), meme, misfit, mob, **nasty**, nerd, nuke, **ok**, OJ, pal, patrol, pec (muscle), pinpoint, poke, **pub**, rave, scram, sender, sham, shenanigan, shuffling, slang, stoner, super, suss out, swag, teenager, varsity, wimp, wonky, etc.]{.r-stretch-text}
+
+::: {.notes}
+
+Every word you use --every word you KNOW-- has a social history. The only way in which slang is different is that most people are still aware of bits of that social history. We're still aware, maybe, that 'chopped' has gained a new denotation with fresh connotations of youthful and cool and connected in some way to this cultural moment. Maybe we don't know that 'chopped' (like so much slang before it) originated in the Black community decades ago before going viral and becoming part of the broader culture. Right now, in our mental lexicons, 'chopped' --meaning janky, unattractive, poorly done-- is connected not only to those meanings but to ideas of youth, membership in a particular generation and therefore delineating that generation from the uncool, fugly, nasty people who came before and will come after. iykyk.
+
+:::
 
 ##
 
 :::: {.r-fit-text .absolute top="300"}
 
-The heck is a **lexicon**?
+The heck is a **mental lexicon**?
 
 ::::
 
