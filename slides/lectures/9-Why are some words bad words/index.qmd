@@ -63,7 +63,8 @@ What makes a word a swear word?
 
 :::: {.incremental}
 
-- **Prescriptivism**: is an attempt to dictate what counts as "good" or "acceptable" language; almost always lacks the power to actually do so!
+- **Arbitrariness**: Language is deeply arbitrary and always changing
+- **Prescriptivism**: attempts to dictate what counts as "good" or "acceptable" language usage; almost always lacks the power to actually do so!
 - **Euphemism**: we avoid saying specific naughty/taboo words by replacing them with words that still point at the same _concept_.  Like we're avoiding magic words.
 - **Slang**: has a _powerful_ in-group/out-group social function and helps the lexicon grow and change with time: innovative, fast moving
 
