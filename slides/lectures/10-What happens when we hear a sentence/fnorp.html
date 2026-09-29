@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Network Graph – Lin211 Fall 2026</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-7100700a5d4657facf49b32369185e6d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="../../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../../site_libs/d3-4.9.1/d3.min.js"></script>
+<script src="../../../site_libs/forceNetwork-binding-0.4.1/forceNetwork.js"></script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Lin211 Fall 2026</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../syllabus/Lin211-Fall2026-Syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../slides/"> 
+<span class="menu-text">Slides</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Network Graph</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="part-1-network-graphs-and-simplenetwork" class="level1">
+<h1>Part 1: Network Graphs and simpleNetwork</h1>
+<section id="premise" class="level2">
+<h2 class="anchored" data-anchor-id="premise">Premise</h2>
+<p>Network graphs are great for demonstrating the relationships between items. This could be a food web showing how organisms transfer energy, a diagram of how a business team communicates and shares information, or in this case how various items are crafted from components in a video game. This method isn’t necessarily good for analysis but it’s a great way to visualize these relationships and it can help you perhaps discover patterns that weren’t readily apparent.</p>
+</section>
+<section id="network-diagrams" class="level2">
+<h2 class="anchored" data-anchor-id="network-diagrams">Network Diagrams</h2>
+<p>These data visualizations contain elements called <code>nodes</code> and <code>edges</code> where the nodes are typically circles and the edges or connections are typically lines or perhaps arrows. If your graph contains arrows, it’s called a directed graph because it indicates the flow of information in a particular direction. This could be something like a bacteriophage attacking a bacterium or an employee reporting up to a boss or perhaps a distributor providing goods to a vendor.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>In this example, I’m using <a href="https://www.xainesworld.com/all-refiner-recipes-in-no-mans-sky/">a dataset</a> of craftable recipes from the game <a href="https://www.nomanssky.com/">No Man’s Sky</a> from <a href="https://hellogames.org/">Hello Games</a>. The data table describes how various ingredients are combined to generate other items as output.</p>
+<p>To get the data, I used the <code>IMPORTHTML</code> function in the first cell of a spreadsheet in Google Sheets to grab the data from the page:</p>
+<p><code>=IMPORTHTML("https://www.xainesworld.com/all-refiner-recipes-in-no-mans-sky/","table",1)</code></p>
+<p>Then, I exported that sheet as a <code>.csv</code> file.</p>
+</section>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>First I load a few libraries to help. Many of these are from the <code>tidyverse</code> collection and a few others are specifically for the network diagram itself. Specifically, the <a href="https://rdrr.io/cran/networkD3/src/inst/examples/examples.R">networkD3</a> library will be used for generating the diagram.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#data manipulation</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tibble)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(data.table)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">#network graphing and saving</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(networkD3)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(htmlwidgets)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+</div>
+<p>Next, I load the dataset from a <code>.csv</code> file.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#read in the original dataset and preview it</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>main<span class="ot">&lt;-</span><span class="fu">read_csv</span>(<span class="st">"data/nms_recipes.csv"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">#result</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 308 × 9
+   Output    Qty...2 Value `Input 1` Qty...5 `Input 2` Qty...7 `Input 3` Qty...9
+   &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt;       &lt;dbl&gt;
+ 1 Nanite C…      15 20 (… Salvaged…       1 &lt;NA&gt;           NA &lt;NA&gt;           NA
+ 2 Gold          100 353 … Living P…       1 &lt;NA&gt;           NA &lt;NA&gt;           NA
+ 3 Living S…      50 20 (… Hypnotic…       1 &lt;NA&gt;           NA &lt;NA&gt;           NA
+ 4 Nanite C…      50 20 (… Hadal Co…       1 &lt;NA&gt;           NA &lt;NA&gt;           NA
+ 5 Sodium N…      50 82 (… Crystal …       1 &lt;NA&gt;           NA &lt;NA&gt;           NA
+ 6 Nanite C…      50 20 (… Larval C…       1 &lt;NA&gt;           NA &lt;NA&gt;           NA
+ 7 Condense…       1 24 (… Cyto-Pho…       1 &lt;NA&gt;           NA &lt;NA&gt;           NA
+ 8 Gold            1 353 … Hexite          1 &lt;NA&gt;           NA &lt;NA&gt;           NA
+ 9 Glass           1 200 … Frost Cr…      40 &lt;NA&gt;           NA &lt;NA&gt;           NA
+10 Pyrite          1 62 (… Gold            1 &lt;NA&gt;           NA &lt;NA&gt;           NA
+# ℹ 298 more rows</code></pre>
+</div>
+</div>
+<p>Then, I select specific columns because I don’t want need all of the information for the diagram.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#select certain columns </span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>selected <span class="ot">&lt;-</span> main <span class="sc">%&gt;%</span> </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>            <span class="fu">select</span>(<span class="fu">c</span>(<span class="st">"Output"</span>, <span class="st">"Input 1"</span>, <span class="st">"Input 2"</span>, <span class="st">"Input 3"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>            <span class="fu">rename</span>(<span class="at">output =</span> <span class="st">"Output"</span>, <span class="at">input_1 =</span> <span class="st">"Input 1"</span>, <span class="at">input_2 =</span> <span class="st">"Input 2"</span>, <span class="at">input_3 =</span> <span class="st">"Input 3"</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">#result</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>selected</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 308 × 4
+   output           input_1          input_2 input_3
+   &lt;chr&gt;            &lt;chr&gt;            &lt;chr&gt;   &lt;chr&gt;  
+ 1 Nanite Cluster   Salvaged Data    &lt;NA&gt;    &lt;NA&gt;   
+ 2 Gold             Living Pearl     &lt;NA&gt;    &lt;NA&gt;   
+ 3 Living Slime     Hypnotic Eye     &lt;NA&gt;    &lt;NA&gt;   
+ 4 Nanite Cluster   Hadal Core       &lt;NA&gt;    &lt;NA&gt;   
+ 5 Sodium Nitrate   Crystal Sulphide &lt;NA&gt;    &lt;NA&gt;   
+ 6 Nanite Cluster   Larval Core      &lt;NA&gt;    &lt;NA&gt;   
+ 7 Condensed Carbon Cyto-Phosphate   &lt;NA&gt;    &lt;NA&gt;   
+ 8 Gold             Hexite           &lt;NA&gt;    &lt;NA&gt;   
+ 9 Glass            Frost Crystal    &lt;NA&gt;    &lt;NA&gt;   
+10 Pyrite           Gold             &lt;NA&gt;    &lt;NA&gt;   
+# ℹ 298 more rows</code></pre>
+</div>
+</div>
+<p>Here, I want to think about my diagram a bit. Some of these recipes are for individual items that are also themselves used as components in other recipes. So what I want to do now is create recipe groups by generating new nodes using the base ingredient names and an index value. So, recipe 1, recipe 2, etc. The <code>str_c</code> function is used to concatenate the information from two columns with an underscore between the data. The <code>mutate</code> function is again used to create the new column.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#add an indexed id column to indicate each unique recipe</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>mutated <span class="ot">&lt;-</span> selected <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">id=</span><span class="fu">str_c</span>(selected<span class="sc">$</span>output,<span class="st">"_"</span>,<span class="fu">rowid</span>(output)))</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co">#result</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>mutated</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 308 × 5
+   output           input_1          input_2 input_3 id                
+   &lt;chr&gt;            &lt;chr&gt;            &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;             
+ 1 Nanite Cluster   Salvaged Data    &lt;NA&gt;    &lt;NA&gt;    Nanite Cluster_1  
+ 2 Gold             Living Pearl     &lt;NA&gt;    &lt;NA&gt;    Gold_1            
+ 3 Living Slime     Hypnotic Eye     &lt;NA&gt;    &lt;NA&gt;    Living Slime_1    
+ 4 Nanite Cluster   Hadal Core       &lt;NA&gt;    &lt;NA&gt;    Nanite Cluster_2  
+ 5 Sodium Nitrate   Crystal Sulphide &lt;NA&gt;    &lt;NA&gt;    Sodium Nitrate_1  
+ 6 Nanite Cluster   Larval Core      &lt;NA&gt;    &lt;NA&gt;    Nanite Cluster_3  
+ 7 Condensed Carbon Cyto-Phosphate   &lt;NA&gt;    &lt;NA&gt;    Condensed Carbon_1
+ 8 Gold             Hexite           &lt;NA&gt;    &lt;NA&gt;    Gold_2            
+ 9 Glass            Frost Crystal    &lt;NA&gt;    &lt;NA&gt;    Glass_1           
+10 Pyrite           Gold             &lt;NA&gt;    &lt;NA&gt;    Pyrite_1          
+# ℹ 298 more rows</code></pre>
+</div>
+</div>
+<p>Now I’m going to split my data so I can do a couple of things with it. First, I get distinct combinations of the <code>output</code> and <code>id</code> columns which contain the base elements and the unique recipe identifiers, respectively. Then, I add the string <code>_recipes</code> to the base elements. This sets up the top-level node labels. I want all of the unique recipes to connect up to a main node for that type of recipe. You might think of this like a top-level director over all the regional directors in a business context. I’m doing this to add some organization to the graph even though it doesn’t exist in the original data.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#get unique to-from pairs, sort, rename columns as to and from</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>df_1 <span class="ot">&lt;-</span> mutated <span class="sc">%&gt;%</span> </span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>        <span class="fu">distinct</span>(output, id) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>        <span class="fu">arrange</span>(output) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>        <span class="fu">rename</span>(<span class="at">to=</span>output, <span class="at">from=</span>id)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co">#tack on "recipes" to the top-level node for each group</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>df_1<span class="sc">$</span>to <span class="ot">&lt;-</span> <span class="fu">paste</span>(df_1<span class="sc">$</span>to, <span class="st">"recipes"</span>, <span class="at">sep=</span><span class="st">"_"</span>)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="co">#result</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>df_1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 308 × 2
+   to              from     
+   &lt;chr&gt;           &lt;chr&gt;    
+ 1 Ammonia_recipes Ammonia_1
+ 2 Ammonia_recipes Ammonia_2
+ 3 Ammonia_recipes Ammonia_3
+ 4 Ammonia_recipes Ammonia_4
+ 5 Aronium_recipes Aronium_1
+ 6 Aronium_recipes Aronium_2
+ 7 Aronium_recipes Aronium_3
+ 8 Aronium_recipes Aronium_4
+ 9 Aronium_recipes Aronium_5
+10 Aronium_recipes Aronium_6
+# ℹ 298 more rows</code></pre>
+</div>
+</div>
+<p>Next, I take the specific recipes and all the input lists of ingredients and transform the arrangement by pivoting the “wide” data to a “long” format. You can read more about it in the <code>pivot_longer</code> <a href="https://tidyr.tidyverse.org/reference/pivot_longer.html">documentation</a>.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#there is a lot going on here:</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co">#select everything except the output column (so, id and three ingredient lists)</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co">#use pivot_longer to rearrange the ingredient data (ignoring the id column) into a type and input column</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co">#drop the type column because it's not needed</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co">#drop any NA values</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co">#rename the remaining id and input lists as to and from</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>df_2 <span class="ot">&lt;-</span> mutated <span class="sc">%&gt;%</span> </span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>        <span class="fu">select</span>(<span class="sc">!</span>output) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>        <span class="fu">pivot_longer</span>(<span class="sc">!</span>id, <span class="at">names_to=</span><span class="st">"type"</span>,<span class="at">values_to=</span><span class="st">"input"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>        <span class="fu">select</span>(<span class="sc">!</span>type) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>        <span class="fu">drop_na</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>        <span class="fu">rename</span>(<span class="at">to=</span>id, <span class="at">from=</span>input)</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a><span class="co">#result</span></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>df_2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 629 × 2
+   to                 from            
+   &lt;chr&gt;              &lt;chr&gt;           
+ 1 Nanite Cluster_1   Salvaged Data   
+ 2 Gold_1             Living Pearl    
+ 3 Living Slime_1     Hypnotic Eye    
+ 4 Nanite Cluster_2   Hadal Core      
+ 5 Sodium Nitrate_1   Crystal Sulphide
+ 6 Nanite Cluster_3   Larval Core     
+ 7 Condensed Carbon_1 Cyto-Phosphate  
+ 8 Gold_2             Hexite          
+ 9 Glass_1            Frost Crystal   
+10 Pyrite_1           Gold            
+# ℹ 619 more rows</code></pre>
+</div>
+</div>
+<p>Now that I sorted the relationships of the top-level nodes, the specific recipes, and the ingredients, I can stack the two datasets since they both contain only two columns named <code>to</code> and <code>from</code>. I’ll use <code>bind_rows</code> (<a href="https://dplyr.tidyverse.org/reference/bind.html">documentation</a>) from dplyr.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#stack the two to-from pair datasets using bind_rows</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="co">#they need to have the same column names</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>data<span class="ot">&lt;-</span><span class="fu">bind_rows</span>(df_1, df_2)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="co">#result</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>data</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 937 × 2
+   to              from     
+   &lt;chr&gt;           &lt;chr&gt;    
+ 1 Ammonia_recipes Ammonia_1
+ 2 Ammonia_recipes Ammonia_2
+ 3 Ammonia_recipes Ammonia_3
+ 4 Ammonia_recipes Ammonia_4
+ 5 Aronium_recipes Aronium_1
+ 6 Aronium_recipes Aronium_2
+ 7 Aronium_recipes Aronium_3
+ 8 Aronium_recipes Aronium_4
+ 9 Aronium_recipes Aronium_5
+10 Aronium_recipes Aronium_6
+# ℹ 927 more rows</code></pre>
+</div>
+</div>
+<p>Finally, we can use the simple to-from formatted data to generate a network diagram with the <code>simpleNetwork</code> function from <code>networkD3</code>. You’ll notice that this graph is a bit difficult to read in part due to the lack of color groups. This is where the increased control of the <code>forceNetwork</code> function is useful and that’s where Part 2 picks up.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fu">simpleNetwork</span>(data,                   <span class="co"># data source </span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>                   <span class="at">height=</span><span class="st">""</span>,              <span class="co"># output height</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>                   <span class="at">width=</span><span class="st">""</span>,               <span class="co"># output width</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>                   <span class="at">Source =</span> <span class="dv">2</span>,             <span class="co"># source column number ("from")</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>                   <span class="at">Target =</span> <span class="dv">1</span>,             <span class="co"># target column number ("to")</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>                   <span class="at">linkDistance =</span> <span class="dv">4</span>,       <span class="co"># distance between nodes</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>                   <span class="at">charge =</span> <span class="sc">-</span><span class="dv">300</span>,          <span class="co"># force affecting the nodes (repulsion (-) or attraction (+))</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>                   <span class="at">fontSize =</span> <span class="dv">14</span>,          <span class="co"># node label font size</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>                   <span class="at">fontFamily =</span> <span class="st">"serif"</span>,   <span class="co"># node label font family</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>                   <span class="at">linkColour =</span> <span class="st">"#cccccc"</span>, <span class="co"># edge color (applies to all edges)</span></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>                   <span class="at">nodeColour =</span> <span class="st">"#22a1ab"</span>, <span class="co"># node color (applies to all edges)</span></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>                   <span class="at">opacity =</span> <span class="fl">0.8</span>,          <span class="co"># node opacity (0 to 1)</span></span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>                   <span class="at">zoom =</span> <span class="cn">TRUE</span>             <span class="co"># zoom allowed or not</span></span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a><span class="co">#result</span></span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>p</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div class="forceNetwork html-widget html-fill-item" id="htmlwidget-6e586b3a906279e1d62f" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-6e586b3a906279e1d62f">{"x":{"links":{"source":[5,6,7,8,11,12,13,14,15,16,17,18,22,23,24,27,30,31,32,33,34,35,36,39,40,41,42,43,44,45,48,59,61,62,63,64,65,66,67,49,50,51,52,53,54,55,56,57,58,60,70,73,74,75,76,77,78,79,80,83,88,94,95,92,98,99,100,101,102,105,106,107,108,109,110,111,112,115,117,118,119,120,123,124,125,126,127,128,131,132,133,134,135,136,137,141,142,143,146,147,148,151,152,153,156,157,158,161,162,163,164,165,166,167,168,169,172,173,174,175,176,177,178,179,183,184,185,186,187,188,189,190,196,199,202,203,204,205,206,207,208,212,216,217,218,219,220,221,222,223,225,229,230,233,244,245,246,247,248,249,250,251,234,235,236,237,238,239,240,241,242,243,254,255,256,257,258,259,260,261,264,265,266,269,270,271,272,274,280,281,282,283,284,285,286,287,275,276,277,278,279,295,296,297,290,291,292,293,300,301,302,303,304,305,306,307,308,311,312,313,314,315,316,317,320,321,322,325,326,327,328,331,334,335,336,339,340,341,342,343,347,348,349,352,355,356,359,360,363,364,369,370,371,395,396,397,398,375,386,387,388,389,390,391,392,393,376,377,378,379,380,381,382,383,384,385,401,402,403,404,407,408,409,411,412,413,416,417,418,421,422,423,424,427,428,429,430,433,434,435,436,437,438,439,443,445,446,447,366,227,194,181,85,214,87,192,140,160,324,330,268,299,90,91,69,201,72,29,373,374,130,333,232,26,195,114,82,0,3,2,1,310,338,4,432,97,319,362,38,415,346,289,351,354,358,228,442,426,145,150,21,400,406,263,211,122,10,104,182,215,253,171,155,210,87,362,122,192,122,351,160,368,432,90,415,90,346,90,289,90,90,299,90,29,90,72,130,29,130,72,333,29,333,72,90,426,333,299,130,299,29,299,72,299,373,299,374,299,29,373,72,373,29,374,72,374,29,330,72,330,373,330,374,330,29,268,72,268,373,268,374,268,130,330,333,330,232,330,26,47,195,47,114,47,82,47,310,406,338,21,4,145,432,150,97,140,319,400,362,299,38,299,69,299,201,299,268,330,368,299,160,299,324,299,415,299,346,299,289,299,415,47,346,47,289,47,289,373,289,374,263,299,211,299,122,299,263,330,211,330,263,29,211,29,122,29,263,373,211,373,122,373,263,72,211,72,122,72,263,374,211,374,122,374,263,69,211,362,263,201,211,38,122,330,122,268,195,130,26,130,114,130,82,130,26,333,114,333,82,333,195,333,0,130,3,130,2,130,1,130,0,333,3,333,2,333,1,333,310,299,338,299,4,299,432,299,97,299,319,299,310,130,338,130,4,130,432,130,97,130,319,130,310,333,338,333,4,333,432,333,97,333,319,333,145,362,140,362,150,362,21,362,400,362,406,362,415,130,130,346,289,130,415,333,346,333,289,333,415,232,346,232,289,232,4,289,97,346,432,346,338,415,319,415,310,289,69,289,362,289,415,289,368,160,324,130,333,368,130,333,160,130,333,324,145,211,72,140,211,72,21,211,72,400,211,72,150,211,72,406,211,72,368,160,82,368,160,26,368,160,114,368,160,195,130,299,114,130,299,47,72,373,47,29,374,47,72,374,47,299,130,29,299,130,72,299,333,29,299,72,333,299,72,90,90,130,374,90,333,373,90,232,374,130,368,373,310,69,426,310,201,426,310,69,368,310,201,368,310,69,160,310,201,160,310,69,324,310,201,324,338,130,426,338,333,426,338,130,368,338,333,368,338,130,160,338,333,160,338,130,324,338,333,324,4,69,426,4,201,426,4,69,368,4,201,368,4,69,160,4,201,160,4,69,324,4,201,324,432,130,426,432,333,426,432,130,368,432,333,368,432,130,160,432,333,160,432,130,324,432,333,324,319,69,426,319,201,426,319,69,368,319,201,368,319,69,160,319,201,160,319,69,324,319,201,324,97,69,426,97,201,426,97,69,368,97,201,368,97,69,160,97,201,160,97,69,324,97,201,324,415,29,362,346,29,362,289,29,362,415,72,362,346,72,362,289,72,362,415,29,38,346,29,38,289,29,38,415,72,38,346,72,38,289,72,38,367,420,86,441,139,345,198,193,20,20,330],"target":[9,9,9,9,19,19,19,19,19,19,19,19,25,25,25,28,37,37,37,37,37,37,37,46,46,46,46,46,46,46,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,71,81,81,81,81,81,81,81,81,84,89,96,96,93,103,103,103,103,103,113,113,113,113,113,113,113,113,116,121,121,121,121,129,129,129,129,129,129,138,138,138,138,138,138,138,144,144,144,149,149,149,154,154,154,159,159,159,170,170,170,170,170,170,170,170,170,180,180,180,180,180,180,180,180,191,191,191,191,191,191,191,191,197,200,209,209,209,209,209,209,209,213,224,224,224,224,224,224,224,224,226,231,231,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,262,262,262,262,262,262,262,262,267,267,267,273,273,273,273,288,288,288,288,288,288,288,288,288,288,288,288,288,288,298,298,298,294,294,294,294,309,309,309,309,309,309,309,309,309,318,318,318,318,318,318,318,323,323,323,329,329,329,329,332,337,337,337,344,344,344,344,344,350,350,350,353,357,357,361,361,365,365,372,372,372,399,399,399,399,394,394,394,394,394,394,394,394,394,394,394,394,394,394,394,394,394,394,394,405,405,405,405,410,410,410,414,414,414,419,419,419,425,425,425,425,431,431,431,431,440,440,440,440,440,440,440,444,448,448,448,274,161,229,280,375,281,73,162,156,339,282,283,123,30,92,94,202,70,31,74,386,395,334,233,335,48,59,61,62,63,64,65,66,131,132,133,134,135,136,39,363,347,295,416,443,284,137,355,230,95,32,33,34,35,36,396,300,269,369,370,371,163,164,165,325,326,157,157,285,285,166,166,327,327,75,75,401,401,433,433,5,5,364,364,124,124,270,270,244,244,245,245,246,246,247,247,88,88,359,359,360,360,76,76,77,77,387,387,388,388,389,389,390,390,98,98,99,99,271,271,272,272,391,391,392,392,125,125,126,126,264,264,265,265,336,336,248,248,249,249,27,27,196,196,115,115,83,83,407,407,22,22,146,146,151,151,141,141,402,402,40,40,41,41,203,203,204,204,167,167,311,311,340,340,250,250,348,348,296,296,417,417,349,349,297,297,418,418,393,393,376,376,205,205,42,42,127,127,206,206,43,43,397,397,301,301,78,78,377,377,378,378,379,379,398,398,302,302,79,79,380,380,381,381,382,382,207,207,44,44,208,208,45,45,168,168,80,80,251,251,234,234,235,235,236,236,67,67,49,49,50,50,51,51,237,237,238,238,239,239,240,240,52,52,53,53,54,54,55,55,408,408,23,23,147,147,152,152,142,142,403,403,6,6,312,312,100,100,341,341,320,320,434,434,7,7,313,313,101,101,342,342,321,321,435,435,8,8,102,102,436,436,343,343,322,322,314,314,315,315,437,437,383,383,316,316,438,438,384,384,317,317,439,439,385,385,148,148,143,143,153,153,24,24,404,404,409,409,266,266,212,212,128,128,286,286,286,241,241,241,242,242,242,243,243,243,303,303,303,304,304,304,305,305,305,306,306,306,307,307,307,308,308,308,56,56,56,57,57,57,58,58,58,60,60,60,169,169,169,328,328,328,445,445,445,446,446,446,447,447,447,427,427,427,428,428,428,429,429,429,430,430,430,225,225,225,411,411,411,412,412,412,413,413,413,199,199,199,11,11,11,12,12,12,13,13,13,14,14,14,15,15,15,16,16,16,17,17,17,18,18,18,105,105,105,106,106,106,107,107,107,108,108,108,109,109,109,110,110,110,111,111,111,112,112,112,183,183,183,184,184,184,185,185,185,186,186,186,187,187,187,188,188,188,189,189,189,190,190,190,216,216,216,217,217,217,218,218,218,219,219,219,220,220,220,221,221,221,222,222,222,223,223,223,254,254,254,255,255,255,256,256,256,257,257,257,258,258,258,259,259,259,260,260,260,261,261,261,172,172,172,173,173,173,174,174,174,175,175,175,176,176,176,177,177,177,178,178,178,179,179,179,421,421,421,117,117,117,290,290,290,422,422,422,118,118,118,291,291,291,423,423,423,119,119,119,292,292,292,424,424,424,120,120,120,293,293,293,158,287,352,275,276,277,278,279,331,356,356],"value":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"colour":["#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc","#cccccc"]},"nodes":{"name":["Activated Cadmium","Activated Copper","Activated Emeril","Activated Indium","Ammonia","Ammonia_1","Ammonia_2","Ammonia_3","Ammonia_4","Ammonia_recipes","Aronium","Aronium_1","Aronium_2","Aronium_3","Aronium_4","Aronium_5","Aronium_6","Aronium_7","Aronium_8","Aronium_recipes","Atlantideum","Cactus Flesh","Cactus Flesh_1","Cactus Flesh_2","Cactus Flesh_3","Cactus Flesh_recipes","Cadmium","Cadmium_1","Cadmium_recipes","Carbon","Carbon_1","Carbon_2","Carbon_3","Carbon_4","Carbon_5","Carbon_6","Carbon_7","Carbon_recipes","Chlorine","Chlorine_1","Chlorine_2","Chlorine_3","Chlorine_4","Chlorine_5","Chlorine_6","Chlorine_7","Chlorine_recipes","Chromatic Metal","Chromatic Metal_1","Chromatic Metal_10","Chromatic Metal_11","Chromatic Metal_12","Chromatic Metal_13","Chromatic Metal_14","Chromatic Metal_15","Chromatic Metal_16","Chromatic Metal_17","Chromatic Metal_18","Chromatic Metal_19","Chromatic Metal_2","Chromatic Metal_20","Chromatic Metal_3","Chromatic Metal_4","Chromatic Metal_5","Chromatic Metal_6","Chromatic Metal_7","Chromatic Metal_8","Chromatic Metal_9","Chromatic Metal_recipes","Cobalt","Cobalt_1","Cobalt_recipes","Condensed Carbon","Condensed Carbon_1","Condensed Carbon_2","Condensed Carbon_3","Condensed Carbon_4","Condensed Carbon_5","Condensed Carbon_6","Condensed Carbon_7","Condensed Carbon_8","Condensed Carbon_recipes","Copper","Copper_1","Copper_recipes","Crystal Sulphide","Cursed Dust","Cyto-Phosphate","Deuterium_1","Deuterium_recipes","Di-hydrogen","Di-hydrogen Jelly","Di-hydrogen Jelly_1","Di-hydrogen Jelly_recipes","Di-hydrogen_1","Di-hydrogen_2","Di-hydrogen_recipes","Dioxite","Dioxite_1","Dioxite_2","Dioxite_3","Dioxite_4","Dioxite_5","Dioxite_recipes","Dirty Bronze","Dirty Bronze_1","Dirty Bronze_2","Dirty Bronze_3","Dirty Bronze_4","Dirty Bronze_5","Dirty Bronze_6","Dirty Bronze_7","Dirty Bronze_8","Dirty Bronze_recipes","Emeril","Emeril_1","Emeril_recipes","Enriched Carbon_1","Enriched Carbon_2","Enriched Carbon_3","Enriched Carbon_4","Enriched Carbon_recipes","Faecium","Faecium_1","Faecium_2","Faecium_3","Faecium_4","Faecium_5","Faecium_6","Faecium_recipes","Ferrite Dust","Ferrite Dust_1","Ferrite Dust_2","Ferrite Dust_3","Ferrite Dust_4","Ferrite Dust_5","Ferrite Dust_6","Ferrite Dust_7","Ferrite Dust_recipes","Flesh Rope","Frost Crystal","Frost Crystal_1","Frost Crystal_2","Frost Crystal_3","Frost Crystal_recipes","Fungal Mould","Fungal Mould_1","Fungal Mould_2","Fungal Mould_3","Fungal Mould_recipes","Gamma Root","Gamma Root_1","Gamma Root_2","Gamma Root_3","Gamma Root_recipes","Geodesite","Glass_1","Glass_2","Glass_3","Glass_recipes","Gold","Gold_1","Gold_2","Gold_3","Gold_4","Gold_5","Gold_6","Gold_7","Gold_8","Gold_9","Gold_recipes","Grantine","Grantine_1","Grantine_2","Grantine_3","Grantine_4","Grantine_5","Grantine_6","Grantine_7","Grantine_8","Grantine_recipes","Hadal Core","Herox","Herox_1","Herox_2","Herox_3","Herox_4","Herox_5","Herox_6","Herox_7","Herox_8","Herox_recipes","Hexite","Hyaline Brain","Hypnotic Eye","Indium","Indium_1","Indium_recipes","Inverted Mirror","Ion Battery_1","Ion Battery_recipes","Ionised Cobalt","Ionised Cobalt_1","Ionised Cobalt_2","Ionised Cobalt_3","Ionised Cobalt_4","Ionised Cobalt_5","Ionised Cobalt_6","Ionised Cobalt_7","Ionised Cobalt_recipes","Iridesite","Kelp Sac","Kelp Sac_1","Kelp Sac_recipes","Larval Core","Lemmium","Lemmium_1","Lemmium_2","Lemmium_3","Lemmium_4","Lemmium_5","Lemmium_6","Lemmium_7","Lemmium_8","Lemmium_recipes","Life Support Gel_1","Life Support Gel_recipes","Living Pearl","Living Slime","Living Slime_1","Living Slime_2","Living Slime_recipes","Magnetised Ferrite","Magnetised Ferrite_1","Magnetised Ferrite_10","Magnetised Ferrite_11","Magnetised Ferrite_12","Magnetised Ferrite_13","Magnetised Ferrite_14","Magnetised Ferrite_15","Magnetised Ferrite_16","Magnetised Ferrite_17","Magnetised Ferrite_18","Magnetised Ferrite_19","Magnetised Ferrite_2","Magnetised Ferrite_3","Magnetised Ferrite_4","Magnetised Ferrite_5","Magnetised Ferrite_6","Magnetised Ferrite_7","Magnetised Ferrite_8","Magnetised Ferrite_9","Magnetised Ferrite_recipes","Magno-Gold","Magno-Gold_1","Magno-Gold_2","Magno-Gold_3","Magno-Gold_4","Magno-Gold_5","Magno-Gold_6","Magno-Gold_7","Magno-Gold_8","Magno-Gold_recipes","Marrow Bulb","Marrow Bulb_1","Marrow Bulb_2","Marrow Bulb_3","Marrow Bulb_recipes","Mordite","Mordite_1","Mordite_2","Mordite_3","Mordite_4","Mordite_recipes","Nanite Cluster_1","Nanite Cluster_10","Nanite Cluster_11","Nanite Cluster_12","Nanite Cluster_13","Nanite Cluster_14","Nanite Cluster_2","Nanite Cluster_3","Nanite Cluster_4","Nanite Cluster_5","Nanite Cluster_6","Nanite Cluster_7","Nanite Cluster_8","Nanite Cluster_9","Nanite Cluster_recipes","Nitrogen","Nitrogen Salt_1","Nitrogen Salt_2","Nitrogen Salt_3","Nitrogen Salt_4","Nitrogen Salt_recipes","Nitrogen_1","Nitrogen_2","Nitrogen_3","Nitrogen_recipes","Oxygen","Oxygen_1","Oxygen_2","Oxygen_3","Oxygen_4","Oxygen_5","Oxygen_6","Oxygen_7","Oxygen_8","Oxygen_9","Oxygen_recipes","Paraffinium","Paraffinium_1","Paraffinium_2","Paraffinium_3","Paraffinium_4","Paraffinium_5","Paraffinium_6","Paraffinium_7","Paraffinium_recipes","Phosphorus","Phosphorus_1","Phosphorus_2","Phosphorus_3","Phosphorus_recipes","Platinum","Platinum_1","Platinum_2","Platinum_3","Platinum_4","Platinum_recipes","Pugneum","Pugneum_1","Pugneum_recipes","Pure Ferrite","Pure Ferrite_1","Pure Ferrite_2","Pure Ferrite_3","Pure Ferrite_recipes","Pyrite","Pyrite_1","Pyrite_2","Pyrite_3","Pyrite_4","Pyrite_5","Pyrite_recipes","Radiant Shard","Radon","Radon_1","Radon_2","Radon_3","Radon_recipes","Residual Goop","Residual Goop_1","Residual Goop_recipes","Runaway Mould","Runaway Mould_1","Runaway Mould_2","Runaway Mould_recipes","Rusted Metal","Rusted Metal_1","Rusted Metal_2","Rusted Metal_recipes","Salt","Salt_1","Salt_2","Salt_recipes","Salvaged Data","Silicate Powder","Silver","Silver_1","Silver_2","Silver_3","Silver_recipes","Sodium","Sodium Nitrate","Sodium Nitrate_1","Sodium Nitrate_10","Sodium Nitrate_11","Sodium Nitrate_12","Sodium Nitrate_13","Sodium Nitrate_14","Sodium Nitrate_15","Sodium Nitrate_16","Sodium Nitrate_17","Sodium Nitrate_18","Sodium Nitrate_19","Sodium Nitrate_2","Sodium Nitrate_3","Sodium Nitrate_4","Sodium Nitrate_5","Sodium Nitrate_6","Sodium Nitrate_7","Sodium Nitrate_8","Sodium Nitrate_9","Sodium Nitrate_recipes","Sodium_1","Sodium_2","Sodium_3","Sodium_4","Sodium_recipes","Solanium","Solanium_1","Solanium_2","Solanium_3","Solanium_4","Solanium_recipes","Star Bulb","Star Bulb_1","Star Bulb_2","Star Bulb_3","Star Bulb_recipes","Starship Launch Fuel_1","Starship Launch Fuel_2","Starship Launch Fuel_3","Starship Launch Fuel_recipes","Sulphurine","Sulphurine_1","Sulphurine_2","Sulphurine_3","Sulphurine_recipes","Tainted Metal","Thermic Condensate_1","Thermic Condensate_2","Thermic Condensate_3","Thermic Condensate_4","Thermic Condensate_recipes","Tritium","Unstable Plasma_1","Unstable Plasma_2","Unstable Plasma_3","Unstable Plasma_4","Unstable Plasma_recipes","Uranium","Uranium_1","Uranium_2","Uranium_3","Uranium_4","Uranium_5","Uranium_6","Uranium_7","Uranium_recipes","Vile Spawn","Viscous Fluids","Viscous Fluids_1","Viscous Fluids_recipes","Warp Cell_1","Warp Cell_2","Warp Cell_3","Warp Cell_recipes"],"group":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"nodesize":[8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8]},"options":{"NodeID":"name","Group":"group","colourScale":"d3.scaleOrdinal(['#22a1ab'])","fontSize":14,"fontFamily":"serif","clickTextSize":35,"linkDistance":4,"linkWidth":"'1.5px'.toString()","charge":-300,"opacity":0.8,"zoom":true,"legend":false,"arrows":false,"nodesize":true,"radiusCalculation":"d.nodesize","bounded":false,"opacityNoHover":1,"clickAction":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+</section>
+<section id="part-2-forcenetwork-and-more-control" class="level1">
+<h1>Part 2: forceNetwork and more control</h1>
+<p>In part one, you learned how to use simple to-from data pairs to generate a simple network diagram. In this next part, you’ll see how to generate a more sophisticated diagram which uses two-part data as input. That complicates things a bit but ultimately offers more control over the appearance of the diagram.</p>
+<p>First, I create a vector containing all unique elements of the to-from data. Note that they are being converted to factors.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#generate a vector of all unique elements in the list of to and from elements</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co">#convert it to a factor</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co">#store it in a tibble</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>nodes <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">name =</span> <span class="fu">factor</span>(<span class="fu">sort</span>(<span class="fu">unique</span>(<span class="fu">c</span>(data<span class="sc">$</span>to, data<span class="sc">$</span>from)))))</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>nodes</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 449 × 1
+   name             
+   &lt;fct&gt;            
+ 1 Activated Cadmium
+ 2 Activated Copper 
+ 3 Activated Emeril 
+ 4 Activated Indium 
+ 5 Ammonia          
+ 6 Ammonia_1        
+ 7 Ammonia_2        
+ 8 Ammonia_3        
+ 9 Ammonia_4        
+10 Ammonia_recipes  
+# ℹ 439 more rows</code></pre>
+</div>
+</div>
+<p>Next, I split the data so I can do group assignment. Any item with an underscore (top-level nodes) goes in one pile and everything else (base nodes) goes into the other. The only difference in this code is the use of <code>!</code> to say “not”. The base elements are first. They will all be grouped together by assigning a group value of 1 and they will eventually receive the same color.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#logic to reassign group values so each recipe cluster has the same group value</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co">#subset nodes data to return the base ingredients/items</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co">#these will all be group 1 (one color)</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>nodes_base<span class="ot">&lt;-</span>nodes <span class="sc">%&gt;%</span> </span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>            <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">grepl</span>(<span class="st">'_'</span>, name)) <span class="sc">%&gt;%</span> </span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>            <span class="fu">mutate</span>(<span class="at">group =</span> <span class="dv">1</span>, <span class="at">node_size=</span><span class="dv">1</span>)</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>nodes_base </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 77 × 3
+   name              group node_size
+   &lt;fct&gt;             &lt;dbl&gt;     &lt;dbl&gt;
+ 1 Activated Cadmium     1         1
+ 2 Activated Copper      1         1
+ 3 Activated Emeril      1         1
+ 4 Activated Indium      1         1
+ 5 Ammonia               1         1
+ 6 Aronium               1         1
+ 7 Atlantideum           1         1
+ 8 Cactus Flesh          1         1
+ 9 Cadmium               1         1
+10 Carbon                1         1
+# ℹ 67 more rows</code></pre>
+</div>
+</div>
+<p>Next I split the top-level nodes containing an underscore in their name. These will be grouped separately and a different color will be applied to each group (including the base elements).</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#logic to get the higher-level clusters</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="co">#these will all be different colors</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co">#filter 'nodes' to only the names with underscores (the clustering groups)</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>nodes_clusters<span class="ot">&lt;-</span>nodes <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">grepl</span>(<span class="st">'_'</span>, name)) </span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>nodes_clusters</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 372 × 1
+   name           
+   &lt;fct&gt;          
+ 1 Ammonia_1      
+ 2 Ammonia_2      
+ 3 Ammonia_3      
+ 4 Ammonia_4      
+ 5 Ammonia_recipes
+ 6 Aronium_1      
+ 7 Aronium_2      
+ 8 Aronium_3      
+ 9 Aronium_4      
+10 Aronium_5      
+# ℹ 362 more rows</code></pre>
+</div>
+</div>
+<p>So, here’s my logic to get the top-level node groups. First, I grab the first few characters from each string. That is, what letters they start with. It’s a unique string for each element and I can use it to group them. Then, I group those mini-strings and add a group identifier as a column. I add one because the base elements will all be in group 1 so these will be group 2, 3, … <em>n</em>.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#extract the first few characters from each string and get unique values</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>first_chars <span class="ot">&lt;-</span> <span class="fu">as_tibble</span>(<span class="fu">str_sub</span>(nodes_clusters<span class="sc">$</span>name,<span class="dv">1</span>,<span class="dv">5</span>))</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co">#set the group value based on the current group id and *add one* to make these different from the base elements</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>first_chars <span class="ot">&lt;-</span> first_chars <span class="sc">%&gt;%</span> </span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>               <span class="fu">group_by</span>(value) <span class="sc">%&gt;%</span> </span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>               <span class="fu">mutate</span>(<span class="at">group =</span> <span class="fu">cur_group_id</span>()<span class="sc">+</span><span class="dv">1</span>)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>first_chars</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 372 × 2
+# Groups:   value [61]
+   value group
+   &lt;chr&gt; &lt;dbl&gt;
+ 1 Ammon     2
+ 2 Ammon     2
+ 3 Ammon     2
+ 4 Ammon     2
+ 5 Ammon     2
+ 6 Aroni     3
+ 7 Aroni     3
+ 8 Aroni     3
+ 9 Aroni     3
+10 Aroni     3
+# ℹ 362 more rows</code></pre>
+</div>
+</div>
+<p>I add that group value to the nodes information so I now have the node names and their appropriate group identifier. I also use some logic here to style the very highest “recipe” nodes with a large node_size value and give the specific recipe nodes a value that falls between the base elements and the recipe nodes.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#differential styling for node sizes</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>nodes_clusters <span class="ot">&lt;-</span> nodes_clusters <span class="sc">%&gt;%</span> </span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>                  <span class="fu">mutate</span>(<span class="at">group=</span>first_chars<span class="sc">$</span>group, <span class="at">node_size=</span><span class="dv">10</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a><span class="co">#use an if-else statement and text matching with grep</span></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="co">#documentation: </span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co"># The word “grepl” stands for “grep logical”. </span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a><span class="co"># The grepl() function in R simply searches for matches in characters or sequences of characters present in a given string.</span></span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a><span class="co"># fixed: This is a logical value. If TRUE, then the pattern of the characters or sequence of characters is matched.</span></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>nodes_clusters <span class="ot">&lt;-</span> nodes_clusters <span class="sc">%&gt;%</span> </span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>                  <span class="fu">mutate</span>(<span class="at">node_size =</span> <span class="fu">if_else</span>(<span class="fu">grepl</span>(<span class="st">"recipe"</span>, name, <span class="at">fixed =</span> <span class="cn">TRUE</span>),<span class="dv">100</span>,node_size))</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>nodes_clusters</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 372 × 3
+   name            group node_size
+   &lt;fct&gt;           &lt;dbl&gt;     &lt;dbl&gt;
+ 1 Ammonia_1           2        10
+ 2 Ammonia_2           2        10
+ 3 Ammonia_3           2        10
+ 4 Ammonia_4           2        10
+ 5 Ammonia_recipes     2       100
+ 6 Aronium_1           3        10
+ 7 Aronium_2           3        10
+ 8 Aronium_3           3        10
+ 9 Aronium_4           3        10
+10 Aronium_5           3        10
+# ℹ 362 more rows</code></pre>
+</div>
+</div>
+<p>Now I can bind the split data back together and sort based on the name. To recap, all base elements are in group 1 now while all higher-level nodes like specific recipes or recipe groups are all separately grouped by the type of element they generate. This will be the basis of the color styling.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">#merge nodes_base and nodes_clusters to create group list</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>nodes_groups<span class="ot">&lt;-</span><span class="fu">bind_rows</span>(nodes_base, nodes_clusters)<span class="sc">%&gt;%</span> <span class="fu">arrange</span>(name)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>nodes_groups</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 449 × 3
+   name              group node_size
+   &lt;fct&gt;             &lt;dbl&gt;     &lt;dbl&gt;
+ 1 Activated Cadmium     1         1
+ 2 Activated Copper      1         1
+ 3 Activated Emeril      1         1
+ 4 Activated Indium      1         1
+ 5 Ammonia               1         1
+ 6 Ammonia_1             2        10
+ 7 Ammonia_2             2        10
+ 8 Ammonia_3             2        10
+ 9 Ammonia_4             2        10
+10 Ammonia_recipes       2       100
+# ℹ 439 more rows</code></pre>
+</div>
+</div>
+<p>Now the data must be converted a bit for the two-part input needed for the <code>forceNetwork</code> function. According to the <a href="https://www.rdocumentation.org/packages/networkD3/versions/0.4/topics/forceNetwork">documentation</a>, it needs separate dataframes for nodes and links. That is, what is in the network and how is it connected. It also requires that you specify the source (from) and target (to) columns. Compare this to the simpleNetwork which extracts all of that. This function also uses the argument <code>value</code> for the edge (line) thickness and <code>group</code> to help with style.</p>
+<p>Here, I use the method <a href="https://stackoverflow.com/questions/42324064/directed-graph-using-networkd3-and-a-data-frame">suggested by CJ Yetman</a> to convert the existing to-from data to numeric values as required by <code>forceNetwork</code>. I also add a default value of 1 for the value so all edges will look the same.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">#convert the existing to-from data so it can be used in the networkD3 graph</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co">#use 'match' which gives the positions of (first) matches of its first argument in its second.</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>to   <span class="ot">&lt;-</span> <span class="fu">match</span>(data<span class="sc">$</span>to, <span class="fu">levels</span>(nodes<span class="sc">$</span>name))<span class="sc">-</span><span class="dv">1</span> </span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>from <span class="ot">&lt;-</span> <span class="fu">match</span>(data<span class="sc">$</span>from, <span class="fu">levels</span>(nodes<span class="sc">$</span>name))<span class="sc">-</span><span class="dv">1</span> </span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>links<span class="ot">&lt;-</span> <span class="fu">tibble</span>(to,from,<span class="at">value=</span><span class="dv">1</span>)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>links</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 937 × 3
+      to  from value
+   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+ 1     9     5     1
+ 2     9     6     1
+ 3     9     7     1
+ 4     9     8     1
+ 5    19    11     1
+ 6    19    12     1
+ 7    19    13     1
+ 8    19    14     1
+ 9    19    15     1
+10    19    16     1
+# ℹ 927 more rows</code></pre>
+</div>
+</div>
+<p>Now I can generate the final plot. My links are contained in the <code>links</code> tibble while the nodes are described in the <code>nodes_groups</code> tibble. There are many groups here and the colors are assigned automatically. I didn’t bother trying to create unique colors for each group but that’s something that can be done using additional JavaScript to style the nodes.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co">#create the plot</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>p<span class="ot">&lt;-</span><span class="fu">forceNetwork</span>(<span class="at">Links =</span> links, </span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>             <span class="at">Nodes =</span> nodes_groups, </span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>             <span class="at">Source =</span> <span class="st">'from'</span>, </span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>             <span class="at">Target =</span> <span class="st">'to'</span>, </span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>             <span class="at">Value =</span> <span class="st">'value'</span>, </span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>             <span class="at">NodeID =</span> <span class="st">'name'</span>, </span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>             <span class="at">Group =</span> <span class="st">'group'</span>,</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>             <span class="at">Nodesize =</span> <span class="st">'node_size'</span>,</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>             <span class="at">charge =</span> <span class="sc">-</span><span class="dv">20</span>,</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>             <span class="at">zoom=</span><span class="cn">TRUE</span>,</span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>             <span class="at">opacity=</span><span class="fl">0.8</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>Links is a tbl_df. Converting to a plain data frame.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Nodes is a tbl_df. Converting to a plain data frame.</code></pre>
+</div>
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>p</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div class="forceNetwork html-widget html-fill-item" id="htmlwidget-7753505420cff3d15726" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-7753505420cff3d15726">{"x":{"links":{"source":[5,6,7,8,11,12,13,14,15,16,17,18,22,23,24,27,30,31,32,33,34,35,36,39,40,41,42,43,44,45,48,59,61,62,63,64,65,66,67,49,50,51,52,53,54,55,56,57,58,60,70,73,74,75,76,77,78,79,80,83,88,94,95,92,98,99,100,101,102,105,106,107,108,109,110,111,112,115,117,118,119,120,123,124,125,126,127,128,131,132,133,134,135,136,137,141,142,143,146,147,148,151,152,153,156,157,158,161,162,163,164,165,166,167,168,169,172,173,174,175,176,177,178,179,183,184,185,186,187,188,189,190,196,199,202,203,204,205,206,207,208,212,216,217,218,219,220,221,222,223,225,229,230,233,244,245,246,247,248,249,250,251,234,235,236,237,238,239,240,241,242,243,254,255,256,257,258,259,260,261,264,265,266,269,270,271,272,274,280,281,282,283,284,285,286,287,275,276,277,278,279,295,296,297,290,291,292,293,300,301,302,303,304,305,306,307,308,311,312,313,314,315,316,317,320,321,322,325,326,327,328,331,334,335,336,339,340,341,342,343,347,348,349,352,355,356,359,360,363,364,369,370,371,395,396,397,398,375,386,387,388,389,390,391,392,393,376,377,378,379,380,381,382,383,384,385,401,402,403,404,407,408,409,411,412,413,416,417,418,421,422,423,424,427,428,429,430,433,434,435,436,437,438,439,443,445,446,447,366,227,194,181,85,214,87,192,140,160,324,330,268,299,90,91,69,201,72,29,373,374,130,333,232,26,195,114,82,0,3,2,1,310,338,4,432,97,319,362,38,415,346,289,351,354,358,228,442,426,145,150,21,400,406,263,211,122,10,104,182,215,253,171,155,210,87,362,122,192,122,351,160,368,432,90,415,90,346,90,289,90,90,299,90,29,90,72,130,29,130,72,333,29,333,72,90,426,333,299,130,299,29,299,72,299,373,299,374,299,29,373,72,373,29,374,72,374,29,330,72,330,373,330,374,330,29,268,72,268,373,268,374,268,130,330,333,330,232,330,26,47,195,47,114,47,82,47,310,406,338,21,4,145,432,150,97,140,319,400,362,299,38,299,69,299,201,299,268,330,368,299,160,299,324,299,415,299,346,299,289,299,415,47,346,47,289,47,289,373,289,374,263,299,211,299,122,299,263,330,211,330,263,29,211,29,122,29,263,373,211,373,122,373,263,72,211,72,122,72,263,374,211,374,122,374,263,69,211,362,263,201,211,38,122,330,122,268,195,130,26,130,114,130,82,130,26,333,114,333,82,333,195,333,0,130,3,130,2,130,1,130,0,333,3,333,2,333,1,333,310,299,338,299,4,299,432,299,97,299,319,299,310,130,338,130,4,130,432,130,97,130,319,130,310,333,338,333,4,333,432,333,97,333,319,333,145,362,140,362,150,362,21,362,400,362,406,362,415,130,130,346,289,130,415,333,346,333,289,333,415,232,346,232,289,232,4,289,97,346,432,346,338,415,319,415,310,289,69,289,362,289,415,289,368,160,324,130,333,368,130,333,160,130,333,324,145,211,72,140,211,72,21,211,72,400,211,72,150,211,72,406,211,72,368,160,82,368,160,26,368,160,114,368,160,195,130,299,114,130,299,47,72,373,47,29,374,47,72,374,47,299,130,29,299,130,72,299,333,29,299,72,333,299,72,90,90,130,374,90,333,373,90,232,374,130,368,373,310,69,426,310,201,426,310,69,368,310,201,368,310,69,160,310,201,160,310,69,324,310,201,324,338,130,426,338,333,426,338,130,368,338,333,368,338,130,160,338,333,160,338,130,324,338,333,324,4,69,426,4,201,426,4,69,368,4,201,368,4,69,160,4,201,160,4,69,324,4,201,324,432,130,426,432,333,426,432,130,368,432,333,368,432,130,160,432,333,160,432,130,324,432,333,324,319,69,426,319,201,426,319,69,368,319,201,368,319,69,160,319,201,160,319,69,324,319,201,324,97,69,426,97,201,426,97,69,368,97,201,368,97,69,160,97,201,160,97,69,324,97,201,324,415,29,362,346,29,362,289,29,362,415,72,362,346,72,362,289,72,362,415,29,38,346,29,38,289,29,38,415,72,38,346,72,38,289,72,38,367,420,86,441,139,345,198,193,20,20,330],"target":[9,9,9,9,19,19,19,19,19,19,19,19,25,25,25,28,37,37,37,37,37,37,37,46,46,46,46,46,46,46,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,71,81,81,81,81,81,81,81,81,84,89,96,96,93,103,103,103,103,103,113,113,113,113,113,113,113,113,116,121,121,121,121,129,129,129,129,129,129,138,138,138,138,138,138,138,144,144,144,149,149,149,154,154,154,159,159,159,170,170,170,170,170,170,170,170,170,180,180,180,180,180,180,180,180,191,191,191,191,191,191,191,191,197,200,209,209,209,209,209,209,209,213,224,224,224,224,224,224,224,224,226,231,231,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,262,262,262,262,262,262,262,262,267,267,267,273,273,273,273,288,288,288,288,288,288,288,288,288,288,288,288,288,288,298,298,298,294,294,294,294,309,309,309,309,309,309,309,309,309,318,318,318,318,318,318,318,323,323,323,329,329,329,329,332,337,337,337,344,344,344,344,344,350,350,350,353,357,357,361,361,365,365,372,372,372,399,399,399,399,394,394,394,394,394,394,394,394,394,394,394,394,394,394,394,394,394,394,394,405,405,405,405,410,410,410,414,414,414,419,419,419,425,425,425,425,431,431,431,431,440,440,440,440,440,440,440,444,448,448,448,274,161,229,280,375,281,73,162,156,339,282,283,123,30,92,94,202,70,31,74,386,395,334,233,335,48,59,61,62,63,64,65,66,131,132,133,134,135,136,39,363,347,295,416,443,284,137,355,230,95,32,33,34,35,36,396,300,269,369,370,371,163,164,165,325,326,157,157,285,285,166,166,327,327,75,75,401,401,433,433,5,5,364,364,124,124,270,270,244,244,245,245,246,246,247,247,88,88,359,359,360,360,76,76,77,77,387,387,388,388,389,389,390,390,98,98,99,99,271,271,272,272,391,391,392,392,125,125,126,126,264,264,265,265,336,336,248,248,249,249,27,27,196,196,115,115,83,83,407,407,22,22,146,146,151,151,141,141,402,402,40,40,41,41,203,203,204,204,167,167,311,311,340,340,250,250,348,348,296,296,417,417,349,349,297,297,418,418,393,393,376,376,205,205,42,42,127,127,206,206,43,43,397,397,301,301,78,78,377,377,378,378,379,379,398,398,302,302,79,79,380,380,381,381,382,382,207,207,44,44,208,208,45,45,168,168,80,80,251,251,234,234,235,235,236,236,67,67,49,49,50,50,51,51,237,237,238,238,239,239,240,240,52,52,53,53,54,54,55,55,408,408,23,23,147,147,152,152,142,142,403,403,6,6,312,312,100,100,341,341,320,320,434,434,7,7,313,313,101,101,342,342,321,321,435,435,8,8,102,102,436,436,343,343,322,322,314,314,315,315,437,437,383,383,316,316,438,438,384,384,317,317,439,439,385,385,148,148,143,143,153,153,24,24,404,404,409,409,266,266,212,212,128,128,286,286,286,241,241,241,242,242,242,243,243,243,303,303,303,304,304,304,305,305,305,306,306,306,307,307,307,308,308,308,56,56,56,57,57,57,58,58,58,60,60,60,169,169,169,328,328,328,445,445,445,446,446,446,447,447,447,427,427,427,428,428,428,429,429,429,430,430,430,225,225,225,411,411,411,412,412,412,413,413,413,199,199,199,11,11,11,12,12,12,13,13,13,14,14,14,15,15,15,16,16,16,17,17,17,18,18,18,105,105,105,106,106,106,107,107,107,108,108,108,109,109,109,110,110,110,111,111,111,112,112,112,183,183,183,184,184,184,185,185,185,186,186,186,187,187,187,188,188,188,189,189,189,190,190,190,216,216,216,217,217,217,218,218,218,219,219,219,220,220,220,221,221,221,222,222,222,223,223,223,254,254,254,255,255,255,256,256,256,257,257,257,258,258,258,259,259,259,260,260,260,261,261,261,172,172,172,173,173,173,174,174,174,175,175,175,176,176,176,177,177,177,178,178,178,179,179,179,421,421,421,117,117,117,290,290,290,422,422,422,118,118,118,291,291,291,423,423,423,119,119,119,292,292,292,424,424,424,120,120,120,293,293,293,158,287,352,275,276,277,278,279,331,356,356],"value":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"colour":["#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":["Activated Cadmium","Activated Copper","Activated Emeril","Activated Indium","Ammonia","Ammonia_1","Ammonia_2","Ammonia_3","Ammonia_4","Ammonia_recipes","Aronium","Aronium_1","Aronium_2","Aronium_3","Aronium_4","Aronium_5","Aronium_6","Aronium_7","Aronium_8","Aronium_recipes","Atlantideum","Cactus Flesh","Cactus Flesh_1","Cactus Flesh_2","Cactus Flesh_3","Cactus Flesh_recipes","Cadmium","Cadmium_1","Cadmium_recipes","Carbon","Carbon_1","Carbon_2","Carbon_3","Carbon_4","Carbon_5","Carbon_6","Carbon_7","Carbon_recipes","Chlorine","Chlorine_1","Chlorine_2","Chlorine_3","Chlorine_4","Chlorine_5","Chlorine_6","Chlorine_7","Chlorine_recipes","Chromatic Metal","Chromatic Metal_1","Chromatic Metal_10","Chromatic Metal_11","Chromatic Metal_12","Chromatic Metal_13","Chromatic Metal_14","Chromatic Metal_15","Chromatic Metal_16","Chromatic Metal_17","Chromatic Metal_18","Chromatic Metal_19","Chromatic Metal_2","Chromatic Metal_20","Chromatic Metal_3","Chromatic Metal_4","Chromatic Metal_5","Chromatic Metal_6","Chromatic Metal_7","Chromatic Metal_8","Chromatic Metal_9","Chromatic Metal_recipes","Cobalt","Cobalt_1","Cobalt_recipes","Condensed Carbon","Condensed Carbon_1","Condensed Carbon_2","Condensed Carbon_3","Condensed Carbon_4","Condensed Carbon_5","Condensed Carbon_6","Condensed Carbon_7","Condensed Carbon_8","Condensed Carbon_recipes","Copper","Copper_1","Copper_recipes","Crystal Sulphide","Cursed Dust","Cyto-Phosphate","Deuterium_1","Deuterium_recipes","Di-hydrogen","Di-hydrogen Jelly","Di-hydrogen Jelly_1","Di-hydrogen Jelly_recipes","Di-hydrogen_1","Di-hydrogen_2","Di-hydrogen_recipes","Dioxite","Dioxite_1","Dioxite_2","Dioxite_3","Dioxite_4","Dioxite_5","Dioxite_recipes","Dirty Bronze","Dirty Bronze_1","Dirty Bronze_2","Dirty Bronze_3","Dirty Bronze_4","Dirty Bronze_5","Dirty Bronze_6","Dirty Bronze_7","Dirty Bronze_8","Dirty Bronze_recipes","Emeril","Emeril_1","Emeril_recipes","Enriched Carbon_1","Enriched Carbon_2","Enriched Carbon_3","Enriched Carbon_4","Enriched Carbon_recipes","Faecium","Faecium_1","Faecium_2","Faecium_3","Faecium_4","Faecium_5","Faecium_6","Faecium_recipes","Ferrite Dust","Ferrite Dust_1","Ferrite Dust_2","Ferrite Dust_3","Ferrite Dust_4","Ferrite Dust_5","Ferrite Dust_6","Ferrite Dust_7","Ferrite Dust_recipes","Flesh Rope","Frost Crystal","Frost Crystal_1","Frost Crystal_2","Frost Crystal_3","Frost Crystal_recipes","Fungal Mould","Fungal Mould_1","Fungal Mould_2","Fungal Mould_3","Fungal Mould_recipes","Gamma Root","Gamma Root_1","Gamma Root_2","Gamma Root_3","Gamma Root_recipes","Geodesite","Glass_1","Glass_2","Glass_3","Glass_recipes","Gold","Gold_1","Gold_2","Gold_3","Gold_4","Gold_5","Gold_6","Gold_7","Gold_8","Gold_9","Gold_recipes","Grantine","Grantine_1","Grantine_2","Grantine_3","Grantine_4","Grantine_5","Grantine_6","Grantine_7","Grantine_8","Grantine_recipes","Hadal Core","Herox","Herox_1","Herox_2","Herox_3","Herox_4","Herox_5","Herox_6","Herox_7","Herox_8","Herox_recipes","Hexite","Hyaline Brain","Hypnotic Eye","Indium","Indium_1","Indium_recipes","Inverted Mirror","Ion Battery_1","Ion Battery_recipes","Ionised Cobalt","Ionised Cobalt_1","Ionised Cobalt_2","Ionised Cobalt_3","Ionised Cobalt_4","Ionised Cobalt_5","Ionised Cobalt_6","Ionised Cobalt_7","Ionised Cobalt_recipes","Iridesite","Kelp Sac","Kelp Sac_1","Kelp Sac_recipes","Larval Core","Lemmium","Lemmium_1","Lemmium_2","Lemmium_3","Lemmium_4","Lemmium_5","Lemmium_6","Lemmium_7","Lemmium_8","Lemmium_recipes","Life Support Gel_1","Life Support Gel_recipes","Living Pearl","Living Slime","Living Slime_1","Living Slime_2","Living Slime_recipes","Magnetised Ferrite","Magnetised Ferrite_1","Magnetised Ferrite_10","Magnetised Ferrite_11","Magnetised Ferrite_12","Magnetised Ferrite_13","Magnetised Ferrite_14","Magnetised Ferrite_15","Magnetised Ferrite_16","Magnetised Ferrite_17","Magnetised Ferrite_18","Magnetised Ferrite_19","Magnetised Ferrite_2","Magnetised Ferrite_3","Magnetised Ferrite_4","Magnetised Ferrite_5","Magnetised Ferrite_6","Magnetised Ferrite_7","Magnetised Ferrite_8","Magnetised Ferrite_9","Magnetised Ferrite_recipes","Magno-Gold","Magno-Gold_1","Magno-Gold_2","Magno-Gold_3","Magno-Gold_4","Magno-Gold_5","Magno-Gold_6","Magno-Gold_7","Magno-Gold_8","Magno-Gold_recipes","Marrow Bulb","Marrow Bulb_1","Marrow Bulb_2","Marrow Bulb_3","Marrow Bulb_recipes","Mordite","Mordite_1","Mordite_2","Mordite_3","Mordite_4","Mordite_recipes","Nanite Cluster_1","Nanite Cluster_10","Nanite Cluster_11","Nanite Cluster_12","Nanite Cluster_13","Nanite Cluster_14","Nanite Cluster_2","Nanite Cluster_3","Nanite Cluster_4","Nanite Cluster_5","Nanite Cluster_6","Nanite Cluster_7","Nanite Cluster_8","Nanite Cluster_9","Nanite Cluster_recipes","Nitrogen","Nitrogen Salt_1","Nitrogen Salt_2","Nitrogen Salt_3","Nitrogen Salt_4","Nitrogen Salt_recipes","Nitrogen_1","Nitrogen_2","Nitrogen_3","Nitrogen_recipes","Oxygen","Oxygen_1","Oxygen_2","Oxygen_3","Oxygen_4","Oxygen_5","Oxygen_6","Oxygen_7","Oxygen_8","Oxygen_9","Oxygen_recipes","Paraffinium","Paraffinium_1","Paraffinium_2","Paraffinium_3","Paraffinium_4","Paraffinium_5","Paraffinium_6","Paraffinium_7","Paraffinium_recipes","Phosphorus","Phosphorus_1","Phosphorus_2","Phosphorus_3","Phosphorus_recipes","Platinum","Platinum_1","Platinum_2","Platinum_3","Platinum_4","Platinum_recipes","Pugneum","Pugneum_1","Pugneum_recipes","Pure Ferrite","Pure Ferrite_1","Pure Ferrite_2","Pure Ferrite_3","Pure Ferrite_recipes","Pyrite","Pyrite_1","Pyrite_2","Pyrite_3","Pyrite_4","Pyrite_5","Pyrite_recipes","Radiant Shard","Radon","Radon_1","Radon_2","Radon_3","Radon_recipes","Residual Goop","Residual Goop_1","Residual Goop_recipes","Runaway Mould","Runaway Mould_1","Runaway Mould_2","Runaway Mould_recipes","Rusted Metal","Rusted Metal_1","Rusted Metal_2","Rusted Metal_recipes","Salt","Salt_1","Salt_2","Salt_recipes","Salvaged Data","Silicate Powder","Silver","Silver_1","Silver_2","Silver_3","Silver_recipes","Sodium","Sodium Nitrate","Sodium Nitrate_1","Sodium Nitrate_10","Sodium Nitrate_11","Sodium Nitrate_12","Sodium Nitrate_13","Sodium Nitrate_14","Sodium Nitrate_15","Sodium Nitrate_16","Sodium Nitrate_17","Sodium Nitrate_18","Sodium Nitrate_19","Sodium Nitrate_2","Sodium Nitrate_3","Sodium Nitrate_4","Sodium Nitrate_5","Sodium Nitrate_6","Sodium Nitrate_7","Sodium Nitrate_8","Sodium Nitrate_9","Sodium Nitrate_recipes","Sodium_1","Sodium_2","Sodium_3","Sodium_4","Sodium_recipes","Solanium","Solanium_1","Solanium_2","Solanium_3","Solanium_4","Solanium_recipes","Star Bulb","Star Bulb_1","Star Bulb_2","Star Bulb_3","Star Bulb_recipes","Starship Launch Fuel_1","Starship Launch Fuel_2","Starship Launch Fuel_3","Starship Launch Fuel_recipes","Sulphurine","Sulphurine_1","Sulphurine_2","Sulphurine_3","Sulphurine_recipes","Tainted Metal","Thermic Condensate_1","Thermic Condensate_2","Thermic Condensate_3","Thermic Condensate_4","Thermic Condensate_recipes","Tritium","Unstable Plasma_1","Unstable Plasma_2","Unstable Plasma_3","Unstable Plasma_4","Unstable Plasma_recipes","Uranium","Uranium_1","Uranium_2","Uranium_3","Uranium_4","Uranium_5","Uranium_6","Uranium_7","Uranium_recipes","Vile Spawn","Viscous Fluids","Viscous Fluids_1","Viscous Fluids_recipes","Warp Cell_1","Warp Cell_2","Warp Cell_3","Warp Cell_recipes"],"group":[1,1,1,1,1,2,2,2,2,2,1,3,3,3,3,3,3,3,3,3,1,1,4,4,4,4,1,5,5,1,6,6,6,6,6,6,6,6,1,7,7,7,7,7,7,7,7,1,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,1,9,9,1,10,10,10,10,10,10,10,10,10,1,11,11,1,1,1,12,12,1,1,13,13,13,13,13,1,14,14,14,14,14,14,1,15,15,15,15,15,15,15,15,15,1,16,16,17,17,17,17,17,1,18,18,18,18,18,18,18,1,19,19,19,19,19,19,19,19,1,1,20,20,20,20,1,21,21,21,21,1,22,22,22,22,1,23,23,23,23,1,24,24,24,24,24,24,24,24,24,24,1,25,25,25,25,25,25,25,25,25,1,1,26,26,26,26,26,26,26,26,26,1,1,1,1,27,27,1,28,28,1,29,29,29,29,29,29,29,29,1,1,30,30,1,1,31,31,31,31,31,31,31,31,31,32,32,1,1,33,33,33,1,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,1,35,35,35,35,35,35,35,35,35,1,36,36,36,36,1,37,37,37,37,37,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,1,39,39,39,39,39,39,39,39,39,1,40,40,40,40,40,40,40,40,40,40,1,41,41,41,41,41,41,41,41,1,42,42,42,42,1,43,43,43,43,43,1,44,44,1,45,45,45,45,1,46,46,46,46,46,46,1,1,47,47,47,47,1,48,48,1,49,49,49,1,50,50,50,1,51,51,51,1,1,1,52,52,52,52,1,1,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,1,54,54,54,54,54,1,55,55,55,55,56,56,56,56,1,57,57,57,57,1,58,58,58,58,58,1,59,59,59,59,59,1,60,60,60,60,60,60,60,60,1,1,61,61,62,62,62,62],"nodesize":[1,1,1,1,1,10,10,10,10,100,1,10,10,10,10,10,10,10,10,100,1,1,10,10,10,100,1,10,100,1,10,10,10,10,10,10,10,100,1,10,10,10,10,10,10,10,100,1,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,100,1,10,100,1,10,10,10,10,10,10,10,10,100,1,10,100,1,1,1,10,100,1,1,10,100,10,10,100,1,10,10,10,10,10,100,1,10,10,10,10,10,10,10,10,100,1,10,100,10,10,10,10,100,1,10,10,10,10,10,10,100,1,10,10,10,10,10,10,10,100,1,1,10,10,10,100,1,10,10,10,100,1,10,10,10,100,1,10,10,10,100,1,10,10,10,10,10,10,10,10,10,100,1,10,10,10,10,10,10,10,10,100,1,1,10,10,10,10,10,10,10,10,100,1,1,1,1,10,100,1,10,100,1,10,10,10,10,10,10,10,100,1,1,10,100,1,1,10,10,10,10,10,10,10,10,100,10,100,1,1,10,10,100,1,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,100,1,10,10,10,10,10,10,10,10,100,1,10,10,10,100,1,10,10,10,10,100,10,10,10,10,10,10,10,10,10,10,10,10,10,10,100,1,10,10,10,10,100,10,10,10,100,1,10,10,10,10,10,10,10,10,10,100,1,10,10,10,10,10,10,10,100,1,10,10,10,100,1,10,10,10,10,100,1,10,100,1,10,10,10,100,1,10,10,10,10,10,100,1,1,10,10,10,100,1,10,100,1,10,10,100,1,10,10,100,1,10,10,100,1,1,1,10,10,10,100,1,1,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,100,10,10,10,10,100,1,10,10,10,10,100,1,10,10,10,100,10,10,10,100,1,10,10,10,100,1,10,10,10,10,100,1,10,10,10,10,100,1,10,10,10,10,10,10,10,100,1,1,10,100,10,10,10,100]},"options":{"NodeID":"name","Group":"group","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":7,"fontFamily":"serif","clickTextSize":17.5,"linkDistance":50,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-20,"opacity":0.8,"zoom":true,"legend":false,"arrows":false,"nodesize":true,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":false,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>You can save the file as its own .html file if you want to keep it separate.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>CODE</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co">#save the output as its own file if you like</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="co">#saveWidget(p, file="nms_recipes_nodegraph.html")</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/Lin211-Fall2026\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><a href="https://linguistics.as.uky.edu/">Linguistics Department</a> - <a href="https://www.uky.edu">University of Kentucky</a> - <a href="https://creativecommons.org/licenses/by/4.0/deed.en"><code>CC-BY 4.0</code></a></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
