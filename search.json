@@ -1208,14 +1208,14 @@
     "href": "slides/lectures/10-What happens when we hear a sentence/index.html#how-many-possible-sentences-were-there",
     "title": "What happens when we hear a sentence?",
     "section": "How many possible sentences were there?",
-    "text": "How many possible sentences were there?\nIf we just randomly combine words (and treat reshufflings of words as equivalent), you could have 8,568 different sentences!\n\n\n\nIt would include real sentences, like:\n\nthe dog chased a cat\na squirrel ate some acorns\n\nBut it would include slightly wrong sentences, like:\n\n*an cat scratched the tree\n*each apple ate the dog\n\n\n\n\nAnd some very wrong sentences, like:\n\n*chased cat dog buried the\n*acorns dog squirrel tree cat\n\n\n\\[\nPk = \\frac{n!}{(n -k)!} = \\frac{18!}{(13 - 5)!}\n\\]"
+    "text": "How many possible sentences were there?\nIf we just randomly combine words (and treat reshufflings of words as equivalent), you could have 8,568 different sentences!\n\n\n\nIt would include real sentences, like:\n\nthe dog chased a cat\na squirrel sniffed some acorns\n\nBut it would include slightly wrong sentences, like:\n\n*an cat scratched the tree\n*each apple climbed the dog\n\n\n\n\nAnd some very wrong sentences, like:\n\n*chased cat dog buried the\n*acorns dog squirrel tree cat\n\n\n\\[\nPk = \\frac{n!}{(n -k)!} = \\frac{18!}{(13 - 5)!}\n\\]"
   },
   {
     "objectID": "slides/lectures/10-What happens when we hear a sentence/index.html#and-it-misses-some-real-sentences",
     "href": "slides/lectures/10-What happens when we hear a sentence/index.html#and-it-misses-some-real-sentences",
     "title": "What happens when we hear a sentence?",
     "section": "And it misses some real sentences!",
-    "text": "And it misses some real sentences!\nRandomly combining words and treating reshufflings as equivalent has two other problems:\n\nIt would miss real sentences like ones you might have created:\n\nthe dog chased the cat\nsome squirrel ate some acorns\n\nMaybe more importantly, it makes a huge error and treats these as the same sentence:\n\nthe dog sniffed the cat\nthe cat sniffed the dog"
+    "text": "And it misses some real sentences!\nRandomly combining words and treating reshufflings as equivalent has two other problems:\n\nIt would miss real sentences like ones you might have created:\n\nthe dog chased the cat\nsome squirrel sniffed some acorns\n\nMaybe more importantly, it makes a huge error and treats these as the same sentence:\n\nthe dog sniffed the cat\nthe cat sniffed the dog"
   },
   {
     "objectID": "slides/lectures/10-What happens when we hear a sentence/index.html#permutations-words-can-repeat-and-order-matters",
@@ -1278,7 +1278,7 @@
     "href": "slides/lectures/10-What happens when we hear a sentence/index.html#syntax-4",
     "title": "What happens when we hear a sentence?",
     "section": "Syntax",
-    "text": "Syntax\nWith just those restrictions, the number of possible sentences drops to 7,776\n\nThis gets ride of most of the ungrammatical sentences, but it leaves us with things like:\n*the dog ate a apple\n*each squirrel buried a acorns\n*an cat scratched an tree\n\nHow do we fix this?"
+    "text": "Syntax\nWith just those restrictions, the number of possible sentences drops to 7,776\n\nThis gets ride of most of the ungrammatical sentences, but it leaves us with things like:\n*the dog buried a apple\n*each squirrel buried a acorns\n*an cat scratched an tree\n\nHow do we fix this?"
   },
   {
     "objectID": "slides/lectures/10-What happens when we hear a sentence/index.html#morphology",
@@ -1299,7 +1299,7 @@
     "href": "slides/lectures/10-What happens when we hear a sentence/index.html#morphology-2",
     "title": "What happens when we hear a sentence?",
     "section": "Morphology?",
-    "text": "Morphology?\n\nBut we still get sentences like:\n\n*some acorns ate some squirrel\n*each apple chased each apple\n*an apple climbed a tree\n\nWhat’s wrong with these?"
+    "text": "Morphology?\n\nBut we still get sentences like:\n\n*some acorns sniffed some squirrel\n*each apple chased each apple\n*an apple climbed a tree\n\nWhat’s wrong with these?"
   },
   {
     "objectID": "slides/lectures/10-What happens when we hear a sentence/index.html#semantics",
