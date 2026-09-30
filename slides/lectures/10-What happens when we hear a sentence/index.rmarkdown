@@ -85,7 +85,7 @@ If we just randomly combine words (and treat reshufflings of words as equivalent
   - *acorns dog squirrel tree cat
 
 $$
-nP = \frac{n!}{(n -k)!} = \frac{18!}{(13 - 5)!} = 8,568
+Pk = \frac{n!}{(n -k)!} = \frac{18!}{(13 - 5)!}
 $$
 
 :::
