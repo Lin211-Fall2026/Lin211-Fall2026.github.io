@@ -33,6 +33,9 @@ filters:
 ---
 
 ```{r echo=FALSE, include=FALSE}
+install.packages("phonTools")
+install.packages("audio")
+
 library(phonTools)
 library(audio)
 
