@@ -1208,7 +1208,7 @@
     "href": "slides/lectures/10-What happens when we hear a sentence/index.html#how-many-possible-sentences-were-there",
     "title": "What happens when we hear a sentence?",
     "section": "How many possible sentences were there?",
-    "text": "How many possible sentences were there?\nIf we just randomly combine words (and treat reshufflings of words as equivalent), you could have 8,568 different sentences!\n\n\n\nIt would include real sentences, like:\n\nthe dog chased a cat\na squirrel ate some acorns\n\nBut it would include slightly wrong sentences, like:\n\n*an cat scratched the tree\n*each apple ate the dog\n\n\n\n\nAnd some very wrong sentences, like:\n\n*chased cat dog buried the\n*acorns dog squirrel tree cat\n\n\n\\[\nnP = \\frac{n!}{(n -k)!} = \\frac{18!}{(13 - 5)!} = 8,568\n\\]"
+    "text": "How many possible sentences were there?\nIf we just randomly combine words (and treat reshufflings of words as equivalent), you could have 8,568 different sentences!\n\n\n\nIt would include real sentences, like:\n\nthe dog chased a cat\na squirrel ate some acorns\n\nBut it would include slightly wrong sentences, like:\n\n*an cat scratched the tree\n*each apple ate the dog\n\n\n\n\nAnd some very wrong sentences, like:\n\n*chased cat dog buried the\n*acorns dog squirrel tree cat\n\n\n\\[\nPk = \\frac{n!}{(n -k)!} = \\frac{18!}{(13 - 5)!}\n\\]"
   },
   {
     "objectID": "slides/lectures/10-What happens when we hear a sentence/index.html#and-it-misses-some-real-sentences",
@@ -1327,7 +1327,7 @@
     "href": "slides/lectures/10-What happens when we hear a sentence/index.html#how-sentences-work",
     "title": "What happens when we hear a sentence?",
     "section": "How sentences work",
-    "text": "How sentences work\n\nSentences are spoken sequences of words, arranged hierarchically, with morphological, syntactic, and semantic dependencies binding the words together and helping talkers and listeners create meaning\nSentences are not created by randomly stringing words together\nin our play example, only 0.0013% combinations of the possible sentences formed from the 18 words were actually grammatical in the linguistic sense\n\n\nin our play example, only 0.0013% of the possible sentences from the 18 words were actually grammatical"
+    "text": "How sentences work\n\nSpeech is a sequence of sounds, that our brains turn into words\nSentences are sequences of words, arranged hierarchically, with morphological, syntactic, and semantic dependencies binding the words together and helping talkers and listeners create meaning\n(Looking ahead, we also use social information about the talker to understand speech!)\nSentences are not created by randomly stringing words together\nin our play example, only 0.0013% combinations of the possible sentences formed from the 18 words were actually grammatical in the linguistic sense"
   },
   {
     "objectID": "slides/lectures/10-What happens when we hear a sentence/index.html#how-we-hear-a-sentence-1",
