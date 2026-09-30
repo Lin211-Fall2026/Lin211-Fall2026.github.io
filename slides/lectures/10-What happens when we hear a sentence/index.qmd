@@ -71,10 +71,10 @@ If we just randomly combine words (and treat reshufflings of words as equivalent
 ::: {.incremental}
 - It would include real sentences, like:
   - the dog chased a cat
-  - a squirrel ate some acorns
+  - a squirrel sniffed some acorns
 - But it would include _slightly_ wrong sentences, like:
   - *an cat scratched the tree
-  - *each apple ate the dog
+  - *each apple climbed the dog
 
 :::
 ::::::
@@ -104,7 +104,7 @@ Randomly combining words and treating reshufflings as equivalent has two other p
 
 - It would **miss** real sentences like ones you might have created:
   - the dog chased the cat
-  - some squirrel ate some acorns
+  - some squirrel sniffed some acorns
 - Maybe more importantly, it makes a huge error and treats these as the same sentence:
   - the dog sniffed the cat
   - the cat sniffed the dog
@@ -227,7 +227,7 @@ Notice that not every word is equally allowed in all 5 slots of our sentence:
 With just those restrictions, the number of possible sentences drops to **7,776**
 
 - This gets ride of most of the ungrammatical sentences, but it leaves us with things like:
-- *the dog ate a apple
+- *the dog buried a apple
 - *each squirrel buried a acorns
 - *an cat scratched an tree
 
@@ -259,7 +259,7 @@ A thing you just know about English without ever having been explicitly told is 
 ## Morphology?
 
 - But we still get sentences like:
-     - *some acorns ate some squirrel
+     - *some acorns sniffed some squirrel
      - *each apple chased each apple
      - *an apple climbed a tree
 - What's wrong with these?
