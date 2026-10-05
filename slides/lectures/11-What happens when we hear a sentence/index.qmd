@@ -1,8 +1,8 @@
 ---
-title: "What happens when we hear a sentence?"
-subtitle: "Lin 211 • Section 2, Part 5a"
+title: "What happens when we hear a sentence? (part 2)"
+subtitle: "Lin 211 • Section 2, Part 5b"
 description: Pullum, Chapter 4
-date: 09/30/2026
+date: 10/03/2026
 categories: [Bits &amp; Pieces]
 bibliography: includes/references.bib
 authors:
@@ -50,112 +50,48 @@ html_audio <- function(file, type = "wav") {
 
 ## Ling Link
 
-From this list, without changing or adding ANYTHING, work with your neighbors to build three (3) different sentences with five (5) words each:
+Listen to these two English sentences (spoken by your professor) and then discuss (in pairs or small groups):
 
-| A | B | C | 
-|--|--|--|
-| each | apple | climbed |
-| the | cat | chased |
-| a | squirrel | buried |
-| an | dog | sniffed |
-| every | acorns | blocked |
-| some | tree | scratched |
+1. what sentence did he say?
+2. how many words were in it?
+3. how many syllables were in it?
 
-## How many possible sentences were there?
+::: {.notes}
 
-If we just randomly combine words (and treat reshufflings of words as equivalent), you could have **8,568** different sentences!
-
-:::::::: {.columns}
-
-::::::{.column width="50%"}
-::: {.incremental}
-- It would include real sentences, like:
-  - the dog chased a cat
-  - a squirrel sniffed some acorns
-- But it would include _slightly_ wrong sentences, like:
-  - *an cat scratched the tree
-  - *each apple climbed the dog
-
-:::
-::::::
-
-::::::{.column width="50%"}
-
-::: {.incremental}
-
-- And some **very** wrong sentences, like:
-  - *chased cat dog buried the
-  - *acorns dog squirrel tree cat
-
-$$
-Pk = \frac{n!}{(n -k)!} = \frac{18!}{(13 - 5)!}
-$$
-
-:::
- 
-::::::
-::::::::
-
-## And it misses some real sentences!
-
-Randomly combining words and treating reshufflings as equivalent has two other problems:
-
-::: {.incremental}
-
-- It would **miss** real sentences like ones you might have created:
-  - the dog chased the cat
-  - some squirrel sniffed some acorns
-- Maybe more importantly, it makes a huge error and treats these as the same sentence:
-  - the dog sniffed the cat
-  - the cat sniffed the dog
+S1: where were you while we were away?
+S2: would an eel obey a gar? 
 
 :::
 
-## Permutations: words can repeat and order matters?
+## What were the two sentences?
 
-So let's say repetitions *are* allowed and we care about the order words appear in.  Now how many?
+- What were the two sentences you heard?
+- How many words were in each one?
+- How many syllables in each one?
 
-::::: {.r-fit-text .fragment .absolute top="300"}
-1,889,568
-:::::
+## Sentence One
 
-::::: {.fragment .absolute top="650" right="0"}
-= $n^k$ possible sentences
-:::::
+```{r echo=FALSE}
+hear <- load.wave("recordings/S1.wav")
 
-## This actually fixes some problems!
-
-- Now we can account for sentences like:
-  - the dog chased the cat
-  - a cat blocked the cat
-  - the dog chased the cat != the cat chased the dog
-  - and many others!
-
-## But it creates new garbage and keeps old garbage
-
-::: {.incremental}
-
-- *chased cat dog buried the
-- *an squirrel apple cat acorns
-- *an the each every some
-- *cat cat cat cat cat
-
+spectrogram(hear, color=FALSE, quality=TRUE, maxfreq=8000, dynamicrange=70)
+```
+::: aside
+`r html_audio("recordings/S1.wav")`
 :::
-## So what do we do?
 
-::::: {.r-fit-text .fragment .absolute top="300"}
-syntax, morphology, & semantics!
-:::::
+## Sentence Two
 
-## Syntax
-Notice that not every word is equally allowed in all 5 slots of our sentence:
+```{r echo=FALSE}
+hear <- load.wave("recordings/S1.wav")
 
-[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+spectrogram(hear, color=FALSE, quality=TRUE, maxfreq=8000, dynamicrange=70)
+```
+::: aside
+`r html_audio("recordings/S1.wav")`
+:::
 
+## Last time: 2,626 Sentences
 
 | A | B | C | 
 |--|--|--|
@@ -166,115 +102,7 @@ Notice that not every word is equally allowed in all 5 slots of our sentence:
 | every | acorns | blocked |
 | some | tree | scratched |
 
-## Syntax
-Notice that not every word is equally allowed in all 5 slots of our sentence:
-
-[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Column C]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-| A | B | C | 
-|--|--|--|
-| each | apple | climbed |
-| the | cat | chased |
-| a | squirrel | buried |
-| an | dog | sniffed |
-| every | acorns | blocked |
-| some | tree | scratched |
-
-## Syntax
-Notice that not every word is equally allowed in all 5 slots of our sentence:
-
-[Column A]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Column B]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Column C]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-| A | B | C | 
-|--|--|--|
-| each | apple | climbed |
-| the | cat | chased |
-| a | squirrel | buried |
-| an | dog | sniffed |
-| every | acorns | blocked |
-| some | tree | scratched |
-
-## Syntax
-Notice that not every word is equally allowed in all 5 slots of our sentence:
-
-[Column A]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Column B]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Column C]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Column A]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Column B]{style="text-decoration: underline;"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-| A | B | C | 
-|--|--|--|
-| each | apple | climbed |
-| the | cat | chased |
-| a | squirrel | buried |
-| an | dog | sniffed |
-| every | acorns | blocked |
-| some | tree | scratched |
-
-## Syntax
-With just those restrictions, the number of possible sentences drops to **7,776**
-
-- This gets ride of most of the ungrammatical sentences, but it leaves us with things like:
-- *the dog buried a apple
-- *each squirrel buried a acorns
-- *an cat scratched an tree
-
-How do we fix this?
-
-## Morphology
-If we add a morphological rule that *an* can only come before words that start with a vowel (apple, acorns) the number of sentences drops to **5,400** and now includes mostly sentences we want it to! Sample sentences look like:
-
-- the squirrel sniffed an apple
-- each squirrel climbed the dog
-- every squirrel climbed each tree
-- *the squirrel sniffed each acorns
-- *the squirrel sniffed every acorns
-
-What's wrong?
-
-## Morphology
-
-A thing you just know about English without ever having been explicitly told is that *the*, *a*, *an*, *each*, and *every* are singular!  They can't be paired with a plural noun like acorns.
-
-- If we add a pair of morphological rules that say this, the number of possible sentences drops to **4,056**!
-- And it's really starting to look like English!
-     - every cat climbed a tree
-     - some cat buried the apple
-     - a tree blocked the squirrel
-     - the squirrel sniffed the apple
-     - each dog chased some acorns
-
-## Morphology?
-
-- But we still get sentences like:
-     - *some acorns sniffed some squirrel
-     - *each apple chased each apple
-     - *an apple climbed a tree
-- What's wrong with these?
-
-## Semantics!
-A thing you just know about English, without ever having been explicitly told, is that verbs like the ones in Column C have to be done by living things (or non-living things with living-like abilities e.g. robots)
-
-- We need **semantic** rules something like:
-    - Only **animate** things can climb, chase, bury, sniff, or scratch
-    - Which means that one of the things you know when you know a word is whether that words is **animate** or **inanimate**
-    - If we add these rules, now the number of possible sentences drops to **2,626** (down from 1,889,568)
-
-## 2,626 Sentences
-
-- With those syntactic, morphological, and semantic constraints in place, the possible sentences are:
+- With our syntactic, morphological, and semantic constraints in place, the possible sentences are:
 
 a cat blocked a cat<br>
 a cat blocked a dog<br>
@@ -3063,8 +2891,9 @@ spectrogram(hear, color=FALSE, quality=TRUE, maxfreq=8000, dynamicrange=70)
 
 ## What’s next?
 
-- Come to lecture Monday for “Where do dialects come from?”
-- Get started on Observation Notes \#3 (due October 9)!
+- Come to lecture Wednesday for “Where do dialects come from?”
+- Get started on Observation Notes \#3 (due February 28)!
+- Quiz 5 Friday!
 
 ## References
 
