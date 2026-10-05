@@ -52,9 +52,9 @@ html_audio <- function(file, type = "wav") {
 
 Listen to these two English sentences (spoken by your professor) and then discuss (in pairs or small groups):
 
-1. what sentence did he say?
-2. how many words were in it?
-3. how many syllables were in it?
+- what sentence did he say?
+- how many words were in it?
+- how many syllables were in it?
 
 ::: {.notes}
 
