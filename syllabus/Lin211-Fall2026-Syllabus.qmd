@@ -10,7 +10,6 @@ format:
       columns: 1
       number-sections: false
       css-property-processing: translate
-      pdf-standard: ua-1
 editor: source
 ---
 # Syllabus
@@ -141,7 +140,7 @@ The following dates are approximate, and dates are subject to change. **Pullum**
 |	Wednesday, Sep 23rd	| Is slang legit?	| Pullum: Chapter 2	|
 |	Monday, Sep 28th	| Why are some words “bad words”?	|	|
 |	Wednesday, Sep 30th	| What happens when we hear a sentence?	| Pullum: Chapter 4	|
-|	Monday, Oct 5th	| Where do dialects come from? |	|
+|	Monday, Oct 5th	| What happens when we hear a sentence? (pt 2) |	|
 |	Wednesday, Oct 7th	| What is the prettiest language?	|	Canvas: Perceptual Dialectology |
 | **Language in the world** | | (weeks 8 - 13) |
 |	Monday, Oct 12th	| Spotlight lecture: What methods and ethics of inquiry are used?	|	|
