@@ -43,15 +43,6 @@ revealjs-plugins:
 
 ::: {.column width="50%"}
 
-```{r}
-#| label: qr_code
-#| message: false
-#| warning: false
-#| include: false
-code <- qrcode::qr_code( "https://mydialect.us/quiz-quick.html")
-
-qrcode::generate_svg(qrcode = code, filename = "images/qr_code.svg", show = FALSE )
-```
 ![](images/qr_code.svg){width="100%"}
 :::
 
