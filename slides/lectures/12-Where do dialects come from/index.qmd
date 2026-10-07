@@ -27,8 +27,6 @@ format:
       - # set pointer configuration options here
 revealjs-plugins:
   - pointer
-filters:
-  - typst-render
 ---
 
 ## Ling Link
@@ -255,18 +253,7 @@ Phonetics!
   * We need to know what can and can’t happen in language
   * Social pressures might cause the change to be accepted/rejected\, but the change must follow principles of how language works
 
-
-## Syntactic Example
-
-| Present | Past |
-| :-: | :-: |
-| I  _is_ 		You  _is_ 	He/she/it  _is_ We  _is_ You \(pl\.\)  _is_ They  _is_ | I  _was_ 			You  _was_ 	He/she/it  _was_ We  _was_ You \(pl\.\)  _was_ They  _was_ |
-
-
-
 ## Changes from outside
-
-
 
 * Language contact = new settlement can bring different groups into contact
   * Early American English was heavily influenced by Native American languages in the Algonquin\, Iroquoian\, and Siouan families
