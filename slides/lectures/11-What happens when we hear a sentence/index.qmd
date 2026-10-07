@@ -1,7 +1,7 @@
 ---
 title: "What happens when we hear a sentence? (part 2)"
 subtitle: "Lin 211 • Section 2, Part 5b"
-date: 10/03/2026
+date: 10/05/2026
 categories: [Bits &amp; Pieces]
 bibliography: includes/references.bib
 authors:
@@ -63,6 +63,7 @@ S1: where were you while we were away?
 S2: would an eel obey a gar? 
 
 :::
+
 
 ## What were the two sentences?
 
