@@ -65,7 +65,8 @@ qrcode::generate_svg(qrcode = code, filename = "images/qr_code.svg", show = FALS
 
 - **dialect**: A regional or social variety of a language with its own characteristic lexical, phonological, syntactic, and pragmatic properties
 - **accent**: Constellations of sounds that, together, point to a regional or social identity (essentially the phonological and phonetic aspect of a dialect)
-- **speech community**: a group of people with shared linguistic expectations and norms or shared community membership (see also: communities of practice [@eckert2000language; @eckert2007])
+- **speech community**: A group of people with shared linguistic expectations and norms or shared community membership. See also: communities of practice [@eckert2000language; @eckert2007]
+
 
 ::::
 
@@ -96,6 +97,13 @@ For more on today's topic, see: [@BarrettCramerMcGowan2023]
 ## Some even just claim it already happened!
 
 ![](images/telephones.png)
+:::{.notes}
+
+In 1920, according to the US Census, there were 106,021,537 people in the United States
+
+~12.2% of them had phones and this was supposed to fundamentally reshape how language worked
+
+:::
 
 ## Reality is not like that [@hall1902telegraph]
 
@@ -116,8 +124,8 @@ For more on today's topic, see: [@BarrettCramerMcGowan2023]
 ## The Telegraph and Regional Variation
 
 - Regional variation, instead of being destroyed by new technologies, comes with us into these new worlds we build for ourselves
-- And helps us both maintain the social groupings that were already important to us offline
-- And build new ways of belonging to, or distancing ourselves from, these new speech communities technologies afford
+- Regional and Social Variation (dialect) helps us both maintain the social groupings that were already important to us offline
+- And build new ways of belonging to, or distancing ourselves from, these new speech communities technologies afford us
 
 ## A fundamental misunderstanding
 
@@ -152,8 +160,11 @@ For more on today's topic, see: [@BarrettCramerMcGowan2023]
 - dialects & accents really are changing around you, all the time, but what they're *not* doing is disappearing!
 - Because dialects aren't accidents, they're not unfortunate wrinkles in the otherwise smooth fabric of language, dialects serve a core social function
 
-# Bits and Pieces of Dialect:
+## Bits and Pieces Sound:
 
+::: {.r-fit-text}
+Phonetics!
+:::
 
 ## Phonetic Features
 
@@ -192,10 +203,10 @@ For more on today's topic, see: [@BarrettCramerMcGowan2023]
   * While across the border in Canada: /kɑt/ = ‘cot’ and /kɑt/ = ‘caught’
 
 
-# Distribution of /ɑ/ merger with /ɔ/
+# Distribution
 
 
-![](images/11-Where%20do%20dialects%20come%20from_2.png)
+![](images/11-Where%20do%20dialects%20come%20from_2.png){width="100%"}
 
 
 # How do you pronounce “pen” and “pin”?
