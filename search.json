@@ -1348,14 +1348,14 @@
     "href": "slides/lectures/14-How do kids learn to talk/index.html#observation-1",
     "title": "How do kids learn to talk?",
     "section": "Observation 1:",
-    "text": "Observation 1:\n\n\nIt is possible to learn a new language.\n\n\n⤹ ( for adults )"
+    "text": "Observation 1:\n\n\nIt is possible to learn a new language.\n\n\n⤹ ( but it’s so hard, we hire AI owls to pester us)"
   },
   {
     "objectID": "slides/lectures/14-How do kids learn to talk/index.html#it-is-possible-to-learn-a-new-language-but",
     "href": "slides/lectures/14-How do kids learn to talk/index.html#it-is-possible-to-learn-a-new-language-but",
     "title": "How do kids learn to talk?",
     "section": "It is possible to learn a new language, but…",
-    "text": "It is possible to learn a new language, but…\n\nit requires a lot of effort and resources\ntakes a long time\nthe person will almost certainly always have a foreign accent in the language\nthe language itself is only a portion of what has to be learned; cultural norms and expectations, idioms, pragmatic meanings, rules of politeness, etc. all have to be learned to."
+    "text": "It is possible to learn a new language, but…\n\nFor an adult, it requires a lot of effort and resources\ntakes a long time\nthe person will almost certainly always have a foreign accent in the language\nthe language itself is only a portion of what has to be learned; cultural norms and expectations, idioms, pragmatic meanings, rules of politeness, etc. all have to be learned to."
   },
   {
     "objectID": "slides/lectures/14-How do kids learn to talk/index.html#observation-2",
@@ -1393,11 +1393,11 @@
     "text": "Some Terminology\n\nLanguage acquisition is the process by which humans acquire the ability to use, produce, and perceive language!\n\nInvolves the acquisition of all functional aspects of the system, including phonetics, phonology, morphology, lexicon, syntax, and pragmatics\n\nFirst Language Acquisition: how an infant acquires his/her first or primary language\nSecond Language Acquisition: how children and adults acquire additional languages beyond the first"
   },
   {
-    "objectID": "slides/lectures/14-How do kids learn to talk/index.html#hypothesis-1-induction",
-    "href": "slides/lectures/14-How do kids learn to talk/index.html#hypothesis-1-induction",
+    "objectID": "slides/lectures/14-How do kids learn to talk/index.html#hypothesis-1-purely-inductive",
+    "href": "slides/lectures/14-How do kids learn to talk/index.html#hypothesis-1-purely-inductive",
     "title": "How do kids learn to talk?",
-    "section": "Hypothesis #1: Induction",
-    "text": "Hypothesis #1: Induction\n\n\n\n\nEarly research suggested that language learning was a process of induction\nChildren generalize linguistic patterns from the input they receive\ninference of a generalized conclusion from particular instances; compare deduction"
+    "section": "Hypothesis #1: Purely Inductive",
+    "text": "Hypothesis #1: Purely Inductive\n\n\n\n\nEarly research suggested that language learning was a process of induction\nChildren generalize linguistic patterns from the input they receive\ninference of a generalized conclusion from particular instances; compare deduction"
   },
   {
     "objectID": "slides/lectures/14-How do kids learn to talk/index.html#induction",
@@ -1411,7 +1411,7 @@
     "href": "slides/lectures/14-How do kids learn to talk/index.html#induction-biases-make-things-easier",
     "title": "How do kids learn to talk?",
     "section": "Induction (biases make things easier)",
-    "text": "Induction (biases make things easier)\n\n\n\nInduction in word learning\n\nHumans have an inherent bias regarding meaning\nWe assume Gavagai means rabbit but it could mean “cute”, “ears”, “white”, “mammal”\nInfinite possibilities, but whole object bias suggests it will be the whole thing, not its parts"
+    "text": "Induction (biases make things easier)\n\n\n\nInduction in word learning\n\nHumans have an inherent bias regarding meaning\nWe assume Gavagai means rabbit but it could mean “cute”, “ears”, “white”, “mammal”\nInfinite possibilities, but whole object bias suggests it will be the whole thing, not its parts\n\n\n\n\n\n\nWillard Van Orman Quine's thesis about the inscrutability of reference Word and Object (1960)"
   },
   {
     "objectID": "slides/lectures/14-How do kids learn to talk/index.html#section-3",
@@ -1421,11 +1421,11 @@
     "text": "But it’s not a simple case of imitation!\n\n“I goed to bed.”\n“Me eat apples.”\n“I brush my tooths.”\nthe Wug™ Test"
   },
   {
-    "objectID": "slides/lectures/14-How do kids learn to talk/index.html#hypothesis-2-innateness",
-    "href": "slides/lectures/14-How do kids learn to talk/index.html#hypothesis-2-innateness",
+    "objectID": "slides/lectures/14-How do kids learn to talk/index.html#hypothesis-2-purely-deductive",
+    "href": "slides/lectures/14-How do kids learn to talk/index.html#hypothesis-2-purely-deductive",
     "title": "How do kids learn to talk?",
-    "section": "Hypothesis #2: Innateness",
-    "text": "Hypothesis #2: Innateness\n\nThe Innateness Hypothesis\n\nLanguage ability in humans is innate , or inborn\nHumans are genetically predisposed to learn/use language\nBabies are born with the knowledge that languages have patterns and with the ability to seek out those patterns\nRequires reinforcement, but no one “teaches” you how to talk\n\nChildren learn language as they live in it\nBut acquiring language is more than memorizing words and phrases\nGrammatical and communicative competence\n\nWe need induction and  innateness to handle language acquisition"
+    "section": "Hypothesis #2: Purely Deductive",
+    "text": "Hypothesis #2: Purely Deductive\n\nThe Innateness Hypothesis\n\nLanguage ability in humans is innate , or inborn\nHumans are genetically predisposed to learn/use language\nBabies are born with the knowledge that languages have patterns and with the ability to seek out those patterns\nRequires reinforcement, but no one “teaches” you how to talk\n\nChildren learn language as they live in it\nBut acquiring language is more than memorizing words and phrases\nGrammatical and communicative competence"
   },
   {
     "objectID": "slides/lectures/14-How do kids learn to talk/index.html#if-its-built-in-why-arent-we-born-talking",
@@ -1477,15 +1477,22 @@
     "text": "One-Word Stage: 12 months\n\nResearch suggests that children are doing more than just rehearsing single words\n\nChildren use single words to express whole propositions\nA child may say “Dada” to mean different things in different contexts\n\n“Dada”\n\nHere comes Daddy!\nThis is for Daddy.\nThat is where Daddy sits.\nThis shoe is Daddy’s."
   },
   {
-    "objectID": "slides/lectures/14-How do kids learn to talk/index.html#two-word-stage-1-½-years",
-    "href": "slides/lectures/14-How do kids learn to talk/index.html#two-word-stage-1-½-years",
+    "objectID": "slides/lectures/14-How do kids learn to talk/index.html#two-word-stage-typically-1-½-years",
+    "href": "slides/lectures/14-How do kids learn to talk/index.html#two-word-stage-typically-1-½-years",
     "title": "How do kids learn to talk?",
-    "section": "Two-Word Stage: 1 ½ years",
-    "text": "Two-Word Stage: 1 ½ years\n\nThe child has about 50 words in their vocabulary\nUtterances typically contain one noun-like subject element and one predicate-like element\n\nSomething like “John apple” is like…\nJohn ate an apple\nsubject predicate"
+    "section": "Two-Word Stage: Typically 1 ½ years",
+    "text": "Two-Word Stage: Typically 1 ½ years\n\nThe child has about 50 words in their vocabulary\nUtterances typically contain one noun-like subject element and one predicate-like element\n\nSomething like “John apple” is like…\nJohn ate an apple\nsubject predicate"
   },
   {
     "objectID": "slides/lectures/14-How do kids learn to talk/index.html#beyond-two-words",
     "href": "slides/lectures/14-How do kids learn to talk/index.html#beyond-two-words",
+    "title": "How do kids learn to talk?",
+    "section": "Beyond two words?",
+    "text": "Beyond two words?"
+  },
+  {
+    "objectID": "slides/lectures/14-How do kids learn to talk/index.html#beyond-two-words-1",
+    "href": "slides/lectures/14-How do kids learn to talk/index.html#beyond-two-words-1",
     "title": "How do kids learn to talk?",
     "section": "Beyond two words?",
     "text": "Beyond two words?\n\nHere is a real parent-child (2;8) interaction:\n\nChild: I beed a princess.\nMommy: You are the princess?\nChild: No, I beed a princess.\n\nWhat happened?\n\nSounds Mommy heard: [ajbidəprɪncɛs]\n\nMommy’s interpretation = “I be (am) the princess”\nMommy questions child about utterance\n\nChild’s actual meaning = “I beed (was) a princess”\n\nChild has overgeneralized regular past tense"
