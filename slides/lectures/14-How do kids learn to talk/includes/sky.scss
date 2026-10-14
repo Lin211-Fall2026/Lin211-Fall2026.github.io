@@ -50,11 +50,6 @@ $code-block-bg: transparent !default;
   padding-inline-start: .25em;
 }
 
-/* override current rule in Quarto */
-.reveal .scrollable ol li:first-child:nth-last-child(n+10),
-.reveal .scrollable ol li:first-child:nth-last-child(n+10) ~ li {
-  margin-left: 0;
-}
 
 /*-- scss:mixins --*/
 
