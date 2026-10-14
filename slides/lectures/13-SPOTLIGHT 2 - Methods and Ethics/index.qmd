@@ -1,0 +1,458 @@
+---
+title: "What Methods & ethics of Inquiry are used in linguistics research?"
+subtitle: "Lin 211 • Section 2, Part 6"
+date: 10/12/2026
+categories: [Language in the World]
+bibliography: includes/references.bib
+authors:
+  - name: Grace Anderson
+    email: grace.kk.anderson@gmail.com
+tbl-cap-location: bottom
+format:
+  revealjs:
+    slide-number: c/t
+    width: 1280
+    height: 720
+    footer: "Bits &amp; Pieces"
+    incremental: false
+    scrollable: true
+    theme: includes/sky.scss
+    css:
+      - includes/inline-fragment.css
+      - custom.css
+    template-partials:
+      - includes/title-slide.html
+    pointer:
+      - # set pointer configuration options here
+revealjs-plugins:
+  - pointer
+---
+
+## This is really two questions:
+
+::: {.notes}
+
+Outline the spotlight lectures: 
+Regular lectures are to introduce linguistic concepts (what is linguistics?)
+Spotlight lectures are about how we do linguistics
+
+Stella’s spotlight lecture: about forming research questions 
+what kinds of questions can we ask? What makes a good research question?  (grounded in previous research; practical; specific)
+Next lecture: How do we find relevant linguistic sources? 
+This lecture: how do we conduct the research? 
+
+What does this question mean?
+:::
+
+
+methods
+
+ethics
+
+Once we have a research question, how do we go about answering it?
+
+How can we design our research in a way that minimizes harm?
+
+## LING LINK: THINK BACK TO THE FIRST SPOTLIGHT LECTURE
+
+Research question: “Where, exactly, do people use different words for a carbonated beverage?”
+
+With the people around you, brainstorm for 2-3 minutes some ways that you can go about answering this question.
+
+Be specific! “Ask them” is not enough detail…
+
+Who are you asking?
+
+How are you asking them?
+
+What question are you asking?
+
+etc.
+
+<span style="color:#0070c0">[https://youtu.be/QwhK-iEyXYA](https://youtu.be/QwhK-iEyXYA)</span>  <span style="color:#0070c0"> </span>
+
+## Methods: How do we answer questions?
+
+The research method:
+
+Start with a question
+
+State a hypothesis
+
+Collect data
+
+Use your data to test your hypothesis
+
+## Blorp
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_0.jpg)
+
+This video is specifically for sociology, but we use the same processes in Linguistics!
+
+A specific, practical research question based on previous research:
+
+## Where, exactly, do people use different words for a carbonated beverage?
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_1.png)
+
+## State a Hypothesis
+
+Define and operationalize your variables:
+
+Make a hypothesis about the relationship between the variables:
+
+_“If a speaker is from a state in the Midwest, then they’ll be more likely to use the word “pop” to describe carbonated drinks.” _
+
+Region:
+
+State of origin
+
+Variant:
+
+Soda, pop, coke, fizzy drink, soft drink, etc.
+
+Dependent variable
+
+Independent variable
+
+::: {.notes}
+
+Operationalizing a variable makes it measurable - you’re defining the potential values it can have
+You have to be strategic. 
+Region: 
+How specific? Country / state / county / city / home address. Based on our question, what makes the most sense? 
+When? Where someone was born? Where they live now? Where they spent the most time? 
+
+
+In this example, region is the independent variable (the variable we think is affecting the linguistic behavior) and variant is the dependent variable (the variable we think is affected by changes in region). 
+You might have multiple hypotheses
+Note: this hypothesis is still pretty unspecific. What’s the “Midwest”?
+
+
+
+
+:::
+
+## Methods of collecting data:
+
+Experiments
+
+Participants are divided into a control group and experimental group(s)
+
+Researchers manipulate the independent variable(s) and then measure the dependent variable(s)
+
+Surveys
+
+Participants respond to a prepared set of questions
+
+Participants are sampled from a population of interest
+
+Participant observation
+
+Researchers observe people in their daily routines
+
+Often, this method is exploratory and descriptive
+
+Existing resources
+
+Researchers use existing data collected by others (e.g. government agencies or other researchers)
+
+::: {.notes}
+
+For the carbonated drinks question: 
+Population: Americans English speakers
+Sample: 
+Survey with questions targeting: 
+The speaker’s word for a carbonated/fizzy drink ?
+Some variant of “where are you from?”  depending on how you define the region variable
+
+
+
+:::
+
+## surveys
+
+
+
+* The phrasing and order of questions can be important!
+  * Yes/No vs. Multiple choice vs. Open-ended
+  * Order of questions
+  * Phrasing of questions
+* What’s your word for “pop”?
+* Which word do you use:  “soda” or “pop”?
+* What’s your generic term for a sweetened carbonated beverage?
+
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_2.png)
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_3.png)
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_4.png)
+
+::: {.notes}
+
+Be careful! Structure of a survey / questions can bias the answers. 
+
+:::
+
+## Test your hypothesis
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_5.png)
+
+_“If a speaker is from a state in the Midwest, then they’ll be more likely to use the word “pop” to describe carbonated drinks.” _
+
+::: {.notes}
+
+
+If the data supports your hypothesis, hooray! 
+If not, it sometimes contradicts your hypothesis in interesting ways. 
+
+Either way, the next step is to take your new observations and keep asking questions!
+
+
+
+:::
+
+Test your hypothesis
+
+State a hypothesis
+
+## What does it mean to do research ethically?
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_6.jpg)
+
+## Milgram Experiment
+
+Please continue.
+
+Could you please continue?
+
+Continue.
+
+Will you continue?
+
+<span style="color:#0070c0">[https://youtu.be/Kzd6Ew3TraA](https://youtu.be/Kzd6Ew3TraA)</span>
+
+::: {.notes}
+
+Temperature check – what makes an experiment (un)ethical?
+
+
+
+:::
+
+Was this an ethical experiment?
+
+As conducted, is  _unethical_ . Why?
+
+Psychological harm for participants
+
+No clear way to end the experiment
+
+Insufficient or absent debrief after deception
+
+::: {.notes}
+
+
+
+
+This one was really egregiously unethical… but there are some examples that might be less obvious
+
+:::
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_7.png)
+
+## William Labov's Sociolinguistic Interview
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_8.png)
+
+Can you think of a problem with this question?
+
+Why might the interviewee sometimes end the interview early?
+
+Text from:  <span style="color:#0070c0"> </span>  <span style="color:#0070c0">[https://www.degruyter.com/document/doi/10.1515/9781474472968-006/pdf?licenseType=restricted](https://www.degruyter.com/document/doi/10.1515/9781474472968-006/pdf?licenseType=restricted)</span>  <span style="color:#0070c0"> </span>
+
+Audio from <span style="color:#0070c0">: </span>  <span style="color:#0070c0">[https://soundcloud.com/xander-470783300/labov-dod-recreation](https://soundcloud.com/xander-470783300/labov-dod-recreation)</span>
+
+::: {.notes}
+
+An example from linguistics
+
+not inherently unethical, but it can be distressing
+use it sensitively
+obtain informed consent
+let participants decline to respond or stop the interview
+
+:::
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_9.png)
+
+Who did this research stand to benefit / harm?
+
+What happened to the data after the research was concluded?
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_10.png)
+## Blorp
+
+https://www.newyorker.com/magazine/2021/04/19/how-did-a-self-taught-linguist-come-to-own-an-indigenous-language
+
+::: {.notes}
+
+There’s a lot to unpack from this article, but key points: 
+Who was this research for? 
+
+This research has had benefits for the Penobscot community
+Language revitalization efforts make use of Siebert’s wordlists and dictionary.
+Carol Dana leads lessons and activities with students, trains instructors, helped the Penobscot Theatre Company stage a production of Gluskabe stories starring local children
+Conor Quinn, Siebert’s former assistant, leads summer language intensives for local teenagers and has been working to revise the Penobscot dictionary
+
+But Frank Siebert didn’t necessarily have the community in mind
+The data he collected didn’t belong to the community (it was legally his under copyright law, and then the American Philosophical Society’s)
+
+
+
+“ Anderson sees Siebert’s approach as archetypal of nineteenth- and early-twentieth-century anthropological research, which tended to cast indigenous people not as participants but as objects of study, and rarely aspired to benefit them.” 
+Siebert’s research, including the language data he collected, does not belong to the community that made it possible (and that could benefit most from it)
+“ In copying down the grammar, the stories, and the vocabulary of the Penobscot, Siebert made them his. In dying, he made them the American Philosophical Society’s.” 
+
+One part of the article describes Siebert interviewing a group of elders and correcting one of them, claiming more knowledge of the Penobscot language than the people he’s interviewing (prescriptivism vs. descriptivism)
+
+
+:::
+
+## What do you need for ethical research?
+
+Informed consent or permission to use existing data
+
+A plan for storing and future use of data
+
+Minimal risk of harm to participants  _or_  mitigation strategies if unavoidable
+
+Only collect the information you need to answer your question(s)
+
+Accountability and oversight
+
+::: {.notes}
+
+We’ve seen lots of unethical ways to do research. So 
+
+
+- There are relationships between these five things, which we’ll see
+
+
+:::
+
+## Informed Consent
+
+“I have a few questions to ask you about how you feel about Southern accents. The interview will be audio recorded and should take no more than 20 minutes. Your data will be confidential, and the data will be anonymized prior to storage. The data may be used in future experiments. You may withdraw your consent at any time. Do you agree to participate in the research?”
+
+::: {.notes}
+
+Informed consent  
+includes: as much transparency as possible
+Mentions any risk of harm to the participant
+
+
+
+Contrast with: Milgram experiment (“you may withdraw your consent at any time”)
+
+
+Confidentiality / Anonymity: also a way of minimizing risk of harm to participants
+
+
+
+
+
+:::
+
+## Permission to use Existing Data
+
+Anything that has been published is generally acceptable for academic use,  _unless it contains other restrictions or could cause harm to private individuals_ .
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_11.png)
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_12.png)
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_13.png)
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_14.jpg)
+
+## Data Plan
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_15.jpg)
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_16.jpg)
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_17.jpg)
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_18.png)
+
+::: {.notes}
+
+This helps you protect the confidentiality and anonymity of participants
+
+
+:::
+
+## MINIMIZE RISK OF HARM TO PARTICIPANTS
+
+What steps might you to take to protect participants?
+
+Can you think of an experiment where this would be a necessary question?
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_19.png)
+
+::: {.notes}
+
+How to mitigate harm: 
+Reaffirm participant consent – they do not have to answer questions they are uncomfortable with
+
+
+this necessary information? (the answer is not immediately clear)
+- Next slide… don’t collect unnecessary information
+
+:::
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_20.jpg)
+
+## Only Collect Necessary Information
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_21.png)
+
+::: {.notes}
+
+
+Put screenshot of Labov’s book on life & death narratives  in this case, the question is immediately relevant
+In other cases, a question that is less likely to cause distress may be more appropriate.
+
+:::
+
+## ACCOUNTABILITY AND oversight
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_22.png)
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_23.jpg)
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_24.png)
+
+![](images/13-SPOTLIGHT%202%20-%20Methods%20and%20Ethics_25.png)
+
+::: {.notes}
+
+Many universities require training before allowing scholars to conduct research
+The IRB exists to ensure the research being conducted at an institutional is being done ethically
+Before conducting research, researchers submit a proposal to the IRB
+The IRB assesses the level of risk to the subjects, and the researcher’s plan at all stages (recruitment, data collection, data storage / destruction, etc)
+
+:::
+
+## Attendance Question
+
+What demographic information would you need from survey participants to answer the question “Where, exactly, do people use different words for a carbonated beverage?”
+
+
+
+* Midterm assignments due October 19th
+  * Data Collection
+  * Questions about Methods and Ethics
+* New module: Language in the World
+  * Wednesday: How do kids learn to talk?

@@ -1,0 +1,402 @@
+---
+title: "How do kids learn to talk?"
+subtitle: "Lin 211 • Section 3, Part 2"
+date: 10/14/2026
+categories: [Language in the World]
+bibliography: includes/references.bib
+authors:
+  - name: Kevin B McGowan
+    orcid: 0000-0002-8214-1901
+    email: kbmcgowan@uky.edu
+tbl-cap-location: bottom
+format:
+  revealjs:
+    slide-number: c/t
+    width: 1280
+    height: 720
+    footer: "Language in the World"
+    incremental: false
+    scrollable: true
+    theme: includes/sky.scss
+    css:
+      - includes/inline-fragment.css
+      - includes/custom.css
+    include-in-header: 
+      text: |
+        <style>
+        .chubby-margin {
+          margin-left: 200px;
+        }
+        </style>
+    template-partials:
+      - includes/title-slide.html
+    pointer:
+      - # set pointer configuration options here
+revealjs-plugins:
+  - pointer
+  - animate
+filters: 
+  - animate
+---
+## Ling Link
+
+::::: {.columns}
+
+::: {.column width="50%"}
+- what were your/a family member's first words?
+- are there any words you and your family say uniquely because of how a child said them?  (e.g. *p'sketti* 🍝)
+- please discuss amongst yourselves for 3 minutes and post on this MS form:
+- [https://forms.cloud.microsoft/r/UJLZzAbVGh](https://forms.cloud.microsoft/r/UJLZzAbVGh)
+
+:::
+
+::: {.column width="50%"}
+![](images/ling-link-qrcode.png){.absolute right="100" bottom="250" width="30%"}
+
+:::
+:::::
+
+##
+
+
+[MS Form Results](https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=C1MwK7ZpV0S4GEgctT1CrmbPSVncwLtFk6IYqdcuVCVUQ1BTWVpIMUo2RlM5Uk5CWU1aNzlDMVVJWS4u&analysis=false&topview=Presentation)
+  
+
+## Observation 1: 
+
+![](images/the-owl.png){.absolute bottom="0" right="0"}
+
+::: {.r-fit-text .absolute top="250" .fragment .fade-up}
+
+It **is** possible to learn a new language.
+
+:::
+
+:::: {.absolute top="200" left="300" .fragment}
+⤹ ( for an adult )
+::::
+
+## It is possible to learn a new language, but...
+
+1. it requires a lot of effort and resources
+2. takes a long time
+3. the person will almost certainly always have a foreign accent in the language
+4. the language itself is only a portion of what has to be learned; cultural norms and expectations, idioms, pragmatic meanings, rules of politeness, etc. all have to be learned to.
+
+## Observation 2: 
+
+![](images/the-baby.png){.absolute bottom="0" right="0"}
+
+::: {.r-fit-text .absolute top="250" .fragment .fade-up}
+
+Literal babies do this faster & better.
+
+:::
+
+## Babies learn to speak their language(s):
+
+1. apparently effortlessly
+2. quickly
+3. with nearly full native fluency by the time they're 6
+4. all while learning to do literally everything else a person has to know how to do!
+
+##
+
+::: {.r-fit-text .absolute top="250"}
+
+How do kids learn to talk?
+
+:::
+
+![](images/baby-silhouette.png){.absolute top="12" left="467" width="19%"}
+
+
+## Acquiring a first language
+
+::: {.fragment}
+
+| Even very young children | |
+|------|------|
+|                            | make & hear their language's sounds |
+|                            | say many words  |
+|                            | make simple statements |
+
+: {.lightbluebox tbl-colwidths="[50,50]"}
+
+:::
+
+::: {.fragment}
+
+| By the age of six! |  |
+|------|------|
+|                            | master >= 90% of adult-like speech sounds |
+|                            | master 80% of adult grammatical structures |
+
+: {.mediumbluebox tbl-colwidths="[50,50]"}
+
+:::
+
+
+## Some Terminology
+
+:::: {.incremental}
+
+- **Language acquisition** is the process by which humans acquire the ability to use\, produce\, and perceive language\!
+  * Involves the acquisition of all functional aspects of the system\, including phonetics, phonology, morphology, lexicon, syntax, and pragmatics
+- **First** Language Acquisition: how an infant acquires his/her first or primary language
+- **Second** Language Acquisition: how children and adults acquire additional languages beyond the first
+
+::::
+
+## Hypothesis #1: Induction
+
+:::: {.chubby-margin}
+
+```yaml { .animate src="images/inductive-deductive.svg" scale="2"}
+setup:
+  - element: "#Inductive"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "0"
+  - element: "#Inductive-label"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "1"
+  - element: "#Deductive"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "2"
+  - element: "#Deductive-label"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "3"
+```
+::::
+
+::: {.notes}
+
+Early research suggested that language learning was a process of  __induction__
+
+Children generalize linguistic patterns from the input they receive
+
+inference of a generalized conclusion from particular instances; compare deduction
+
+:::
+
+## Induction
+
+:::: {.incremental}
+
+- Induction is probabilistic
+  - There are always many logical possibilities to generalize
+  - Children hear specific instances of sounds, morphemes, words, structures, from which they must derive the general principles of their language
+  - Remember how hard it was to know where the words were when hearing a sentence?  How could a baby learn to find the words before they know any words?!?
+
+::::
+
+## Induction (biases make things a little easier)
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- Induction in word learning
+  - Humans have an inherent bias regarding meaning
+  - We assume *Gavagai* means *rabbit* but it could mean "cute", "ears", "white", "mammal"
+  - Infinite possibilities, but **whole object bias** suggests it will be the whole thing, not its parts
+:::
+
+::: {.column width="50%"}
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_4.png){.r-stretch}
+:::
+::::
+
+
+## 
+
+* But it’s not a simple case of imitation\!
+  * I goed to bed\.
+  * Me eat apples\.
+  * I brush my tooths\.
+
+
+## Acquiring a First Language
+
+
+---
+
+
+# Hypothesis #2: Innateness
+
+
+
+* __The Innateness Hypothesis__
+  * Language  _ability_  in humans is  __innate__ \, or inborn
+  * Humans are genetically predisposed to learn/use language
+  * Babies are born with the knowledge that languages have patterns and with the ability to seek out those patterns
+  * Requires reinforcement\, but no one “teaches” you how to talk
+    * Children learn language as they live in it
+    * But acquiring language is more than memorizing words and phrases
+    * Grammatical and communicative competence
+  * We need induction  _and _ innateness to handle language acquisition
+
+##
+
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_5.jpg){.r-stretch}
+
+## If it’s built in, why aren’t we born talking?!
+
+
+
+* Beyond physical  __maturation__ \, there are  __two __ other aspects of maturation crucial to a child’s ability to acquire a language:
+* __Symbolization__
+  * Language = symbolic = arbitrary representation of the world
+  * To acquire language\, a child must be able to keep a mental picture of an absent object
+* __Using tools__
+  * Language = a tool that gets work done
+  * Children begin using language in this way purposefully to get things they can’t get physically
+
+
+## Adult input in language acquisition
+
+how do adults interact with babies to  _facilitate_  the language acquisition process?
+
+
+##
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_6.png){.r-stretch}
+
+## Baby Talk
+
+__Baby talk__ is a register that adults use to talk to younger children
+
+Not all cultures use Baby Talk
+
+Children learn language at same rate\!
+
+But it’s clear that it must serve some purpose\, otherwise so many groups would have begun to use it nor continue to use it\!
+
+::: {.notes}
+
+Exaggerated prosody helps children acquire phonology more easily
+Simplified sentences help children acquire syntax more easily
+
+:::
+
+
+---
+
+
+## Some Characteristics of Baby Talk
+
+
+---
+
+
+
+
+* There are several stages of language acquisition that we will explore:
+  * Babbling
+  * One\-Word Stage
+  * Two\-Word Stage
+
+
+## Stages of Language Acquisition
+
+
+---
+
+
+## Babbling
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_7.png){.r-stretch}
+
+
+## Babbling video
+
+[https://www\.youtube\.com/watch?v=\_JmA2ClUvUY](https://www.youtube.com/watch?v=_JmA2ClUvUY)
+
+
+## One-Word Stage: 12 months
+
+Children often overgeneralize with these words
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_8.png){.r-stretch}
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_9.png){.r-stretch}
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_10.png){.r-stretch}
+
+##
+
+
+* Research suggests that children are doing more than just rehearsing single words
+  * Children use single words to express whole propositions
+  * A child may say “Dada” to mean different things in different contexts
+* “Dada”
+
+
+Here comes Daddy\!
+
+This is for Daddy\.
+
+That is where Daddy sits\.
+
+This shoe is Daddy’s\.
+
+
+---
+
+
+## Two-Word Stage: 1 ½ years
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_11.png)
+
+
+
+* The child has about 50 words in his/her vocabulary
+* Utterances typically contain one noun\-like subject element and one predicate\-like element
+  * Something like “John apple” is like…
+  * _John_  	 _ate an apple_
+  * subject       predicate
+
+---
+
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_12.jpg)
+
+# Beyond two words?
+
+
+
+* Here is a real parent\-child \(2;8\) interaction:
+  * Child: I beed a princess\.
+  * Mommy: You are the princess?
+  * Child: No\, I  __beed__  a princess\.
+* What happened?
+  * Sounds Mommy heard: \[ajbidəprɪncɛs\]
+    * Mommy’s interpretation = “I be \(am\) the princess”
+    * Mommy questions child about utterance
+  * Child’s actual meaning = “I beed \(was\) a princess”
+    * Child has overgeneralized regular past tense
+
+---
+
+
+# What’s next?
+
+![](images/13-How%20do%20kids%20learn%20to%20talk_13.jpg)
+
+Come to lecture on Monday for the rest of the acquisition story: “How does bilingualism work?”
+
+No class next Wednesday\, March 12 \(Singletary is unavailable\)
+
+Keep working on Observation Notes \#4
+
+Quiz 7 on Friday\!
+

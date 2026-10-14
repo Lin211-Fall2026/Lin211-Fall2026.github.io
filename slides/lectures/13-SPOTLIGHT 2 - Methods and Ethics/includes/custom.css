@@ -1,0 +1,41 @@
+.query ul {
+  list-style-type: "\2047\0020";
+}
+
+.query {
+  list-style-type: "\2047\0020";
+}
+
+
+.lightbluebox {
+  border-radius: 15px 50px;
+  width: 80%;
+  background: #E0E1EF;
+}
+
+.mediumbluebox {
+  border-radius: 15px 50px;
+  width: 80%;
+  background: #C1C2DD;
+}
+
+.darkbluebox {
+  border-radius: 15px 50px;
+  width: 80%;
+  background: #A3A4CC;
+  color: black;
+}
+
+table, th, td, tr {
+  border: 0px;
+}
+
+.reveal table th, .reveal table td {
+    text-align: left;
+    padding: .2em .5em .2em .5em;
+    border-bottom: none;
+}
+
+#vcenter {
+  vertical-align: middle;
+}

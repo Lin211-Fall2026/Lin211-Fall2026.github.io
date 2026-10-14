@@ -13,6 +13,8 @@ website:
         text: Home
       - href: syllabus/Lin211-Fall2026-Syllabus.qmd
         text: Syllabus
+      - href: CorpusProject/
+        text: Data Collection Project
       - href: slides/
         text: Slides
 

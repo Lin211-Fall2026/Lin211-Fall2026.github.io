@@ -1,0 +1,13 @@
+---
+title: "Data Collection Project"
+format:
+    html:
+      css: styles.css
+    typst:
+      toc: false
+      columns: 1
+      number-sections: false
+      css-property-processing: translate
+editor: source
+---
+
