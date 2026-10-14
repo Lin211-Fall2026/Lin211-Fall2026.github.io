@@ -53,4 +53,59 @@ filters:
 
 :::::
 
+##
+
+
+[MS Form Results](https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=C1MwK7ZpV0S4GEgctT1CrmbPSVncwLtFk6IYqdcuVCVUQ1BTWVpIMUo2RlM5Uk5CWU1aNzlDMVVJWS4u&analysis=false&topview=Presentation)
+  
+
+## Observation 1: 
+
+![](images/the-owl.png){.absolute bottom="0" right="0"}
+
+::: {.r-fit-text .absolute top="250" .fragment .fade-up}
+
+It **is** possible to learn a new language.
+
+:::
+
+:::: {.absolute top="200" left="300" .fragment}
+⤹ ( but it's so hard, we hire AI owls to pester us)
+::::
+
+## It is possible to learn a new language, but...
+
+1. For an adult, it requires a lot of effort and resources
+2. takes a long time
+3. the person will almost certainly always have a foreign accent in the language
+4. the language itself is only a portion of what has to be learned; cultural norms and expectations, idioms, pragmatic meanings, rules of politeness, etc. all have to be learned to.
+
+## Observation 2: 
+
+![](images/the-baby.png){.absolute bottom="0" right="0"}
+
+::: {.r-fit-text .absolute top="250" .fragment .fade-up}
+
+Literal babies do this faster & better.
+
+:::
+
+## Babies learn to speak their language(s):
+
+1. apparently effortlessly
+2. quickly
+3. with nearly full native fluency by the time they're 6
+4. all while learning to do literally everything else a person has to know how to do!
+
+##
+
+::: {.r-fit-text .absolute top="250"}
+
+How do kids learn to talk?
+
+:::
+
+![](images/baby-silhouette.png){.absolute top="12" left="467" width="19%"}
+
+
 
