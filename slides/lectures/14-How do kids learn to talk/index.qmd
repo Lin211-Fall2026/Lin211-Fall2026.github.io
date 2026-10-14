@@ -107,5 +107,28 @@ How do kids learn to talk?
 
 ![](images/baby-silhouette.png){.absolute top="12" left="467" width="19%"}
 
+## Acquiring a First Language
 
+::: {.fragment}
+
+| Even very young children | |
+|------|------|
+|      | make & hear their language's sounds |
+|      | say many words  |
+|      | make simple statements |
+
+: {.lightbluebox tbl-colwidths="[50,50]"}
+
+:::
+
+::: {.fragment}
+
+| By the age of six! |  |
+|------|------|
+|      | master >= 90% of adult-like speech sounds |
+|      | master 80% of adult grammatical structures |
+
+: {.mediumbluebox tbl-colwidths="[50,50]"}
+
+:::
 
