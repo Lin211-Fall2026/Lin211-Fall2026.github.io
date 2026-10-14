@@ -265,10 +265,16 @@ inference of a generalized conclusion from particular instances; compare deduc
 * __Symbolization__
   * Language = symbolic = arbitrary representation of the world (we do this very early)
   * To acquire language\, a child must be able to keep a mental model of other peoples' minds, ideas, expectations, beliefs (this takes longer)
+
+::::
+
+:::: {.incremental}
+## Theory of Mind
+
   * **theory of mind** (ToM) emerges between 3 to 5 years of age
-* __Using tools__
-  * Language = a tool that gets work done
-  * Children begin using language in this way purposefully to get things they can’t get physically
+  * A child can't even try to lie until it has ToM
+  * The ability to lie and the ability to understand how someone else are feeling derive from the same innate, human capacity for social understanding
+  * Everyday activities like reading books, role play games, and family conversations about mental states (thoughts, feelings) measurably accelerate development
 
 ::::
 
