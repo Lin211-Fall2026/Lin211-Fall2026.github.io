@@ -145,7 +145,6 @@ How do kids learn to talk?
 
 ## Hypothesis #1: Purely Inductive
 
-:::: {.chubby-margin}
 
 ```yaml { .animate src="images/inductive-deductive.svg"}
 setup:
@@ -171,7 +170,6 @@ setup:
         data-fragment-index: "3"
 ```
 
-::::
 
 ::: {.notes}
 
