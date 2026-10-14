@@ -24,13 +24,6 @@ format:
       - includes/custom.css
     template-partials:
       - includes/title-slide.html
-    include-in-header: 
-      text: |
-        <style>
-        .chubby-margin {
-          margin-left: 200px;
-        }
-        </style>
     pointer:
       - # set pointer configuration options here
 revealjs-plugins:
@@ -74,12 +67,12 @@ It **is** possible to learn a new language.
 :::
 
 :::: {.absolute top="200" left="300" .fragment}
-⤹ ( for adults )
+⤹ ( but it's so hard, we hire AI owls to pester us)
 ::::
 
 ## It is possible to learn a new language, but...
 
-1. it requires a lot of effort and resources
+1. For an adult, it requires a lot of effort and resources
 2. takes a long time
 3. the person will almost certainly always have a foreign accent in the language
 4. the language itself is only a portion of what has to be learned; cultural norms and expectations, idioms, pragmatic meanings, rules of politeness, etc. all have to be learned to.
@@ -149,7 +142,7 @@ How do kids learn to talk?
 
 ::::
 
-## Hypothesis #1: Induction
+## Hypothesis #1: Purely Inductive
 
 :::: {.chubby-margin}
 
@@ -221,6 +214,11 @@ inference of a generalized conclusion from particular instances; compare deduc
 :::
 ::::
 
+::::::: {.notes}
+
+	Willard Van Orman Quine's thesis about the inscrutability of reference Word and Object (1960)
+
+:::::::
 
 ## 
 
@@ -232,10 +230,10 @@ inference of a generalized conclusion from particular instances; compare deduc
 
 ##
 
-{{< video https://youtu.be/03LXJwyknqU width="800" height="600" >}}
+{{< video https://youtu.be/03LXJwyknqU width="1200" height="800" >}}
 
 
-## Hypothesis #2: Innateness
+## Hypothesis #2: Purely Deductive
 
 :::: {.incremental}
 
@@ -247,14 +245,10 @@ inference of a generalized conclusion from particular instances; compare deduc
     * Children learn language as they live in it
     * But acquiring language is more than memorizing words and phrases
     * Grammatical and communicative competence
-  * We need induction  _and _ innateness to handle language acquisition
 
 ::::
 
-##
-
-
-![](images/13-How%20do%20kids%20learn%20to%20talk_5.jpg){.r-stretch}
+# Turns out we need induction  _and _ deduction (innateness) to explain & understand language acquisition
 
 ## If it’s built in, why aren’t we born talking?!
 
@@ -337,7 +331,7 @@ Simplified sentences help children acquire syntax more easily
   - That is where Daddy sits\.
   - This shoe is Daddy’s\.
 
-## Two-Word Stage: 1 ½ years
+## Two-Word Stage: Typically 1 ½ years
 
 * The child has about 50 words in their vocabulary
 * Utterances typically contain one noun\-like subject element and one predicate\-like element
@@ -345,14 +339,11 @@ Simplified sentences help children acquire syntax more easily
   * _John_  	 _ate an apple_
   * subject       predicate
 
----
-
-
-![](images/13-How%20do%20kids%20learn%20to%20talk_12.jpg)
-
 ## Beyond two words?
 
+![](images/13-How%20do%20kids%20learn%20to%20talk_12.jpg){.r-stretch}
 
+## Beyond two words?
 
 * Here is a real parent\-child \(2;8\) interaction:
   * Child: I beed a princess\.
