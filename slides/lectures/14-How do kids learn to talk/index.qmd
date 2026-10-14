@@ -19,7 +19,11 @@ format:
     incremental: false
     scrollable: true
     theme: includes/sky.scss
-
+    css:
+      - includes/inline-fragment.css
+      - includes/custom.css
+    template-partials:
+      - includes/title-slide.html
     pointer:
       - # set pointer configuration options here
 revealjs-plugins:
@@ -28,6 +32,12 @@ revealjs-plugins:
 filters: 
   - animate
 ---
+## Filler slide
+
+- text
+- text
+- text
+
 ## Ling Link
 
 ::::: {.columns}
