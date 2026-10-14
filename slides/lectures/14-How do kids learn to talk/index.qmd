@@ -18,12 +18,7 @@ format:
     footer: "Language in the World"
     incremental: false
     scrollable: true
-    theme: includes/sky.scss
-    css:
-      - includes/inline-fragment.css
-      - includes/custom.css
-    template-partials:
-      - includes/title-slide.html
+    theme: sky
     pointer:
       - # set pointer configuration options here
 revealjs-plugins:
