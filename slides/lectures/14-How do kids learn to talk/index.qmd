@@ -18,12 +18,8 @@ format:
     footer: "Language in the World"
     incremental: false
     scrollable: true
-    theme: sky
-    css:
-      - includes/inline-fragment.css
-      - includes/custom.css
-    template-partials:
-      - includes/title-slide.html
+    theme: includes/sky.scss
+
     pointer:
       - # set pointer configuration options here
 revealjs-plugins:
@@ -37,17 +33,20 @@ filters:
 ::::: {.columns}
 
 ::: {.column width="50%"}
+
 - what were your/a family member's first words?
-- are there any words you and your family say uniquely because of how a child said them?  (e.g. *p'sketti* 🍝)
+- are there any words you and your family say uniquely because of how a child said them?  (e.g. *pasketti* 🍝)
 - please discuss amongst yourselves for 3 minutes and post on this MS form:
 - [https://forms.cloud.microsoft/r/UJLZzAbVGh](https://forms.cloud.microsoft/r/UJLZzAbVGh)
 
 :::
 
 ::: {.column width="50%"}
+
 ![](images/ling-link-qrcode.png){.absolute right="100" bottom="250" width="30%"}
 
 :::
+
 :::::
 
 ##
