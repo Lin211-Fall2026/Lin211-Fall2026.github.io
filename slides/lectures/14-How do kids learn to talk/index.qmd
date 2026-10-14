@@ -132,3 +132,51 @@ How do kids learn to talk?
 
 :::
 
+## Some Terminology
+
+:::: {.incremental}
+
+- **Language acquisition** is the process by which humans acquire the ability to use\, produce\, and perceive language\!
+  * Involves the acquisition of all functional aspects of the system\, including phonetics, phonology, morphology, lexicon, syntax, and pragmatics
+- **First** Language Acquisition: how an infant acquires his/her first or primary language
+- **Second** Language Acquisition: how children and adults acquire additional languages beyond the first
+
+::::
+
+## Hypothesis #1: Purely Inductive
+
+:::: {.chubby-margin}
+
+```yaml { .animate src="images/inductive-deductive.svg"}
+setup:
+  - element: "#Inductive"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "0"
+  - element: "#Inductive-label"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "1"
+  - element: "#Deductive"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "2"
+  - element: "#Deductive-label"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "3"
+```
+
+::::
+
+::: {.notes}
+
+Early research suggested that language learning was a process of  __induction__
+
+Children generalize linguistic patterns from the input they receive inference of a generalized conclusion from particular instances
+
+:::
