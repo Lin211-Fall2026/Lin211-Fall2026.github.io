@@ -258,18 +258,21 @@ inference of a generalized conclusion from particular instances; compare deduc
 
 ## If it’s built in, why aren’t we born talking?!
 
+:::: {.incremental}
 
-
-* Beyond physical  __maturation__ \, there are  __two __ other aspects of maturation crucial to a child’s ability to acquire a language:
+* Physical **maturation**: speech is hard to do!!!
+* Babies can use individual **sign language words** *months* before they can coordinate speech gestures
 * __Symbolization__
-  * Language = symbolic = arbitrary representation of the world
-  * To acquire language\, a child must be able to keep a mental picture of an absent object
+  * Language = symbolic = arbitrary representation of the world (we do this very early)
+  * To acquire language\, a child must be able to keep a mental model of other peoples' minds, ideas, expectations, beliefs (this takes longer)
+  * **theory of mind** (ToM) emerges between 3 to 5 years of age
 * __Using tools__
   * Language = a tool that gets work done
   * Children begin using language in this way purposefully to get things they can’t get physically
 
+::::
 
-## Adults help (without knowing it)
+## Adults help (even without knowing it)
 
 ::: {.r-fit-text .absolute top="250" .fragment .fade-up}
 
