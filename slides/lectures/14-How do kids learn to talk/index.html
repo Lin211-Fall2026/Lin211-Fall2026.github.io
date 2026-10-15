@@ -301,6 +301,10 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
           display:block!important;
       }</style></aside>
 </section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<p>``yaml {.animate src=“images/inductive-deductive.svg”} setup: - element: “#Inductive” modifier: attr parameters: - class: fragment data-fragment-index: “0” - element: “#Inductive-label” modifier: attr parameters: - class: fragment data-fragment-index: “1” - element: “#Deductive” modifier: attr parameters: - class: fragment data-fragment-index: “2” - element: “#Deductive-label” modifier: attr parameters: - class: fragment data-fragment-index: “3” ```</p>
+</section>
 <section id="induction" class="slide level2">
 <h2>Induction</h2>
 <ul>
@@ -312,7 +316,7 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
 </ul></li>
 </ul>
 </section>
-<section id="section-2" class="slide level2">
+<section id="section-3" class="slide level2">
 <h2></h2>
 <p><img data-src="images/not-a-square.svg" class="absolute" style="left: 300px; "></p>
 </section>
@@ -345,7 +349,7 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-3" class="slide level2">
+<section id="section-4" class="slide level2">
 <h2></h2>
 <ul>
 <li>But it’s not a simple case of imitation!
@@ -357,7 +361,7 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
 </ul></li>
 </ul>
 </section>
-<section id="section-4" class="slide level2">
+<section id="section-5" class="slide level2">
 <h2></h2>
 <iframe data-external="1" src="https://www.youtube.com/embed/03LXJwyknqU" width="1200" height="800" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </section>
@@ -410,7 +414,7 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
 <p>how do adults interact with babies to <em>facilitate</em> the language acquisition process?</p>
 </div>
 </section>
-<section id="section-5" class="slide level2">
+<section id="section-6" class="slide level2">
 <h2></h2>
 <img data-src="images/13-How do kids learn to talk_6.png" class="r-stretch">
 </section>
@@ -545,6 +549,9 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
   <script src="../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="../../../site_libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-animate/plugin.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-animate/svg.min.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-animate/js-yaml.min.js"></script>
   <script src="../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -568,6 +575,7 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
 'jumpToSlide': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'pointer': {"0":null,"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
+'animate': {"autoplay":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -738,7 +746,7 @@ Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-ti
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealPointer, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealPointer, RevealAnimate, QuartoSupport,
 
           RevealMath,
           RevealNotes,

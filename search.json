@@ -1400,6 +1400,13 @@
     "text": "Hypothesis #1: Purely Inductive\n\n\n\n\nEarly research suggested that language learning was a process of induction\nChildren generalize linguistic patterns from the input they receive inference of a generalized conclusion from particular instances"
   },
   {
+    "objectID": "slides/lectures/14-How do kids learn to talk/index.html#section-2",
+    "href": "slides/lectures/14-How do kids learn to talk/index.html#section-2",
+    "title": "How do kids learn to talk?",
+    "section": "",
+    "text": "``yaml {.animate src=“images/inductive-deductive.svg”} setup: - element: “#Inductive” modifier: attr parameters: - class: fragment data-fragment-index: “0” - element: “#Inductive-label” modifier: attr parameters: - class: fragment data-fragment-index: “1” - element: “#Deductive” modifier: attr parameters: - class: fragment data-fragment-index: “2” - element: “#Deductive-label” modifier: attr parameters: - class: fragment data-fragment-index: “3” ```"
+  },
+  {
     "objectID": "slides/lectures/14-How do kids learn to talk/index.html#induction",
     "href": "slides/lectures/14-How do kids learn to talk/index.html#induction",
     "title": "How do kids learn to talk?",
@@ -1414,8 +1421,8 @@
     "text": "Induction (biases make things easier)\n\n\n\nInduction in word learning\n\nHumans have an inherent bias regarding meaning\nWe assume Gavagai means rabbit but it could mean “cute”, “ears”, “white”, “mammal”\nInfinite possibilities, but whole object bias suggests it will be the whole thing, not its parts\n\n\n\n\n\n\nWillard Van Orman Quine's thesis about the inscrutability of reference Word and Object (1960)"
   },
   {
-    "objectID": "slides/lectures/14-How do kids learn to talk/index.html#section-3",
-    "href": "slides/lectures/14-How do kids learn to talk/index.html#section-3",
+    "objectID": "slides/lectures/14-How do kids learn to talk/index.html#section-4",
+    "href": "slides/lectures/14-How do kids learn to talk/index.html#section-4",
     "title": "How do kids learn to talk?",
     "section": "",
     "text": "But it’s not a simple case of imitation!\n\n“I goed to bed.”\n“Me eat apples.”\n“I brush my tooths.”\nthe Wug™ Test"
