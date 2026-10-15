@@ -28,6 +28,9 @@ format:
       - # set pointer configuration options here
 revealjs-plugins:
   - pointer
+  - animate
+filters: 
+  - animate
 ---
 ## Ling Link
 
@@ -155,6 +158,32 @@ Early research suggested that language learning was a process of  __induction__
 Children generalize linguistic patterns from the input they receive inference of a generalized conclusion from particular instances
 
 :::
+
+##
+
+``yaml {.animate src="images/inductive-deductive.svg"}
+setup:
+  - element: "#Inductive"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "0"
+  - element: "#Inductive-label"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "1"
+  - element: "#Deductive"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "2"
+  - element: "#Deductive-label"
+    modifier: attr
+    parameters:
+      - class: fragment
+        data-fragment-index: "3"
+```
 
 ## Induction
 
