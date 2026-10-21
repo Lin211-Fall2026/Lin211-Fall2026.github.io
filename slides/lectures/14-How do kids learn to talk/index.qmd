@@ -32,6 +32,7 @@ revealjs-plugins:
 filters: 
   - animate
 ---
+
 ## Ling Link
 
 ::::: {.columns}
@@ -143,7 +144,21 @@ How do kids learn to talk?
 
 ::::
 
+# Language acquisition and bilingualism
+
+## Ling Link
+
+- Many of you are first language speakers of English.
+- Please spend the next 2 minutes writing down as many things as you can think of that might be tricky to learn in English if you speak another language as your first language.
+- After you make your list, talk to your neighbor and see what they came up with
+
+**Discuss, for example, what makes these things “hard”**
+
+- Bonus: if you know enough about another language, what specific differences between it and English do you think cause speakers the most difficulty?
+
+
 ## Hypothesis #1: Purely Inductive
+
 
 :::: {.chubby-margin}
 
@@ -159,9 +174,13 @@ Children generalize linguistic patterns from the input they receive inference of
 
 :::
 
-##
+<!-- uncomment for interactive SVG
+## 
 
-``yaml {.animate src="images/inductive-deductive.svg"}
+
+:::: {.chubby-margin}
+
+```yaml {.animate src="images/inductive-deductive.svg"}
 setup:
   - element: "#Inductive"
     modifier: attr
@@ -185,6 +204,9 @@ setup:
         data-fragment-index: "3"
 ```
 
+::::
+-->
+ 
 ## Induction
 
 :::: {.incremental}
@@ -234,10 +256,36 @@ setup:
 
 ##
 
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](images/wug.png){width="80%"}
+  
+:::
+
+::: {.column width="50%"}
+
+![](images/wug.png){.fragment width="80%"}
+
+:::
+
+::::
+
+##
+
 {{< video https://youtu.be/03LXJwyknqU width="1200" height="800" >}}
 
 
-## Hypothesis #2: Purely Deductive
+##
+
+![](images/gutch.jpeg){.r-stretch}
+
+##
+
+![](images/kazh.jpeg){.r-stretch}
+
+## Hypothesis #2: Purely Deductive?
 
 :::: {.incremental}
 
@@ -295,12 +343,26 @@ how do adults interact with babies to  _facilitate_  the language acquisition pr
   - Simplified sentences
 - We used to think that not all cultures use Parentese
 - Newer research suggests Parentese just looks very different from culture to culture
-- But children learn language at same rate\!!
+- Remember that language is a two way street: culture influences language and language influences culture
+- But children still learn language at the same rate\!!
 
 ::: {.notes}
 
 Exaggerated prosody helps children acquire phonology more easily
 Simplified sentences help children acquire syntax more easily
+
+:::
+
+## Bilingualism
+
+We need to distinguish between two kinds of **bilingualism**.
+
+- **Simultaneous Bilingualism**: occurs when a child grows up in a society where using more than one language is the norm.
+- **Sequential Bilingualism**: occurs when an older child, teen, or adult acquires a second language
+
+::: {.notes}
+
+Multilingualism
 
 :::
 
