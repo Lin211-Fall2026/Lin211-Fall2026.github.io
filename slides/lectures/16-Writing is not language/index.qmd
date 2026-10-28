@@ -1,0 +1,326 @@
+---
+title: "Writing is not language."
+subtitle: "Lin 211 • Section 3, Part 5"
+description: "[Bilingual Brain](https://uk.instructure.com/files/120618460/download?download_frd=1)"
+date: 10/28/2026
+categories: [Language in the World]
+bibliography: includes/references.bib
+authors:
+  - name: Kevin B McGowan
+    orcid: 0000-0002-8214-1901
+    email: kbmcgowan@uky.edu
+tbl-cap-location: bottom
+format:
+  revealjs:
+    slide-number: c/t
+    width: 1280
+    height: 720
+    footer: "Language in the World"
+    incremental: false
+    scrollable: true
+    theme: includes/sky.scss
+    css:
+      - includes/inline-fragment.css
+      - includes/custom.css
+    template-partials:
+      - includes/title-slide.html
+    pointer:
+      - # set pointer configuration options here
+revealjs-plugins:
+  - pointer
+  - animate
+filters: 
+  - animate
+---
+
+## Ling Link
+
+::: {.r-fit-text}
+I didn't say she could take that cookie
+:::
+
+- Please work together in pairs or groups
+- Say that sentence out loud to each other
+- Without removing or adding any words, can you convey at least 4 different events/meanings?
+
+## Garden Path Sentences
+
+::: {.incremental}
+- The old man the boats
+- The horse raced past the bard fell
+- The man who whistles tunes pianos
+- The florist sent the flowers was pleased
+- The cotton clothing is made of grows in Mississippi
+- We painted the wall with cracks
+:::
+
+## 
+
+::: {.incremental}
+- About how many human languages are there?
+- about 7,000 ([LIN 211, day 4](https://lin211-fall2026.github.io/slides/lectures/4-How%20many%20languages/index.html#/title-slide))
+- And how many of those would you imagine have a written form?
+- About 4,000 ([ethnoloque](https://www.ethnologue.com/faq/how-many-languages-unwritten/))
+:::
+
+## Let's Imagine...
+
+::: {.incremental}
+- You are a member of an uncontacted tribe of humans.  your language is not written down and your best friend, a poet, has composed a beautiful, imaginative poem that tells the history of your people.
+- Everyone in the tribe agrees the poem is amazing and everyone should experience it.
+- What if part of your tribe lives 5 miles up river? How will those friends experience the poem?
+- How will your friend remember their poem?
+- How could your community remember your friend's poem 10, 50, 100 years from now?
+:::
+
+## What is writing for?
+
+- Speech is spectacular but ephemeral
+- Memory is inherently, intrinsically variable
+- Ideas, knowledge, and understanding are naturally cumulative
+- Human lives are brutish and short.
+
+## What is a writing system?
+
+A writing system is a **conventional** way of using visible or tangible signs to represent linguistic information
+
+::: {.incremental}
+
+- Ogham: `ᚑᚌᚒᚋ` ([try it](https://ogham.co/))
+- Phoenecian (alphabet): `𐤊 𐤋‎ 𐤌‎ 𐤍‎ 𐤎‎ 𐤏`
+- Roman (alphabet): `A B C D E F`
+- Hangul (alphabet): `한글`
+- Tamil (alphabet): `தமிழ்`
+- Arabic (abjad): `العربية`
+- Hebrew (abjad): `עִברִית`
+- Japanese (Hiragana, syllabary): `ひらがな`
+- Chinese characters (words): `中文`
+
+:::
+
+## Language vs writing
+
+| Language | Writing |
+|---|---|
+| Structured system for making thoughts explicit | A technology for recording language |
+| Can be spoken or signed | Uses visual or tactile signs |
+| Can exist without writing | Is meaningless without language |
+| Acquired naturally through human interaction | Usually learned through instruction |
+| Variation and change are intrinsic | Changes through use and standardization |
+
+::: notes
+Many languages have been spoken for generations without a standardized writing system. Their lack of writing does not mean that they lack grammar, complexity, history, or expressive power.
+:::
+
+## Language existed before writing
+
+- Our species is about 6 million years old
+- Humans communicated through language long before the invention of writing
+- Writing is only a few thousand years old
+
+
+## How many times was writing invented?
+
+Writing has been invented at least three separate times:
+
+1. Mesopotamia — Cuneiform (~5,000 years ago)
+2. China — early Chinese (~3,500 years ago)
+3. Mesoamerica — Mayan (~3,000 years ago)
+
+
+::: notes
+Explain that independent invention means the development of a genuine system for recording language without deriving it from an already existing writing system. Egypt's relationship to Mesopotamian influence is debated. Some accounts also distinguish the earliest Mesoamerican scripts from the later, well-documented Maya script.
+:::
+
+## Surviving evidence of the first writing systems
+
+| Region | Approximate early evidence | Example |
+|---|---|---|
+| Mesopotamia | Around 3400–3200 BCE | Cuneiform |
+| Egypt | Around 3300–3000 BCE | Hieroglyphs |
+| China | Around 1250 BCE | Oracle-bone inscriptions |
+| Mesoamerica | First millennium BCE | Maya |
+
+::: notes
+The dates in this table refer to surviving evidence, not necessarily the exact moment of invention. Chinese oracle-bone inscriptions already show a developed writing system, implying earlier development that has not been fully documented.
+:::
+
+## Cuneiform: writing with wedges
+
+::: {.r-fit-text}
+𒀀 𒁹 𒂗
+:::
+
+- Early writing was used extensively for accounting and administration.
+- Signs were impressed into clay with a reed stylus.
+- The name *cuneiform* refers to its wedge-shaped marks.
+- Used to write several languages, including Sumerian and Akkadian.
+
+::: notes
+Cuneiform is a script, not a language. Sumerian and Akkadian were distinct languages that could be recorded using cuneiform conventions. Its signs could represent words, syllables, and other linguistic information.
+:::
+
+## 10. Egyptian hieroglyphs
+
+::: {.r-fit-text}
+𓂀 𓋹 𓊹
+:::
+
+Egyptian hieroglyphic writing combined several kinds of signs:
+
+- Signs representing words or concepts
+- Signs representing consonants or sound sequences
+- Hieroglyphs appear on papyrus, monuments, objects, and tombs
+- **Important:** Hieroglyphs are _not_ simply pictures.
+
+::: notes
+Explain that some signs are pictorial in appearance, but their function in a text depends on convention. A picture of an animal might represent the animal, a sound associated with its name, or a component of a longer word.
+:::
+
+## 11. Chinese: characters and language
+
+::: {.r-fit-text}
+汉字 · 漢字
+:::
+
+Chinese writing uses characters that generally correspond to meaningful linguistic units, often morphemes, and have conventional pronunciations.
+
+- Characters are not simply pictures.
+- Many characters combine semantic and phonetic components.
+- The same character may be pronounced differently in different contexts or varieties.
+
+
+## Chinese Characters
+
+For example:
+
+- 人 — person
+- 山 — mountain
+- 水 — water
+
+::: notes
+Clarify that these are simplified or traditional forms depending on the character and convention. Chinese is not one uniform spoken language: Mandarin, Cantonese, and other Sinitic varieties differ in pronunciation and other linguistic features. The writing system has historically served multiple varieties.
+:::
+
+## Arabic: an abjad
+
+::: {.r-fit-text}
+العربية
+:::
+
+Arabic script is written from right to left.
+
+- Letters primarily represent consonants.
+- Short vowels are often omitted in ordinary writing.
+- Diacritics can mark vowels and other details when needed.
+- Letter shapes change depending on their position in a word.
+
+Arabic is a language; Arabic script is a writing system that is also used for other languages.
+
+::: notes
+An abjad is a writing system in which consonants are primary and vowels may be represented incompletely or optionally. Arabic is not the only language written in Arabic-derived scripts; Persian, Urdu, and others use related adaptations.
+:::
+
+## Russian: the Cyrillic alphabet
+
+::: {.r-fit-text}
+Привет! Это русский язык.
+:::
+
+Russian uses a version of the Cyrillic alphabet.
+
+- Letters generally represent speech sounds.
+- Some letters represent more than one sound or influence neighboring sounds.
+- Spelling does not always correspond perfectly to pronunciation.
+
+Cyrillic is a script, not a language.
+
+It is also used by many other languages, including Bulgarian and Serbian, with differences between their alphabets.
+
+::: notes
+Ask students to compare the appearance of Russian Cyrillic with the Latin alphabet. Some letters resemble Latin letters but represent different sounds. The script's history is connected to Greek writing traditions.
+:::
+
+## 14. Korean: Hangul
+
+::: {.r-fit-text}
+한글
+:::
+
+Hanguel is the writing system used for Korean.
+
+- Developed in 1444 - 1446 under King Sejong the Great (r. 1418–1450)
+- Its letters represent consonants and vowels.
+- Letters are arranged into syllable blocks.
+- Syllable blocks are not equivalent to Chinese characters
+
+Korean is the language; Hangul is its writing system.
+
+::: notes
+Hangul was created under King Sejong and introduced in the fifteenth century. It is often described as a featural alphabet because certain letter shapes systematically reflect phonetic properties. Its syllable blocks are not equivalent to Chinese characters.
+:::
+
+## Japanese: one language, multiple scripts
+
+::: {.r-fit-text}
+私は日本語を勉強します。
+:::
+
+Modern Japanese commonly uses a mixture of:
+
+- **Kanji:** characters historically derived from Chinese writing
+- **Hiragana:** a syllabic script
+- **Katakana:** another syllabic script
+- **Latin letters:** via influence from Europeans
+- A single sentence can contain multiple scripts.
+
+::: notes
+Japanese writing illustrates how one language can use multiple writing systems together. Kanji often represent lexical morphemes; hiragana is commonly used for grammatical endings and other functions; katakana is often used for loanwords and emphasis. These are tendencies, not absolute rules.
+:::
+
+## Maya writing: words and syllables
+
+Maya hieroglyphs combined signs representing words with signs representing syllables.
+
+- Used by Maya communities in Mesoamerica.
+- Recorded names, dates, political events, and ritual information.
+- Appeared on monuments, ceramics, and books.
+- Much of the surviving script can now be read, though some signs and passages remain uncertain.
+
+Maya writing encoded spoken languages; it was not simply a set of pictures.
+
+::: notes
+The script was used to record languages in the Mayan language family. Decipherment advanced substantially during the twentieth century. Emphasize the continued cultural significance of Maya writing and the work of Indigenous scholars and communities.
+:::
+
+
+## Writing is a technology that is usually borrowed
+
+**One language can use multiple scripts, and one script can be used for multiple languages.**
+
+- Latin script: English, Turkish, Vietnamese
+- Cyrillic script: Russian, Bulgarian, Tajik (a Persian language)
+- Arabic-derived scripts: Arabic, Urdu, Farsi (a Persian language)
+- Cuneiform: Sumerian, Akkadian, old Farsi (a Persian language)
+- Chinese characters: Chinese and historically Japanese, Korean, Vietnamese, Zhuang
+
+
+::: notes
+Mention that writing conventions are adapted to the sound systems and structures of individual languages. Sharing a script does not mean two languages are closely related or mutually intelligible.
+:::
+
+
+## Take aways
+
+::: {style="font-size: 1.15em;"}
+**Language is not writing.**
+:::
+
+- Language is a feature of being human
+- Writing is a technology for representing linguistic information
+- Writing systems differ in how they represent words, syllables, and sounds
+- Writing emerged independently in a small number of places and spread or developed like any technology
+
+::: notes
+Return to the opening question. Ask students to explain the distinction in their own words and to give one example of a language-script relationship that surprised them.
+:::

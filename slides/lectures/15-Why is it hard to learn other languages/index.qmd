@@ -33,6 +33,8 @@ filters:
   - animate
 ---
 
+# Does being a native speaker make someone a better language teacher?
+
 ## Ling Link
 
 - Last time I asked you what adult language learners might find difficult about learning English
