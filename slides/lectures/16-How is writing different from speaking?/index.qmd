@@ -1,7 +1,6 @@
 ---
 title: "How is writing different from speaking?"
 subtitle: "Lin 211 • Section 3, Part 5"
-description: "[Bilingual Brain](https://uk.instructure.com/files/120618460/download?download_frd=1)"
 date: 10/28/2026
 categories: [Language in the World]
 bibliography: includes/references.bib
