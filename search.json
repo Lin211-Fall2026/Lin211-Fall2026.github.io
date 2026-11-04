@@ -2305,84 +2305,84 @@
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#ling-link",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#ling-link",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "Ling Link",
     "text": "Ling Link\n\nWe’re going to watch a video (with CC on!) to see how well Siri can do with the Southern accent!\nYour job is to note which specific linguistic features Siri struggles with\nThese might be lexical, phonetic, or syntactic\n(While you’re at it, since CC is turned on, you can also see how well Google does with its automatic transcription of what the individuals are saying about their interactions with Siri!)\n\nhttps://www.youtube.com/watch?v=MuWL1J2s2tY"
   },
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#computational-linguistics",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#computational-linguistics",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "Computational linguistics",
     "text": "Computational linguistics\nComputational linguistics  can be either:\n\nProgramming/training computers to complete linguistic tasks, or\nUsing computational methods to conduct linguistics research\n\n\n\nLinguistic tasks include things like:\n\nSpeech synthesis (especially Text To Speech or TTS)\nAutomatic Speech Recognition\nMachine translation\n(Large) Language modeling"
   },
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#speech-recognition-and-synthesis",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#speech-recognition-and-synthesis",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "Speech recognition and synthesis",
     "text": "Speech recognition and synthesis\n\nYour devices rely on speech recognition technologies , which means that they have the ability to:\n\nrecognize and translate human spoken language into text that can be understood by computers\nand convert text into patterns of sound that people can make sense of\n\nThis allows you to use commands like “call Mom” or “should I wear a sweater today?”\n\nactually, let’s try that one!\nanyone with an android phone willing to come up here?"
   },
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#text-to-speech-tts",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#text-to-speech-tts",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "Text To Speech (TTS)",
     "text": "Text To Speech (TTS)\n\nArticulatory synthesis\nWaveform synthesis (e.g. Stephen Hawking’s voice)\nDiphone concatenative synthesis\nUnit selection concatenative synthesis\nHMM synthesis (aka Statistical Parametric Synthesis)\n\n\nHMM-based synthesis is a synthesis method based on hidden Markov models, also called Statistical Parametric Synthesis. In this system, the frequency spectrum (vocal tract), fundamental frequency (voice source), and duration (prosody) of speech are modeled simultaneously by HMMs. Speech waveforms are generated from HMMs themselves based on the maximum likelihood criterion"
   },
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#articulatory-synthesis",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#articulatory-synthesis",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "Articulatory Synthesis",
     "text": "Articulatory Synthesis\nPink Trombone (caution: cursed)"
   },
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#automatic-speech-recognition",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#automatic-speech-recognition",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "Automatic Speech Recognition",
     "text": "Automatic Speech Recognition\n\nAutomatic Speech Recognition (ASR) goes the other way!\nA microphone captures speech vibrations\nA computer converts these into a digital representation of the frequencies\nFeatures of these frequencies are extracted every few milliseconds (MFCCs)"
   },
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#asr-challenges",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#asr-challenges",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "ASR Challenges",
     "text": "ASR Challenges"
   },
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#performance",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#performance",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "Performance",
     "text": "Performance\n\nSpeech recognition is complex\n\nBackground noise can get in the way\nForeground noise can get in the way!\nLinguistic variation can be tricky to capture (mengesha2021don?)\nEspecially when the ASR researchers themselves are biased (feng2021quantifying?)\n\nI said they were getting better – how do we know?\n\nAccuracy – how often does the system get it wrong?\nSpeed – how quickly does it convert from speech to text?"
   },
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#issues-faced-in-accuracy",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#issues-faced-in-accuracy",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "Issues faced in accuracy",
     "text": "Issues faced in accuracy\n\n\nHave you ever had trouble with Siri understanding what you’ve said?\nSome of the accuracy issues may have been part of the problem, but often, linguistic variation in accent, word choice, etc. can be the problem\nAfrican Americans experience error rates up to two times higher than other speakers of American English (koenecke2020racial?)"
   },
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#linguistic-variation",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#linguistic-variation",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "Linguistic variation",
     "text": "Linguistic variation\n\nHas Siri had trouble understanding what you’ve said?\nSome of the accuracy issues may have been part of the problem, but often, linguistic variation in accent, word choice, etc. can be the problem\nResearch has shown that\n\nAfrican Americans experience error rates up to two times higher than other speakers of American English\n\nWord identification is less accurate, but\nWord prediction is sometimes better compared to majority dialects"
   },
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#section",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#section",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "",
     "text": "Proportion of correctly recognized words by dialect area, color coded by country\n\nUsed YouTube auto-captions on Accent Tag videos (powered by Google)\nWorks best on people from California (which just happens to be where Google is headquartered)\nWorks worst on Scottish English\n\n\n\nhttps://makingnoiseandhearingthings.com/2016/07/11/which-accents-does-automatic-speech-recognition-work-best-for/"
   },
   {
     "objectID": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#references",
     "href": "slides/lectures/18-Why are phones so bad at some people's accent/index.html#references",
-    "title": "Why are phones so bad at some accents?",
+    "title": "Why is technology so bad at some accents?",
     "section": "References",
     "text": "References"
   },
@@ -2727,6 +2727,6 @@
     "href": "slides/index.html",
     "title": "Slides",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Theme\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTheme\n\n\n\nDue\n\n\n\n\n\n\n\n\nAug 24, 2026\n\n\nWhat is this course?\n\n\n\n\n\n\n\n\n\nAug 26, 2026\n\n\nWhat is linguistics?\n\n\n \n\n\n\n\n\n\nAug 31, 2026\n\n\nWhat is language?\n\n\nPullum Chapter 1\n\n\n\n\n\n\nSep 2, 2026\n\n\nHow many languages are there?\n\n\nHow many? (pdf)\n\n\n\n\n\n\nSep 9, 2026\n\n\nWhere does language come from?\n\n\n\n\n\n\n\n\n\nSep 14, 2026\n\n\nSpotlight 1: What is linguistics research?\n\n\n\n\n\n\n\n\n\nSep 16, 2026\n\n\nWhat is a word?\n\n\nPullum Chapter 3\n\n\n\n\n\n\nSep 21, 2026\n\n\nHow do words get their meanings?\n\n\n\n\n\n\n\n\n\nSep 23, 2026\n\n\nIs slang so valid actually?\n\n\nPullum Chapter 2\n\n\n\n\n\n\nSep 28, 2026\n\n\nWhy are some words bad words?\n\n\n\n\n\n\n\n\n\nSep 30, 2026\n\n\nWhat happens when we hear a sentence?\n\n\nPullum, Chapter 4\n\n\n\n\n\n\nOct 5, 2026\n\n\nWhat happens when we hear a sentence? (part 2)\n\n\n\n\n\n\n\n\n\nOct 7, 2026\n\n\nWhere do dialects come from?\n\n\n\n\n\n\n\n\n\nOct 12, 2026\n\n\nWhat Methods & ethics of Inquiry are used in linguistics research?\n\n\n\n\n\n\n\n\n\nOct 14, 2026\n\n\nHow do kids learn to talk?\n\n\nNine Ideas\n\n\n\n\n\n\nOct 21, 2026\n\n\nWhy is it hard to learn other languages?\n\n\nBilingual Brain\n\n\n\n\n\n\nOct 28, 2026\n\n\nHow is writing different from speaking?\n\n\n\n\n\n\n\n\n\nNov 2, 2026\n\n\n🤷🏻‍♂️\n\n\nPullum, Chapter 5\n\n\n\n\n\n\nNov 4, 2026\n\n\nWhy are phones so bad at some accents?\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Theme\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTheme\n\n\n\nDue\n\n\n\n\n\n\n\n\nAug 24, 2026\n\n\nWhat is this course?\n\n\n\n\n\n\n\n\n\nAug 26, 2026\n\n\nWhat is linguistics?\n\n\n \n\n\n\n\n\n\nAug 31, 2026\n\n\nWhat is language?\n\n\nPullum Chapter 1\n\n\n\n\n\n\nSep 2, 2026\n\n\nHow many languages are there?\n\n\nHow many? (pdf)\n\n\n\n\n\n\nSep 9, 2026\n\n\nWhere does language come from?\n\n\n\n\n\n\n\n\n\nSep 14, 2026\n\n\nSpotlight 1: What is linguistics research?\n\n\n\n\n\n\n\n\n\nSep 16, 2026\n\n\nWhat is a word?\n\n\nPullum Chapter 3\n\n\n\n\n\n\nSep 21, 2026\n\n\nHow do words get their meanings?\n\n\n\n\n\n\n\n\n\nSep 23, 2026\n\n\nIs slang so valid actually?\n\n\nPullum Chapter 2\n\n\n\n\n\n\nSep 28, 2026\n\n\nWhy are some words bad words?\n\n\n\n\n\n\n\n\n\nSep 30, 2026\n\n\nWhat happens when we hear a sentence?\n\n\nPullum, Chapter 4\n\n\n\n\n\n\nOct 5, 2026\n\n\nWhat happens when we hear a sentence? (part 2)\n\n\n\n\n\n\n\n\n\nOct 7, 2026\n\n\nWhere do dialects come from?\n\n\n\n\n\n\n\n\n\nOct 12, 2026\n\n\nWhat Methods & ethics of Inquiry are used in linguistics research?\n\n\n\n\n\n\n\n\n\nOct 14, 2026\n\n\nHow do kids learn to talk?\n\n\nNine Ideas\n\n\n\n\n\n\nOct 21, 2026\n\n\nWhy is it hard to learn other languages?\n\n\nBilingual Brain\n\n\n\n\n\n\nOct 28, 2026\n\n\nHow is writing different from speaking?\n\n\n\n\n\n\n\n\n\nNov 2, 2026\n\n\n🤷🏻‍♂️\n\n\nPullum, Chapter 5\n\n\n\n\n\n\nNov 4, 2026\n\n\nWhy is technology so bad at some accents?\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
