@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tabby.min.js"></script>
-<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.11.9">
 
-  <meta name="author" content="Author">
-  <title>Lin211 Fall 2026 – Presentation Title</title>
+  <meta name="dcterms.date" content="2026-11-04">
+  <title>Lin211 Fall 2026 – Why are phones so bad at some accents?</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../../../site_libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="../../../../site_libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reveal.css">
   <style>
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -35,11 +35,14 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../../../site_libs/revealjs/dist/theme/quarto-1ddb21c2f84686f497aff9e1fdc170fd.css">
-  <link href="../../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="../../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="../../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../../../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-e62c8b3eed3751b4dd6f206c0de01891.css">
+  <link rel="stylesheet" href="includes/inline-fragment.css">
+  <link rel="stylesheet" href="includes/custom.css">
+  <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
@@ -51,6 +54,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -128,216 +132,87 @@
     }
   </style>
 </head>
-<body class="quarto-light">
+<body class="quarto-dark">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Presentation Title</h1>
+  <h1 class="title">Why are phones so bad at some accents?</h1>
+  <p class="subtitle">Lin 211 • Section 3, Part 7</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Author
+Kevin B McGowan <a href="https://orcid.org/0000-0002-8214-1901" class="quarto-title-author-orcid" aria-label="ORCID profile for Kevin B McGowan"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+</div>
+<div class="quarto-title-author-email">
+<a href="mailto:kbmcgowan@uky.edu">kbmcgowan@uky.edu</a>
 </div>
 </div>
 </div>
 
-</section>
-<section id="why-cant-siri-pronounce-my-name" class="title-slide slide level1 center">
-<h1>Why can’t Siri pronounce my name?</h1>
+  <p class="date">2026-11-04</p>
 
 </section>
-
-<section>
-<section id="language-in-the-world" class="title-slide slide level1 center">
-<h1>Language in the World</h1>
-
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="ling-link" class="title-slide slide level1 center">
-<h1>Ling Link</h1>
-
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="media" class="title-slide slide level1 center">
-<h1>Media</h1>
+<section id="ling-link" class="slide level2">
+<h2>Ling Link</h2>
+<ul>
+<li>We’re going to watch a video (with CC on!) to see how well Siri can do with the Southern accent!</li>
+<li>Your job is to note which <strong>specific</strong> linguistic features Siri struggles with</li>
+<li>These might be lexical, phonetic, or syntactic</li>
+<li>(While you’re at it, since CC is turned on, you can also see how well Google does with its automatic transcription of what the individuals are saying about their interactions with Siri!)</li>
+</ul>
 <p><a href="https://www.youtube.com/watch?v=MuWL1J2s2tY">https://www.youtube.com/watch?v=MuWL1J2s2tY</a></p>
 </section>
 <section class="slide level2">
 
-</section></section>
-<section>
-<section id="recall" class="title-slide slide level1 center">
-<h1>Recall</h1>
-<ul>
-<li class="fragment">Pros and cons of the three modes of communication: speech, sign, writing</li>
-<li class="fragment"><strong>Writing</strong> is the representation of language with the use of visual signs
-<ul>
-<li class="fragment">So, not pictograms</li>
-<li class="fragment">Iconic vs. symbolic</li>
-<li class="fragment">Phonological or morphological</li>
-</ul></li>
-<li class="fragment">Writing is <strong>learned</strong>
-<ul>
-<li class="fragment">But certain aspects of <strong>computer-mediated communication </strong> (CMC) seem like they are acquired</li>
-<li class="fragment">Emojis as extralinguistic material (like facial expressions and body language)</li>
-</ul></li>
-<li class="fragment">What makes the digital environment different from face-to-face?</li>
-</ul>
+<iframe data-external="1" src="https://www.youtube.com/embed/MuWL1J2s2tY?si=9DjeaHABhSyZM78x&amp;t=11" width="1200" height="800" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="computational-linguistics" class="title-slide slide level1 center">
-<h1>Computational linguistics</h1>
-
-<img data-src="images/19-Why can’t Siri pronounce my name_0.jpg" class="r-stretch"><ul>
-<li class="fragment"><strong>Computational linguistics </strong> is the area of linguistics that computer scientists like…
+<section id="computational-linguistics" class="slide level2 scrollable">
+<h2>Computational linguistics</h2>
+<p><strong>Computational linguistics </strong> can be either:</p>
+<ol type="1">
+<li>Programming/training computers to complete linguistic tasks, or</li>
+<li>Using computational methods to conduct linguistics research</li>
+</ol>
+<div class="fragment">
 <ul>
-<li class="fragment">Linguistics + computers = you can rule the world!</li>
-<li class="fragment">If you are looking for the most lucrative field, this is it!</li>
+<li>Linguistic tasks include things like:
+<ul>
+<li>Speech synthesis (especially Text To Speech or TTS)</li>
+<li>Automatic Speech Recognition</li>
+<li>Machine translation</li>
+<li>(Large) Language modeling</li>
 </ul></li>
-<li class="fragment">Computational linguistics is about:
+</ul>
+</div>
+</section>
+<section id="speech-recognition-and-synthesis" class="slide level2">
+<h2>Speech recognition and synthesis</h2>
 <ul>
-<li class="fragment">Speech synthesis</li>
-<li class="fragment">Automatic (computer) recognition of speech</li>
-<li class="fragment">Machine translation</li>
-<li class="fragment">Corpus construction</li>
+<li>Your devices rely on <strong>speech recognition technologies</strong> , which means that they have the ability to:
+<ul>
+<li>recognize and translate human spoken language into text that can be understood by computers</li>
+<li>and convert text into patterns of sound that people can make sense of</li>
+</ul></li>
+<li>This allows you to use commands like “call Mom” or “should I wear a sweater today?”
+<ul>
+<li>actually, let’s try that one!</li>
+<li>anyone with an android phone willing to come up here?</li>
 </ul></li>
 </ul>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="q-slide" class="title-slide slide level1 center">
-<h1>Q slide</h1>
-<p>Where can you see the intersection of linguistics and computer science in your everyday lives?</p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="talking-to-machines" class="title-slide slide level1 center">
-<h1>Talking to machines?</h1>
+<section id="text-to-speech-tts" class="slide level2">
+<h2>Text To Speech (TTS)</h2>
 <ul>
-<li class="fragment">One thing that has become ever-present in our lives is the digital world
-<ul>
-<li class="fragment">You can speak your text message to your phone – this is called <strong>speech-to-text</strong></li>
-<li class="fragment">You can have your text messages read aloud by your phone – this is called <strong>text-to-speech</strong></li>
-</ul></li>
-<li class="fragment">Speech technologies are increasingly integrated into our lives!
-<ul>
-<li class="fragment">Everyone is obsessed with AI</li>
-<li class="fragment">There are refrigerators, cars, etc. with built-in speech technologies</li>
-<li class="fragment">Your phone might have a virtual assistant, like Siri</li>
-</ul></li>
+<li>Articulatory synthesis</li>
+<li>Waveform synthesis (e.g.&nbsp;Stephen Hawking’s voice)</li>
+<li>Diphone concatenative synthesis</li>
+<li>Unit selection concatenative synthesis</li>
+<li>HMM synthesis (aka Statistical Parametric Synthesis)</li>
 </ul>
-
-<img data-src="images/19-Why can’t Siri pronounce my name_1.png" class="r-stretch"></section>
-<section class="slide level2">
-
-
-<img data-src="images/19-Why can’t Siri pronounce my name_2.jpg" class="r-stretch"></section></section>
-<section>
-<section id="speech-recognition-and-synthesis" class="title-slide slide level1 center">
-<h1>Speech recognition and synthesis</h1>
-<ul>
-<li class="fragment">Your devices rely on <strong>speech recognition technologies</strong> , which means that they have the ability to recognize and translate human spoken language into text that can be understood by computers
-<ul>
-<li class="fragment">This allows you to use commands like “call Mom”</li>
-<li class="fragment">Has a wide array of applications</li>
-</ul></li>
-<li class="fragment">They also rely on <strong>speech synthesis</strong> , which is the artificial production of human speech by a computer
-<ul>
-<li class="fragment">They sound so real now</li>
-<li class="fragment">Here’s how it used to sound…</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="media-1" class="title-slide slide level1 center">
-<h1>Media</h1>
-<p><a href="https://www.youtube.com/watch?v=wQjTgvUEOrY">https://www.youtube.com/watch?v=wQjTgvUEOrY</a></p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="q-slide-1" class="title-slide slide level1 center">
-<h1>Q slide</h1>
-<p>True or false: In 1962, Bell Labs programmed a computer to speak and sing! True</p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="why-is-speech-recognition-special" class="title-slide slide level1 center">
-<h1>Why is speech recognition special?</h1>
-
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="applications" class="title-slide slide level1 center">
-<h1>Applications</h1>
-
-<img data-src="images/19-Why can’t Siri pronounce my name_3.png" class="r-stretch"><p>Voice search</p>
-<p>Compositing text</p>
-<p>Turning on the lights</p>
-<p>Customer service applications</p>
-<p>Biometrics</p>
-<p>In-car features</p>
-<p>Duolingo</p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="media-2" class="title-slide slide level1 center">
-<h1>Media</h1>
-<p><a href="https://www.youtube.com/watch?v=6altVgTOf9s">https://www.youtube.com/watch?v=6altVgTOf9s</a></p>
-</section>
-<section class="slide level2">
-
-
-<img data-src="images/19-Why can’t Siri pronounce my name_4.jpg" class="r-stretch"></section></section>
-<section>
-<section id="performance" class="title-slide slide level1 center">
-<h1>Performance</h1>
-<ul>
-<li class="fragment">Speech recognition is complex
-<ul>
-<li class="fragment">Background noise can get in the way</li>
-<li class="fragment">Linguistic variation can be tricky to capture</li>
-</ul></li>
-<li class="fragment">I said they were getting better – how do we know?
-<ul>
-<li class="fragment"><strong>Accuracy</strong> – how often does the system get it wrong?</li>
-<li class="fragment"><strong>Speed</strong> – how quickly does it convert from speech to text?</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="issues-faced-in-accuracy" class="title-slide slide level1 center">
-<h1>Issues faced in accuracy</h1>
 <aside class="notes">
-<p>Have you ever had trouble with Siri understanding what you’ve said? Some of the accuracy issues may have been part of the problem, but often, linguistic variation in accent, word choice, etc. can be the problem African Americans experience error rates up to two times higher than other speakers of American English</p>
+<p>HMM-based synthesis is a synthesis method based on hidden Markov models, also called Statistical Parametric Synthesis. In this system, the frequency spectrum (vocal tract), fundamental frequency (voice source), and duration (prosody) of speech are modeled simultaneously by HMMs. Speech waveforms are generated from HMMs themselves based on the maximum likelihood criterion</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -350,105 +225,146 @@ Author
           display:block!important;
       }</style></aside>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="q-slide-2" class="title-slide slide level1 center">
-<h1>Q slide</h1>
-<p>Which one is better for accuracy – speaker-dependent or speaker-independent? Dependent</p>
+<section id="articulatory-synthesis" class="slide level2">
+<h2>Articulatory Synthesis</h2>
+<p><a href="https://dood.al/pinktrombone/">Pink Trombone (caution: cursed)</a></p>
 </section>
-<section class="slide level2">
-
-
-<img data-src="images/19-Why can’t Siri pronounce my name_5.jpg" class="r-stretch"></section></section>
 <section>
-<section id="linguistic-variation" class="title-slide slide level1 center">
-<h1>Linguistic variation</h1>
+<section id="lets-look-at-some-of-the-other-tts-technologies" class="title-slide slide level1 center">
+<h1>Let’s look at some of the other TTS technologies</h1>
+
+</section>
+<section id="automatic-speech-recognition" class="slide level2">
+<h2>Automatic Speech Recognition</h2>
 <ul>
-<li class="fragment">Has Siri had trouble understanding what you’ve said?</li>
-<li class="fragment">Some of the accuracy issues may have been part of the problem, but often, linguistic variation in accent, word choice, etc. can be the problem</li>
-<li class="fragment">Research has shown that
+<li>Automatic Speech Recognition (ASR) goes the other way!</li>
+<li>A microphone captures speech vibrations</li>
+<li>A computer converts these into a digital representation of the frequencies</li>
+<li>Features of these frequencies are extracted every few milliseconds (MFCCs)</li>
+</ul>
+</section>
+<section id="asr-challenges" class="slide level2">
+<h2>ASR Challenges</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/S1-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p><audio controls=""> <source src="recordings/susan-chain.wav" type="audio/wav"> </audio></p>
+</div></aside></section>
+<section id="performance" class="slide level2">
+<h2>Performance</h2>
 <ul>
-<li class="fragment">African Americans experience error rates up to two times higher than other speakers of American English
+<li class="fragment">Speech recognition is complex
 <ul>
-<li class="fragment">Word identification is less accurate, but</li>
-<li class="fragment">Word prediction is sometimes better compared to majority dialects</li>
+<li class="fragment">Background noise can get in the way</li>
+<li class="fragment">Foreground noise can get in the way!</li>
+<li class="fragment">Linguistic variation can be tricky to capture <span class="citation" data-cites="martin2023bias">(<a href="" role="doc-biblioref" onclick="return false;"><strong>mengesha2021don?</strong></a>)</span></li>
+<li class="fragment">Especially when the ASR researchers <em>themselves</em> are biased <span class="citation" data-cites="feng2021quantifying">(<a href="" role="doc-biblioref" onclick="return false;"><strong>feng2021quantifying?</strong></a>)</span></li>
 </ul></li>
-<li class="fragment">Linguists use “force-aligners” to automatically transcribe speech, and one study found that error rates on accuracy were higher for Southern varieties compared to Northern ones</li>
+<li class="fragment">I said they were getting better – how do we know?
+<ul>
+<li class="fragment"><strong>Accuracy</strong> – how often does the system get it wrong?</li>
+<li class="fragment"><strong>Speed</strong> – how quickly does it convert from speech to text?</li>
 </ul></li>
 </ul>
 </section>
-<section class="slide level2">
-
-
-<img data-src="images/19-Why can’t Siri pronounce my name_6.png" class="r-stretch"><ul>
-<li class="fragment">Proportion of correctly recognized words by dialect area, color coded by country
+<section id="issues-faced-in-accuracy" class="slide level2">
+<h2>Issues faced in accuracy</h2>
+<aside class="notes">
 <ul>
-<li class="fragment">Used YouTube auto-captions on Accent Tag videos (powered by Google)</li>
-<li class="fragment">Works best on people from California (which just happens to be where Google is headquartered)</li>
-<li class="fragment">Works worst on Scottish English ::: {.notes}</li>
+<li>Have you ever had trouble with Siri understanding what you’ve said?</li>
+<li>Some of the accuracy issues may have been part of the problem, but often, linguistic variation in accent, word choice, etc. can be the problem</li>
+<li>African Americans experience error rates up to two times higher than other speakers of American English <span class="citation" data-cites="koenecke2020racial">(<a href="" role="doc-biblioref" onclick="return false;"><strong>koenecke2020racial?</strong></a>)</span></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="linguistic-variation" class="slide level2">
+<h2>Linguistic variation</h2>
+<ul>
+<li>Has Siri had trouble understanding what you’ve said?</li>
+<li>Some of the accuracy issues may have been part of the problem, but often, linguistic variation in accent, word choice, etc. can be the problem</li>
+<li>Research has shown that
+<ul>
+<li>African Americans experience error rates up to two times higher than other speakers of American English
+<ul>
+<li>Word identification is less accurate, but</li>
+<li>Word prediction is sometimes better compared to majority dialects</li>
+</ul></li>
 </ul></li>
 </ul>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<img data-src="images/data.png" class="r-stretch">
+<ul>
+<li>Proportion of correctly recognized words by dialect area, color coded by country
+<ul>
+<li>Used YouTube auto-captions on Accent Tag videos (powered by Google)</li>
+<li>Works best on people from California (which just happens to be where Google is headquartered)</li>
+<li>Works worst on Scottish English</li>
+</ul></li>
+</ul>
+<aside class="notes">
 <p>https://makingnoiseandhearingthings.com/2016/07/11/which-accents-does-automatic-speech-recognition-work-best-for/</p>
-<p>:::</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section class="slide level2">
+<section id="references" class="slide level2">
+<h2>References</h2>
+
 
 </section></section>
-<section>
-<section id="why-does-it-matter" class="title-slide slide level1 center">
-<h1>Why does it matter?</h1>
-
-<img data-src="images/19-Why can’t Siri pronounce my name_7.png" class="r-stretch"><p>Two (Three?) words:</p>
-<p><em>Self-driving cars</em></p>
-<p>But also – all the things we can do with speech recognition and speech synthesis will only grow</p>
-<p>We will all want/need to be able to operate in that future!</p>
-</section>
-<section class="slide level2">
-
-
-<img data-src="images/19-Why can’t Siri pronounce my name_8.jpg" class="r-stretch"></section></section>
-<section id="whats-next" class="title-slide slide level1 center">
-<h1>What’s next?</h1>
-<ul>
-<li class="fragment">Come next week for more fun with computers!
-<ul>
-<li class="fragment">“How do computers help with language?”</li>
-<li class="fragment">“Are chatbots real?”</li>
-</ul></li>
-<li class="fragment">Quiz 9 in recitation on Friday</li>
-<li class="fragment">Observation notes #6 (last one!) due Friday, April 12 at 11:59pm
-<ul>
-<li class="fragment">No late work, no AI</li>
-<li class="fragment">Drop lowest – if you are happy, you can skip it!</li>
-</ul></li>
-</ul>
-
-
-</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="img/logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>Organization</p>
+<p>Language in the World</p>
 </div>
 </div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="../../../../site_libs/revealjs/dist/reveal.js"></script>
+  <script src="../../../site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="../../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-animate/plugin.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-animate/svg.min.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-animate/js-yaml.min.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="../../../../site_libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/search/search.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="../../../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
@@ -464,6 +380,8 @@ Author
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"\u003ci class=\"fas fa-gear\">\u003c/i>","content":"\u003cul class=\"slide-menu-items\">\n\u003cli class=\"slide-tool-item active\" data-item=\"0\">\u003ca href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\">\u003ckbd>f\u003c/kbd> Fullscreen\u003c/a>\u003c/li>\n\u003cli class=\"slide-tool-item\" data-item=\"1\">\u003ca href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\">\u003ckbd>s\u003c/kbd> Speaker View\u003c/a>\u003c/li>\n\u003cli class=\"slide-tool-item\" data-item=\"2\">\u003ca href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\">\u003ckbd>o\u003c/kbd> Slide Overview\u003c/a>\u003c/li>\n\u003cli class=\"slide-tool-item\" data-item=\"3\">\u003ca href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\">\u003ckbd>e\u003c/kbd> PDF Export Mode\u003c/a>\u003c/li>\n\u003cli class=\"slide-tool-item\" data-item=\"4\">\u003ca href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\">\u003ckbd>r\u003c/kbd> Scroll View Mode\u003c/a>\u003c/li>\n\u003cli class=\"slide-tool-item\" data-item=\"5\">\u003ca href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\">\u003ckbd>?\u003c/kbd> Keyboard Help\u003c/a>\u003c/li>\n\u003c/ul>"}],"openButton":true,"openButtonLabel":"Slide menu"},
+'pointer': {"0":null,"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
+'animate': {"autoplay":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -609,9 +527,9 @@ Author
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1600,
+        width: 1280,
 
-        height: 900,
+        height: 720,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
@@ -634,7 +552,7 @@ Author
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealPointer, RevealAnimate, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -643,6 +561,44 @@ Author
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
