@@ -32,6 +32,7 @@ filters:
   - animate
 ---
 
+<!--
 ```{r echo=FALSE, include=FALSE}
 #| label: load
 
@@ -49,6 +50,7 @@ html_audio <- function(file, type = "wav") {
   type = type)))
 }
 ```
+-->
 
 ## Ling Link
 
@@ -117,7 +119,7 @@ HMM-based synthesis is a synthesis method based on hidden Markov models, also ca
 - A computer converts these into a digital representation of the frequencies
 - Features of these frequencies are extracted every few milliseconds (MFCCs)
 
-## ASR Challenges
+<!--## ASR Challenges
 
 ```{r echo=FALSE}
 #| label: S1
@@ -129,6 +131,11 @@ spectrogram(hear, color=FALSE, quality=TRUE, maxfreq=8000, dynamicrange=70)
 ::: aside
 `r html_audio("recordings/susan-chain.wav")`
 :::
+-->
+
+## ASR Challenges
+
+![](images/susan-chain.png){.r-stretch}
 
 ## Performance
 
