@@ -1,5 +1,5 @@
 ---
-title: "Why is technology so bad at some accents?"
+title: "Why is tech so bad at some accents?"
 subtitle: "Lin 211 • Section 3, Part 7"
 date: 11/4/2026
 categories: [Language in the World]
