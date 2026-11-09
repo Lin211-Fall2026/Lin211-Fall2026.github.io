@@ -110,6 +110,10 @@ HMM-based synthesis is a synthesis method based on hidden Markov models, also ca
 # Let's look at some of the other TTS technologies
 
 
+##
+
+{{< video "recordings/scottish-accents.mp4" width="1200" height="800" >}}
+
 ## Automatic Speech Recognition
 
 - Automatic Speech Recognition (ASR) goes the other way!

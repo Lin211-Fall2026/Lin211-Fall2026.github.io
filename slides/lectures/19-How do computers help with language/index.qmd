@@ -1,27 +1,39 @@
 ---
-title: "Presentation Title"
-author: "Author"
-format: 
+title: "How do computers help with language?"
+subtitle: "Lin 211 • Section 3, Part 8"
+date: 11/9/2026
+categories: [Language in the World]
+bibliography: includes/references.bib
+authors:
+  - name: Kevin B McGowan
+    orcid: 0000-0002-8214-1901
+    email: kbmcgowan@uky.edu
+tbl-cap-location: bottom
+format:
   revealjs:
     slide-number: c/t
-    width: 1600
-    height: 900
-    logo: img/logo.png
-    footer: "Organization"
-    incremental: true
-    theme: [simple]
----
-# How do computers help with language?
-
-# Language in the World
-
-
+    width: 1280
+    height: 720
+    footer: "Language in the World"
+    incremental: false
+    scrollable: true
+    theme: includes/sky.scss
+    css:
+      - includes/inline-fragment.css
+      - includes/custom.css
+    template-partials:
+      - includes/title-slide.html
+    pointer:
+      - # set pointer configuration options here
+revealjs-plugins:
+  - pointer
+  - animate
+filters: 
+  - animate
 ---
 
 
 # Ling Link
-
-
 
 * We’re going to talk about the potential for sentient machines next time\, but this video is an example of what sci\-fi writers long ago thought it would be like
   * It’s from  _2001: A Space Odyssey\, _ a movie from 1968 that was based on several short stories in the 1950s
@@ -31,14 +43,9 @@ format:
   * What is weird or interesting about the interaction?
   * Are there things HAL says that sound like a real person?
 
-
-![](images/20-How%20do%20computers%20help%20with%20language_0.png)
-
-
 ---
 
-
-# Media
+{{< video https://www\.youtube\.com/watch?v=ARJ8cAGm6JE width="1200" height="800" >}}
 
 [https://www\.youtube\.com/watch?v=ARJ8cAGm6JE](https://www.youtube.com/watch?v=ARJ8cAGm6JE)
 
@@ -49,53 +56,30 @@ Stop at 1:08
 :::
 
 
----
 
+## But also…
 
-# Recall
+::: {.r-fit-text}
+Computers are stupid.
+:::
 
+##
 
-
-* Writing is  __learned__
-  * But certain aspects of  __computer\-mediated communication __ \(CMC\) seem like they are acquired
-  * Emojis as extralinguistic material \(like facial expressions and body language\)
-* What makes the digital environment different from face\-to\-face?
-* __Computational linguistics __ is the area of linguistics that applies the methods of computer science to the analysis of language and speech
-  * Speech synthesis and speech recognition
-  * Not easy problems\!\!
-  * Accuracy and speed
-
----
-
-
-# But also…
-
-![](images/20-How%20do%20computers%20help%20with%20language_1.png)
-
-Computers are stupid\.
-
-
----
-
-
-
-
-* Our focus before was on  __speech recognition__ \, and we spent our time discussing mostly how  __sounds __ were processed and turned into text that a computer could understand
+* Our focus before was on  __speech synthesis__ and __speech recognition__ \, and we spent our time discussing mostly how  __sounds __ were processed and turned into text that a computer could understand
   * But that “understanding” boiled down to 1s and 0s
   * And it relied on the devices being talked to having sets of standard commands \(“call Mom”\) and built\-in probabilities that it could use to decipher what you intended
+  
+##
+
 * So\, is it really “understanding” language?
   * We’re talking about  __natural language processing__
   * The answer to this lies in understanding the complexity of human grammar
   * And\, in fact\, computers are a still not great on the morphosyntactic properties of language\!
 
 
-# Beyond recognition
+## Beyond recognition
 
-
----
-
-
-# Media
+{{< video https://www.youtube.com/watch?v=fOvTtapxa9c width="1200" height="800" >}}
 
 [https://www\.youtube\.com/watch?v=fOvTtapxa9c](https://www.youtube.com/watch?v=fOvTtapxa9c)
 
@@ -109,16 +93,20 @@ Stop at 4:11
 ---
 
 
-# A little bit of a rewind!
+## A little bit of a rewind!
 
+:::::: {.columns}
+
+::: {.column width="50%"}
 | The | Determiner |
 | :-: | :-: |
 | Cat | Noun |
 | Chased | Verb |
 | The | Determiner |
 | Dog | Noun |
+:::
 
-
+::: {.column width="50%"}
 
 * What is syntax?
   * “The way in which words are put together to form phrases and sentences\.” \(American Heritage Dictionary\)
@@ -126,66 +114,76 @@ Stop at 4:11
 * Remember\, in order to talk about sentence structure\, we need to know a little about  __parts of speech__ \, or categories of words based on similar meanings\, forms\, and functions
 * __You know these\! But it’s not always unambiguous…__
 
----
+:::
+::::::
 
+## What’s the difference?
 
-# Q slide
+:::::: {.columns}
 
-What is the part of speech of “run”? \*Verb\, \*noun\, pronoun\, preposition
+::: {.column width="50%"}
 
+### The dog bit the man.
 
----
+![](images/20-How%20do%20computers%20help%20with%20language_2.png){width="100%"}
 
+:::
 
-The man bit the dog\.
+::: {.column width="50%"}
 
-The dog bit the man\.
+### The man bit the dog.
 
-![](images/20-How%20do%20computers%20help%20with%20language_2.png)
-
-![](images/20-How%20do%20computers%20help%20with%20language_3.png)
-
-# What’s the difference?
-
-
----
+![](images/20-How%20do%20computers%20help%20with%20language_3.png){width="100%"}
+:::
+::::::
 
 
 # What a model of syntax must do…
 
 
----
+## 1. Words belong to lexical categories
+
+:::::: {.columns}
+
+::: {.column width="50%"}
+
+![](images/20-How%20do%20computers%20help%20with%20language_4.png){width="100%"}
+:::
+
+::: {.column width="50%"}
+
+- We did this already\, so know them\!
+- If you are having trouble\, please find a friend who is a master of parts of speech\.
+- You will need to know these…
+
+:::
+::::::
 
 
-# 1. Words belong to lexical categories
+## 2. Word order is important
 
-![](images/20-How%20do%20computers%20help%20with%20language_4.png)
+:::::: {.columns}
 
-We did this already\, so know them\!
+::: {.column width="50%"}
 
-If you are having trouble\, please find a friend who is a master of parts of speech\.
+![](images/20-How%20do%20computers%20help%20with%20language_5.jpg){width="100%"}
+:::
 
-You will need to know these…
-
-
----
-
-
-# 2. Word order is important
-
-![](images/20-How%20do%20computers%20help%20with%20language_5.jpg)
-
-
+::: {.column width="50%"}
 
 * It affects grammaticality and meaning\.
   * Mary dumped John\. ≠ John dumped Mary\.
   * \*John Mary dumped\.
   * \*Dumped Mary John\.
 * Languages differ in word order
+
+:::
+
+::::::
+
 ::: {.notes}
 
 Word order is more flexible in some languages compared to English, particularly languages that heavily inflect for case.
-
 
 :::
 
@@ -193,35 +191,29 @@ Word order is more flexible in some languages compared to English, particularly 
 ---
 
 
-# Word Order
+## Word Order
 
-![](images/20-How%20do%20computers%20help%20with%20language_6.png)
-
-
+::: {.incremental}
 
 * We usually talk about word order in terms of grammatical roles like subject \(S\)\, object \(O\)\, and verb \(V\)
 * These pieces are combined in different ways
   * SVO\, SOV\, VSO\, VOS\, OSV\, OVS
   * For example\, Irish and Welsh are VSO
-  * Siaradodd 	Aled 	y 	Gymraeg\.
-      * spoke		Aled	DEF	Welsh
-      * Verb		Subject	Object
-      * “Aled spoke Welsh\.”
+  * D’ith an cat m'im.
+      * ate		the cat   my butter
+      * Verb		Subject	  Object
+      * “The cat ate my butter.”
 * Almost no languages use OSV or OVS
   * However\, every language has  _some_  rules about word order\.
 
----
+:::
 
 
-# Activity
-
-What is the word order of English?
+# Question: What is the word order of English?
 
 
----
 
-
-# 3. Words form constituents
+## 3. Words form constituents
 
 ::: {.notes}
 
@@ -283,7 +275,7 @@ Give them pro-form substitution as the example of how you know
 ---
 
 
-# Activity
+## Activity
 
 
 
@@ -301,7 +293,7 @@ Give them pro-form substitution as the example of how you know
 
 ![](images/20-How%20do%20computers%20help%20with%20language_15.jpg)
 
-# Ambiguity
+## Ambiguity
 
 
 
