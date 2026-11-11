@@ -14,6 +14,17 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v7
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: CorpusProject/package-lock.json
+
+      - name: Build corpus explorer
+        working-directory: CorpusProject
+        run: npm ci && npm run build
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 

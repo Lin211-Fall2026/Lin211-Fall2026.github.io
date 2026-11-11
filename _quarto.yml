@@ -1,5 +1,6 @@
 project:
   type: website
+  post-render: node CorpusProject/copy-built-explorer.mjs
   
 execute:
   freeze: auto
