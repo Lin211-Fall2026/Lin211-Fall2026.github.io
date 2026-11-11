@@ -9,12 +9,12 @@ const KWIC_PAGE_SIZE = 50;
 const MAX_KWIC_RESULTS = 1000;
 const WORD_PATTERN = /[\p{L}\p{N}]+(?:['’][\p{L}\p{N}]+)*/gu;
 const STOP_WORDS = new Set(
-  `a about above after again against all am an and any are as at ain't aren't be because been before being
-  below between both but by can could did do does doing down during each few for from further
+  `a about above after again against all am an and any are as at aren't be because been before being
+  below between both but by can could did do does each few for from further
   had has have having hadn't hasn't haven't he he'd he'll her here hers herself him himself his how he's i i'd i'll i'm i've
   if in into is it it'd it'll it's its itself
   just me more most my myself no nor not of off on once only or other our ours ourselves out over
-  own same she she'd she'll she's should so some such than that the their theirs them themselves then there these
+  same she she'd she'll she's should so some such than that the their theirs them themselves then there these
   that's there's they they'd they'll they're they've this those through to too under until up very was wasn't
   we we'd we'll we're we've were weren't what what's when where which while who who's whom why will won't
   with would wouldn't you you'd you'll you're you've your yours yourself yourselves can't couldn't didn't
