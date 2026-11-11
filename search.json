@@ -2394,11 +2394,18 @@
     "text": "Stochastic Parrots\n\nEmily Bender and colleagues describe LLMs as “stochastic parrots” (Bender et al. 2021)\n\nStochastic  means something is randomly determined or has a random probability distribution\n“for haphazardly stitching together sequences of linguistic forms … according to probabilistic information about how they combine, but without any reference to meaning.” (Bender)\nThe expression means generative AI, like parrots, cannot understand what they have produce\n\n“You can’t expect a machine-learning system to learn stuff that’s not in it’s training data…otherwise you’re expecting magic.”"
   },
   {
+    "objectID": "slides/lectures/20-Are chatbots real/index.html#section-2",
+    "href": "slides/lectures/20-Are chatbots real/index.html#section-2",
+    "title": "Are chatbots real?",
+    "section": "",
+    "text": "Other image from here: https://www.webfx.com/blog/marketing/chatgpt-fails/"
+  },
+  {
     "objectID": "slides/lectures/20-Are chatbots real/index.html#did-you-know",
     "href": "slides/lectures/20-Are chatbots real/index.html#did-you-know",
     "title": "Are chatbots real?",
     "section": "Did you know?",
-    "text": "Did you know?\n\nLLMs are\n\nNot being engineered to use energy or water efficiently?\nThe reason computer memory and storage and electricity are so expensive right now?\nExpensive to create, and are trained on unlicenses, sometimes private, data?\nOverconfident on relating falsehoods as facts\nBiased in certain ways (e.g., ChatGPT bias toward positivity)\nBad at parsing languages other than English\n\n\n\nOther image from here: https://www.webfx.com/blog/marketing/chatgpt-fails/"
+    "text": "Did you know?\n\nLLMs are\n\nNot being engineered to use energy or water efficiently?\nThe reason computer memory and storage and electricity are so expensive right now?\nExpensive to create, and are trained on unlicenses, sometimes private, data?\nOverconfident on relating falsehoods as facts\nBiased in certain ways (e.g., ChatGPT bias toward positivity)\nBad at parsing languages other than English"
   },
   {
     "objectID": "slides/lectures/20-Are chatbots real/index.html#the-question-of-the-day",
@@ -2419,7 +2426,7 @@
     "href": "slides/lectures/20-Are chatbots real/index.html#whats-next",
     "title": "Are chatbots real?",
     "section": "What’s next?",
-    "text": "What’s next?\n\nCome on Monday for our next/last SPOTLIGHT lecture\n\n“How do we find relevant linguistics sources?”\nImportant for the “Data Analysis” assignment!\n\nWednesday = new module on language and culture, starting with “Are actors good at dialects?” (read the PDF in Canvas)\nQuiz 10 in recitation on Friday\nObservation notes #6 (last one!) due Friday!\n\nNo late work, no AI"
+    "text": "What’s next?\n\nCome on Monday for our next/last SPOTLIGHT lecture\n\n“How do we find relevant linguistics sources?”\nImportant for the “Data Analysis” assignment!\n\nWednesday = new module on language and culture, starting with “Are actors good at dialects?” (read the PDF in Canvas)\nQuiz 10 in recitation on Friday\nObservation notes #6 (last one!) due next Friday (11-23)!\n\nWe drop the lowest grade.\nIf you are behind on these, it is not too late, come talk to me or your TA and we’ll work something out"
   },
   {
     "objectID": "slides/lectures/20-Are chatbots real/index.html#references",
