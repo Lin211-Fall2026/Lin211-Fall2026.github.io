@@ -25,3 +25,14 @@ The CSV is expected to contain years from 1944–2024; rows outside that range p
 ## GitHub Pages
 
 The Vite base path is `/CorpusProject/`, matching this app's location on the course site's GitHub Pages URL. The repository's Quarto publish workflow builds the app and copies `dist/` into the rendered `CorpusProject/` page before publishing.
+
+## Rebuild the app
+
+After changing the app or its CSV, run these commands from this directory:
+
+```sh
+npm ci
+npm run build
+```
+
+The production files are written to `dist/`. To check the production build locally, run `npm run preview`. To publish the update, push the changes to the repository's `main` branch; the GitHub Actions workflow rebuilds the app and publishes the course site.

@@ -1,5 +1,5 @@
 ---
-title: "Data Collection Project"
+title: "Lin211: lyrics corpus explorer</title>
 format:
     html:
       css: styles.css
@@ -11,3 +11,7 @@ format:
 editor: source
 ---
 
+<div id="app">
+  <div class="loading-state" role="status">Loading the lyrics corpus...</div>
+</div>
+<script type="module" src="/src/main.js"></script>
