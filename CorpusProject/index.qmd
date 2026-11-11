@@ -1,5 +1,5 @@
 ---
-title: "Lin211: lyrics corpus explorer</title>
+title: "Lin211: lyrics corpus explorer"
 format:
     html:
       css: styles.css
@@ -10,6 +10,7 @@ format:
       css-property-processing: translate
 editor: source
 ---
+
 
 <div id="app">
   <div class="loading-state" role="status">Loading the lyrics corpus...</div>
