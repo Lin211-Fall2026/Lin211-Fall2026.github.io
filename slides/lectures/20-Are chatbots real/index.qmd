@@ -35,16 +35,6 @@ filters:
 
 ## Ling Link
 
-<!--
-```{r}
-
-library(qrcode)
-
-code <- qr_code("https://eliza.dotink.co/")
-generate_svg(code, filename = "images/eliza-qr.svg")
-```
--->
-
 :::::: {.columns}
 
 :::: {.column width="40%"}
