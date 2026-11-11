@@ -9,16 +9,20 @@ const KWIC_PAGE_SIZE = 50;
 const MAX_KWIC_RESULTS = 1000;
 const WORD_PATTERN = /[\p{L}\p{N}]+(?:['’][\p{L}\p{N}]+)*/gu;
 const STOP_WORDS = new Set(
-  `a about above after again against all am an and any are as at aren't be because been before being
-  below between both but by can could did do does each few for from further
-  had has have having hadn't hasn't haven't he he'd he'll her here hers herself him himself his how he's i i'd i'll i'm i've
-  if in into is it it'd it'll it's its itself
-  just me more most my myself no nor not of off on once only or other our ours ourselves out over
-  same she she'd she'll she's should so some such than that the their theirs them themselves then there these
-  that's there's they they'd they'll they're they've this those through to too under until up very was wasn't
-  we we'd we'll we're we've were weren't what what's when where which while who who's whom why will won't
-  with would wouldn't you you'd you'll you're you've your yours yourself yourselves can't couldn't didn't
-  doesn't don't`.split(/\s+/),
+  `a about above after again against all am an and any are as at
+  aren't be because been before being below between both but by can
+  could did do does each few for from further had has have having
+  hadn't hasn't haven't he he'd he'll her here hers herself him
+  himself his how he's i i'd i'll i'm i've if in into is it it'd
+  it'll it's its itself just me more most my myself no nor not of
+  off on once only or other our ours ourselves out over same she
+  she'd she'll she's should so some such than that the their theirs
+  them themselves then there these that's there's they they'd they'll
+  they're they've this those through to too under until up very was
+  wasn't we we'd we'll we're we've were weren't what what's when
+  where which while who who's whom why will won't with would wouldn't
+  you you'd you'll you're you've your yours yourself yourselves
+  can't couldn't didn't doesn't don't`.split(/\s+/),
 );
 
 const state = {
@@ -312,7 +316,7 @@ function renderComparison(songs) {
   return `
     <div class="compare-intro">
       <span class="compare-icon" aria-hidden="true">↗</span>
-      <p>Compare a word’s frequency across the years, like a small-corpus n-gram viewer. Rates are shown per 1,000 lyric words, so years with more lyrics are not automatically higher. Gaps mark years with no songs in the corpus.</p>
+      <p>Compare two words' frequency over time. Rates are shown per 100 lyric words, so years with more lyrics are not automatically higher. Gaps mark years with no songs in the corpus.</p>
     </div>
     <form class="compare-form" id="compare-form">
       <label for="compare-first">First word<input id="compare-first" type="text" value="${escapeAttribute(state.compareFirst)}" maxlength="60" autocomplete="off" /></label>
@@ -363,11 +367,11 @@ function renderFrequencyComparison(songs, terms) {
 
   const data = years.map((year) => ({ year, ...annual.get(year) }));
   const rates = data.flatMap((entry) => entry.tokens
-    ? entry.counts.map((count) => (count / entry.tokens) * 1000)
+    ? entry.counts.map((count) => (count / entry.tokens) * 100)
     : []);
   const maximumRate = rates.length ? Math.max(...rates) : 0;
   const yMaximum = niceFrequencyCeiling(maximumRate);
-  const totalRates = totalCounts.map((count) => totalTokens ? (count / totalTokens) * 1000 : 0);
+  const totalRates = totalCounts.map((count) => totalTokens ? (count / totalTokens) * 100 : 0);
 
   return `
     <section class="panel compare-chart-panel">
@@ -425,7 +429,7 @@ function renderFrequencySvg(data, terms, yMaximum) {
         connected = false;
         continue;
       }
-      const rate = (entry.counts[seriesIndex] / entry.tokens) * 1000;
+      const rate = (entry.counts[seriesIndex] / entry.tokens) * 100;
       path += `${connected ? 'L' : 'M'}${x(entry.year).toFixed(2)},${y(rate).toFixed(2)} `;
       connected = true;
     }
@@ -436,7 +440,7 @@ function renderFrequencySvg(data, terms, yMaximum) {
     if (entry.tokens === 0) return [];
     return terms.map((term, seriesIndex) => {
       const count = entry.counts[seriesIndex];
-      const rate = (count / entry.tokens) * 1000;
+      const rate = (count / entry.tokens) * 100;
       const series = seriesIndex === 0 ? 'a' : 'b';
       return `<circle class="frequency-point series-${series}" cx="${x(entry.year).toFixed(2)}" cy="${y(rate).toFixed(2)}" r="3.5" tabindex="0"><title>${entry.year}: ${escapeHtml(term)} appeared ${count} ${count === 1 ? 'time' : 'times'} in ${entry.tokens.toLocaleString()} words (${formatFrequency(rate)} per 1,000)</title></circle>`;
     });
@@ -618,12 +622,7 @@ function bindEvents() {
     const secondWord = normalizeComparisonWord(state.compareSecond);
     let focusId = '#compare-first';
 
-    if (!firstWord) {
-      state.compareError = 'Enter a single word in the first field.';
-    } else if (!secondWord) {
-      focusId = '#compare-second';
-      state.compareError = 'Enter a single word in the second field.';
-    } else if (firstWord === secondWord) {
+    if (firstWord === secondWord) {
       focusId = '#compare-second';
       state.compareError = 'Choose two different words to compare.';
     } else {
