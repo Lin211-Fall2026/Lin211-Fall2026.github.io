@@ -1,6 +1,6 @@
 import Papa from 'papaparse';
 import corpusUrl from '../country-corpus.csv?url';
-import './style.css';
+import '../styles.css';
 
 const START_YEAR = 1944;
 const END_YEAR = 2024;
@@ -103,43 +103,28 @@ function setTab(tab) {
 function render() {
   const songs = filteredSongs();
   app.innerHTML = `
-    <header class="topbar">
-      <a class="brand" href="#top" aria-label="Country Lines home">
-        <span class="brand-mark" aria-hidden="true">CL</span>
-        <span>COUNTRY <b>LINES</b></span>
-      </a>
-      <nav class="main-nav" aria-label="Main navigation">
-        <button class="nav-button ${state.tab === 'overview' ? 'active' : ''}" data-tab="overview" aria-current="${state.tab === 'overview' ? 'page' : 'false'}">Explore</button>
-        <button class="nav-button ${state.tab === 'concordance' ? 'active' : ''}" data-tab="concordance" aria-current="${state.tab === 'concordance' ? 'page' : 'false'}">Find a word</button>
-        <button class="nav-button ${state.tab === 'songs' ? 'active' : ''}" data-tab="songs" aria-current="${state.tab === 'songs' ? 'page' : 'false'}">Browse songs</button>
+    <header class="site-header">
+      <nav class="site-navbar" aria-label="Course site">
+        <a class="site-brand" href="../">Lin211 Fall 2026</a>
+        <button class="site-menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Toggle navigation">
+          <span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+        </button>
+        <div class="site-links" id="site-navigation">
+          <a href="../">Home</a>
+          <a href="../syllabus/Lin211-Fall2026-Syllabus.html">Syllabus</a>
+          <a href="./" aria-current="page">Data Collection Project</a>
+          <a href="../slides/">Slides</a>
+        </div>
       </nav>
-      <span class="date-badge">1944 <i>—</i> 2024</span>
     </header>
 
-    <main id="top">
+    <main id="top" class="site-content">
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-dot"></span> A small window into a big tradition</p>
-          <h1>Country music,<br /><em>line by line.</em></h1>
-          <p class="hero-description">What do country songs talk about? Follow the words across eight decades, find them in context, and make your own discoveries.</p>
+          <p class="eyebrow">LIN 211 · DATA COLLECTION PROJECT</p>
+          <h1>Country music lyrics corpus</h1>
+          <p class="hero-description">Explore charting country songs from 1944 to 2024. Follow words across time, find them in context, and browse the lyrics.</p>
           <button class="text-link" data-tab="concordance">Start with a word <span aria-hidden="true">↗</span></button>
-        </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="sun"></div>
-          <div class="horizon-line"></div>
-          <span class="art-caption">WORDS HAVE<br />A PLACE &amp; TIME</span>
-          <span class="art-year">’44—’24</span>
-          <svg viewBox="0 0 420 300" role="presentation">
-            <path class="hill hill-back" d="M0 190 Q80 100 170 175 T360 145 T520 150 V320 H0Z" />
-            <path class="hill hill-front" d="M0 230 Q105 130 220 205 T420 180 V320 H0Z" />
-            <path class="road" d="M190 300 C212 260 195 220 235 194 C270 171 264 149 291 130" />
-            <path class="road-edge" d="M190 300 C212 260 195 220 235 194 C270 171 264 149 291 130" />
-            <path class="road-mark" d="M192 300 C210 260 194 220 235 194 C267 171 261 149 291 130" />
-            <path class="grass" d="M0 268 Q80 236 145 258 T280 245 T430 255 V320 H0Z" />
-            <circle class="flower flower-one" cx="73" cy="254" r="3" />
-            <circle class="flower flower-two" cx="333" cy="242" r="3" />
-            <circle class="flower flower-three" cx="368" cy="268" r="2" />
-          </svg>
         </div>
       </section>
 
@@ -163,6 +148,11 @@ function render() {
             <select id="to-year" aria-label="Last year in range">${yearOptions(state.toYear)}</select>
           </div>
         </div>
+        <nav class="tool-tabs" aria-label="Corpus tools">
+          <button class="tool-tab ${state.tab === 'overview' ? 'active' : ''}" data-tab="overview" aria-current="${state.tab === 'overview' ? 'page' : 'false'}">Explore</button>
+          <button class="tool-tab ${state.tab === 'concordance' ? 'active' : ''}" data-tab="concordance" aria-current="${state.tab === 'concordance' ? 'page' : 'false'}">Find a word</button>
+          <button class="tool-tab ${state.tab === 'songs' ? 'active' : ''}" data-tab="songs" aria-current="${state.tab === 'songs' ? 'page' : 'false'}">Browse songs</button>
+        </nav>
 
         <div class="tab-panel">
           ${state.tab === 'overview' ? renderOverview(songs) : ''}
@@ -172,7 +162,7 @@ function render() {
       </section>
 
       <footer class="site-footer">
-        <div><span class="brand-mark small" aria-hidden="true">CL</span><span>Country Lines <span class="footer-divider">/</span> A corpus explorer</span></div>
+        <p><a href="https://linguistics.as.uky.edu/">Linguistics Department</a> - <a href="https://www.uky.edu/">University of Kentucky</a> - <a href="https://creativecommons.org/licenses/by/4.0/deed.en"><code>CC-BY 4.0</code></a></p>
         <p>Lyrics are shown for classroom research and linguistic exploration.</p>
       </footer>
     </main>
@@ -403,6 +393,13 @@ function renderPagination(page, pageCount, kind) {
 }
 
 function bindEvents() {
+  const menuToggle = app.querySelector('.site-menu-toggle');
+  menuToggle?.addEventListener('click', () => {
+    const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+    menuToggle.setAttribute('aria-expanded', String(!expanded));
+    app.querySelector('#site-navigation')?.classList.toggle('open', !expanded);
+  });
+
   app.querySelectorAll('[data-tab]').forEach((button) => {
     button.addEventListener('click', () => setTab(button.dataset.tab));
   });
