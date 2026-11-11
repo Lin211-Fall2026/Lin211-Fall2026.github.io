@@ -12,4 +12,4 @@ editor: source
 ---
 
 
-The interactive explorer is built with Vite. Its production build is copied here during the Quarto GitHub Pages publish.
+The interactive explorer is built with Vite. Quarto GitHub Pages publish should replace this text during check-in.

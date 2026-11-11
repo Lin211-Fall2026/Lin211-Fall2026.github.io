@@ -115,7 +115,7 @@ function render() {
         <div class="site-links" id="site-navigation">
           <a href="../">Home</a>
           <a href="../syllabus/Lin211-Fall2026-Syllabus.html">Syllabus</a>
-          <a href="./" aria-current="page">Data Collection Project</a>
+          <a href="./" aria-current="page">Corpus Project</a>
           <a href="../slides/">Slides</a>
         </div>
       </nav>
