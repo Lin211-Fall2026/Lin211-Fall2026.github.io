@@ -553,12 +553,7 @@ Other image from here: https://www.webfx.com/blog/marketing/chatgpt-fails/
 
 ![](images/chatgpt-letters.png){.r-stretch .absolute left="50"}
 
-##
-
-::: {.r-fit-text}
-
-My friends, a professor and a nurse, are getting married and I want to get each of them something nice. What are some appropriate gifts?
-:::
+# Me: My friends, a professor and a nurse, are getting married and I want to get each of them something nice. What are some appropriate gifts?
 
 ##
 
@@ -627,8 +622,9 @@ I didn’t assign this as reading because it is pretty intense near the end and 
   * Important for the “Data Analysis” assignment\!
 * Wednesday = new module on language and culture\, starting with “Are actors good at dialects?” \(read the PDF in Canvas\)
 * Quiz 10 in recitation on Friday
-* Observation notes \#6 \(last one\!\) due Friday\!
-  * No late work\, no AI
+* Observation notes \#6 \(last one\!\) due next Friday (11-23)\!
+  * We drop the lowest grade.
+  * **If you are behind on these, it is not too late, come talk to me or your TA and we'll work something out**
 
 ## References
 
