@@ -12,7 +12,4 @@ editor: source
 ---
 
 
-<div id="app">
-  <div class="loading-state" role="status">Loading the lyrics corpus...</div>
-</div>
-<script type="module" src="/src/main.js"></script>
+The interactive explorer is built with Vite. Its production build is copied here during the Quarto GitHub Pages publish.

@@ -14,4 +14,3 @@ listing:
       title: "Theme"
       description: "Due"
 ---
-
