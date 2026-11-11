@@ -28,6 +28,9 @@ const state = {
   toYear: END_YEAR,
   concordanceQuery: '',
   wholeWord: true,
+  compareFirst: 'love',
+  compareSecond: 'home',
+  compareError: '',
   songQuery: '',
   songPage: 0,
   kwicPage: 0,
@@ -151,12 +154,14 @@ function render() {
         <nav class="tool-tabs" aria-label="Corpus tools">
           <button class="tool-tab ${state.tab === 'overview' ? 'active' : ''}" data-tab="overview" aria-current="${state.tab === 'overview' ? 'page' : 'false'}">Explore</button>
           <button class="tool-tab ${state.tab === 'concordance' ? 'active' : ''}" data-tab="concordance" aria-current="${state.tab === 'concordance' ? 'page' : 'false'}">Find a word</button>
+          <button class="tool-tab ${state.tab === 'compare' ? 'active' : ''}" data-tab="compare" aria-current="${state.tab === 'compare' ? 'page' : 'false'}">Compare words</button>
           <button class="tool-tab ${state.tab === 'songs' ? 'active' : ''}" data-tab="songs" aria-current="${state.tab === 'songs' ? 'page' : 'false'}">Browse songs</button>
         </nav>
 
         <div class="tab-panel">
           ${state.tab === 'overview' ? renderOverview(songs) : ''}
           ${state.tab === 'concordance' ? renderConcordance(songs) : ''}
+          ${state.tab === 'compare' ? renderComparison(songs) : ''}
           ${state.tab === 'songs' ? renderSongBrowser(songs) : ''}
         </div>
       </section>
@@ -173,6 +178,7 @@ function render() {
 
 function tabHeading() {
   if (state.tab === 'concordance') return 'Find a word in context';
+  if (state.tab === 'compare') return 'Compare word frequencies';
   if (state.tab === 'songs') return 'Browse the songbook';
   return 'Explore the timeline';
 }
@@ -296,6 +302,159 @@ function renderConcordance(songs) {
       <div class="empty-prompt"><span class="prompt-orbit" aria-hidden="true">?</span><div><strong>One word can open up a whole songbook.</strong><p>Type a word above, or pick one to get started:</p><div class="suggestion-list">${['love', 'home', 'heart', 'road'].map((word) => `<button class="suggestion" data-word="${word}">${word}<span aria-hidden="true"> ↗</span></button>`).join('')}</div></div></div>
     `}
   `;
+}
+
+function renderComparison(songs) {
+  const firstWord = normalizeComparisonWord(state.compareFirst);
+  const secondWord = normalizeComparisonWord(state.compareSecond);
+  const canCompare = firstWord && secondWord && firstWord !== secondWord;
+
+  return `
+    <div class="compare-intro">
+      <span class="compare-icon" aria-hidden="true">↗</span>
+      <p>Compare a word’s frequency across the years, like a small-corpus n-gram viewer. Rates are shown per 1,000 lyric words, so years with more lyrics are not automatically higher. Gaps mark years with no songs in the corpus.</p>
+    </div>
+    <form class="compare-form" id="compare-form">
+      <label for="compare-first">First word<input id="compare-first" type="text" value="${escapeAttribute(state.compareFirst)}" maxlength="60" autocomplete="off" /></label>
+      <label for="compare-second">Second word<input id="compare-second" type="text" value="${escapeAttribute(state.compareSecond)}" maxlength="60" autocomplete="off" /></label>
+      <button class="primary-button" type="submit">Compare words <span aria-hidden="true">↗</span></button>
+    </form>
+    ${state.compareError ? `<p class="compare-error" role="alert">${escapeHtml(state.compareError)}</p>` : ''}
+    ${canCompare
+      ? renderFrequencyComparison(songs, [firstWord, secondWord])
+      : '<div class="empty-state large"><strong>Enter two different words to compare.</strong><p>Use one word in each field.</p></div>'}
+  `;
+}
+
+function normalizeComparisonWord(value) {
+  const normalized = value.trim().toLocaleLowerCase().replaceAll('’', "'");
+  const words = wordsIn(normalized);
+  return words.length === 1 && words[0] === normalized ? normalized : null;
+}
+
+function renderFrequencyComparison(songs, terms) {
+  if (songs.length === 0) {
+    return '<div class="empty-state large"><strong>No songs in this year range.</strong><p>Expand the year filters to compare frequencies.</p></div>';
+  }
+
+  const years = Array.from(
+    { length: state.toYear - state.fromYear + 1 },
+    (_, index) => state.fromYear + index,
+  );
+  const annual = new Map(years.map((year) => [year, { tokens: 0, counts: [0, 0] }]));
+  let totalTokens = 0;
+  const totalCounts = [0, 0];
+
+  for (const song of songs) {
+    const year = annual.get(song.year);
+    const tokens = wordsIn(song.lyrics);
+    year.tokens += tokens.length;
+    totalTokens += tokens.length;
+
+    for (const token of tokens) {
+      for (let index = 0; index < terms.length; index += 1) {
+        if (token === terms[index]) {
+          year.counts[index] += 1;
+          totalCounts[index] += 1;
+        }
+      }
+    }
+  }
+
+  const data = years.map((year) => ({ year, ...annual.get(year) }));
+  const rates = data.flatMap((entry) => entry.tokens
+    ? entry.counts.map((count) => (count / entry.tokens) * 1000)
+    : []);
+  const maximumRate = rates.length ? Math.max(...rates) : 0;
+  const yMaximum = niceFrequencyCeiling(maximumRate);
+  const totalRates = totalCounts.map((count) => totalTokens ? (count / totalTokens) * 1000 : 0);
+
+  return `
+    <section class="panel compare-chart-panel">
+      <div class="panel-title-row">
+        <div><h3>Word frequency by year</h3><p>Occurrences per 1,000 words in lyrics from each year.</p></div>
+        <span class="panel-index">${state.fromYear}—${state.toYear}</span>
+      </div>
+      <div class="frequency-chart-wrap">
+        <svg class="frequency-chart" viewBox="0 0 920 320" role="img" aria-label="Frequency per 1,000 lyric words for ${escapeAttribute(terms[0])} and ${escapeAttribute(terms[1])} by year">
+          ${renderFrequencySvg(data, terms, yMaximum)}
+        </svg>
+      </div>
+      <div class="frequency-legend">
+        ${terms.map((term, index) => `
+          <div class="frequency-legend-item">
+            <span class="frequency-series series-${index === 0 ? 'a' : 'b'}"></span>
+            <strong>${escapeHtml(term)}</strong>
+            <span>${totalCounts[index].toLocaleString()} uses · ${formatFrequency(totalRates[index])} per 1,000 words overall</span>
+          </div>`).join('')}
+      </div>
+    </section>
+  `;
+}
+
+function renderFrequencySvg(data, terms, yMaximum) {
+  const left = 64;
+  const top = 18;
+  const width = 826;
+  const height = 220;
+  const x = (year) => left + (
+    state.toYear === state.fromYear
+      ? width / 2
+      : ((year - state.fromYear) / (state.toYear - state.fromYear)) * width
+  );
+  const y = (rate) => top + height - (rate / yMaximum) * height;
+  const ticks = [0, yMaximum / 2, yMaximum];
+  const grid = ticks.map((tick) => {
+    const position = y(tick);
+    return `<line class="frequency-grid-line" x1="${left}" x2="${left + width}" y1="${position}" y2="${position}" /><text class="frequency-axis-label" x="${left - 10}" y="${position + 4}" text-anchor="end">${formatFrequency(tick)}</text>`;
+  }).join('');
+
+  const decadeTicks = data.filter((entry) => entry.year % 10 === 0).map((entry) => entry.year);
+  const xTicks = decadeTicks.length
+    ? decadeTicks
+    : [...new Set([state.fromYear, state.toYear])];
+  const labels = xTicks.map((year) =>
+    `<text class="frequency-axis-label" x="${x(year)}" y="${top + height + 24}" text-anchor="middle">${year}</text>`,
+  ).join('');
+
+  const lines = terms.map((term, seriesIndex) => {
+    let path = '';
+    let connected = false;
+    for (const entry of data) {
+      if (entry.tokens === 0) {
+        connected = false;
+        continue;
+      }
+      const rate = (entry.counts[seriesIndex] / entry.tokens) * 1000;
+      path += `${connected ? 'L' : 'M'}${x(entry.year).toFixed(2)},${y(rate).toFixed(2)} `;
+      connected = true;
+    }
+    return `<path class="frequency-line series-${seriesIndex === 0 ? 'a' : 'b'}" d="${path.trim()}" />`;
+  }).join('');
+
+  const points = data.flatMap((entry) => {
+    if (entry.tokens === 0) return [];
+    return terms.map((term, seriesIndex) => {
+      const count = entry.counts[seriesIndex];
+      const rate = (count / entry.tokens) * 1000;
+      const series = seriesIndex === 0 ? 'a' : 'b';
+      return `<circle class="frequency-point series-${series}" cx="${x(entry.year).toFixed(2)}" cy="${y(rate).toFixed(2)}" r="3.5" tabindex="0"><title>${entry.year}: ${escapeHtml(term)} appeared ${count} ${count === 1 ? 'time' : 'times'} in ${entry.tokens.toLocaleString()} words (${formatFrequency(rate)} per 1,000)</title></circle>`;
+    });
+  }).join('');
+
+  return `${grid}${lines}${points}${labels}`;
+}
+
+function niceFrequencyCeiling(value) {
+  if (!Number.isFinite(value) || value <= 0) return 0.1;
+  const magnitude = 10 ** Math.floor(Math.log10(value));
+  const normalized = value / magnitude;
+  const step = normalized <= 1 ? 1 : normalized <= 2 ? 2 : normalized <= 5 ? 5 : 10;
+  return step * magnitude;
+}
+
+function formatFrequency(value) {
+  return value.toLocaleString(undefined, { maximumFractionDigits: 2 });
 }
 
 function findOccurrences(songs, query, wholeWord) {
@@ -448,6 +607,31 @@ function bindEvents() {
     state.kwicPage = 0;
     render();
     app.querySelector('#concordance-query')?.focus();
+  });
+  app.querySelector('#compare-form')?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    state.compareFirst = app.querySelector('#compare-first').value.trim();
+    state.compareSecond = app.querySelector('#compare-second').value.trim();
+    const firstWord = normalizeComparisonWord(state.compareFirst);
+    const secondWord = normalizeComparisonWord(state.compareSecond);
+    let focusId = '#compare-first';
+
+    if (!firstWord) {
+      state.compareError = 'Enter a single word in the first field.';
+    } else if (!secondWord) {
+      focusId = '#compare-second';
+      state.compareError = 'Enter a single word in the second field.';
+    } else if (firstWord === secondWord) {
+      focusId = '#compare-second';
+      state.compareError = 'Choose two different words to compare.';
+    } else {
+      state.compareFirst = firstWord;
+      state.compareSecond = secondWord;
+      state.compareError = '';
+    }
+
+    render();
+    if (state.compareError) app.querySelector(focusId)?.focus();
   });
   app.querySelector('#whole-word')?.addEventListener('change', (event) => {
     state.wholeWord = event.target.checked;
