@@ -158,7 +158,7 @@ function render() {
         <nav class="tool-tabs" aria-label="Corpus tools">
           <button class="tool-tab ${state.tab === 'overview' ? 'active' : ''}" data-tab="overview" aria-current="${state.tab === 'overview' ? 'page' : 'false'}">Explore</button>
           <button class="tool-tab ${state.tab === 'concordance' ? 'active' : ''}" data-tab="concordance" aria-current="${state.tab === 'concordance' ? 'page' : 'false'}">Find a word</button>
-          <button class="tool-tab ${state.tab === 'compare' ? 'active' : ''}" data-tab="compare" aria-current="${state.tab === 'compare' ? 'page' : 'false'}">Compare words</button>
+          <button class="tool-tab ${state.tab === 'compare' ? 'active' : ''}" data-tab="compare" aria-current="${state.tab === 'compare' ? 'page' : 'false'}">Compare words &amp; phrases</button>
           <button class="tool-tab ${state.tab === 'songs' ? 'active' : ''}" data-tab="songs" aria-current="${state.tab === 'songs' ? 'page' : 'false'}">Browse songs</button>
         </nav>
 
@@ -182,7 +182,7 @@ function render() {
 
 function tabHeading() {
   if (state.tab === 'concordance') return 'Find a word in context';
-  if (state.tab === 'compare') return 'Compare word frequencies';
+  if (state.tab === 'compare') return 'Compare word and phrase frequencies';
   if (state.tab === 'songs') return 'Browse the songbook';
   return 'Explore the timeline';
 }
@@ -309,31 +309,49 @@ function renderConcordance(songs) {
 }
 
 function renderComparison(songs) {
-  const firstWord = normalizeComparisonWord(state.compareFirst);
-  const secondWord = normalizeComparisonWord(state.compareSecond);
-  const canCompare = firstWord && secondWord && firstWord !== secondWord;
+  const firstTokens = normalizeComparisonString(state.compareFirst);
+  const secondTokens = normalizeComparisonString(state.compareSecond);
+  const canCompare = firstTokens && secondTokens
+    && firstTokens.join(' ') !== secondTokens.join(' ');
 
   return `
     <div class="compare-intro">
       <span class="compare-icon" aria-hidden="true">↗</span>
-      <p>Compare two words' frequency over time. Rates are shown per 100 lyric words, so years with more lyrics are not automatically higher. Gaps mark years with no songs in the corpus.</p>
+      <p>Compare a word or phrase over time. Rates are shown per 100 lyric words, so years with more lyrics are not automatically higher. Matching ignores capitalization and punctuation, treats curly and straight apostrophes alike, and counts phrases when their words occur consecutively. Try “y'all” vs. “you all”. Gaps mark years with no songs in the corpus.</p>
     </div>
     <form class="compare-form" id="compare-form">
-      <label for="compare-first">First word<input id="compare-first" type="text" value="${escapeAttribute(state.compareFirst)}" maxlength="60" autocomplete="off" /></label>
-      <label for="compare-second">Second word<input id="compare-second" type="text" value="${escapeAttribute(state.compareSecond)}" maxlength="60" autocomplete="off" /></label>
-      <button class="primary-button" type="submit">Compare words <span aria-hidden="true">↗</span></button>
+      <label for="compare-first">First word or phrase<input id="compare-first" type="text" value="${escapeAttribute(state.compareFirst)}" maxlength="60" autocomplete="off" /></label>
+      <label for="compare-second">Second word or phrase<input id="compare-second" type="text" value="${escapeAttribute(state.compareSecond)}" maxlength="60" autocomplete="off" /></label>
+      <button class="primary-button" type="submit">Compare <span aria-hidden="true">↗</span></button>
     </form>
     ${state.compareError ? `<p class="compare-error" role="alert">${escapeHtml(state.compareError)}</p>` : ''}
     ${canCompare
-      ? renderFrequencyComparison(songs, [firstWord, secondWord])
-      : '<div class="empty-state large"><strong>Enter two different words to compare.</strong><p>Use one word in each field.</p></div>'}
+      ? renderFrequencyComparison(songs, [
+        { label: state.compareFirst.trim(), tokens: firstTokens },
+        { label: state.compareSecond.trim(), tokens: secondTokens },
+      ])
+      : '<div class="empty-state large"><strong>Enter two different words or phrases to compare.</strong><p>Use a word or short phrase in each field.</p></div>'}
   `;
 }
 
-function normalizeComparisonWord(value) {
-  const normalized = value.trim().toLocaleLowerCase().replaceAll('’', "'");
-  const words = wordsIn(normalized);
-  return words.length === 1 && words[0] === normalized ? normalized : null;
+function normalizeComparisonString(value) {
+  const tokens = wordsIn(value);
+  return tokens.length ? tokens : null;
+}
+
+function countTokenSequence(tokens, sequence) {
+  let matches = 0;
+  for (let start = 0; start <= tokens.length - sequence.length; start += 1) {
+    let matchesSequence = true;
+    for (let offset = 0; offset < sequence.length; offset += 1) {
+      if (tokens[start + offset] !== sequence[offset]) {
+        matchesSequence = false;
+        break;
+      }
+    }
+    if (matchesSequence) matches += 1;
+  }
+  return matches;
 }
 
 function renderFrequencyComparison(songs, terms) {
@@ -355,13 +373,10 @@ function renderFrequencyComparison(songs, terms) {
     year.tokens += tokens.length;
     totalTokens += tokens.length;
 
-    for (const token of tokens) {
-      for (let index = 0; index < terms.length; index += 1) {
-        if (token === terms[index]) {
-          year.counts[index] += 1;
-          totalCounts[index] += 1;
-        }
-      }
+    for (let index = 0; index < terms.length; index += 1) {
+      const count = countTokenSequence(tokens, terms[index].tokens);
+      year.counts[index] += count;
+      totalCounts[index] += count;
     }
   }
 
@@ -376,11 +391,11 @@ function renderFrequencyComparison(songs, terms) {
   return `
     <section class="panel compare-chart-panel">
       <div class="panel-title-row">
-        <div><h3>Word frequency by year</h3><p>Occurrences per 1,000 words in lyrics from each year.</p></div>
+        <div><h3>Word or phrase frequency by year</h3><p>Occurrences per 100 lyric words from each year.</p></div>
         <span class="panel-index">${state.fromYear}—${state.toYear}</span>
       </div>
       <div class="frequency-chart-wrap">
-        <svg class="frequency-chart" viewBox="0 0 920 320" role="img" aria-label="Frequency per 1,000 lyric words for ${escapeAttribute(terms[0])} and ${escapeAttribute(terms[1])} by year">
+        <svg class="frequency-chart" viewBox="0 0 920 320" role="img" aria-label="Frequency per 100 lyric words for ${escapeAttribute(terms[0].label)} and ${escapeAttribute(terms[1].label)} by year">
           ${renderFrequencySvg(data, terms, yMaximum)}
         </svg>
       </div>
@@ -388,8 +403,8 @@ function renderFrequencyComparison(songs, terms) {
         ${terms.map((term, index) => `
           <div class="frequency-legend-item">
             <span class="frequency-series series-${index === 0 ? 'a' : 'b'}"></span>
-            <strong>${escapeHtml(term)}</strong>
-            <span>${totalCounts[index].toLocaleString()} uses · ${formatFrequency(totalRates[index])} per 1,000 words overall</span>
+            <strong>${escapeHtml(term.label)}</strong>
+            <span>${totalCounts[index].toLocaleString()} uses · ${formatFrequency(totalRates[index])} per 100 words overall</span>
           </div>`).join('')}
       </div>
     </section>
@@ -442,7 +457,7 @@ function renderFrequencySvg(data, terms, yMaximum) {
       const count = entry.counts[seriesIndex];
       const rate = (count / entry.tokens) * 100;
       const series = seriesIndex === 0 ? 'a' : 'b';
-      return `<circle class="frequency-point series-${series}" cx="${x(entry.year).toFixed(2)}" cy="${y(rate).toFixed(2)}" r="3.5" tabindex="0"><title>${entry.year}: ${escapeHtml(term)} appeared ${count} ${count === 1 ? 'time' : 'times'} in ${entry.tokens.toLocaleString()} words (${formatFrequency(rate)} per 1,000)</title></circle>`;
+      return `<circle class="frequency-point series-${series}" cx="${x(entry.year).toFixed(2)}" cy="${y(rate).toFixed(2)}" r="3.5" tabindex="0"><title>${entry.year}: ${escapeHtml(term.label)} occurred ${count} ${count === 1 ? 'time' : 'times'} in ${entry.tokens.toLocaleString()} words (${formatFrequency(rate)} per 100)</title></circle>`;
     });
   }).join('');
 
@@ -618,16 +633,19 @@ function bindEvents() {
     event.preventDefault();
     state.compareFirst = app.querySelector('#compare-first').value.trim();
     state.compareSecond = app.querySelector('#compare-second').value.trim();
-    const firstWord = normalizeComparisonWord(state.compareFirst);
-    const secondWord = normalizeComparisonWord(state.compareSecond);
+    const firstTokens = normalizeComparisonString(state.compareFirst);
+    const secondTokens = normalizeComparisonString(state.compareSecond);
     let focusId = '#compare-first';
 
-    if (firstWord === secondWord) {
+    if (!firstTokens) {
+      state.compareError = 'Enter a word or phrase in the first field.';
+    } else if (!secondTokens) {
       focusId = '#compare-second';
-      state.compareError = 'Choose two different words to compare.';
+      state.compareError = 'Enter a word or phrase in the second field.';
+    } else if (firstTokens.join(' ') === secondTokens.join(' ')) {
+      focusId = '#compare-second';
+      state.compareError = 'Choose two different words or phrases to compare.';
     } else {
-      state.compareFirst = firstWord;
-      state.compareSecond = secondWord;
       state.compareError = '';
     }
 

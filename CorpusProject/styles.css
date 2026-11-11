@@ -129,7 +129,7 @@ a:hover { color: #128f76; }
 .frequency-point:focus { stroke: #212529; stroke-width: 2; }
 .frequency-legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; margin-top: .5rem; padding-top: .85rem; border-top: 1px solid var(--line); }
 .frequency-legend-item { display: grid; grid-template-columns: 11px auto 1fr; align-items: center; gap: .45rem; color: var(--muted); font-size: .8rem; }
-.frequency-legend-item strong { color: var(--ink); font-size: .9rem; }
+.frequency-legend-item strong { min-width: 0; color: var(--ink); font-size: .9rem; overflow-wrap: anywhere; }
 .frequency-series { width: 10px; height: 10px; display: inline-block; border-radius: 50%; }
 .frequency-series.series-a { background: var(--teal); }
 .frequency-series.series-b { background: var(--navy); }
