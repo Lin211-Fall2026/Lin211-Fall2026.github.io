@@ -543,6 +543,31 @@ counterfeit humans who deceive us (whether that was the programmer's intention o
 
 ![](images/21-Are%20chatbots%20real_5.png){.r-stretch .absolute left="50"}
 
+::: {.notes}
+
+Other image from here: https://www.webfx.com/blog/marketing/chatgpt-fails/
+
+:::
+
+##
+
+![](images/chatgpt-letters.png){.r-stretch .absolute left="50"}
+
+##
+
+::: {.r-fit-text}
+
+My friends, a professor and a nurse, are getting married and I want to get each of them something nice. What are some appropriate gifts?
+:::
+
+##
+
+![](images/chatgpt-gender1.png){.r-stretch .absolute left="50"}
+
+##
+
+![](images/chatgpt-gender2.png){.r-stretch .absolute left="50"}
+
 ## Did you know?
 
 * LLMs are
@@ -552,12 +577,6 @@ counterfeit humans who deceive us (whether that was the programmer's intention o
   * Overconfident on relating falsehoods as facts
   * Biased in certain ways \(e\.g\.\, ChatGPT bias toward positivity\)
   * Bad at parsing languages other than English
-
-::: {.notes}
-
-Other image from here: https://www.webfx.com/blog/marketing/chatgpt-fails/
-
-:::
 
 
 ---
