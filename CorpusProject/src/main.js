@@ -495,7 +495,9 @@ function renderKwicRow({ song, left, match, right }) {
 
 function renderSongBrowser(songs) {
   const query = state.songQuery.trim().toLocaleLowerCase();
-  const results = songs.filter((song) => !query || `${song.title} ${song.artist} ${song.lyrics}`.toLocaleLowerCase().includes(query));
+  const results = songs
+    .filter((song) => !query || `${song.title} ${song.artist} ${song.lyrics}`.toLocaleLowerCase().includes(query))
+    .sort((a, b) => a.year - b.year || Number(a.chartPosition) - Number(b.chartPosition));
   const pageCount = Math.ceil(results.length / PAGE_SIZE);
   const page = Math.min(state.songPage, Math.max(0, pageCount - 1));
   const pageSongs = results.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
