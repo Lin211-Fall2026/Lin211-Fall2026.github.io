@@ -161,6 +161,9 @@ function render() {
             <select id="from-year" aria-label="First year in range">${yearOptions(state.fromYear)}</select>
             <span>to</span>
             <select id="to-year" aria-label="Last year in range">${yearOptions(state.toYear)}</select>
+            ${state.fromYear !== START_YEAR || state.toYear !== END_YEAR
+              ? '<button class="reset-year-filter" id="show-all-years" type="button">Show all years</button>'
+              : ''}
           </div>
         </div>
         <nav class="tool-tabs" aria-label="Corpus tools">
@@ -656,6 +659,11 @@ function bindEvents() {
 
   const fromYear = app.querySelector('#from-year');
   const toYear = app.querySelector('#to-year');
+  app.querySelector('#show-all-years')?.addEventListener('click', () => {
+    state.fromYear = START_YEAR;
+    state.toYear = END_YEAR;
+    setTab('overview');
+  });
   fromYear?.addEventListener('change', () => {
     state.fromYear = Number(fromYear.value);
     if (state.fromYear > state.toYear) state.toYear = state.fromYear;

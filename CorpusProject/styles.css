@@ -63,6 +63,9 @@ a:hover { color: #128f76; }
 .year-filter { display: flex; align-items: center; gap: .5rem; color: var(--muted); font-size: .875rem; white-space: nowrap; }
 .year-filter label { margin-right: .15rem; color: var(--ink); font-weight: 700; }
 .year-filter select { min-width: 76px; border: 1px solid #ced4da; border-radius: .375rem; padding: .4rem 1.6rem .4rem .55rem; background: #fff; color: var(--ink); font-size: .875rem; }
+.reset-year-filter { border: 0; padding: .35rem .25rem; background: transparent; color: var(--teal); cursor: pointer; font-size: .8rem; font-weight: 700; text-decoration: underline; text-underline-offset: .15em; }
+.reset-year-filter:hover { color: #128f76; }
+.reset-year-filter:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
 .tool-tabs { display: flex; gap: .15rem; overflow-x: auto; margin-bottom: 1rem; border-bottom: 1px solid var(--line); }
 .tool-tab { flex: 0 0 auto; border: 1px solid transparent; border-bottom: 0; border-radius: .375rem .375rem 0 0; padding: .45rem .85rem .5rem; background: transparent; color: var(--teal); cursor: pointer; font-size: .9rem; }
 .tool-tab:hover { color: #128f76; background: var(--light); }
