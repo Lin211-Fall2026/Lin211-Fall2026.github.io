@@ -256,7 +256,7 @@ function renderOverview(songs) {
       </section>
     </div>
     <section class="question-strip">
-      <div><span class="question-spark" aria-hidden="true">✳</span><div><h3>Not sure where to begin?</h3><p>Try one of these words and see what the surrounding lines reveal.</p></div></div>
+      <div><span class="question-spark" aria-hidden="true">✳</span><div><h3>Not sure where to begin?</h3><p>Try one of these words and see how the preceding and following words inform their meanings.</p></div></div>
       <div class="suggestion-list">${['love', 'home', 'heart', 'road'].map((word) => `<button class="suggestion" data-word="${word}">${word}<span aria-hidden="true"> ↗</span></button>`).join('')}</div>
     </section>
   `;
