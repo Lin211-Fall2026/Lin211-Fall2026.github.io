@@ -144,7 +144,7 @@ function render() {
       </section>
 
       <section class="data-ribbon" aria-label="Corpus overview">
-        <div class="ribbon-intro"><span class="small-caps">THE COLLECTION</span><span>Charting songs, selected years</span></div>
+        <div class="ribbon-intro"><span class="small-caps">THE COLLECTION</span><span>Charting songs, selected years, collected by students in Lin 211, Fall 2026</span></div>
         <div class="stat"><strong>${state.songs.length}</strong><span>songs</span></div>
         <div class="stat"><strong>${new Set(state.songs.map((song) => artistIdentity(song.artist))).size}</strong><span>artists &amp; groups</span></div>
         <div class="stat"><strong>${new Set(state.songs.map((song) => Math.floor(song.year / 10) * 10)).size}</strong><span>decades</span></div>
@@ -153,7 +153,7 @@ function render() {
       <section class="workspace" aria-label="Corpus explorer">
         <div class="workspace-heading">
           <div>
-            <p class="eyebrow">YOUR VIEW OF THE CORPUS</p>
+            <p class="eyebrow">YOUR VIEW OF OUR CORPUS</p>
             <h2>${tabHeading()}</h2>
           </div>
           <div class="year-filter">
@@ -182,7 +182,7 @@ function render() {
 
       <footer class="site-footer">
         <p><a href="https://linguistics.as.uky.edu/">Linguistics Department</a> - <a href="https://www.uky.edu/">University of Kentucky</a></p>
-        <p>Lyrics are shown for classroom research and linguistic exploration.</p>
+        <p>Lyrics are shown for classroom research and exploration.</p>
       </footer>
     </main>
   `;
@@ -231,18 +231,18 @@ function renderOverview(songs) {
     <div class="explore-grid">
       <section class="panel timeline-panel">
         <div class="panel-title-row">
-          <div><h3>Hits through the years</h3><p>Each mark is a song in the collection. Select a year to focus on it.</p></div>
+          <div><h3>Hits through the years</h3><p>Each mark is a song in the collection. Click a year to focus on it.</p></div>
           <span class="panel-index">01 / TIME</span>
         </div>
         <div class="timeline-wrap">
-          <svg class="timeline-chart" viewBox="0 0 920 220" role="img" aria-label="Number of songs in the corpus by year">${renderTimeline(counts, visibleYears, maxYearCount)}</svg>
+          <svg class="timeline-chart" viewBox="0 0 920 220" role="img" aria-label="Number of songs in our corpus by year">${renderTimeline(counts, visibleYears, maxYearCount)}</svg>
         </div>
         <div class="chart-legend"><span><i></i> Songs in the collection</span><span>Year range: ${state.fromYear}–${state.toYear}</span></div>
       </section>
 
       <section class="panel word-panel">
         <div class="panel-title-row">
-          <div><h3>Words that come up</h3><p>Frequent words, with common grammatical words left out.</p></div>
+          <div><h3>Frequent words</h3><p>Common grammatical words (e.g. 'the', 'of', 'an', etc.) excluded.</p></div>
           <span class="panel-index">02 / WORDS</span>
         </div>
         ${topWords.length ? `<div class="word-list">${topWords.map(([word, count], index) => `
