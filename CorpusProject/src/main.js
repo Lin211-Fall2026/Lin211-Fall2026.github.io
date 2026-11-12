@@ -37,6 +37,9 @@ const state = {
   compareError: '',
   songQuery: '',
   songPage: 0,
+  artistQuery: '',
+  artistPage: 0,
+  expandedArtistId: null,
   kwicPage: 0,
   expandedSongId: null,
 };
@@ -100,10 +103,15 @@ function filteredSongs() {
   );
 }
 
+function artistIdentity(name) {
+  return name.trim().replace(/\s+/g, ' ').toLocaleLowerCase();
+}
+
 function setTab(tab) {
   state.tab = tab;
   state.kwicPage = 0;
   state.songPage = 0;
+  state.artistPage = 0;
   render();
 }
 
@@ -138,7 +146,7 @@ function render() {
       <section class="data-ribbon" aria-label="Corpus overview">
         <div class="ribbon-intro"><span class="small-caps">THE COLLECTION</span><span>Charting songs, selected years</span></div>
         <div class="stat"><strong>${state.songs.length}</strong><span>songs</span></div>
-        <div class="stat"><strong>${new Set(state.songs.map((song) => song.artist)).size}</strong><span>artists &amp; groups</span></div>
+        <div class="stat"><strong>${new Set(state.songs.map((song) => artistIdentity(song.artist))).size}</strong><span>artists &amp; groups</span></div>
         <div class="stat"><strong>${new Set(state.songs.map((song) => Math.floor(song.year / 10) * 10)).size}</strong><span>decades</span></div>
       </section>
 
@@ -159,6 +167,7 @@ function render() {
           <button class="tool-tab ${state.tab === 'overview' ? 'active' : ''}" data-tab="overview" aria-current="${state.tab === 'overview' ? 'page' : 'false'}">Explore</button>
           <button class="tool-tab ${state.tab === 'concordance' ? 'active' : ''}" data-tab="concordance" aria-current="${state.tab === 'concordance' ? 'page' : 'false'}">Find a word</button>
           <button class="tool-tab ${state.tab === 'compare' ? 'active' : ''}" data-tab="compare" aria-current="${state.tab === 'compare' ? 'page' : 'false'}">Compare words &amp; phrases</button>
+          <button class="tool-tab ${state.tab === 'artists' ? 'active' : ''}" data-tab="artists" aria-current="${state.tab === 'artists' ? 'page' : 'false'}">Browse artists</button>
           <button class="tool-tab ${state.tab === 'songs' ? 'active' : ''}" data-tab="songs" aria-current="${state.tab === 'songs' ? 'page' : 'false'}">Browse songs</button>
         </nav>
 
@@ -166,6 +175,7 @@ function render() {
           ${state.tab === 'overview' ? renderOverview(songs) : ''}
           ${state.tab === 'concordance' ? renderConcordance(songs) : ''}
           ${state.tab === 'compare' ? renderComparison(songs) : ''}
+          ${state.tab === 'artists' ? renderArtistBrowser(songs) : ''}
           ${state.tab === 'songs' ? renderSongBrowser(songs) : ''}
         </div>
       </section>
@@ -183,6 +193,7 @@ function render() {
 function tabHeading() {
   if (state.tab === 'concordance') return 'Find a word in context';
   if (state.tab === 'compare') return 'Compare word and phrase frequencies';
+  if (state.tab === 'artists') return 'Browse artists by song count';
   if (state.tab === 'songs') return 'Browse the songbook';
   return 'Explore the timeline';
 }
@@ -317,7 +328,7 @@ function renderComparison(songs) {
   return `
     <div class="compare-intro">
       <span class="compare-icon" aria-hidden="true">↗</span>
-      <p>Compare a word or phrase over time. Rates are shown per 100 lyric words, so years with more lyrics are not automatically higher. Matching ignores capitalization and punctuation, treats curly and straight apostrophes alike, and counts phrases when their words occur consecutively. Try “y'all” vs. “you all”. Gaps mark years with no songs in the corpus.</p>
+      <p>Compare a word or phrase over time. Rates are shown per 100 lyric words, so years with more lyrics are not automatically higher. Matching ignores capitalization and punctuation, treats curly and straight apostrophes alike, and counts phrases when their words occur consecutively. </p>
     </div>
     <form class="compare-form" id="compare-form">
       <label for="compare-first">First word or phrase<input id="compare-first" type="text" value="${escapeAttribute(state.compareFirst)}" maxlength="60" autocomplete="off" /></label>
@@ -531,6 +542,58 @@ function renderSongBrowser(songs) {
   `;
 }
 
+function renderArtistBrowser(songs) {
+  const query = state.artistQuery.trim().toLocaleLowerCase();
+  const artistMap = new Map();
+
+  for (const song of songs) {
+    const name = song.artist.trim().replace(/\s+/g, ' ');
+    const key = artistIdentity(name);
+    const artist = artistMap.get(key) ?? { key, name, songs: [], spellings: new Map() };
+    artist.songs.push(song);
+    artist.spellings.set(name, (artist.spellings.get(name) ?? 0) + 1);
+    artistMap.set(key, artist);
+  }
+
+  for (const artist of artistMap.values()) {
+    artist.name = [...artist.spellings.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0][0];
+  }
+
+  const results = [...artistMap.values()]
+    .filter((artist) => artist.name.toLocaleLowerCase().includes(query))
+    .sort((a, b) => b.songs.length - a.songs.length || a.name.localeCompare(b.name));
+  const pageCount = Math.ceil(results.length / PAGE_SIZE);
+  const page = Math.min(state.artistPage, Math.max(0, pageCount - 1));
+  const pageArtists = results.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
+
+  return `
+    <div class="song-browser-tools">
+      <div><p class="eyebrow">THE ARTISTS</p><p class="browser-explainer">Browse artists and groups, ranked by how many songs they have in this year range. Expand a name to see its songs.</p></div>
+      <label class="song-search"><span class="sr-only">Search artist and group names</span><span class="search-icon" aria-hidden="true"></span><input id="artist-query" type="search" value="${escapeAttribute(state.artistQuery)}" placeholder="Search artists or groups" autocomplete="off" /></label>
+    </div>
+    <p class="browse-count">${results.length.toLocaleString()} ${results.length === 1 ? 'artist or group' : 'artists and groups'} found in ${state.fromYear}–${state.toYear}, ranked by song count</p>
+    ${pageArtists.length ? `
+      <div class="artist-list">
+        ${pageArtists.map((artist, index) => {
+          const expanded = state.expandedArtistId === artist.key;
+          const artistSongs = artist.songs.sort((a, b) => a.year - b.year || Number(a.chartPosition) - Number(b.chartPosition));
+          return `<section class="artist-card ${expanded ? 'expanded' : ''}">
+            <button class="artist-summary" data-artist-id="${escapeAttribute(artist.key)}" aria-expanded="${expanded}">
+              <span class="artist-rank">${(page * PAGE_SIZE + index + 1).toString().padStart(2, '0')}</span>
+              <span class="artist-name">${escapeHtml(artist.name)}</span>
+              <span class="artist-song-count">${artistSongs.length} ${artistSongs.length === 1 ? 'song' : 'songs'}</span>
+              <span class="expand-icon" aria-hidden="true">${expanded ? '−' : '+'}</span>
+            </button>
+            ${expanded ? `<div class="artist-songs song-list">${artistSongs.map((song) => renderSongCard(song, '')).join('')}</div>` : ''}
+          </section>`;
+        }).join('')}
+      </div>
+      ${renderPagination(page, pageCount, 'artists')}
+    ` : '<div class="empty-state large"><span aria-hidden="true">∅</span><strong>No artists found.</strong><p>Try a different search or year range.</p></div>'}
+  `;
+}
+
 function renderSongCard(song, query) {
   const expanded = state.expandedSongId === song.id;
   return `<article class="song-card ${expanded ? 'expanded' : ''}">
@@ -565,7 +628,8 @@ function escapeWithBreaks(text) {
 
 function renderPagination(page, pageCount, kind) {
   if (pageCount <= 1) return '';
-  return `<nav class="pagination" aria-label="${kind === 'kwic' ? 'Concordance' : 'Song list'} pages">
+  const label = kind === 'kwic' ? 'Concordance' : kind === 'artists' ? 'Artist list' : 'Song list';
+  return `<nav class="pagination" aria-label="${label} pages">
     <button class="page-button" data-page="${kind}" data-direction="-1" ${page === 0 ? 'disabled' : ''}>← <span>Previous</span></button>
     <span>Page <strong>${page + 1}</strong> of ${pageCount}</span>
     <button class="page-button" data-page="${kind}" data-direction="1" ${page >= pageCount - 1 ? 'disabled' : ''}><span>Next</span> →</button>
@@ -597,6 +661,7 @@ function bindEvents() {
     if (state.fromYear > state.toYear) state.toYear = state.fromYear;
     state.kwicPage = 0;
     state.songPage = 0;
+    state.artistPage = 0;
     render();
   });
   toYear?.addEventListener('change', () => {
@@ -604,6 +669,7 @@ function bindEvents() {
     if (state.toYear < state.fromYear) state.fromYear = state.toYear;
     state.kwicPage = 0;
     state.songPage = 0;
+    state.artistPage = 0;
     render();
   });
 
@@ -666,12 +732,31 @@ function bindEvents() {
     input.focus();
     input.setSelectionRange(cursor, cursor);
   });
+  app.querySelector('#artist-query')?.addEventListener('input', (event) => {
+    const cursor = event.target.selectionStart;
+    state.artistQuery = event.target.value;
+    state.artistPage = 0;
+    render();
+    const input = app.querySelector('#artist-query');
+    input.focus();
+    input.setSelectionRange(cursor, cursor);
+  });
 
   app.querySelectorAll('[data-page]').forEach((button) => {
     button.addEventListener('click', () => {
       const offset = Number(button.dataset.direction);
       if (button.dataset.page === 'kwic') state.kwicPage += offset;
+      else if (button.dataset.page === 'artists') state.artistPage += offset;
       else state.songPage += offset;
+      render();
+    });
+  });
+
+  app.querySelectorAll('[data-artist-id]').forEach((button) => {
+    button.addEventListener('click', () => {
+      state.expandedArtistId = state.expandedArtistId === button.dataset.artistId
+        ? null
+        : button.dataset.artistId;
       render();
     });
   });
