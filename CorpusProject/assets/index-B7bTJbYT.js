@@ -73,7 +73,7 @@ License: MIT
         </div>
         <nav class="tool-tabs" aria-label="Corpus tools">
           <button class="tool-tab ${r.tab==="overview"?"active":""}" data-tab="overview" aria-current="${r.tab==="overview"?"page":"false"}">Explore</button>
-          <button class="tool-tab ${r.tab==="concordance"?"active":""}" data-tab="concordance" aria-current="${r.tab==="concordance"?"page":"false"}">Find a word</button>
+          <button class="tool-tab ${r.tab==="concordance"?"active":""}" data-tab="concordance" aria-current="${r.tab==="concordance"?"page":"false"}">Word in Context</button>
           <button class="tool-tab ${r.tab==="compare"?"active":""}" data-tab="compare" aria-current="${r.tab==="compare"?"page":"false"}">Compare words &amp; phrases</button>
           <button class="tool-tab ${r.tab==="artists"?"active":""}" data-tab="artists" aria-current="${r.tab==="artists"?"page":"false"}">Browse artists</button>
           <button class="tool-tab ${r.tab==="songs"?"active":""}" data-tab="songs" aria-current="${r.tab==="songs"?"page":"false"}">Browse songs</button>
