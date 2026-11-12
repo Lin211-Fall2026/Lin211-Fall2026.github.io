@@ -165,7 +165,7 @@ function render() {
         </div>
         <nav class="tool-tabs" aria-label="Corpus tools">
           <button class="tool-tab ${state.tab === 'overview' ? 'active' : ''}" data-tab="overview" aria-current="${state.tab === 'overview' ? 'page' : 'false'}">Explore</button>
-          <button class="tool-tab ${state.tab === 'concordance' ? 'active' : ''}" data-tab="concordance" aria-current="${state.tab === 'concordance' ? 'page' : 'false'}">Find a word</button>
+          <button class="tool-tab ${state.tab === 'concordance' ? 'active' : ''}" data-tab="concordance" aria-current="${state.tab === 'concordance' ? 'page' : 'false'}">Word in Context</button>
           <button class="tool-tab ${state.tab === 'compare' ? 'active' : ''}" data-tab="compare" aria-current="${state.tab === 'compare' ? 'page' : 'false'}">Compare words &amp; phrases</button>
           <button class="tool-tab ${state.tab === 'artists' ? 'active' : ''}" data-tab="artists" aria-current="${state.tab === 'artists' ? 'page' : 'false'}">Browse artists</button>
           <button class="tool-tab ${state.tab === 'songs' ? 'active' : ''}" data-tab="songs" aria-current="${state.tab === 'songs' ? 'page' : 'false'}">Browse songs</button>
