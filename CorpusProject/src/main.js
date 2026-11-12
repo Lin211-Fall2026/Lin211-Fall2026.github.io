@@ -11,7 +11,7 @@ const WORD_PATTERN = /[\p{L}\p{N}]+(?:['’][\p{L}\p{N}]+)*/gu;
 const STOP_WORDS = new Set(
   `a about above after again against all am an and any are as at
   aren't be because been before being below between both but by can
-  could did do does each few for from further had has have having
+  could did do does each few for from further go had has have having
   hadn't hasn't haven't he he'd he'll her here hers herself him
   himself his how he's i i'd i'll i'm i've if in into is it it'd
   it'll it's its itself just me more most my myself no nor not of
@@ -136,9 +136,9 @@ function render() {
     <main id="top" class="site-content">
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">LIN 211 · DATA COLLECTION PROJECT</p>
+          <p class="eyebrow">LIN 211 · CORPUS PROJECT</p>
           <h1>Country music lyrics corpus</h1>
-          <p class="hero-description">Explore charting country songs from 1944 to 2024. Follow words across time, find them in context, and browse the lyrics.</p>
+          <p class="hero-description">Explore charting country songs from 1944 to 2024. Follow words across time, find them in context, and browse the artists & lyrics.</p>
           <button class="text-link" data-tab="concordance">Start with a word <span aria-hidden="true">↗</span></button>
         </div>
       </section>
@@ -181,7 +181,7 @@ function render() {
       </section>
 
       <footer class="site-footer">
-        <p><a href="https://linguistics.as.uky.edu/">Linguistics Department</a> - <a href="https://www.uky.edu/">University of Kentucky</a> - <a href="https://creativecommons.org/licenses/by/4.0/deed.en"><code>CC-BY 4.0</code></a></p>
+        <p><a href="https://linguistics.as.uky.edu/">Linguistics Department</a> - <a href="https://www.uky.edu/">University of Kentucky</a></p>
         <p>Lyrics are shown for classroom research and linguistic exploration.</p>
       </footer>
     </main>
@@ -194,7 +194,7 @@ function tabHeading() {
   if (state.tab === 'concordance') return 'Find a word in context';
   if (state.tab === 'compare') return 'Compare word and phrase frequencies';
   if (state.tab === 'artists') return 'Browse artists by song count';
-  if (state.tab === 'songs') return 'Browse the songbook';
+  if (state.tab === 'songs') return 'Browse the songs';
   return 'Explore the timeline';
 }
 
@@ -314,7 +314,7 @@ function renderConcordance(songs) {
         ${renderPagination(page, pageCount, 'kwic')}
       ` : '<div class="empty-state large"><span aria-hidden="true">∅</span><strong>No matches in this year range.</strong><p>Try another spelling or expand the years.</p></div>'}
     ` : `
-      <div class="empty-prompt"><span class="prompt-orbit" aria-hidden="true">?</span><div><strong>One word can open up a whole songbook.</strong><p>Type a word above, or pick one to get started:</p><div class="suggestion-list">${['love', 'home', 'heart', 'road'].map((word) => `<button class="suggestion" data-word="${word}">${word}<span aria-hidden="true"> ↗</span></button>`).join('')}</div></div></div>
+      <div class="empty-prompt"><span class="prompt-orbit" aria-hidden="true">?</span><div><strong>Context can change a word entirely!</strong><p>Type a word above, or pick one to get started:</p><div class="suggestion-list">${['love', 'home', 'heart', 'road'].map((word) => `<button class="suggestion" data-word="${word}">${word}<span aria-hidden="true"> ↗</span></button>`).join('')}</div></div></div>
     `}
   `;
 }
