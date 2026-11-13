@@ -1,27 +1,41 @@
 ---
-title: "Presentation Title"
-author: "Author"
-format: 
+title: "Are actors good at dialects?"
+subtitle: "Lin 211 • Section 3, Part 9"
+date: 11/18/2026
+categories: [Language & Culture]
+description: "[Interview with a dialect coach](https://uk.instructure.com/files/120960676/download?download_frd=1)"
+bibliography: includes/references.bib
+authors:
+  - name: Kevin B McGowan
+    orcid: 0000-0002-8214-1901
+    email: kbmcgowan@uky.edu
+tbl-cap-location: bottom
+format:
   revealjs:
     slide-number: c/t
-    width: 1600
-    height: 900
-    logo: img/logo.png
-    footer: "Organization"
-    incremental: true
-    theme: [simple]
+    width: 1280
+    height: 720
+    footer: "Language in the World"
+    incremental: false
+    scrollable: true
+    theme: includes/sky.scss
+    css:
+      - includes/inline-fragment.css
+      - includes/custom.css
+    template-partials:
+      - includes/title-slide.html
+    pointer:
+      - # set pointer configuration options here
+revealjs-plugins:
+  - pointer
+  - animate
+filters: 
+  - animate
 ---
-# Are actors good at dialects?
 
-# Language and Culture
+## Ling Link
 
-
----
-
-
-# Ling Link
-
-![](images/22-Are%20actors%20good%20at%20dialects_0.png)
+![](images/22-Are%20actors%20good%20at%20dialects_0.png){.r-stretch}
 
 
 
@@ -35,7 +49,7 @@ format:
 ---
 
 
-# Recall
+## Recall
 
 
 
@@ -65,7 +79,7 @@ format:
 ---
 
 
-![](images/22-Are%20actors%20good%20at%20dialects_1.jpg)
+![](images/22-Are%20actors%20good%20at%20dialects_1.jpg){.r-stretch}
 
 # Language goes to the movies!
 
@@ -91,7 +105,7 @@ Talk about these as research questions you could ask, see what kind of data they
 
 # Storytelling
 
-![](images/22-Are%20actors%20good%20at%20dialects_2.png)
+![](images/22-Are%20actors%20good%20at%20dialects_2.png){.r-stretch}
 
 
 
@@ -113,7 +127,7 @@ Favorite Disney \(or other animated\) character?
 ---
 
 
-![](images/22-Are%20actors%20good%20at%20dialects_3.jpg)
+![](images/22-Are%20actors%20good%20at%20dialects_3.jpg){.r-stretch}
 
 # Stereotypes
 
@@ -143,7 +157,7 @@ Favorite Disney \(or other animated\) character?
 
 # How do we learn stereotypes?
 
-![](images/22-Are%20actors%20good%20at%20dialects_4.png)
+![](images/22-Are%20actors%20good%20at%20dialects_4.png){.r-stretch}
 
 
 
@@ -195,7 +209,7 @@ Characters\, varieties\, and traits
 ---
 
 
-![](images/22-Are%20actors%20good%20at%20dialects_5.jpg)
+![](images/22-Are%20actors%20good%20at%20dialects_5.jpg){.r-stretch}
 
 
 
@@ -252,7 +266,7 @@ Name a movie/TV show and actor in it where you thought the accent was so terribl
 ---
 
 
-![](images/22-Are%20actors%20good%20at%20dialects_6.jpg)
+![](images/22-Are%20actors%20good%20at%20dialects_6.jpg){.r-stretch}
 
 # How do they do it?
 
@@ -262,7 +276,7 @@ Remember the IPA… 
 ---
 
 
-![](images/22-Are%20actors%20good%20at%20dialects_7.png)
+![](images/22-Are%20actors%20good%20at%20dialects_7.png){.r-stretch}
 
 # The Vocal Tract
 
@@ -278,7 +292,7 @@ Remember the IPA… 
 ---
 
 
-![](images/22-Are%20actors%20good%20at%20dialects_8.jpg)
+![](images/22-Are%20actors%20good%20at%20dialects_8.jpg){.r-stretch}
 
 # Who cares?
 
@@ -294,7 +308,7 @@ Remember the IPA… 
 ---
 
 
-![](images/22-Are%20actors%20good%20at%20dialects_9.jpg)
+![](images/22-Are%20actors%20good%20at%20dialects_9.jpg){.r-stretch}
 
 # What’s next?
 
