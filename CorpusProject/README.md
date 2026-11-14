@@ -17,6 +17,7 @@ Create a production build with `npm run build`. Vite writes the static site to `
 
 - **Explore:** compare songs by year and see frequent content words. Select a year bar to narrow the collection; select a word to open its concordance.
 - **Find a word:** search for a word or phrase and inspect up to five surrounding words on either side. Whole-word matching is on by default.
+- **Top n-grams:** switch between the 50 most frequent unigrams, bigrams, and trigrams in the selected years. Common grammatical words are omitted from unigram results; bigrams and trigrams include all words.
 - **Compare words and phrases:** graph two queries’ annual frequencies per 100 lyric words. Queries are case-insensitive; punctuation is ignored and multiword phrases match consecutive words. Gaps indicate years without songs in the corpus.
 - **Browse artists:** search artists and groups ranked by song count in the selected years. Expand a name to see its songs in year and chart-position order, and expand a song to read its lyrics.
 - **Browse songs:** search song titles, artists, and lyrics, then expand a song to read its lyrics.

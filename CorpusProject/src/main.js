@@ -35,6 +35,7 @@ const state = {
   compareFirst: 'love',
   compareSecond: 'home',
   compareError: '',
+  ngramSize: 1,
   songQuery: '',
   songPage: 0,
   artistQuery: '',
@@ -169,6 +170,7 @@ function render() {
         <nav class="tool-tabs" aria-label="Corpus tools">
           <button class="tool-tab ${state.tab === 'overview' ? 'active' : ''}" data-tab="overview" aria-current="${state.tab === 'overview' ? 'page' : 'false'}">Explore</button>
           <button class="tool-tab ${state.tab === 'concordance' ? 'active' : ''}" data-tab="concordance" aria-current="${state.tab === 'concordance' ? 'page' : 'false'}">Word in Context</button>
+          <button class="tool-tab ${state.tab === 'ngrams' ? 'active' : ''}" data-tab="ngrams" aria-current="${state.tab === 'ngrams' ? 'page' : 'false'}">Top n-grams</button>
           <button class="tool-tab ${state.tab === 'compare' ? 'active' : ''}" data-tab="compare" aria-current="${state.tab === 'compare' ? 'page' : 'false'}">Compare words &amp; phrases</button>
           <button class="tool-tab ${state.tab === 'artists' ? 'active' : ''}" data-tab="artists" aria-current="${state.tab === 'artists' ? 'page' : 'false'}">Browse artists</button>
           <button class="tool-tab ${state.tab === 'songs' ? 'active' : ''}" data-tab="songs" aria-current="${state.tab === 'songs' ? 'page' : 'false'}">Browse songs</button>
@@ -177,6 +179,7 @@ function render() {
         <div class="tab-panel">
           ${state.tab === 'overview' ? renderOverview(songs) : ''}
           ${state.tab === 'concordance' ? renderConcordance(songs) : ''}
+          ${state.tab === 'ngrams' ? renderNgramExplorer(songs) : ''}
           ${state.tab === 'compare' ? renderComparison(songs) : ''}
           ${state.tab === 'artists' ? renderArtistBrowser(songs) : ''}
           ${state.tab === 'songs' ? renderSongBrowser(songs) : ''}
@@ -195,6 +198,7 @@ function render() {
 
 function tabHeading() {
   if (state.tab === 'concordance') return 'Find a word in context';
+  if (state.tab === 'ngrams') return 'Explore frequent n-grams';
   if (state.tab === 'compare') return 'Compare word and phrase frequencies';
   if (state.tab === 'artists') return 'Browse artists by song count';
   if (state.tab === 'songs') return 'Browse the songs';
@@ -261,6 +265,59 @@ function renderOverview(songs) {
     <section class="question-strip">
       <div><span class="question-spark" aria-hidden="true">✳</span><div><h3>Not sure where to begin?</h3><p>Try one of these words and see how the preceding and following words inform their meanings.</p></div></div>
       <div class="suggestion-list">${['love', 'home', 'heart', 'road'].map((word) => `<button class="suggestion" data-word="${word}">${word}<span aria-hidden="true"> ↗</span></button>`).join('')}</div>
+    </section>
+  `;
+}
+
+function renderNgramExplorer(songs) {
+  const size = state.ngramSize;
+  const counts = new Map();
+
+  for (const song of songs) {
+    const tokens = wordsIn(song.lyrics);
+    for (let index = 0; index <= tokens.length - size; index += 1) {
+      const ngramTokens = tokens.slice(index, index + size);
+      if (size === 1 && STOP_WORDS.has(ngramTokens[0])) continue;
+      const ngram = ngramTokens.join(' ');
+      counts.set(ngram, (counts.get(ngram) ?? 0) + 1);
+    }
+  }
+
+  const topNgrams = [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, 50);
+  const maxCount = topNgrams[0]?.[1] ?? 1;
+  const labels = { 1: 'Unigrams', 2: 'Bigrams', 3: 'Trigrams' };
+
+  return `
+    <section class="ngram-panel">
+      <div class="ngram-intro">
+        <p>Find the most common single words and consecutive word sequences in the selected years.</p>
+        <p>Unigrams omit common grammatical words, as in the Frequent words view. Bigrams and trigrams include all words.</p>
+      </div>
+      <div class="ngram-controls" role="group" aria-label="N-gram length">
+        ${[1, 2, 3].map((length) => `
+          <button class="ngram-control ${size === length ? 'active' : ''}" type="button" data-ngram-size="${length}" aria-pressed="${size === length}">
+            ${labels[length]}
+          </button>`).join('')}
+      </div>
+      <div class="panel ngram-results">
+        <div class="panel-title-row">
+          <div><h3>Top 50 ${labels[size].toLocaleLowerCase()}</h3><p>Occurrences in songs from ${state.fromYear}–${state.toYear}.</p></div>
+          <span class="panel-index">${topNgrams.length} ${topNgrams.length === 1 ? 'item' : 'items'}</span>
+        </div>
+        ${topNgrams.length ? `
+          <ol class="ngram-list">
+            ${topNgrams.map(([ngram, count], index) => `
+              <li class="ngram-row">
+                <span class="word-rank">${String(index + 1).padStart(2, '0')}</span>
+                <span class="ngram-label">${escapeHtml(ngram)}</span>
+                <span class="word-track"><i style="width:${Math.max(4, (count / maxCount) * 100)}%"></i></span>
+                <span class="word-count">${count.toLocaleString()}</span>
+              </li>`).join('')}
+          </ol>
+        ` : '<div class="empty-state large"><strong>No n-grams to show.</strong><p>Try a different year range.</p></div>'}
+      </div>
     </section>
   `;
 }
@@ -649,6 +706,12 @@ function bindEvents() {
 
   app.querySelectorAll('[data-tab]').forEach((button) => {
     button.addEventListener('click', () => setTab(button.dataset.tab));
+  });
+  app.querySelectorAll('[data-ngram-size]').forEach((button) => {
+    button.addEventListener('click', () => {
+      state.ngramSize = Number(button.dataset.ngramSize);
+      render();
+    });
   });
   app.querySelectorAll('[data-word]').forEach((button) => {
     button.addEventListener('click', () => {
