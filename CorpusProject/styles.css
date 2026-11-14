@@ -96,6 +96,17 @@ a:hover { color: #128f76; }
 .word-track { height: 5px; display: block; overflow: hidden; border-radius: 5px; background: #e9ecef; }
 .word-track i { height: 100%; display: block; border-radius: 5px; background: var(--teal); }
 .word-count { color: var(--muted); font-size: .75rem; text-align: right; }
+.ngram-intro { margin-bottom: 1rem; padding: .8rem 1rem; border: 1px solid var(--line); border-left: 3px solid var(--teal); border-radius: .25rem; background: var(--light); }
+.ngram-intro p { margin: 0; color: #495057; font-size: .875rem; line-height: 1.6; }
+.ngram-intro p + p { margin-top: .25rem; }
+.ngram-controls { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .85rem; }
+.ngram-control { border: 1px solid #ced4da; border-radius: .375rem; padding: .45rem .8rem; background: #fff; color: var(--teal); cursor: pointer; font-size: .875rem; }
+.ngram-control:hover { border-color: var(--teal); }
+.ngram-control.active { border-color: var(--navy); background: var(--navy); color: #fff; font-weight: 700; }
+.ngram-results { padding: 1.15rem; }
+.ngram-list { display: grid; gap: .1rem; margin: .85rem 0 0; padding: 0; list-style: none; }
+.ngram-row { display: grid; grid-template-columns: 32px minmax(90px, 1fr) minmax(80px, .7fr) 48px; align-items: center; gap: .6rem; padding: .3rem 0; }
+.ngram-label { min-width: 0; overflow-wrap: anywhere; color: var(--ink); font-size: .9rem; font-weight: 700; }
 .panel-footnote { margin: .8rem 0 0; padding-top: .6rem; border-top: 1px solid #e9ecef; color: var(--muted); font-size: .75rem; line-height: 1.5; }
 .question-strip { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin: 1rem 0 0; padding: 1rem 1.15rem; border: 1px solid var(--line); border-radius: .375rem; background: var(--light); }
 .question-strip > div:first-child { display: flex; align-items: center; gap: .75rem; }
@@ -247,6 +258,8 @@ a:hover { color: #128f76; }
   .compare-form { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .compare-form .primary-button { grid-column: 1 / -1; }
   .frequency-legend { grid-template-columns: 1fr; }
+  .ngram-results { padding: .9rem; }
+  .ngram-row { grid-template-columns: 26px minmax(80px, 1fr) minmax(55px, .65fr) 42px; gap: .4rem; }
 }
 
 @media (max-width: 560px) {
