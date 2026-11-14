@@ -32,8 +32,8 @@ const state = {
   toYear: END_YEAR,
   concordanceQuery: '',
   wholeWord: true,
-  compareFirst: 'love',
-  compareSecond: 'home',
+  compareFirst: "ain't",
+  compareSecond: "isn't",
   compareError: '',
   ngramSize: 1,
   songQuery: '',
@@ -238,13 +238,15 @@ function renderOverview(songs) {
     <div class="explore-grid">
       <section class="panel timeline-panel">
         <div class="panel-title-row">
-          <div><h3>Hits through the years</h3><p>Each mark is a song in the collection. Click a year to focus on it.</p></div>
+          <div><h3>Hits through the years</h3><p>Each mark is a song in the collection. Click a year to focus on it or use the Years menus over on the right side of the page to select a specific multi-year range.</p></div>
           <span class="panel-index">01 / TIME</span>
         </div>
         <div class="timeline-wrap">
           <svg class="timeline-chart" viewBox="0 0 920 220" role="img" aria-label="Number of songs in our corpus by year">${renderTimeline(counts, visibleYears, maxYearCount)}</svg>
         </div>
         <div class="chart-legend"><span><i></i> Songs in the collection</span><span>Year range: ${state.fromYear}–${state.toYear}</span></div>
+	<div><h3>Year-based exploration</h3><p>Changing the selected years changes the data available to each of the tabs. Try comparing different years; can you see any patterns in the corpus?</p>
+	</div>
       </section>
 
       <section class="panel word-panel">
@@ -292,8 +294,8 @@ function renderNgramExplorer(songs) {
   return `
     <section class="ngram-panel">
       <div class="ngram-intro">
-        <p>Find the most common single words and consecutive word sequences in the selected years.</p>
-        <p>Unigrams omit common grammatical words, as in the Frequent words view. Bigrams and trigrams include all words.</p>
+        <p>n-grams help us visualize the most common single words (unigrams) and consecutive word sequences (bigrams and trigrams) in the selected years.</p>
+        <p>unigrams omit common grammatical words (e.g. 'the') while bigrams and trigrams include all words.</p>
       </div>
       <div class="ngram-controls" role="group" aria-label="N-gram length">
         ${[1, 2, 3].map((length) => `
