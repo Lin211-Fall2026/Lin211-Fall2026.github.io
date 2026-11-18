@@ -21,9 +21,9 @@ $presentation-heading-color: $body-color !default;
 $presentation-heading-letter-spacing: -0.08em !default;
 $presentation-heading-text-shadow: none !default;
 $presentation-title-slide-text-align: left;
-$body-bg: #262842 !default;
-$link-color: #8897BD !default;
-$selection-bg: #293961!default;
+$body-bg: #2f064f !default;
+$link-color: #9774c3 !default;
+$selection-bg: #582483 !default;
 
 $presentation-heading-text-transform: uppercase !default; // from settings.scss
 $presentation-heading-font-weight: normal !default; // from settings.scss
@@ -55,5 +55,5 @@ $code-block-bg: transparent !default;
 
 // Background generator
 @mixin bodyBackground() {
-  @include radial-gradient(#262842, #2c497f);
+  @include radial-gradient(#2f064f, #3d156d);
 }
