@@ -55,5 +55,5 @@ $code-block-bg: transparent !default;
 
 // Background generator
 @mixin bodyBackground() {
-  @include radial-gradient(#2f064f, #3d156d);
+  @include radial-gradient( #3d156d, #2f064f);
 }

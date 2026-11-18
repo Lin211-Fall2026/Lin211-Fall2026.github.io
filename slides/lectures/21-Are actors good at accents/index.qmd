@@ -126,12 +126,12 @@ Talk about these as research questions you could ask, see what kind of data they
 
 :::
 
-## Accents require two things
+## Accents have two equal parts
 
 ::: {.incremental}
 
 1. **Talkers**: people who use a particular set of pronunciation variants (the "constellation of sounds" from earlier)
-1. **Listemers**: Just as importantly, hearing an accent requires people who associate that set of pronunciation variants with a particular place, race, class, etc. (just like the constellation analogy!)
+1. **Listeners**: Just as importantly, hearing an accent requires people who associate that set of pronunciation variants with a particular place, race, class, etc. (just like the constellation analogy!)
 
 :::
 
